@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.20.0 — 2026-09-16
+
+- Added a five-page editable research reference and Markdown source, retaining the original umbrella topic and specifying the narrower experimental working title and research question.
+- Mapped the original objectives to the draft pilot and explained the closest-method overlaps, unresolved P035 and conditions for progressing or rejecting the candidate.
+- Documented the recommended scoping-review workflow, human-review and software roles, with linked methodological and research sources.
+- Preserved protocol v0.4, the workbook, full-text registers and all evidence counts. The document is a reference note, not a completed review, protocol amendment or novelty claim.
+
 ## 0.19.0 — 2026-09-16
 
 - Completed a provisional narrative synthesis of the 88 AI include recommendations, with the excluded ancillary record and pending P035 kept separate.

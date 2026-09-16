@@ -191,3 +191,13 @@ The research may improve visibility and quantify recoverability. It must not des
 **Access update:** the user has now sent the P035 author-copy request. No response or manuscript is inferred. The school Outlook connection required administrator approval and was set aside; it is not a dependency for research progress. The earlier “no email sent” statement describes the preceding checkpoint.
 
 **Next action:** audit reproducible baseline code/weights and prepare the multi-image pilot from the existing canary. Continue formal-search and adjudication tasks in parallel as resources permit. No new screening stage or round-number quota is created.
+
+## 16 September 2026 — Topic and review reference note
+
+**User request:** document the review discussion for reference and clarify the original topic being taken forward after the seed investigation.
+
+**Reference:** the [research topic and review plan](research_topic_and_review_reference.md), with an [editable Word version](research_topic_and_review_reference.docx), retains **Physics-Informed Deep Learning for Robust Image Reconstruction Under Forward-Model Mismatch** as the umbrella topic. It names **Operator-Sensitive Selective Reconstruction Under Forward-Model Mismatch** as a focused experimental working title, subject to results.
+
+**Review direction:** a scoping review is recommended for the broad evidence-mapping purpose, using systematic methods and PRISMA-ScR reporting. The reference explains database search records, eligibility, deduplication, human screening, extraction and software roles. This recommendation has not been applied as a formal protocol amendment; protocol v0.4 remains the current working draft.
+
+**Evidence boundary:** 90 seed records, 89 AI full-text assessments, 88 include recommendations, one exclude recommendation and P035 pending. Formal eligibility and novelty remain unestablished. No workbook, register, source extraction or pilot result was changed for this reference note.
