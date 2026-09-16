@@ -1,0 +1,501 @@
+{
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "Full texts inspected online. No downloaded paper copies are added to the repository.",
+    "c1": "All reviewed reports are primary research dated inside the existing search window; see version and canonical seed metadata.",
+    "c5": "Every assessed record had an accessible English full text at source_url.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch."
+  },
+  "user_deferral": {
+    "instruction": "User will handle pending items later; continue accessible paper assessment now.",
+    "effect": "No new user action is required for this checkpoint. Human adjudication, unresolved retrieval, version/lineage reconciliation and formal search accounting remain tracked, not marked complete."
+  },
+  "checkpoint": "full_text_05",
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 53,
+    "ai_include": 52,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 37,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "batch_counts": {
+    "new_assessments": 9,
+    "ai_include": 9,
+    "ai_exclude": 0
+  },
+  "counts_scope": "Cumulative across full_text_01 through full_text_05; records contains this batch only.",
+  "records": [
+    {
+      "study_id": "P012",
+      "title": "Denoising Diffusion Restoration Models",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2201.11793v3",
+      "version": "arXiv 2201.11793 v3 (2022); final NeurIPS 2022 text not compared",
+      "read_extent": "§2; §§3.1–3.3 through Theorem 3.2; §§5.1–5.3 and §6. Appendices and proofs not audited.",
+      "technical": "DDRM samples reconstructions using a supplied linear operator, its SVD and known Gaussian noise variance. The ELBO equivalence has specific parameter and network assumptions. USC-SIPI tests content transfer with simulated measurements. DDRM-CC additionally receives true class labels. No empirical uncertainty calibration or operator posterior is established in the inspected sections.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "No",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§2–3; §§5–6",
+      "applicability": "Known-operator probabilistic baseline; match class information across comparisons.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2201.11793 v3 (2022); final NeurIPS 2022 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Linear image restoration; §§2 and 5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Reconstruction posterior and content transfer; §§3 and 5.3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Spectral sampler, theorem and synthetic measurement experiments."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Check theorem parameters against the practical sampler before transferring guarantees."
+      ]
+    },
+    {
+      "study_id": "P020",
+      "title": "PromptIR: Prompting for All-in-One Image Restoration",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2306.13090v1",
+      "version": "arXiv 2306.13090 v1 (2023); final NeurIPS 2023 text not compared",
+      "read_extent": "§3 including PGM/PIM and Eqs. 1–3; §4 setup and §§4.1–4.3, Tables 1–9. Appendices not audited.",
+      "technical": "PromptIR uses input-weighted prompts within a Restormer decoder, without estimating a physical operator. It evaluates unseen noise strength and spatially varying noise. Its multi-task results cover separate noise, rain and haze tasks, not a demonstrated compound acquisition chain. Training and evaluation do not establish calibrated reconstruction uncertainty.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "U": "No",
+        "X": "No"
+      },
+      "feature_locator": "§3; §4, especially generalization experiments",
+      "applicability": "Include a strong data-driven unknown-degradation baseline.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2306.13090 v1 (2023); final NeurIPS 2023 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Denoising, deraining and dehazing; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown degradation prompts and held-out noise strength; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Prompt architecture and task/generalization comparisons."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Preserve the already-resolved preprint/title alias; audit compound degradation separately."
+      ]
+    },
+    {
+      "study_id": "P074",
+      "title": "Controlling Vision-Language Models for Multi-Task Image Restoration",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2310.01018v2",
+      "version": "arXiv 2310.01018 v2; 2023 preprint lineage, final ICLR 2024 text not compared",
+      "read_extent": "§§3.1–3.2; §4; §5 setup, selected §5.1 results and §§5.2–5.3; §6. Appendix B.3 and sampling variability not assessed.",
+      "technical": "DA-CLIP learns content/degradation embeddings through a frozen vision-language backbone and controller, then conditions restoration networks. Embeddings are not physical-operator estimates. Main-text light-rain transfer supports a limited OOD code. LOL supplies real low-light measurements. The discussion identifies simultaneous multiple degradations as a limitation; classification accuracy is not uncertainty calibration.",
+      "feature_codes": {
+        "O": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Yes",
+        "U": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§3–6; §5.2 OOD discussion",
+      "applicability": "Degradation-representation comparator; ten tasks do not establish compound restoration.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2310.01018 v2; 2023 preprint lineage, final ICLR 2024 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Multi-task image restoration; §§4–5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown-degradation embeddings and OOD example; §§3 and 5.2."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Controller, restoration integration and multi-dataset evaluation."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Inspect Appendix B.3 and explicit sampling uncertainty before strengthening S or verifying P."
+      ]
+    },
+    {
+      "study_id": "P075",
+      "title": "Multimodal Prompt Perceiver: Empower Adaptiveness, Generalizability and Fidelity for All-in-One Image Restoration",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2312.02918v1",
+      "version": "arXiv 2312.02918 v1 (2023); final CVPR 2024 text not compared",
+      "read_extent": "§§3.1–3.3; §4.1 setup, selected Tables 1–8 including MID6, zero-shot and few-shot results; §4.2 opening. Appendices/split details not audited.",
+      "technical": "MPerceiver conditions diffusion through degradation-weighted text/visual prompts. MID6 tests compound corruptions; other experiments separate zero-shot transfer from few-shot adaptation. Real datasets are included. A refinement module reduces illustrated fine-detail artifacts. Degradation-class probabilities do not establish a physical-operator posterior or calibrated image uncertainty.",
+      "feature_codes": {
+        "O": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "Yes",
+        "U": "Yes",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–4; MID6 and transfer tables; refinement examples",
+      "applicability": "Compound/transfer comparator; separate adapted and zero-shot results.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2312.02918 v1 (2023); final CVPR 2024 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "All-in-one restoration; §4.1."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Compound and unseen restoration tasks; §4.1."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Prompted diffusion, refinement and multiple evaluation settings."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Inspect MID6 splits before claiming unseen compound generalization; verify P only from explicit uncertainty evidence."
+      ]
+    },
+    {
+      "study_id": "P076",
+      "title": "InstructIR: High-Quality Image Restoration Following Human Instructions",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2401.16468v1",
+      "version": "arXiv 2401.16468 v1 (2024); final ECCV 2024 text not compared",
+      "read_extent": "§§3.2–3.3; §§4.1–4.3; §5 and §6 opening; Figures 5–7. Complete prompt curation and appendices not audited.",
+      "technical": "InstructIR conditions a NAFNet-based restorer on user text through embeddings and channel masks. Instructions can choose a task within compound examples; this is not reliability-based abstention. LOL provides real low-light data. Repeated prompt-ambiguity experiments measure instruction robustness, not calibrated image or operator uncertainty.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§3.2–5; Table 3 and Figures 5–7",
+      "applicability": "Text is additional input; task selection differs from releasing only reliable detail.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2401.16468 v1 (2024); final ECCV 2024 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Instruction-guided image restoration; §§3–4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown and compound corruption examples; §5."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Text-conditioned architecture, benchmarks and prompt analyses."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Check held-out prompt generation and quantify compound fidelity before stronger generalization claims."
+      ]
+    },
+    {
+      "study_id": "P079",
+      "title": "Taming Generative Diffusion Prior for Universal Blind Image Restoration",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2408.11287v1",
+      "version": "arXiv 2408.11287 v1 (2024); final NeurIPS 2024 text not compared",
+      "read_extent": "§§4.1–4.3, Algorithm 1 and Eqs. 7–14; §5 and §5.1 through kernel-size analysis; Figures 4 and 9. Remaining discussion not audited.",
+      "technical": "BIR-D jointly optimizes a convolution kernel and image-sized additive mask during diffusion with adaptive guidance. It shows image diversity, real-image evaluations and qualitative compound cases. Operator estimates are points. Review inference: a flexible mask can absorb discrepancies, so measurement fit alone does not establish physical identifiability.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§4–5.1; Algorithms/equations and Figures 4/9",
+      "applicability": "Joint degradation correction and adaptive guidance already overlap our proposal.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2408.11287 v1 (2024); final NeurIPS 2024 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Blind image restoration; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Joint unknown degradation estimation; §§4.1–4.3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Sampler, real/synthetic evaluations and kernel-size analysis."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Reconcile the stated default kernel size with Tables 6–7 and differing deblurring entries before extracting numerical comparisons; audit identity truth separately."
+      ]
+    },
+    {
+      "study_id": "P081",
+      "title": "A Modular Conditional Diffusion Framework for Image Reconstruction",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2411.05993v1",
+      "version": "arXiv 2411.05993 v1 (2024); final NeurIPS 2024 text not compared",
+      "read_extent": "§§3.2–3.3; selected §3.4 acceleration; §4 setup and §4.1 burst/deblurring results. Remaining appendices and proofs not audited.",
+      "technical": "DP-IR fuses a task-specific restoration estimate with a reusable unconditional denoiser to approximate conditional sampling. Its fusion module is trained per task. Burst reconstruction combines noise, demosaicing and upsampling; GoPro-to-HIDE tests cross-dataset transfer. Inspected evaluations use simulated degradations and fidelity/perceptual metrics, without empirical uncertainty calibration.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§3.2–4.1; task training and deblurring transfer",
+      "applicability": "Modular probabilistic baseline; include per-task training and total compute.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2411.05993 v1 (2024); final NeurIPS 2024 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Burst reconstruction, deblurring and super-resolution; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Conditional image sampling and cross-dataset evaluation; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Fusion framework and quantitative task comparisons."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Distinguish content/dataset transfer from an unseen operator family; do not equate approximate sampling with calibrated posterior coverage."
+      ]
+    },
+    {
+      "study_id": "P083",
+      "title": "Provably Robust Score-Based Diffusion Posterior Sampling for Plug-and-Play Image Reconstruction",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2403.17042v1",
+      "version": "arXiv 2403.17042 v1 route, 2024 preprint lineage; rendered body dates August 24, 2026. Final NeurIPS 2024 text not compared",
+      "read_extent": "§3.1/Assumption 1; §3.3 and Algorithms 3–4; §§4.1–4.2 statements; §5 preliminary experiments. Proof appendices not audited.",
+      "technical": "DPnP alternates likelihood-consistency and prior-denoising samplers with a supplied likelihood. Asymptotic correctness assumes exact subroutines; finite-step analysis bounds subroutine distribution errors around a smoothed target. Those errors are not an unknown-operator posterior. Preliminary synthetic super-resolution/phase-retrieval examples do not establish empirical calibration. Worst-case mixing may be slow.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "T": "No",
+        "X": "No"
+      },
+      "feature_locator": "§3.1, Algorithms 3–4; Theorems 1–2; §5",
+      "applicability": "Theory comparator with explicit sampler-error scope.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2403.17042 v1 route, 2024 preprint lineage; rendered body dates August 24, 2026. Final NeurIPS 2024 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction and posterior sampling; §§3 and 5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Reconstruction uncertainty and robustness to sampler errors; §4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Algorithms, theorem statements and preliminary image experiments."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Resolve rendered-date/version discrepancy and check final theorem notation before citing guarantees; proof correctness has not been certified."
+      ]
+    },
+    {
+      "study_id": "P085",
+      "title": "InvFusion: Bridging Supervised and Zero-shot Diffusion for Inverse Problems",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2504.01689v1",
+      "version": "arXiv 2504.01689 v1 (2025), source title uses InvFussion; canonical InvFusion retained. Final NeurIPS 2025 text not compared",
+      "read_extent": "§2.2; §3 feature degradation/Eqs. 7–8; §3.1; §§4–6 including OOD, noisy case and NPPC. Appendices not audited.",
+      "technical": "InvFusion inserts a supplied operator and pseudoinverse into feature processing. It evaluates unseen outpainting, compound linear degradation and image-posterior principal directions. C-FID uses measurement-consistent projection in the noiseless setting; noisy experiments retrain. These do not establish blind operator inference or calibrated coverage under operator mismatch.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "U": "Yes",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–6; §4.1 OOD, §4.2 noise and §5 NPPC",
+      "applicability": "Operator-conditioned and image-uncertainty comparator; supplied new operators differ from blind estimation.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2504.01689 v1 (2025), source title uses InvFussion; canonical InvFusion retained. Final NeurIPS 2025 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Linear inverse imaging; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unseen degradation and posterior uncertainty; §§4.1 and 5."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operator-aware architecture and quantitative/qualitative evaluations."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "C-FID is not a coverage or truth certificate; compare final naming and high-resolution appendix before definitive numerical use."
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "study_id": "P017",
+      "supersedes": "full_text_04.json retrieval_attempts P017 URLs only",
+      "detail": "The prior log incorrectly associated arXiv 2210.09292 with DDNM. Correct identifier: 2212.00490, already used in the seed metadata. An unrelated PDF route was opened during this retry but supplied no P017 evidence. Historical log preserved; this entry supersedes its locator.",
+      "verified_identity_url": "https://arxiv.org/abs/2212.00490",
+      "eligibility_effect": "None; P017 remains pending."
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "study_id": "P017",
+      "urls": [
+        "https://arxiv.org/html/2212.00490v1",
+        "https://arxiv.org/pdf/2212.00490"
+      ],
+      "outcome": "Correct DDNM routes failed; remains pending. Alternative proceedings/author routes not exhausted."
+    },
+    {
+      "study_id": "P073",
+      "urls": [
+        "https://arxiv.org/html/2310.10123v1",
+        "https://arxiv.org/html/2310.10123v3"
+      ],
+      "outcome": "HTML routes failed; remains pending."
+    },
+    {
+      "study_id": "P088",
+      "urls": [
+        "https://arxiv.org/html/2305.07015v1",
+        "https://arxiv.org/html/2305.07015v2"
+      ],
+      "outcome": "HTML routes failed; remains pending."
+    },
+    {
+      "study_ids": [
+        "P012",
+        "P074",
+        "P079",
+        "P083"
+      ],
+      "outcome": "Previously attempted or initial PDF/HTML routes failed; alternate HTML versions recorded in the assessment records were accessed successfully. These four now have assessments."
+    }
+  ]
+}

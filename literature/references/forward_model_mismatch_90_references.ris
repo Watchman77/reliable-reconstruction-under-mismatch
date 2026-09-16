@@ -128,7 +128,7 @@ PY  - 2022
 TI  - Denoising Diffusion Restoration Models
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2022/hash/95504595b6169131b6ed6cd72eb05616-Abstract-Conference.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -208,7 +208,7 @@ PY  - 2023
 TI  - PromptIR: Prompting for All-in-One Image Restoration
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -787,7 +787,7 @@ PY  - 2024
 TI  - Controlling Vision-Language Models for Multi-Task Image Restoration
 T2  - ICLR
 UR  - https://openreview.net/forum?id=t3vnnLeajU
-N1  - Evidence status: Abstract and repository inspected; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -798,7 +798,7 @@ TI  - Multimodal Prompt Perceiver: Empower Adaptiveness, Generalizability and Fi
 T2  - CVPR
 UR  - https://doi.org/10.1109/CVPR52733.2024.02403
 DO  - 10.1109/CVPR52733.2024.02403
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -808,7 +808,7 @@ PY  - 2024
 TI  - InstructIR: High-Quality Image Restoration Following Human Instructions
 T2  - ECCV
 UR  - https://arxiv.org/abs/2401.16468
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -838,7 +838,7 @@ PY  - 2024
 TI  - Taming Generative Diffusion Prior for Universal Blind Image Restoration
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/25869dbf7682272357bc2cbbf860e1c8-Abstract-Conference.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -858,7 +858,7 @@ PY  - 2024
 TI  - A Modular Conditional Diffusion Framework for Image Reconstruction
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/b213d9a999b82cb6fcd03a0d5a7498be-Abstract-Conference.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -878,7 +878,7 @@ PY  - 2024
 TI  - Provably Robust Score-Based Diffusion Posterior Sampling for Plug-and-Play Image Reconstruction
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/3fa2d2b637122007845a2fbb7c21453b-Abstract-Conference.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -898,7 +898,7 @@ PY  - 2025
 TI  - InvFusion: Bridging Supervised and Zero-shot Diffusion for Inverse Problems
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/33367b9ff199d26280db6cf539d1125c-Abstract-Conference.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER

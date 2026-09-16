@@ -101,3 +101,15 @@ The research may improve visibility and quantify recoverability. It must not des
 **Research implication:** the [source-backed checkpoint](../literature/screening/full_text_04_report.md) records existing mismatch compensation, interval calibration and video degradation modelling. Comparison design must specify target truth, available sensors, operator assumptions, calibration splits and the meaning of a released detail. The accumulated evidence does not yet establish novelty.
 
 **Next work:** assess the remaining 46 seed records and reconcile flagged versions/guarantee conditions before using their results in a final synthesis. Earlier reports keep their historical counts.
+
+## 16 September 2026 — Fifth AI full-text checkpoint
+
+**Checkpoint:** nine additional assessments, all include recommendations. Cumulative: 53 assessed, 52 include, 1 exclude, 37 pending. These remain AI recommendations; human adjudication and formal search accounting are pending.
+
+**Decision:** retain the original umbrella topic and candidate question. Continue accessible full-text assessments without waiting for deferred user tasks. Preserve the date window and current protocol.
+
+**Research implication:** the [source-backed checkpoint](../literature/screening/full_text_05_report.md) adds compound, prompted, operator-conditioned and probabilistic comparators. Distinguish available operator information, adaptation data and the target of uncertainty before comparing methods. This does not establish novelty or replace earlier close competitors.
+
+**Correction:** checkpoint 04’s P017 retrieval locator was wrong; the new register explicitly supersedes it with arXiv 2212.00490. Seed metadata already held the correct identity, and no P017 eligibility decision used the unrelated locator. Corrected retrieval still failed, so P017 remains pending.
+
+**Next work:** assess the remaining 37 records. Reconcile version/date, numerical and guarantee conditions before definitive synthesis, with quality follow-ups tracked in the registers.

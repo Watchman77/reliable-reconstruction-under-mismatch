@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.12.0 — 2026-09-16
+
+- Added nine AI full-text eligibility assessments, all include recommendations. Cumulative: 53 assessed, 52 include, 1 exclude, 37 pending.
+- Recorded source versions, reading extent and criterion-level evidence for prompted/compound restoration and conditional diffusion methods. Updated only explicitly verified feature fields.
+- Distinguished degradation embeddings, physical point estimates, operator uncertainty, image sampling and calibrated reliability. Novelty remains unestablished.
+- Explicitly corrected checkpoint 04’s P017 retrieval locator without altering its pending status or historical log. Recorded alternate-source resolutions and new failed routes.
+- Synchronized the matrix, tracker and four reference exports; preserved workbook objects, all seed IDs, earlier decisions, protocol v0.4 and the date window. User tasks remain deferred.
+
 ## 0.11.0 — 2026-09-16
 
 - Added eight AI full-text eligibility assessments, all include recommendations. Cumulative: 44 assessed, 43 include, 1 exclude, 46 pending.
