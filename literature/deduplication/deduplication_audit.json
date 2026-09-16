@@ -1,0 +1,184 @@
+{
+  "records": 90,
+  "exactTitleGroups": [],
+  "exactDoiGroups": [],
+  "pairs": [],
+  "lineageRecords": [
+    {
+      "studyId": "P014",
+      "year": 2022,
+      "authors": "Horwitz & Hoshen",
+      "title": "Conffusion: Confidence Intervals for Diffusion Models",
+      "venue": "arXiv",
+      "publicationType": "Preprint",
+      "evidenceStatus": "Preprint abstract verified",
+      "url": "https://arxiv.org/abs/2211.09795",
+      "reviewNotes": "UQ method candidate"
+    },
+    {
+      "studyId": "P024",
+      "year": 2024,
+      "authors": "Bai et al.",
+      "title": "Blind Inversion Using Latent Diffusion Priors",
+      "venue": "arXiv/TIP later",
+      "publicationType": "Preprint/journal lineage",
+      "evidenceStatus": "Abstract verified",
+      "url": "https://arxiv.org/abs/2407.01027",
+      "reviewNotes": "Verify final TIP metadata during full-text stage"
+    },
+    {
+      "studyId": "P033",
+      "year": 2025,
+      "authors": "Shoushtari et al.",
+      "title": "Unsupervised Detection of Distribution Shift in Inverse Problems Using Diffusion Models",
+      "venue": "arXiv",
+      "publicationType": "Preprint",
+      "evidenceStatus": "Preprint abstract verified",
+      "url": "https://arxiv.org/abs/2505.11482",
+      "reviewNotes": "OOD guardrail candidate"
+    },
+    {
+      "studyId": "P034",
+      "year": 2025,
+      "authors": "Kim et al.",
+      "title": "Towards Distribution-Shift Uncertainty Estimation for Inverse Problems with Generative Priors",
+      "venue": "arXiv",
+      "publicationType": "Preprint",
+      "evidenceStatus": "Preprint abstract verified",
+      "url": "https://arxiv.org/abs/2510.10947",
+      "reviewNotes": "Failure-detection candidate"
+    },
+    {
+      "studyId": "P036",
+      "year": 2026,
+      "authors": "Yang & Yuan",
+      "title": "InverseNet: Benchmarking Operator Mismatch and Calibration Across Compressive Imaging Modalities",
+      "venue": "arXiv",
+      "publicationType": "Preprint",
+      "evidenceStatus": "Preprint abstract verified",
+      "url": "https://arxiv.org/abs/2603.04538",
+      "reviewNotes": "Highest-priority benchmark competitor"
+    },
+    {
+      "studyId": "P037",
+      "year": 2026,
+      "authors": "Iagaru et al.",
+      "title": "On Hallucinations in Inverse Problems: Fundamental Limits and Provable Assessment Methods",
+      "venue": "arXiv",
+      "publicationType": "Preprint",
+      "evidenceStatus": "Preprint full abstract verified",
+      "url": "https://arxiv.org/abs/2605.13146",
+      "reviewNotes": "Critical novelty threat and component"
+    },
+    {
+      "studyId": "P038",
+      "year": 2026,
+      "authors": "Hu et al.",
+      "title": "PRISM: Probabilistic and Robust Inverse Solver with Measurement-Conditioned Diffusion Prior for Blind Inverse Problems",
+      "venue": "ICASSP",
+      "publicationType": "Conference",
+      "evidenceStatus": "Full preprint verified",
+      "url": "https://doi.org/10.1109/ICASSP55912.2026.11462668",
+      "reviewNotes": "Top adversary; authors Yuanyun Hu, Evan Bell, Guijin Wang and Yu Sun"
+    },
+    {
+      "studyId": "P041",
+      "year": 2025,
+      "authors": "Romero et al.",
+      "title": "Uncertainty Quantification in HSI Reconstruction using Physics-Aware Diffusion Priors and Optics-Encoded Measurements",
+      "venue": "arXiv",
+      "publicationType": "Preprint",
+      "evidenceStatus": "Full preprint verified",
+      "url": "https://arxiv.org/abs/2511.18473",
+      "reviewNotes": "Critical UQ competitor; verify publication lineage"
+    },
+    {
+      "studyId": "P042",
+      "year": 2026,
+      "authors": "Katende",
+      "title": "No-Harm Physics-Informed Inverse Learning with Residual-Calibrated Uncertainty",
+      "venue": "arXiv",
+      "publicationType": "Preprint",
+      "evidenceStatus": "Full abstract verified",
+      "url": "https://arxiv.org/abs/2606.07153",
+      "reviewNotes": "Critical abstention threat; preprint credibility and proofs require full review"
+    },
+    {
+      "studyId": "P051",
+      "year": 2026,
+      "authors": "Hu et al.",
+      "title": "ADOBI: Adaptive Diffusion Bridge For Blind Inverse Problems with Application to MRI Reconstruction",
+      "venue": "IEEE TCI",
+      "publicationType": "Journal",
+      "evidenceStatus": "Publisher/preprint verified",
+      "url": "https://doi.org/10.1109/TCI.2026.3678407",
+      "reviewNotes": "Top adaptive blind-UQ competitor"
+    },
+    {
+      "studyId": "P052",
+      "year": 2026,
+      "authors": "Liu et al.",
+      "title": "Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling",
+      "venue": "ICML",
+      "publicationType": "Conference",
+      "evidenceStatus": "Preprint verified",
+      "url": "https://arxiv.org/abs/2603.01890",
+      "reviewNotes": "CaMB-Diff; nonlinear-operator threat"
+    },
+    {
+      "studyId": "P063",
+      "year": 2024,
+      "authors": "Wen et al.",
+      "title": "Task-Driven Uncertainty Quantification in Inverse Problems via Conformal Prediction",
+      "venue": "ECCV",
+      "publicationType": "Conference",
+      "evidenceStatus": "Publisher/preprint verified",
+      "url": "https://doi.org/10.1007/978-3-031-73027-6_11",
+      "reviewNotes": "Task-level reliability comparator"
+    },
+    {
+      "studyId": "P064",
+      "year": 2024,
+      "authors": "Lütjen et al.",
+      "title": "Learning-Based Approaches for Reconstructions With Inexact Operators in nanoCT Applications",
+      "venue": "IEEE TCI",
+      "publicationType": "Journal",
+      "evidenceStatus": "Publisher/preprint verified",
+      "url": "https://doi.org/10.1109/TCI.2024.3380319",
+      "reviewNotes": "Closest inexact-operator plus image-UQ study"
+    },
+    {
+      "studyId": "P065",
+      "year": 2025,
+      "authors": "Ekmekci & Cetin",
+      "title": "Conformalized Generative Bayesian Imaging: An Uncertainty Quantification Framework for Computational Imaging",
+      "venue": "IEEE TCI",
+      "publicationType": "Journal",
+      "evidenceStatus": "Publisher/preprint verified",
+      "url": "https://doi.org/10.1109/TCI.2025.3649389",
+      "reviewNotes": "Strongest calibrated image-UQ competitor"
+    },
+    {
+      "studyId": "P067",
+      "year": 2025,
+      "authors": "Ye et al.",
+      "title": "QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems",
+      "venue": "arXiv",
+      "publicationType": "Preprint",
+      "evidenceStatus": "Full preprint verified",
+      "url": "https://arxiv.org/abs/2507.14760",
+      "reviewNotes": "Preprint reliability threat"
+    },
+    {
+      "studyId": "P073",
+      "year": 2024,
+      "authors": "Jiang et al.",
+      "title": "AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion",
+      "venue": "ECCV",
+      "publicationType": "Conference",
+      "evidenceStatus": "Publisher/preprint verified",
+      "url": "https://doi.org/10.1007/978-3-031-73661-2_19",
+      "reviewNotes": "Closest automatic generative all-in-one baseline"
+    }
+  ]
+}

@@ -12,6 +12,12 @@
 
 **Reason:** the additional 20 papers stress-test the candidate novelty using universal restoration, compound-restoration agents, operator-conditioned diffusion solvers and real-world generative super-resolution. Ninety is a planning target, not an eligibility quota.
 
+## 16 September 2026 — PRISMA status boundary
+
+**Decision:** treat all 90 coded papers as seed candidate records until they pass the registered search, deduplication, title/abstract screening and full-text eligibility workflow.
+
+**Current status:** 90 seed candidates; 0 formally screened; 0 formally included. The seed matrix supports gap mapping and search design, but it is not yet the final PRISMA corpus.
+
 ## 16 September 2026 — Novelty boundary
 
 The project will not claim novelty for any component alone:

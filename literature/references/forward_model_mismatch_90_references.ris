@@ -1,0 +1,934 @@
+TY  - CPAPER
+ID  - P001
+AU  - Dong et al.
+PY  - 2020
+TI  - Deep Learning for Handling Kernel/Model Uncertainty in Image Deconvolution
+T2  - CVPR
+UR  - https://doi.org/10.1109/CVPR42600.2020.00246
+DO  - 10.1109/CVPR42600.2020.00246
+N1  - Evidence status: Abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P002
+AU  - Li et al.
+PY  - 2020
+TI  - NETT: Solving Inverse Problems with Deep Neural Networks
+T2  - Inverse Problems
+UR  - https://doi.org/10.1088/1361-6420/ab6d57
+DO  - 10.1088/1361-6420/ab6d57
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P003
+AU  - Antun et al.
+PY  - 2020
+TI  - On Instabilities of Deep Learning in Image Reconstruction and the Potential Costs of AI
+T2  - PNAS
+UR  - https://doi.org/10.1073/pnas.1907377117
+DO  - 10.1073/pnas.1907377117
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P004
+AU  - Rim et al.
+PY  - 2020
+TI  - Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Rim_Real-World_Blur_Dataset_for_Learning_and_Benchmarking_Deblurring_Algorithms_CVPR_2020_paper.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P005
+AU  - Zeng & Lam
+PY  - 2021
+TI  - Robust Reconstruction With Deep Learning to Handle Model Mismatch in Lensless Imaging
+T2  - IEEE TCI
+UR  - https://doi.org/10.1109/TCI.2021.3114542
+DO  - 10.1109/TCI.2021.3114542
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P006
+AU  - Gilton et al.
+PY  - 2021
+TI  - Deep Equilibrium Architectures for Inverse Problems in Imaging
+T2  - IEEE TCI
+UR  - https://doi.org/10.1109/TCI.2021.3118944
+DO  - 10.1109/TCI.2021.3118944
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P007
+AU  - Sun & Bouman
+PY  - 2021
+TI  - Deep Probabilistic Imaging
+T2  - AAAI
+UR  - https://ojs.aaai.org/index.php/AAAI/article/view/16430
+N1  - Evidence status: Abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P008
+AU  - Bhadra et al.
+PY  - 2021
+TI  - On Hallucinations in Tomographic Image Reconstruction
+T2  - IEEE TMI
+UR  - https://doi.org/10.1109/TMI.2021.3077857
+DO  - 10.1109/TMI.2021.3077857
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P009
+AU  - Zhang et al.
+PY  - 2021
+TI  - Designing a Practical Degradation Model for Deep Blind Image Super-Resolution
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Designing_a_Practical_Degradation_Model_for_Deep_Blind_Image_Super-Resolution_ICCV_2021_paper.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P010
+AU  - Wang et al.
+PY  - 2021
+TI  - Real-ESRGAN: Training Real-World Blind Super-Resolution With Pure Synthetic Data
+T2  - ICCV Workshops
+UR  - https://openaccess.thecvf.com/content/ICCV2021W/AIM/html/Wang_Real-ESRGAN_Training_Real-World_Blind_Super-Resolution_With_Pure_Synthetic_Data_ICCVW_2021_paper.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P011
+AU  - Angelopoulos et al.
+PY  - 2022
+TI  - Image-to-Image Regression with Distribution-Free Uncertainty Quantification and Applications in Imaging
+T2  - ICML
+UR  - https://proceedings.mlr.press/v162/angelopoulos22a.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P012
+AU  - Kawar et al.
+PY  - 2022
+TI  - Denoising Diffusion Restoration Models
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2022/hash/95504595b6169131b6ed6cd72eb05616-Abstract-Conference.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P013
+AU  - Li et al.
+PY  - 2022
+TI  - All-in-One Image Restoration for Unknown Corruption
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Li_All-in-One_Image_Restoration_for_Unknown_Corruption_CVPR_2022_paper.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - UNPB
+ID  - P014
+AU  - Horwitz & Hoshen
+PY  - 2022
+TI  - Conffusion: Confidence Intervals for Diffusion Models
+T2  - arXiv
+UR  - https://arxiv.org/abs/2211.09795
+N1  - Evidence status: Preprint abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P015
+AU  - Chung et al.
+PY  - 2023
+TI  - Diffusion Posterior Sampling for General Noisy Inverse Problems
+T2  - ICLR
+UR  - https://openreview.net/forum?id=OnD9zGAGT0k
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P016
+AU  - Song et al.
+PY  - 2023
+TI  - Pseudoinverse-Guided Diffusion Models for Inverse Problems
+T2  - ICLR
+UR  - https://openreview.net/forum?id=9_gsMA8MRKQ
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P017
+AU  - Wang et al.
+PY  - 2023
+TI  - Denoising Diffusion Null-Space Model
+T2  - ICLR
+UR  - https://openreview.net/forum?id=mRieQgMtNTQ
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P018
+AU  - Chung et al.
+PY  - 2023
+TI  - Parallel Diffusion Models of Operator and Image for Blind Inverse Problems
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Chung_Parallel_Diffusion_Models_of_Operator_and_Image_for_Blind_Inverse_Problems_CVPR_2023_paper.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P019
+AU  - Murata et al.
+PY  - 2023
+TI  - GibbsDDRM
+T2  - ICML
+UR  - https://proceedings.mlr.press/v202/murata23a.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P020
+AU  - Potlapalli et al.
+PY  - 2023
+TI  - PromptIR: Prompting for All-in-One Blind Image Restoration
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a17bb69ab19f3be921f-Abstract-Conference.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P021
+AU  - Gupta et al.
+PY  - 2024
+TI  - Differentiable Uncalibrated Imaging
+T2  - IEEE TCI
+UR  - https://arxiv.org/abs/2211.10525
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P022
+AU  - Laroche et al.
+PY  - 2024
+TI  - Fast Diffusion EM
+T2  - WACV
+UR  - https://openaccess.thecvf.com/content/WACV2024/html/Laroche_Fast_Diffusion_EM_A_Diffusion_Model_for_Blind_Inverse_Problems_WACV_2024_paper.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P023
+AU  - Chihaoui et al.
+PY  - 2024
+TI  - Blind Image Restoration via Fast Diffusion Inversion
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/3d13d910b48ac2e672a32cfdf98be1bf-Abstract-Conference.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P024
+AU  - Bai et al.
+PY  - 2024
+TI  - Blind Inversion Using Latent Diffusion Priors
+T2  - arXiv/TIP later
+UR  - https://arxiv.org/abs/2407.01027
+N1  - Evidence status: Abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P025
+AU  - Lin et al.
+PY  - 2024
+TI  - DiffBIR: Toward Blind Image Restoration with Generative Diffusion Prior
+T2  - ECCV
+UR  - https://eccv.ecva.net/virtual/2024/poster/2315
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P026
+AU  - Zhao et al.
+PY  - 2024
+TI  - AverNet: All-in-One Video Restoration for Time-Varying Unknown Degradations
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/e635a25e49e73adc51f76aef462ff2f8-Abstract-Conference.html
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P027
+AU  - Bogatyrev et al.
+PY  - 2024
+TI  - SR+Codec: A Benchmark of Super-Resolution for Video Compression
+T2  - BMVC/arXiv
+UR  - https://arxiv.org/abs/2412.02506
+N1  - Evidence status: Abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P028
+AU  - Yu et al.
+PY  - 2024
+TI  - Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild
+T2  - CVPR
+UR  - https://arxiv.org/abs/2401.13627
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P029
+AU  - Qian et al.
+PY  - 2024
+TI  - Robust Unrolled Network for Lensless Imaging with Enhanced Resistance to Model Mismatch and Noise
+T2  - Optics Express
+UR  - https://opg.optica.org/oe/abstract.cfm?uri=oe-32-17-30267
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P030
+AU  - Akinwande et al.
+PY  - 2024
+TI  - Empirical Bayesian Imaging With Large-Scale Push-Forward Generative Priors
+T2  - IEEE SPL
+UR  - https://doi.org/10.1109/LSP.2024.3361806
+DO  - 10.1109/LSP.2024.3361806
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P031
+AU  - Gottschling et al.
+PY  - 2025
+TI  - The Troublesome Kernel
+T2  - SIAM Review
+UR  - https://doi.org/10.1137/23M1568739
+DO  - 10.1137/23M1568739
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P032
+AU  - Chen et al.
+PY  - 2025
+TI  - Uncertainty-Aware Fourier Ptychography
+T2  - Light: Science & Applications
+UR  - https://doi.org/10.1038/s41377-025-01915-w
+DO  - 10.1038/s41377-025-01915-w
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - UNPB
+ID  - P033
+AU  - Shoushtari et al.
+PY  - 2025
+TI  - Unsupervised Detection of Distribution Shift in Inverse Problems Using Diffusion Models
+T2  - arXiv
+UR  - https://arxiv.org/abs/2505.11482
+N1  - Evidence status: Preprint abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - UNPB
+ID  - P034
+AU  - Kim et al.
+PY  - 2025
+TI  - Towards Distribution-Shift Uncertainty Estimation for Inverse Problems with Generative Priors
+T2  - arXiv
+UR  - https://arxiv.org/abs/2510.10947
+N1  - Evidence status: Preprint abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P035
+AU  - Lee & Jang
+PY  - 2026
+TI  - Mitigating Forward Model Mismatch in Inverse Problems via Learned Residuals and Diffusion Priors
+T2  - SPIE
+UR  - https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13849/1384908/
+N1  - Evidence status: Abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - UNPB
+ID  - P036
+AU  - Yang & Yuan
+PY  - 2026
+TI  - InverseNet: Benchmarking Operator Mismatch and Calibration Across Compressive Imaging Modalities
+T2  - arXiv
+UR  - https://arxiv.org/abs/2603.04538
+N1  - Evidence status: Preprint abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - UNPB
+ID  - P037
+AU  - Iagaru et al.
+PY  - 2026
+TI  - On Hallucinations in Inverse Problems: Fundamental Limits and Provable Assessment Methods
+T2  - arXiv
+UR  - https://arxiv.org/abs/2605.13146
+N1  - Evidence status: Preprint full abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P038
+AU  - Hu et al.
+PY  - 2026
+TI  - PRISM: Probabilistic and Robust Inverse Solver with Measurement-Conditioned Diffusion Prior for Blind Inverse Problems
+T2  - ICASSP
+UR  - https://doi.org/10.1109/ICASSP55912.2026.11462668
+DO  - 10.1109/ICASSP55912.2026.11462668
+N1  - Evidence status: Full preprint verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P039
+AU  - Serrano-Lozano et al.
+PY  - 2026
+TI  - Adaptive Blind All-in-One Image Restoration
+T2  - CVIU
+UR  - https://doi.org/10.1016/j.cviu.2026.104795
+DO  - 10.1016/j.cviu.2026.104795
+N1  - Evidence status: Full citation verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P040
+AU  - Kwon et al.
+PY  - 2025
+TI  - Video Diffusion Posterior Sampling for Seeing Beyond Dynamic Scattering Layers
+T2  - IEEE TPAMI
+UR  - https://doi.org/10.1109/TPAMI.2025.3598457
+DO  - 10.1109/TPAMI.2025.3598457
+N1  - Evidence status: Full abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - UNPB
+ID  - P041
+AU  - Romero et al.
+PY  - 2025
+TI  - Uncertainty Quantification in HSI Reconstruction using Physics-Aware Diffusion Priors and Optics-Encoded Measurements
+T2  - arXiv
+UR  - https://arxiv.org/abs/2511.18473
+N1  - Evidence status: Full preprint verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - UNPB
+ID  - P042
+AU  - Katende
+PY  - 2026
+TI  - No-Harm Physics-Informed Inverse Learning with Residual-Calibrated Uncertainty
+T2  - arXiv
+UR  - https://arxiv.org/abs/2606.07153
+N1  - Evidence status: Full abstract verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P043
+AU  - Gilton et al.
+PY  - 2021
+TI  - Model Adaptation for Inverse Problems in Imaging
+T2  - IEEE TCI
+UR  - https://doi.org/10.1109/TCI.2021.3094714
+DO  - 10.1109/TCI.2021.3094714
+N1  - Evidence status: Primary-source verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P044
+AU  - Rego et al.
+PY  - 2021
+TI  - Robust Lensless Image Reconstruction via PSF Estimation
+T2  - WACV
+UR  - https://doi.org/10.1109/WACV48630.2021.00045
+DO  - 10.1109/WACV48630.2021.00045
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P045
+AU  - Gan et al.
+PY  - 2023
+TI  - Block Coordinate Plug-and-Play Methods for Blind Inverse Problems
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/f810c2ba07bae78dfe9d25c5d40c5536-Abstract-Conference.html
+N1  - Evidence status: Proceedings verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P046
+AU  - Gossard & Weiss
+PY  - 2024
+TI  - Training Adaptive Reconstruction Networks for Blind Inverse Problems
+T2  - SIAM Journal on Imaging Sciences
+UR  - https://doi.org/10.1137/23M1545628
+DO  - 10.1137/23M1545628
+N1  - Evidence status: Publisher verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P047
+AU  - Guan et al.
+PY  - 2024
+TI  - Solving Inverse Problems with Model Mismatch using Untrained Neural Networks within Model-based Architectures
+T2  - TMLR
+UR  - https://openreview.net/forum?id=XHEhjDxPDl
+N1  - Evidence status: OpenReview verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P048
+AU  - Renaud et al.
+PY  - 2024
+TI  - Plug-and-Play Posterior Sampling under Mismatched Measurement and Prior Models
+T2  - ICLR
+UR  - https://proceedings.iclr.cc/paper_files/paper/2024/hash/2a2874875861f6a6436b505dd77683d1-Abstract-Conference.html
+N1  - Evidence status: Proceedings verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P049
+AU  - Nguyen et al.
+PY  - 2024
+TI  - DeepVibes: Correcting Micro-Vibrations in Satellite Imaging With Pushbroom Cameras
+T2  - IEEE TGRS
+UR  - https://doi.org/10.1109/TGRS.2024.3415372
+DO  - 10.1109/TGRS.2024.3415372
+N1  - Evidence status: Author manuscript verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P050
+AU  - Dontas et al.
+PY  - 2025
+TI  - Blind Inverse Problem Solving Made Easy by Text-to-Image Latent Diffusion
+T2  - NeurIPS
+UR  - https://arxiv.org/abs/2412.00557
+N1  - Evidence status: Primary page verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P051
+AU  - Hu et al.
+PY  - 2026
+TI  - ADOBI: Adaptive Diffusion Bridge For Blind Inverse Problems with Application to MRI Reconstruction
+T2  - IEEE TCI
+UR  - https://doi.org/10.1109/TCI.2026.3678407
+DO  - 10.1109/TCI.2026.3678407
+N1  - Evidence status: Publisher/preprint verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P052
+AU  - Liu et al.
+PY  - 2026
+TI  - Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling
+T2  - ICML
+UR  - https://arxiv.org/abs/2603.01890
+N1  - Evidence status: Preprint verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P053
+AU  - Zhao et al.
+PY  - 2026
+TI  - FaverNet: All-in-One Video Restoration via Frequency-Discriminative Conditioning
+T2  - IJCV
+UR  - https://doi.org/10.1007/s11263-026-02977-y
+DO  - 10.1007/s11263-026-02977-y
+N1  - Evidence status: Publisher/code verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P054
+AU  - Kim et al.
+PY  - 2024
+TI  - Towards Real-world Event-guided Low-light Video Enhancement and Deblurring
+T2  - ECCV
+UR  - https://doi.org/10.1007/978-3-031-73254-6_25
+DO  - 10.1007/978-3-031-73254-6_25
+N1  - Evidence status: Full text/code verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P055
+AU  - Zhou et al.
+PY  - 2022
+TI  - LEDNet: Joint Low-Light Enhancement and Deblurring in the Dark
+T2  - ECCV
+UR  - https://doi.org/10.1007/978-3-031-20068-7_33
+DO  - 10.1007/978-3-031-20068-7_33
+N1  - Evidence status: Publisher/code verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P056
+AU  - Chan et al.
+PY  - 2022
+TI  - Investigating Tradeoffs in Real-World Video Super-Resolution
+T2  - CVPR
+UR  - https://doi.org/10.1109/CVPR52688.2022.00587
+DO  - 10.1109/CVPR52688.2022.00587
+N1  - Evidence status: Full text/code verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P057
+AU  - Jeelani et al.
+PY  - 2023
+TI  - Expanding Synthetic Real-World Degradations for Blind Video Super Resolution
+T2  - CVPR Workshops
+UR  - https://doi.org/10.1109/CVPRW59228.2023.00127
+DO  - 10.1109/CVPRW59228.2023.00127
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P058
+AU  - Yang et al.
+PY  - 2021
+TI  - Real-world Video Super-resolution: A Benchmark Dataset and a Decomposition Based Learning Scheme
+T2  - ICCV
+UR  - https://doi.org/10.1109/ICCV48922.2021.00474
+DO  - 10.1109/ICCV48922.2021.00474
+N1  - Evidence status: Full text/code verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P059
+AU  - Zhong et al.
+PY  - 2023
+TI  - Real-World Video Deblurring: A Benchmark Dataset and an Efficient Recurrent Neural Network
+T2  - IJCV
+UR  - https://doi.org/10.1007/s11263-022-01705-6
+DO  - 10.1007/s11263-022-01705-6
+N1  - Evidence status: Publisher/code verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P060
+AU  - Han & Kim
+PY  - 2025
+TI  - CQAD: An Image Quality Assessment Dataset for CCTV
+T2  - JMIS
+UR  - https://doi.org/10.33851/JMIS.2025.12.3.81
+DO  - 10.33851/JMIS.2025.12.3.81
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P061
+AU  - Endrei & Cserey
+PY  - 2026
+TI  - S3-CLIP: Video Super Resolution for Person-ReID
+T2  - WACV Workshops
+UR  - https://doi.org/10.1109/WACVW68408.2026.00174
+DO  - 10.1109/WACVW68408.2026.00174
+N1  - Evidence status: Full text/code verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P062
+AU  - Teneggi et al.
+PY  - 2023
+TI  - How to Trust Your Diffusion Model: A Convex Optimization Approach to Conformal Risk Control
+T2  - ICML
+UR  - https://proceedings.mlr.press/v202/teneggi23a.html
+N1  - Evidence status: PMLR verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P063
+AU  - Wen et al.
+PY  - 2024
+TI  - Task-Driven Uncertainty Quantification in Inverse Problems via Conformal Prediction
+T2  - ECCV
+UR  - https://doi.org/10.1007/978-3-031-73027-6_11
+DO  - 10.1007/978-3-031-73027-6_11
+N1  - Evidence status: Publisher/preprint verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P064
+AU  - Lütjen et al.
+PY  - 2024
+TI  - Learning-Based Approaches for Reconstructions With Inexact Operators in nanoCT Applications
+T2  - IEEE TCI
+UR  - https://doi.org/10.1109/TCI.2024.3380319
+DO  - 10.1109/TCI.2024.3380319
+N1  - Evidence status: Publisher/preprint verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P065
+AU  - Ekmekci & Cetin
+PY  - 2025
+TI  - Conformalized Generative Bayesian Imaging: An Uncertainty Quantification Framework for Computational Imaging
+T2  - IEEE TCI
+UR  - https://doi.org/10.1109/TCI.2025.3649389
+DO  - 10.1109/TCI.2025.3649389
+N1  - Evidence status: Publisher/preprint verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P066
+AU  - Everink et al.
+PY  - 2025
+TI  - Self-supervised Conformal Prediction for Uncertainty Quantification in Imaging Problems
+T2  - SSVM
+UR  - https://doi.org/10.1007/978-3-031-92366-1_9
+DO  - 10.1007/978-3-031-92366-1_9
+N1  - Evidence status: Publisher verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - UNPB
+ID  - P067
+AU  - Ye et al.
+PY  - 2025
+TI  - QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems
+T2  - arXiv
+UR  - https://arxiv.org/abs/2507.14760
+N1  - Evidence status: Full preprint verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P068
+AU  - Abu Hussein et al.
+PY  - 2020
+TI  - Correction Filter for Single Image Super-Resolution
+T2  - CVPR
+UR  - https://doi.org/10.1109/CVPR42600.2020.00150
+DO  - 10.1109/CVPR42600.2020.00150
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P069
+AU  - Asim et al.
+PY  - 2020
+TI  - Blind Image Deconvolution Using Deep Generative Priors
+T2  - IEEE TCI
+UR  - https://doi.org/10.1109/TCI.2020.3032671
+DO  - 10.1109/TCI.2020.3032671
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P070
+AU  - Janjua et al.
+PY  - 2026
+TI  - Grounding Degradations in Natural Language for All-In-One Video Restoration
+T2  - WACV
+UR  - https://arxiv.org/abs/2507.14851
+N1  - Evidence status: Full text/code verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P071
+AU  - Park et al.
+PY  - 2023
+TI  - All-in-One Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P072
+AU  - Wang et al.
+PY  - 2023
+TI  - PromptRestorer: A Prompting Image Restoration Method with Degradation Perception
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2023/file/1c364d98a5cdc426fd8c76fbb2c10e34-Paper-Conference.pdf
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P073
+AU  - Jiang et al.
+PY  - 2024
+TI  - AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion
+T2  - ECCV
+UR  - https://doi.org/10.1007/978-3-031-73661-2_19
+DO  - 10.1007/978-3-031-73661-2_19
+N1  - Evidence status: Publisher/preprint verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P074
+AU  - Luo et al.
+PY  - 2024
+TI  - Controlling Vision-Language Models for Universal Image Restoration
+T2  - ICLR
+UR  - https://openreview.net/forum?id=t3vnnLeajU
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P075
+AU  - Ai et al.
+PY  - 2024
+TI  - Multimodal Prompt Perceiver: Empower Adaptiveness, Generalizability and Fidelity for All-in-One Image Restoration
+T2  - CVPR
+UR  - https://doi.org/10.1109/CVPR52733.2024.02403
+DO  - 10.1109/CVPR52733.2024.02403
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P076
+AU  - Conde et al.
+PY  - 2024
+TI  - InstructIR: High-Quality Image Restoration Following Human Instructions
+T2  - ECCV
+UR  - https://arxiv.org/abs/2401.16468
+N1  - Evidence status: Full text/code verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P077
+AU  - Chen et al.
+PY  - 2024
+TI  - RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/file/c78f639424b8d89ceb4f2efbb4dfe4f4-Paper-Conference.pdf
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P078
+AU  - Ai et al.
+PY  - 2024
+TI  - DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/file/6452474601429509f3035dc81c233226-Paper-Conference.pdf
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P079
+AU  - Tu et al.
+PY  - 2024
+TI  - Taming Generative Diffusion Prior for Universal Blind Image Restoration
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/25869dbf7682272357bc2cbbf860e1c8-Abstract-Conference.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P080
+AU  - Fei et al.
+PY  - 2023
+TI  - Generative Diffusion Prior for Unified Image Restoration and Enhancement
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Fei_Generative_Diffusion_Prior_for_Unified_Image_Restoration_and_Enhancement_CVPR_2023_paper.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P081
+AU  - Zhussip et al.
+PY  - 2024
+TI  - A Modular Conditional Diffusion Framework for Image Reconstruction
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/b213d9a999b82cb6fcd03a0d5a7498be-Abstract-Conference.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P082
+AU  - Li & Pereira
+PY  - 2024
+TI  - Solving Inverse Problems via Diffusion Optimal Control
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/86655bc516148e311bcfcf88f1744de7-Abstract-Conference.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P083
+AU  - Xu & Chi
+PY  - 2024
+TI  - Provably Robust Score-Based Diffusion Posterior Sampling for Plug-and-Play Image Reconstruction
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/3fa2d2b637122007845a2fbb7c21453b-Abstract-Conference.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P084
+AU  - Zhang et al.
+PY  - 2024
+TI  - Unleashing the Denoising Capability of Diffusion Prior for Solving Inverse Problems
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/54fa8255cdf30736ecad38e842725e7f-Abstract-Conference.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P085
+AU  - Elata et al.
+PY  - 2025
+TI  - InvFusion: Bridging Supervised and Zero-shot Diffusion for Inverse Problems
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/33367b9ff199d26280db6cf539d1125c-Abstract-Conference.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P086
+AU  - Erbach et al.
+PY  - 2025
+TI  - Solving Inverse Problems with FLAIR
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/c7ae6e9659f0c99582c2e8214ba0b413-Abstract-Conference.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P087
+AU  - Jayaram et al.
+PY  - 2025
+TI  - Linearly Constrained Diffusion Implicit Models
+T2  - NeurIPS
+UR  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/d92d3aec6a48e93f93194503ee49f11a-Abstract-Conference.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - JOUR
+ID  - P088
+AU  - Wang et al.
+PY  - 2024
+TI  - Exploiting Diffusion Prior for Real-World Image Super-Resolution
+T2  - IJCV
+UR  - https://doi.org/10.1007/s11263-024-02092-y
+DO  - 10.1007/s11263-024-02092-y
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P089
+AU  - Wu et al.
+PY  - 2024
+TI  - SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Wu_SeeSR_Towards_Semantics-Aware_Real-World_Image_Super-Resolution_CVPR_2024_paper.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -
+
+TY  - CPAPER
+ID  - P090
+AU  - Zhou et al.
+PY  - 2024
+TI  - Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Upscale-A-Video_Temporal-Consistent_Diffusion_Model_for_Real-World_Video_Super-Resolution_CVPR_2024_paper.html
+N1  - Evidence status: Full text verified; matrix decision: Include; seed candidate pending formal PRISMA screening.
+ER  -

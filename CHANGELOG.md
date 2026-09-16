@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.0 — 2026-09-16
+
+- Transferred all 90 seed papers into the PRISMA screening log.
+- Labelled seed records separately from formally screened and included studies.
+- Reset formal PRISMA counters to zero pending reproducible database searches.
+- Updated the review protocol to version 1.1.
+
 ## 0.3.0 — 2026-09-16
 
 - Expanded the seed evidence matrix from 70 to 90 studies.
