@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.17.0 — 2026-09-16
+
+- Resolved P029 using complete publisher-supplied online text. Cumulative: 85 AI full-text assessments, 84 include recommendations, 1 exclude, 5 pending.
+- Recorded structured mismatch-nuisance estimation and limited display-to-object transfer, without inferring calibrated operator uncertainty or selective release.
+- Checked alternate primary/author locations and uploaded-file searches for all six previously pending records; documented the five remaining access gaps.
+- Updated matrix, tracker, references and status documents. Preserved historical triage, formal decisions, acquisition flags and protocol v0.4. Novelty remains unestablished.
+
 ## 0.16.0 — 2026-09-16
 
 - Attempted retrieval for all ten remaining seeds; completed four additional AI full-text assessments. Cumulative: 84 assessed, 83 include recommendations, 1 exclude, 6 pending.

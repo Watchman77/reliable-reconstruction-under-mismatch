@@ -155,3 +155,11 @@ The research may improve visibility and quantify recoverability. It must not des
 **Design implication:** include a simple degradation-class stopping baseline alongside any proposed reliability-based release rule. Test calibrated detail reliability separately from perceptual quality and from restoration-task selection. This is a research-design inference from the assessed evidence, not an experimental result.
 
 **Evidence boundary:** P073's partial categorical uncertainty, structural fidelity and stopping codes carry explicit limits. Unassessed VDPS and FaverNet remain potential competitors, so their provisional fields cannot support definitive exclusion of overlap.
+
+## 16 September 2026 — Tenth AI full-text checkpoint
+
+**Checkpoint:** P029 adds one include recommendation. Cumulative: 85 assessed, 84 include recommendations, 1 exclude, 5 pending. The [report](../literature/screening/full_text_10_report.md) lists the remaining manuscripts. No additional seed quota or screening stage was introduced.
+
+**Decision:** retain the umbrella topic and candidate question. Structured mismatch correction must be represented among comparators. This is a design implication from the extraction, not a novelty finding. P029 does not settle the reliability question, and five unresolved full texts can still change the comparison.
+
+**Next action:** obtain the five named manuscripts to close AI full-text eligibility for the existing seeds. Human adjudication, publication lineage, source-specific quality checks and formal search accounting remain separately tracked. Do not substitute abstracts or related versions for missing complete papers.

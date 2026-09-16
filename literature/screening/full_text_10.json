@@ -1,0 +1,201 @@
+{
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "One complete online publisher text inspected for eligibility; no local PDF acquired. Five unresolved records retain pending decisions. Source and inspected extent are recorded; paper content is not redistributed.",
+    "c1": "The unchanged 2020–2026 window applies. Official proceedings or explicitly identified preprint/journal versions are inspected; final-version equivalence is not assumed.",
+    "c5": "Every assessed record had an accessible English full text at source_url.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch."
+  },
+  "user_deferral": {
+    "instruction": "User will handle pending items later; continue accessible paper assessment now.",
+    "effect": "No new user action is required for this checkpoint. Human adjudication, unresolved retrieval, version/lineage reconciliation and formal search accounting remain tracked, not marked complete."
+  },
+  "checkpoint": "full_text_10",
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 85,
+    "ai_include": 84,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 5,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "batch_counts": {
+    "new_assessments": 1,
+    "ai_include": 1,
+    "ai_exclude": 0,
+    "retrieval_pending": 5
+  },
+  "counts_scope": "Cumulative across full_text_01 through full_text_10; records contains one new assessment; pending_access contains five unresolved cases.",
+  "records": [
+    {
+      "study_id": "P029",
+      "title": "Robust Unrolled Network for Lensless Imaging with Enhanced Resistance to Model Mismatch and Noise",
+      "decision": "include",
+      "source_url": "https://www.researchgate.net/publication/382193237_Robust_unrolled_network_for_lensless_imaging_with_enhanced_resistance_to_model_mismatch_and_noise",
+      "version": "Published Optics Express 32(17), 30267–30283 (2024), DOI 10.1364/OE.531694; publisher-supplied full text on ResearchGate.",
+      "read_extent": "Main text §§1–6, including Eqs. 7–10, 23 and 32, acquisition description, experiments and Table 1; data-availability statement. Derivations and numerical results not independently reproduced.",
+      "technical": "MN-FISTA-Net augments image recovery with a structured mismatch nuisance variable, mixed regularization and learned denoising. Experiments use three lensless datasets and real objects. Operator posteriors, probability calibration and selective rejection are not demonstrated.",
+      "feature_codes": {
+        "O": "Partial",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "W": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§2–4; Eqs. 7–10 and 23; Fig. 7; Table 1",
+      "applicability": "O: nuisance estimation, not verified physical-PSF recovery. S: qualitative display-to-object transfer, not held-out-operator transfer. U: optical degradation plus noise. W: PSNR/LPIPS do not establish hallucination testing.",
+      "assessment_complete": true,
+      "local_pdf_acquired": false,
+      "quality_followups": [
+        "Reconcile conflicting acquisition counts and sensor specifications between §3 and Fig. 3 before replication; underlying data are available only by request."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "2024 journal article."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Lensless image reconstruction."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Explicit forward-model error and noise handling."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Unrolled method evaluated on captured measurements."
+        },
+        "5": {
+          "met": true,
+          "evidence": "Complete English publisher text inspected online."
+        }
+      }
+    }
+  ],
+  "pending_access": [
+    {
+      "study_id": "P030",
+      "title": "Empirical Bayesian Imaging With Large-Scale Push-Forward Generative Priors",
+      "source_url": "https://doi.org/10.1109/LSP.2024.3361806",
+      "attempts": [
+        {
+          "url": "https://www.research.ed.ac.uk/en/publications/0d5cb8b0-1651-4e30-84e8-de8f738ad327",
+          "result": "Institutional record retrieved; citation metadata exposes a manuscript PDF link."
+        },
+        {
+          "url": "https://www.research.ed.ac.uk/files/466600402/IEEE_Empirical_Bayesian.pdf",
+          "result": "HTTP 403; no full manuscript acquired."
+        }
+      ],
+      "next_action": "Obtain the accepted manuscript from the institutional record or publisher.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false,
+      "previous_attempts_register": "full_text_09.json",
+      "uploaded_file_search": "Broad topic and exact-title searches found no matching uploaded manuscript; search absence is not proof that no copy exists."
+    },
+    {
+      "study_id": "P035",
+      "title": "Mitigating Forward Model Mismatch in Inverse Problems via Learned Residuals and Diffusion Priors",
+      "source_url": "https://doi.org/10.1117/12.3098133",
+      "attempts": [
+        {
+          "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14016/140160D/Mitigating-forward-model-mismatch-in-inverse-problems-via-learned-residuals/10.1117/12.3098133.pdf",
+          "result": "Incapsula verification HTML returned instead of a PDF; full text not acquired."
+        }
+      ],
+      "next_action": "Obtain the SPIE proceedings paper or an author manuscript.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false,
+      "previous_attempts_register": "full_text_09.json",
+      "uploaded_file_search": "Broad topic and exact-title searches found no matching uploaded manuscript; search absence is not proof that no copy exists."
+    },
+    {
+      "study_id": "P040",
+      "title": "Video Diffusion Posterior Sampling for Seeing Beyond Dynamic Scattering Layers",
+      "source_url": "https://doi.org/10.1109/TPAMI.2025.3598457",
+      "attempts": [
+        {
+          "url": "https://www.researchgate.net/publication/394473982_Video_Diffusion_Posterior_Sampling_for_Seeing_Beyond_Dynamic_Scattering_Layers",
+          "result": "Abstract and request-full-text record; complete article unavailable."
+        },
+        {
+          "url": "https://openreview.net/forum?id=DHCp41nv1M",
+          "result": "Potential related earlier report found by title; verification page. No full text acquired; lineage to the TPAMI article remains unverified."
+        },
+        {
+          "url": "https://api2.openreview.net/notes?id=DHCp41nv1M",
+          "result": "HTTP 403 on public metadata API. No substitute assessment."
+        }
+      ],
+      "next_action": "Obtain the TPAMI paper; code and demonstrations do not replace eligibility assessment.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false,
+      "previous_attempts_register": "full_text_09.json",
+      "uploaded_file_search": "Broad topic and exact-title searches found no matching uploaded manuscript; search absence is not proof that no copy exists."
+    },
+    {
+      "study_id": "P049",
+      "title": "DeepVibes: Correcting Micro-Vibrations in Satellite Imaging with Pushbroom Cameras",
+      "source_url": "https://doi.org/10.1109/TGRS.2024.3415372",
+      "attempts": [
+        {
+          "url": "https://doi.org/10.1109/TGRS.2024.3415372",
+          "result": "Public OpenAlex location check and targeted author searches did not yield a new manuscript route; HAL remains the alternate locator."
+        }
+      ],
+      "next_action": "Obtain the HAL author manuscript or publisher PDF.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false,
+      "previous_attempts_register": "full_text_09.json",
+      "uploaded_file_search": "Broad topic and exact-title searches found no matching uploaded manuscript; search absence is not proof that no copy exists."
+    },
+    {
+      "study_id": "P053",
+      "title": "FaverNet: All-in-One Video Restoration via Frequency-Discriminative Conditioning",
+      "source_url": "https://doi.org/10.1007/s11263-026-02977-y",
+      "attempts": [
+        {
+          "url": "https://doi.org/10.1007/s11263-026-02977-y",
+          "result": "Public OpenAlex location check and targeted author searches did not yield a new manuscript route; publisher record remains the primary locator."
+        }
+      ],
+      "next_action": "Obtain the full IJCV article and check its relationship to P026/AverNet.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false,
+      "previous_attempts_register": "full_text_09.json",
+      "uploaded_file_search": "Broad topic and exact-title searches found no matching uploaded manuscript; search absence is not proof that no copy exists."
+    }
+  ],
+  "remaining_ids": [
+    "P030",
+    "P035",
+    "P040",
+    "P049",
+    "P053"
+  ],
+  "access_notes": [
+    "All six previously pending records received alternate-source checks. P029 is now assessed from complete publisher-supplied text. Five full texts remain pending; this is not completion of the screening stage.",
+    "P029 PDF download returned HTTP 403, but its complete publisher-supplied online text was readable. No local PDF-acquisition flag was upgraded.",
+    "Uploaded-file searches produced no matching manuscript. Abstracts, snippets, first-page previews and code do not establish full-text eligibility.",
+    "No access challenge was bypassed. The possible OpenReview precursor of P040 is not substituted for the TPAMI article. P026/P053 lineage remains unresolved."
+  ]
+}

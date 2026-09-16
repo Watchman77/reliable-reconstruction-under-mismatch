@@ -1,6 +1,6 @@
 # Forward-Model Mismatch Review: 90 Seed Publications
 
-> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 84 AI full-text assessments are complete (83 include recommendations, 1 exclude); 6 remain. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_09_report.md for evidence limits and corrected links.
+> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 85 AI full-text assessments are complete (84 include recommendations, 1 exclude); 5 remain. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_10_report.md for evidence limits and corrected links.
 
 1. **P001** — Nan, Yuesong; Ji, Hui (2020). “Deep Learning for Handling Kernel/Model Uncertainty in Image Deconvolution.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR42600.2020.00246)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
@@ -59,7 +59,7 @@
 28. **P028** — Yu et al. (2024). “Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild.” *CVPR*. [Primary source](https://arxiv.org/abs/2401.13627)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 29. **P029** — Qian et al. (2024). “Robust Unrolled Network for Lensless Imaging with Enhanced Resistance to Model Mismatch and Noise.” *Optics Express*. [Primary source](https://opg.optica.org/oe/abstract.cfm?uri=oe-32-17-30267)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 30. **P030** — Melidonis, S.; Holden, M.; Altmann, Y.; Pereyra, M.; Zygalakis, K. C. (2024). “Empirical Bayesian Imaging With Large-Scale Push-Forward Generative Priors.” *IEEE SPL*. [Primary source](https://doi.org/10.1109/LSP.2024.3361806)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 31. **P031** — Gottschling et al. (2025). “The Troublesome Kernel: On Hallucinations, No Free Lunches, and the Accuracy-Stability Tradeoff in Inverse Problems.” *SIAM Review*. [Primary source](https://doi.org/10.1137/23M1568739)  
