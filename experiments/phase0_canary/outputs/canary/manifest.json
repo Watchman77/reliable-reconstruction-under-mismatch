@@ -1,0 +1,65 @@
+{
+  "seed": 20260915,
+  "true_acquisitions": {
+    "blur_only": {
+      "blur_type": "motion",
+      "blur_length": 15,
+      "blur_angle_deg": 24.0,
+      "gaussian_sigma": 0.0,
+      "photons": 0.0,
+      "read_noise_std": 0.0,
+      "downsample_factor": 1,
+      "jpeg_quality": 100
+    },
+    "compound": {
+      "blur_type": "motion",
+      "blur_length": 15,
+      "blur_angle_deg": 24.0,
+      "gaussian_sigma": 0.0,
+      "photons": 45.0,
+      "read_noise_std": 0.012,
+      "downsample_factor": 2,
+      "jpeg_quality": 32
+    }
+  },
+  "assumed_operators": [
+    {
+      "label": "blur_matched",
+      "blur_type": "motion",
+      "blur_length": 15,
+      "blur_angle_deg": 24.0,
+      "gaussian_sigma": 0.0,
+      "wiener_balance": 0.006
+    },
+    {
+      "label": "mild",
+      "blur_type": "motion",
+      "blur_length": 13,
+      "blur_angle_deg": 18.0,
+      "gaussian_sigma": 0.0,
+      "wiener_balance": 0.006
+    },
+    {
+      "label": "moderate",
+      "blur_type": "motion",
+      "blur_length": 9,
+      "blur_angle_deg": 5.0,
+      "gaussian_sigma": 0.0,
+      "wiener_balance": 0.006
+    },
+    {
+      "label": "severe",
+      "blur_type": "gaussian",
+      "blur_length": 0,
+      "blur_angle_deg": 0.0,
+      "gaussian_sigma": 2.2,
+      "wiener_balance": 0.006
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "synthetic_000",
+      "seed": 20260915
+    }
+  ]
+}
