@@ -145,3 +145,13 @@ The research may improve visibility and quantify recoverability. It must not des
 **Research implication:** compare parameter correction, categorical degradation inference, calibrated uncertainty and selective output as separate capabilities. Existing operator-family methods and real-video failure cases constrain the experimental design. This is a synthesis inference, not a novelty finding or a result from our own reconstruction model.
 
 **Evidence correction:** P032's full methods supersede its provisional positive uncertainty/calibration ratings. P071's soft degradation-type probabilities receive partial credit with an explicit interpretation boundary. Unlisted feature fields remain provisional.
+
+## 16 September 2026 — Ninth AI full-text checkpoint
+
+**Checkpoint:** four additional include recommendations; all ten previously pending seeds received retrieval attempts. Cumulative: 84 assessed, 83 include recommendations, 1 exclude, 6 pending. The [report](../literature/screening/full_text_09_report.md) records the remaining access gaps. Formal eligibility and human adjudication remain pending.
+
+**Decision:** preserve the umbrella topic and candidate question. Continue accessible analysis while the six full texts are obtained; do not declare screening complete or novelty established. No extra screening stage or additional seed quota is introduced.
+
+**Design implication:** include a simple degradation-class stopping baseline alongside any proposed reliability-based release rule. Test calibrated detail reliability separately from perceptual quality and from restoration-task selection. This is a research-design inference from the assessed evidence, not an experimental result.
+
+**Evidence boundary:** P073's partial categorical uncertainty, structural fidelity and stopping codes carry explicit limits. Unassessed VDPS and FaverNet remain potential competitors, so their provisional fields cannot support definitive exclusion of overlap.

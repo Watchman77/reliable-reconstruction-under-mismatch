@@ -1,6 +1,6 @@
 # Forward-Model Mismatch Review: 90 Seed Publications
 
-> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 80 AI full-text assessments are complete (79 include recommendations, 1 exclude); 10 remain. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_08_report.md for evidence limits and corrected links.
+> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 84 AI full-text assessments are complete (83 include recommendations, 1 exclude); 6 remain. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_09_report.md for evidence limits and corrected links.
 
 1. **P001** — Nan, Yuesong; Ji, Hui (2020). “Deep Learning for Handling Kernel/Model Uncertainty in Image Deconvolution.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR42600.2020.00246)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
@@ -89,7 +89,7 @@
 43. **P043** — Gilton et al. (2021). “Model Adaptation for Inverse Problems in Imaging.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2021.3094714)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 44. **P044** — Rego et al. (2021). “Robust Lensless Image Reconstruction via PSF Estimation.” *WACV*. [Primary source](https://doi.org/10.1109/WACV48630.2021.00045)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 45. **P045** — Gan et al. (2023). “Block Coordinate Plug-and-Play Methods for Blind Inverse Problems.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f810c2ba07bae78dfe9d25c5d40c5536-Abstract-Conference.html)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 46. **P046** — Gossard & Weiss (2024). “Training Adaptive Reconstruction Networks for Blind Inverse Problems.” *SIAM Journal on Imaging Sciences*. [Primary source](https://doi.org/10.1137/23M1545628)  
@@ -111,13 +111,13 @@
 54. **P054** — Kim et al. (2024). “Towards Real-world Event-guided Low-light Video Enhancement and Deblurring.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-031-73254-6_25)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 55. **P055** — Zhou et al. (2022). “LEDNet: Joint Low-Light Enhancement and Deblurring in the Dark.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-031-20068-7_33)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 56. **P056** — Chan et al. (2022). “Investigating Tradeoffs in Real-World Video Super-Resolution.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR52688.2022.00587)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 57. **P057** — Jeelani et al. (2023). “Expanding Synthetic Real-World Degradations for Blind Video Super Resolution.” *CVPR Workshops*. [Primary source](https://doi.org/10.1109/CVPRW59228.2023.00127)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 58. **P058** — Yang et al. (2021). “Real-world Video Super-resolution: A Benchmark Dataset and a Decomposition Based Learning Scheme.” *ICCV*. [Primary source](https://doi.org/10.1109/ICCV48922.2021.00474)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 59. **P059** — Zhong et al. (2023). “Real-World Video Deblurring: A Benchmark Dataset and an Efficient Recurrent Neural Network.” *IJCV*. [Primary source](https://doi.org/10.1007/s11263-022-01705-6)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 60. **P060** — Han & Kim (2025). “CQAD: An Image Quality Assessment Dataset for CCTV.” *JMIS*. [Primary source](https://doi.org/10.33851/JMIS.2025.12.3.81)  
@@ -147,7 +147,7 @@
 72. **P072** — Wang et al. (2023). “PromptRestorer: A Prompting Image Restoration Method with Degradation Perception.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2023/file/1c364d98a5cdc426fd8c76fbb2c10e34-Paper-Conference.pdf)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 73. **P073** — Jiang et al. (2024). “AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-031-73661-2_19)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 74. **P074** — Luo et al. (2024). “Controlling Vision-Language Models for Multi-Task Image Restoration.” *ICLR*. [Primary source](https://openreview.net/forum?id=t3vnnLeajU)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 75. **P075** — Ai et al. (2024). “Multimodal Prompt Perceiver: Empower Adaptiveness, Generalizability and Fidelity for All-in-One Image Restoration.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR52733.2024.02403)  

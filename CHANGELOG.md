@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.16.0 — 2026-09-16
+
+- Attempted retrieval for all ten remaining seeds; completed four additional AI full-text assessments. Cumulative: 84 assessed, 83 include recommendations, 1 exclude, 6 pending.
+- Documented access barriers, primary routes and next actions for all six pending papers without inferring decisions from abstracts, previews or code.
+- Distinguished AutoDIR's categorical probabilities and clean-class stopping from physical-operator uncertainty and risk-controlled release.
+- Recorded four acquired PDF versions and hashes; paper content is not redistributed.
+- Updated the matrix, tracker, reference exports and current-status documents. Preserved historic triage, formal decisions, native workbook objects and protocol v0.4. Novelty remains unestablished.
+
 ## 0.15.0 — 2026-09-16
 
 - Added ten AI full-text eligibility assessments. Cumulative: 80 assessed, 79 include recommendations, 1 exclude, 10 pending.

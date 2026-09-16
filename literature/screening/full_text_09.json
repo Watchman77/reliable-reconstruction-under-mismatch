@@ -1,0 +1,399 @@
+{
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "Four complete PDFs retrieved and inspected for eligibility. Six remaining records have access notes but no new decisions. Source hashes record provenance; paper content is not redistributed.",
+    "c1": "The unchanged 2020–2026 window applies. Official proceedings or explicitly identified preprint/journal versions are inspected; final-version equivalence is not assumed.",
+    "c5": "Every assessed record had an accessible English full text at source_url.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch.",
+    "categorical_operator_uncertainty": "P073 O/Q=Partial denotes degradation-class probabilities, not a posterior over physical parameters; R=No. X=Partial denotes predicted-clean stopping, not uncertainty-based rejection or a risk guarantee. P073 W=Partial denotes structural-fidelity comparisons, not measurement-support certification."
+  },
+  "user_deferral": {
+    "instruction": "User will handle pending items later; continue accessible paper assessment now.",
+    "effect": "No new user action is required for this checkpoint. Human adjudication, unresolved retrieval, version/lineage reconciliation and formal search accounting remain tracked, not marked complete."
+  },
+  "checkpoint": "full_text_09",
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 84,
+    "ai_include": 83,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 6,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "batch_counts": {
+    "new_assessments": 4,
+    "ai_include": 4,
+    "ai_exclude": 0,
+    "retrieval_pending": 6
+  },
+  "counts_scope": "Cumulative across full_text_01 through full_text_09; records contains four new assessments only; pending_access contains six retrieval cases.",
+  "records": [
+    {
+      "study_id": "P044",
+      "title": "Robust Lensless Image Reconstruction via PSF Estimation",
+      "decision": "include",
+      "source_url": "https://openaccess.thecvf.com/content/WACV2021/papers/Rego_Robust_Lensless_Image_Reconstruction_via_PSF_Estimation_WACV_2021_paper.pdf",
+      "version": "Official WACV 2021 proceedings PDF.",
+      "read_extent": "Main text §§1–6, PDF pp. 1–8; supplementary files and code not audited.",
+      "technical": "Two generators estimate images and PSFs with a forward-consistency loss. Calibration targets are required during training. Multi-PSF and captured-camera tests do not establish held-out-PSF transfer; unseen-noise sensitivity is tested. Point PSFs supply no operator uncertainty.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5; Eq. 4; noise ablation; prototype results",
+      "applicability": "S denotes unseen-noise testing; U denotes blur plus noise. Video capture does not establish changing-operator inference.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Check held-out PSF identities before claiming cross-device generalization."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Official WACV 2021 proceedings PDF."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Joint PSF/image inference and added-noise robustness."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method/benchmark evaluated in the inspected sections."
+        },
+        "5": {
+          "met": true,
+          "evidence": "Accessible English full paper; local PDF verified."
+        }
+      },
+      "source_file_sha256": "f0a4dea9efdaeb52d18898a50d2b7877d8edfa5adbad74e2861fd10a64b80a93",
+      "source_file_bytes": 6236695
+    },
+    {
+      "study_id": "P055",
+      "title": "LEDNet: Joint Low-light Enhancement and Deblurring in the Dark",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/2202.03373",
+      "version": "arXiv 2202.03373 v2, 30 August 2022; final proceedings not reconciled.",
+      "read_extent": "Main text §§1–6, pp. 1–14; supplement §§A–C and §D description, pp. 18–22; p. 27 captions. Separate video not inspected.",
+      "technical": "The simulator combines low light, saturation-sensitive motion blur, defocus and noise. The encoder/decoder uses adaptive feature transformations rather than an inferred physical operator. Synthetic paired tests and unpaired real-night evaluations address compound restoration, without probability calibration.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5; Tables 1–3; supplement §§B–C",
+      "applicability": "Real-night scores assess perceptual quality without clean reference targets.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Separate enhancement preference from faithful detail recovery; verify final proceedings before numerical reuse."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2202.03373 v2, 30 August 2022; final proceedings not reconciled."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Compound low-light/blur/noise restoration with synthetic-to-real evaluation."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method/benchmark evaluated in the inspected sections."
+        },
+        "5": {
+          "met": true,
+          "evidence": "Accessible English full paper; local PDF verified."
+        }
+      },
+      "source_file_sha256": "75a9f40765f822a5f444563211851f9f7627fd49b256bebaf2938485514bf5f2",
+      "source_file_bytes": 41796389
+    },
+    {
+      "study_id": "P058",
+      "title": "Real-world Video Super-resolution: A Benchmark Dataset and a Decomposition Based Learning Scheme",
+      "decision": "include",
+      "source_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Real-World_Video_Super-Resolution_A_Benchmark_Dataset_and_a_Decomposition_Based_ICCV_2021_paper.pdf",
+      "version": "Official ICCV 2021 proceedings PDF.",
+      "read_extent": "Main text §§1–6, PDF pp. 1–8; supplement and code not audited.",
+      "technical": "RealVSR captures paired phone-camera videos and uses decomposed losses to tolerate residual alignment and luminance differences. Cross-phone tests address transfer. Capture includes multiple degradation sources, but no controlled time-varying-operator experiment or uncertainty distribution is demonstrated.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5; Eqs. 1–7; Tables 1–2; Fig. 8",
+      "applicability": "U denotes compound captured acquisition; S includes cross-phone qualitative tests.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Account for excluded severe cases, paired-camera misalignment and generated textures before treating references as exact truth."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Official ICCV 2021 proceedings PDF."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Real acquisition mismatch and cross-camera restoration tests."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method/benchmark evaluated in the inspected sections."
+        },
+        "5": {
+          "met": true,
+          "evidence": "Accessible English full paper; local PDF verified."
+        }
+      },
+      "source_file_sha256": "697642be36cebab50a871f3491d7a782d33e8250c04894391d9e695119614ee0",
+      "source_file_bytes": 6291110
+    },
+    {
+      "study_id": "P073",
+      "title": "AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion",
+      "decision": "include",
+      "source_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05684.pdf",
+      "version": "Official ECCV 2024 proceedings PDF.",
+      "read_extent": "Main text §§1–5, PDF pp. 1–14; Table 2 visually checked. Separate appendix and code not audited.",
+      "technical": "AutoDIR mixes degradation-class probabilities, applies structural-corrected diffusion, and stops on a clean-image class. This supports partial categorical inference/uncertainty and partial stopping, not calibrated operator posteriors or risk-controlled release. Structural comparisons provide partial fidelity evidence; super-resolution metrics show a perception/distortion trade-off.",
+      "feature_codes": {
+        "O": "Partial",
+        "P": "No",
+        "Q": "Partial",
+        "R": "No",
+        "S": "Yes",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "W": "Partial",
+        "X": "Partial"
+      },
+      "feature_locator": "§3.1 Eqs. 1–3; §3.3 Eq. 7; §4.1; Tables 2–3",
+      "applicability": "Partial Q is categorical weighting; partial X is clean-class stopping; neither supplies calibrated reliability.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Compare clean-class stopping against risk-based release; do not treat few-shot JPEG/desnow adaptation as zero-shot testing."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Official ECCV 2024 proceedings PDF."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown compound restoration with held-out acquisition tasks."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method/benchmark evaluated in the inspected sections."
+        },
+        "5": {
+          "met": true,
+          "evidence": "Accessible English full paper; local PDF verified."
+        }
+      },
+      "source_file_sha256": "2bd37771d64685355d37a656055d5cb8ab3ebaaf7eaf1a3ce1350b7839adc55e",
+      "source_file_bytes": 6170439
+    }
+  ],
+  "pending_access": [
+    {
+      "study_id": "P029",
+      "title": "Robust Unrolled Network for Lensless Imaging with Enhanced Resistance to Model Mismatch and Noise",
+      "source_url": "https://doi.org/10.1364/OE.531694",
+      "attempts": [
+        {
+          "url": "https://opg.optica.org/viewmedia.cfm?uri=oe-32-17-30267&seq=0",
+          "result": "HTML JavaScript verification page, not PDF."
+        },
+        {
+          "url": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-17-30267",
+          "result": "Full text not accessible through public retrieval."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39573193/",
+          "result": "Bibliographic record; not the full methods."
+        }
+      ],
+      "next_action": "Obtain the publisher PDF or an author manuscript.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false
+    },
+    {
+      "study_id": "P030",
+      "title": "Empirical Bayesian Imaging With Large-Scale Push-Forward Generative Priors",
+      "source_url": "https://doi.org/10.1109/LSP.2024.3361806",
+      "attempts": [
+        {
+          "url": "https://researchportal.hw.ac.uk/files/107562017/Empirical_Bayesian_Imaging_with_Large-Scale_Push-Forward_Generative_Priors.pdf",
+          "result": "HTTP 403; no manuscript acquired."
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/iel7/97/10407706/10419008.pdf",
+          "result": "Attempted PDF route returned HTTP 418."
+        },
+        {
+          "url": "https://webhomes.maths.ed.ac.uk/~kzygalak/publications.html",
+          "result": "Author listing links to IEEE; no alternate paper file found."
+        }
+      ],
+      "next_action": "Obtain the accepted manuscript from the institutional record or publisher.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false
+    },
+    {
+      "study_id": "P035",
+      "title": "Mitigating Forward Model Mismatch in Inverse Problems via Learned Residuals and Diffusion Priors",
+      "source_url": "https://doi.org/10.1117/12.3098133",
+      "attempts": [
+        {
+          "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14016/140160D/Mitigating-forward-model-mismatch-in-inverse-problems-via-learned-residuals/10.1117/12.3098133.full",
+          "result": "Incapsula request-unsuccessful HTML; indexed snippets insufficient."
+        },
+        {
+          "url": "https://pure.kaist.ac.kr/en/publications/mitigating-forward-model-mismatch-in-inverse-problems-via-learned/",
+          "result": "Primary metadata and abstract only."
+        }
+      ],
+      "next_action": "Obtain the SPIE proceedings paper or an author manuscript.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false
+    },
+    {
+      "study_id": "P040",
+      "title": "Video Diffusion Posterior Sampling for Seeing Beyond Dynamic Scattering Layers",
+      "source_url": "https://doi.org/10.1109/TPAMI.2025.3598457",
+      "attempts": [
+        {
+          "url": "https://ieeexplore.ieee.org/iel8/34/11230086/11123732.pdf",
+          "result": "HTTP 418; no PDF acquired."
+        },
+        {
+          "url": "https://www.computer.org/csdl/journal/tp/2025/12/11123732/299pur3caL6",
+          "result": "Application shell; no full article text returned."
+        },
+        {
+          "url": "https://github.com/star-kwon/VDPS",
+          "result": "Author code repository inspected for paper files; none located in the main tree."
+        }
+      ],
+      "next_action": "Obtain the TPAMI paper; code and demonstrations do not replace eligibility assessment.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false
+    },
+    {
+      "study_id": "P049",
+      "title": "DeepVibes: Correcting Micro-Vibrations in Satellite Imaging with Pushbroom Cameras",
+      "source_url": "https://doi.org/10.1109/TGRS.2024.3415372",
+      "attempts": [
+        {
+          "url": "https://hal.science/hal-04606597v1/document",
+          "result": "HAL verification/access-denied page."
+        },
+        {
+          "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:hal-04606597&fl=title_s,fileMain_s,uri_s&wt=json",
+          "result": "Public API confirms record and same HAL document route; no alternative PDF."
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/iel8/36/10354519/10559627.pdf",
+          "result": "HTTP 418."
+        },
+        {
+          "url": "https://openreview.net/pdf/c3c4a87105cfe8e4181f7eb9946db0acd30b8f3a.pdf",
+          "result": "Web retrieval failed; prior HTTP 403 remains unresolved."
+        }
+      ],
+      "next_action": "Obtain the HAL author manuscript or publisher PDF.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false
+    },
+    {
+      "study_id": "P053",
+      "title": "FaverNet: All-in-One Video Restoration via Frequency-Discriminative Conditioning",
+      "source_url": "https://doi.org/10.1007/s11263-026-02977-y",
+      "attempts": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s11263-026-02977-y",
+          "result": "Abstract/access page, not complete methods."
+        },
+        {
+          "url": "https://www.researchgate.net/publication/411998412_FaverNet_All-in-One_Video_Restoration_via_Frequency-Discriminative_Conditioning",
+          "result": "Publisher first-page preview and figure captions only."
+        },
+        {
+          "url": "https://github.com/XLearning-SCU/2026-IJCV-FaverNet",
+          "result": "Author repository contains code; no paper PDF found in main tree."
+        }
+      ],
+      "next_action": "Obtain the full IJCV article and check its relationship to P026/AverNet.",
+      "checked_on": "2026-09-16",
+      "decision": "pending",
+      "assessment_complete": false
+    }
+  ],
+  "remaining_ids": [
+    "P029",
+    "P030",
+    "P035",
+    "P040",
+    "P049",
+    "P053"
+  ],
+  "access_notes": [
+    "All ten records pending at checkpoint 08 received a retrieval attempt. Four support full-text eligibility decisions; six remain pending. This closes the current retrieval pass, not the full-text screening stage.",
+    "No access challenge was bypassed. Abstracts, search snippets, first-page previews and code availability do not establish full-text eligibility. Alternate legitimate sources may still exist.",
+    "The unrelated arXiv 2508.01975 survey was rejected as a locator for P040; no metadata change or assessment was based on it.",
+    "P026/P053 lineage remains unresolved; no extra studies added and no automatic merging performed."
+  ]
+}
