@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.11.0 — 2026-09-16
+
+- Added eight AI full-text eligibility assessments, all include recommendations. Cumulative: 44 assessed, 43 include, 1 exclude, 46 pending.
+- Recorded exact source versions, reading extent, criterion-level evidence and selected feature corrections for lensless mismatch, hallucination maps, calibrated intervals, diffusion inversion and compound video restoration.
+- Distinguished sampled images from calibrated uncertainty, physical-operator inference from feature correction, and real-video quality from reference-verified detail. Novelty remains unestablished.
+- Logged four unresolved retrieval cases and two alternate-source resolutions; pending user work remains deferred.
+- Synchronized the matrix, screening log and four reference exports, with native workbook objects and earlier decisions preserved. Protocol v0.4 and the date window are unchanged.
+
 ## 0.10.0 — 2026-09-16
 
 - Added 12 AI full-text eligibility assessments, all include recommendations. Cumulative: 36 assessed, 35 include, 1 exclude, 54 pending.

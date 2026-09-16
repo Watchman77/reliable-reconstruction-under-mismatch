@@ -91,3 +91,13 @@ The research may improve visibility and quantify recoverability. It must not des
 **Research implication:** retain the original umbrella topic and candidate question. The current [source-backed report](../literature/screening/full_text_03_report.md) distinguishes stochastic inference, operator point estimation, physical calibration, empirical coverage and content versus acquisition shifts. Those distinctions guide comparison design; they do not establish novelty.
 
 **Next work:** assess the remaining 54 seed records under the existing criteria, resolve access as sources become available, and preserve all completed decisions. Do not infer final journal results from an earlier preprint or convert an unverified legacy code into established evidence.
+
+## 16 September 2026 — Fourth AI full-text checkpoint
+
+**Checkpoint:** eight additional assessments, all include recommendations. Cumulative: 44 assessed, 43 include, 1 exclude, 46 pending. These are AI recommendations, with human adjudication and formal search accounting pending.
+
+**Decision:** retain the umbrella topic and candidate question. Continue the same workflow without restarting earlier assessments or asking the user to clear deferred items first. Four newly unsuccessful retrieval cases remain pending; alternative sources are not exhausted.
+
+**Research implication:** the [source-backed checkpoint](../literature/screening/full_text_04_report.md) records existing mismatch compensation, interval calibration and video degradation modelling. Comparison design must specify target truth, available sensors, operator assumptions, calibration splits and the meaning of a released detail. The accumulated evidence does not yet establish novelty.
+
+**Next work:** assess the remaining 46 seed records and reconcile flagged versions/guarantee conditions before using their results in a final synthesis. Earlier reports keep their historical counts.

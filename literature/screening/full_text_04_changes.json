@@ -1,0 +1,464 @@
+{
+  "checked_on": "2026-09-16",
+  "baseline_workbook_blob": "86e383b285b36b684ab00b3c13754171ae3121ff",
+  "note": "8 additional AI full-text decisions; cumulative 44 assessed, 43 include, 1 exclude, 46 pending. Historical triage and formal decisions preserved.",
+  "changes": [
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z6",
+      "old": "Abstract inspected; full-text pending",
+      "new": "AI full-text eligibility assessed; selected features verified",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF6",
+      "old": "Nearest early mismatch competitor | AI pilot 2026-09-16; advance to full text. Explicit forward-model mismatch compensation. Human adjudication and full-text coding pending. Evidence: https://www.eee.hku.hk/optima/pub/journal/2109_TCI.pdf",
+      "new": "Nearest early mismatch competitor | AI pilot 2026-09-16; advance to full text. Explicit forward-model mismatch compensation. Human adjudication and full-text coding pending. Evidence: https://www.eee.hku.hk/optima/pub/journal/2109_TCI.pdf | AI full-text 2026-09-16: include; human pending. Verified fields: O, P, Q, R, T, X. Evidence/version/read extent: screening/full_text_04.json (P005). Unlisted feature codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "O6",
+      "old": "Partial",
+      "new": "No",
+      "reason": "P005: §§III–V; Eqs. 2–21; §V-C; https://www.eee.hku.hk/optima/pub/journal/2109_TCI.pdf"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "J6",
+      "old": "Pending",
+      "new": "AI full-text: include",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "K6",
+      "old": null,
+      "new": "",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L6",
+      "old": "2026-09-16 | AI only; human pending. Explicit forward-model mismatch compensation. Basis: Author-hosted published PDF abstract and opening page. Full-text question and source: screening/pilot_01.json (P005).",
+      "new": "2026-09-16 | AI full-text include; human pending. Biased forward model and compensation; §§III–IV. Online text inspected; no local PDF saved. Version, read extent and technical extraction: screening/full_text_04.json (P005).",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z9",
+      "old": "Abstract inspected; full-text pending",
+      "new": "AI full-text eligibility assessed; selected features verified",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF9",
+      "old": "Faithfulness foundation | AI pilot 2026-09-16; advance to full text. Hallucination and measurement/null-space analysis. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2012.00646",
+      "new": "Faithfulness foundation | AI pilot 2026-09-16; advance to full text. Hallucination and measurement/null-space analysis. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2012.00646 | AI full-text 2026-09-16: include; human pending. Verified fields: O, P, Q, R, S, T, U, W, X. Evidence/version/read extent: screening/full_text_04.json (P008). Unlisted feature codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "T9",
+      "old": "Partial",
+      "new": "No",
+      "reason": "P008: §§II–V; §IV-D map processing; https://arxiv.org/html/2012.00646v3"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "U9",
+      "old": "No",
+      "new": "Yes",
+      "reason": "P008: §§II–V; §IV-D map processing; https://arxiv.org/html/2012.00646v3"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "J9",
+      "old": "Pending",
+      "new": "AI full-text: include",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "K9",
+      "old": null,
+      "new": "",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L9",
+      "old": "2026-09-16 | AI only; human pending. Hallucination and measurement/null-space analysis. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P008).",
+      "new": "2026-09-16 | AI full-text include; human pending. Prior-induced hallucination, model error and distribution shift; §§III–V. Online text inspected; no local PDF saved. Version, read extent and technical extraction: screening/full_text_04.json (P008).",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z15",
+      "old": "Abstract inspected; full-text pending",
+      "new": "AI full-text eligibility assessed; selected features verified",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF15",
+      "old": "UQ method candidate | AI pilot 2026-09-16; advance to full text. Diffusion-based confidence intervals. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2211.09795",
+      "new": "UQ method candidate | AI pilot 2026-09-16; advance to full text. Diffusion-based confidence intervals. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2211.09795 | AI full-text 2026-09-16: include; human pending. Verified fields: O, P, Q, R, S, T, X. Evidence/version/read extent: screening/full_text_04.json (P014). Unlisted feature codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "S15",
+      "old": "Partial",
+      "new": "No",
+      "reason": "P014: §§3.2–5; Appendices A/B; https://arxiv.org/html/2211.09795v1"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "T15",
+      "old": "Partial",
+      "new": "No",
+      "reason": "P014: §§3.2–5; Appendices A/B; https://arxiv.org/html/2211.09795v1"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "J15",
+      "old": "Pending",
+      "new": "AI full-text: include",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "K15",
+      "old": null,
+      "new": "",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L15",
+      "old": "2026-09-16 | AI only; human pending. Diffusion-based confidence intervals. Basis: Preprint abstract; peer review not established. Full-text question and source: screening/pilot_01.json (P014).",
+      "new": "2026-09-16 | AI full-text include; human pending. Reconstruction uncertainty and risk calibration; §§3–4. Online text inspected; no local PDF saved. Version, read extent and technical extraction: screening/full_text_04.json (P014).",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z16",
+      "old": "Abstract inspected; full-text pending",
+      "new": "AI full-text eligibility assessed; selected features verified",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF16",
+      "old": "Diffusion baseline | AI pilot 2026-09-16; advance to full text. Approximate posterior reconstruction under noise. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2209.14687",
+      "new": "Diffusion baseline | AI pilot 2026-09-16; advance to full text. Approximate posterior reconstruction under noise. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2209.14687 | AI full-text 2026-09-16: include; human pending. Verified fields: O, P, Q, R, T, U, X. Evidence/version/read extent: screening/full_text_04.json (P015). Unlisted feature codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "P16",
+      "old": "Partial",
+      "new": "Yes",
+      "reason": "P015: §3, Algorithms 1–2; §4; Appendix C.6; https://arxiv.org/html/2209.14687v4"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "T16",
+      "old": "Partial",
+      "new": "No",
+      "reason": "P015: §3, Algorithms 1–2; §4; Appendix C.6; https://arxiv.org/html/2209.14687v4"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "U16",
+      "old": "No",
+      "new": "Yes",
+      "reason": "P015: §3, Algorithms 1–2; §4; Appendix C.6; https://arxiv.org/html/2209.14687v4"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "J16",
+      "old": "Pending",
+      "new": "AI full-text: include",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "K16",
+      "old": null,
+      "new": "",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L16",
+      "old": "2026-09-16 | AI only; human pending. Approximate posterior reconstruction under noise. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P015).",
+      "new": "2026-09-16 | AI full-text include; human pending. Approximate reconstruction posterior; §3. Online text inspected; no local PDF saved. Version, read extent and technical extraction: screening/full_text_04.json (P015).",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z55",
+      "old": "Abstract inspected; full-text pending",
+      "new": "AI full-text eligibility assessed; selected features verified",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF55",
+      "old": "High-value real urban data comparator | AI pilot 2026-09-16: AI pilot: advance; human pending. Basis: Complete author preprint abstract. Feature codes remain provisional. Which information depends on an event sensor unavailable in ordinary CCTV? Verify pairing, exposure differences and cross-device generalization. Evidence: https://arxiv.org/abs/2408.14916",
+      "new": "High-value real urban data comparator | AI pilot 2026-09-16: AI pilot: advance; human pending. Basis: Complete author preprint abstract. Feature codes remain provisional. Which information depends on an event sensor unavailable in ordinary CCTV? Verify pairing, exposure differences and cross-device generalization. Evidence: https://arxiv.org/abs/2408.14916 | AI full-text 2026-09-16: include; human pending. Verified fields: O, P, Q, R, T, U, X. Evidence/version/read extent: screening/full_text_04.json (P054). Unlisted feature codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "J55",
+      "old": "Pending",
+      "new": "AI full-text: include",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "K55",
+      "old": null,
+      "new": "",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L55",
+      "old": "2026-09-16 | AI only; human pending. Joint low-light and motion-blur restoration with real paired acquisition. Basis: Complete author preprint abstract. Sources and full-text question: screening/pilot_03.json (P054).",
+      "new": "2026-09-16 | AI full-text include; human pending. Combined low light, noise and motion blur; §§3–4. Online text inspected; no local PDF saved. Version, read extent and technical extraction: screening/full_text_04.json (P054).",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z57",
+      "old": "Abstract inspected; full-text pending",
+      "new": "AI full-text eligibility assessed; selected features verified",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF57",
+      "old": "Real-world VSR baseline | AI pilot 2026-09-16: AI pilot: advance; human pending. Basis: Complete author preprint abstract. Feature codes remain provisional. Separate perceptual gains on unpaired videos from faithful detail recovery. Verify held-out cameras/codecs and which degradations are jointly simulated. Evidence: https://arxiv.org/abs/2111.12704",
+      "new": "Real-world VSR baseline | AI pilot 2026-09-16: AI pilot: advance; human pending. Basis: Complete author preprint abstract. Feature codes remain provisional. Separate perceptual gains on unpaired videos from faithful detail recovery. Verify held-out cameras/codecs and which degradations are jointly simulated. Evidence: https://arxiv.org/abs/2111.12704 | AI full-text 2026-09-16: include; human pending. Verified fields: O, P, Q, R, S, T, U, V, W, X. Evidence/version/read extent: screening/full_text_04.json (P056). Unlisted feature codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "S57",
+      "old": "Yes",
+      "new": "Partial",
+      "reason": "P056: §§3–5; §4.1; VideoLQ evaluation; https://arxiv.org/html/2111.12704v1"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "V57",
+      "old": "Partial",
+      "new": "Yes",
+      "reason": "P056: §§3–5; §4.1; VideoLQ evaluation; https://arxiv.org/html/2111.12704v1"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "W57",
+      "old": "No",
+      "new": "Partial",
+      "reason": "P056: §§3–5; §4.1; VideoLQ evaluation; https://arxiv.org/html/2111.12704v1"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "J57",
+      "old": "Pending",
+      "new": "AI full-text: include",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "K57",
+      "old": null,
+      "new": "",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L57",
+      "old": "2026-09-16 | AI only; human pending. Blind real-world video super-resolution under complex degradation. Basis: Complete author preprint abstract. Sources and full-text question: screening/pilot_03.json (P056).",
+      "new": "2026-09-16 | AI full-text include; human pending. Compound/time-varying training degradation; §4.1. Online text inspected; no local PDF saved. Version, read extent and technical extraction: screening/full_text_04.json (P056).",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z58",
+      "old": "Abstract inspected; full-text pending",
+      "new": "AI full-text eligibility assessed; selected features verified",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF58",
+      "old": "Useful simulator design reference | AI pilot 2026-09-16: AI pilot: advance; human pending. Basis: Complete author preprint abstract. Feature codes remain provisional. Do the tested codecs and degradation orders leave the training distribution? Non-reference quality scores alone do not establish recovery of true detail. Evidence: https://arxiv.org/abs/2305.02660",
+      "new": "Useful simulator design reference | AI pilot 2026-09-16: AI pilot: advance; human pending. Basis: Complete author preprint abstract. Feature codes remain provisional. Do the tested codecs and degradation orders leave the training distribution? Non-reference quality scores alone do not establish recovery of true detail. Evidence: https://arxiv.org/abs/2305.02660 | AI full-text 2026-09-16: include; human pending. Verified fields: O, P, Q, R, S, T, U, V, X. Evidence/version/read extent: screening/full_text_04.json (P057). Unlisted feature codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "S58",
+      "old": "Yes",
+      "new": "Partial",
+      "reason": "P057: §§1, 3–5; §5.1 grouped degradation; §5.2; https://arxiv.org/pdf/2305.02660"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "T58",
+      "old": "Partial",
+      "new": "Yes",
+      "reason": "P057: §§1, 3–5; §5.1 grouped degradation; §5.2; https://arxiv.org/pdf/2305.02660"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "V58",
+      "old": "Partial",
+      "new": "No",
+      "reason": "P057: §§1, 3–5; §5.1 grouped degradation; §5.2; https://arxiv.org/pdf/2305.02660"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "J58",
+      "old": "Pending",
+      "new": "AI full-text: include",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "K58",
+      "old": null,
+      "new": "",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L58",
+      "old": "2026-09-16 | AI only; human pending. Compound synthetic image/video acquisition and compression degradation. Basis: Complete author preprint abstract. Sources and full-text question: screening/pilot_03.json (P057).",
+      "new": "2026-09-16 | AI full-text include; human pending. Synthetic compound degradation and real transfer; §§3–5. Online text inspected; no local PDF saved. Version, read extent and technical extraction: screening/full_text_04.json (P057).",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z81",
+      "old": "Abstract inspected; full-text pending",
+      "new": "AI full-text eligibility assessed; selected features verified",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF81",
+      "old": "Early unified blind-diffusion baseline | AI pilot 2026-09-16: AI pilot: advance; human pending. Basis: Complete author preprint abstract. Feature codes remain provisional. Identify predefined operator families, parameter bounds and out-of-distribution tests. Blind parameter fitting is not arbitrary forward-model discovery. Evidence: https://arxiv.org/abs/2304.01247",
+      "new": "Early unified blind-diffusion baseline | AI pilot 2026-09-16: AI pilot: advance; human pending. Basis: Complete author preprint abstract. Feature codes remain provisional. Identify predefined operator families, parameter bounds and out-of-distribution tests. Blind parameter fitting is not arbitrary forward-model discovery. Evidence: https://arxiv.org/abs/2304.01247 | AI full-text 2026-09-16: include; human pending. Verified fields: O, P, Q, R, S, T, U, X. Evidence/version/read extent: screening/full_text_04.json (P080). Unlisted feature codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "O81",
+      "old": "Partial",
+      "new": "Yes",
+      "reason": "P080: §4.1 Algorithm 2/Eq. 10; §§5–6; Appendix A; https://arxiv.org/html/2304.01247v1"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "P81",
+      "old": "Partial",
+      "new": "Yes",
+      "reason": "P080: §4.1 Algorithm 2/Eq. 10; §§5–6; Appendix A; https://arxiv.org/html/2304.01247v1"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Q81",
+      "old": "Partial",
+      "new": "No",
+      "reason": "P080: §4.1 Algorithm 2/Eq. 10; §§5–6; Appendix A; https://arxiv.org/html/2304.01247v1"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "S81",
+      "old": "Yes",
+      "new": "Partial",
+      "reason": "P080: §4.1 Algorithm 2/Eq. 10; §§5–6; Appendix A; https://arxiv.org/html/2304.01247v1"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "T81",
+      "old": "Partial",
+      "new": "Yes",
+      "reason": "P080: §4.1 Algorithm 2/Eq. 10; §§5–6; Appendix A; https://arxiv.org/html/2304.01247v1"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "J81",
+      "old": "Pending",
+      "new": "AI full-text: include",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "K81",
+      "old": null,
+      "new": "",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L81",
+      "old": "2026-09-16 | AI only; human pending. Blind linear/nonlinear degradation-parameter inference. Basis: Complete author preprint abstract. Sources and full-text question: screening/pilot_03.json (P080).",
+      "new": "2026-09-16 | AI full-text include; human pending. Unknown degradation parameters optimized during reconstruction; §4.1. Online text inspected; no local PDF saved. Version, read extent and technical extraction: screening/full_text_04.json (P080).",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Summary",
+      "cell": "A17",
+      "old": "Joint sampling, operator point estimates, compound restoration and image coverage have existing comparators. See screening/full_text_03_report.md for assumptions and version-specific limits. Earlier checkpoints remain available. Novelty is unestablished.",
+      "new": "Mismatch correction, calibrated image intervals, joint degradation estimation and compound video restoration have existing comparators. See screening/full_text_04_report.md for assumptions and version-specific limits. Earlier checkpoints remain available. Novelty is unestablished.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B22",
+      "old": "Initial triage 90/90 (82 advance, 8 unclear). AI full-text assessed: 36 (35 include, 1 exclude), 54 remain. All human adjudication and formal searches/inclusion pending. Formal inclusion/exclusion counts remain zero.",
+      "new": "Initial triage 90/90 (82 advance, 8 unclear). AI full-text assessed: 44 (43 include, 1 exclude), 46 remain. All human adjudication and formal searches/inclusion pending. Formal inclusion/exclusion counts remain zero.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B23",
+      "old": "90 seed records retained. Cumulative full-text progress: screening/full_text_01.json, full_text_02.json and full_text_03.json; current report: full_text_03_report.md. AI decisions require human adjudication. Only listed feature fields are verified; other codes remain provisional.",
+      "new": "90 seed records retained. Cumulative full-text progress: screening/full_text_01.json, full_text_02.json, full_text_03.json and full_text_04.json; current report: full_text_04_report.md. AI decisions require human adjudication. Only listed feature fields are verified; other codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    }
+  ],
+  "validation": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 44,
+    "ai_include": 43,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 46,
+    "formal_included": 0,
+    "formal_excluded": 0,
+    "batch_counts": {
+      "new_assessments": 8,
+      "ai_include": 8,
+      "ai_exclude": 0
+    },
+    "initial_triage": [
+      90,
+      82,
+      8,
+      0
+    ],
+    "formula_input_change_test": "passed",
+    "unintended_cell_changes": [],
+    "formula_errors": []
+  }
+}

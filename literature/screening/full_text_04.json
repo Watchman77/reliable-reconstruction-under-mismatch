@@ -1,0 +1,448 @@
+{
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "Full texts inspected online. No downloaded paper copies are added to the repository.",
+    "c1": "All reviewed reports are primary research dated inside the existing search window; see version and canonical seed metadata.",
+    "c5": "Every assessed record had an accessible English full text at source_url.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch."
+  },
+  "user_deferral": {
+    "instruction": "User will handle pending items later; continue accessible paper assessment now.",
+    "effect": "No new user action is required for this checkpoint. Human adjudication, unresolved retrieval, version/lineage reconciliation and formal search accounting remain tracked, not marked complete."
+  },
+  "checkpoint": "full_text_04",
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 44,
+    "ai_include": 43,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 46,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "batch_counts": {
+    "new_assessments": 8,
+    "ai_include": 8,
+    "ai_exclude": 0
+  },
+  "counts_scope": "Cumulative across full_text_01 through full_text_04; records contains this batch only.",
+  "records": [
+    {
+      "study_id": "P005",
+      "title": "Robust Reconstruction With Deep Learning to Handle Model Mismatch in Lensless Imaging",
+      "decision": "include",
+      "source_url": "https://www.eee.hku.hk/optima/pub/journal/2109_TCI.pdf",
+      "version": "Author-hosted final IEEE TCI 2021 PDF",
+      "read_extent": "§§III–IV, §V opening/V-A, selected V-B results and V-C real-scene study. V-B setup and all supplementary material not fully assessed.",
+      "technical": "Learned ADMM and a compensation branch combine measurements with intermediate reconstructions under biased lensless physics. Captured DiffuserCam/PhlatCam results include real-scene fine-tuning; separate devices are not automatically a cross-device transfer test. The method corrects reconstruction features rather than inferring a physical-operator posterior. Sensor and three-dimensional scene errors remain stated limitations.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§III–V; Eqs. 2–21; §V-C",
+      "applicability": "Mismatch compensation is an established comparator.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Author-hosted final IEEE TCI 2021 PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Lensless reconstruction; §III."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Biased forward model and compensation; §§III–IV."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Learned ADMM, compensation branch and captured-image evaluation."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Read the complete V-B setup before coding cross-device/OOD generalization."
+      ]
+    },
+    {
+      "study_id": "P008",
+      "title": "On Hallucinations in Tomographic Image Reconstruction",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2012.00646v3",
+      "version": "arXiv 2012.00646 v3; final IEEE TMI 2021 text not compared",
+      "read_extent": "§II-B/C, §III-A/B, §IV-A–D, §V-A–C and VI opening. Remaining formal derivations and supplements not audited.",
+      "technical": "Measurement-space hallucination maps use measurements and a specified operator; null-space maps require ground truth. Stylized MRI experiments use synthetic undersampling, noise and phase error, including adult-to-pediatric image shift. Thresholded specific maps are heuristic region analyses, not calibrated rejection. Natural source images do not make the simulated measurements real acquisitions.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "U": "Yes",
+        "W": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§II–V; §IV-D map processing",
+      "applicability": "Use reference-dependent maps for evaluation, respecting their operator assumptions.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2012.00646 v3; final IEEE TMI 2021 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Tomographic reconstruction; §§II and IV."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Prior-induced hallucination, model error and distribution shift; §§III–V."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Measurement/null-space framework and stylized MRI experiments."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Inspect remaining map definitions before implementing them under an estimated operator."
+      ]
+    },
+    {
+      "study_id": "P014",
+      "title": "Conffusion: Confidence Intervals for Diffusion Models",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2211.09795v1",
+      "version": "arXiv 2211.09795 v1 (2022); later versions not compared",
+      "read_extent": "§3.2, §§4.1–4.3, §§5.1–5.4 and Appendices A/B; referenced external calibration algorithm and code not audited.",
+      "technical": "Conffusion predicts reconstruction intervals by fine-tuning a diffusion denoiser. RCPS targets expected pixel risk with calibration confidence under matching calibration/test distributions, not conditional coverage at every pixel or arbitrary shift. Size-stratified risk is evaluated. The reported validation split serves hyperparameter search and calibration, requiring implementation-level reconciliation before reusing guarantees.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "Yes",
+        "S": "No",
+        "T": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§3.2–5; Appendices A/B",
+      "applicability": "A direct interval-calibration comparator; guarantee conditions must remain explicit.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2211.09795 v1 (2022); later versions not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Super-resolution and inpainting; §5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Reconstruction uncertainty and risk calibration; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Diffusion interval method and empirical risk/width comparisons."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Audit interval nesting and calibration independence after hyperparameter selection."
+      ]
+    },
+    {
+      "study_id": "P015",
+      "title": "Diffusion Posterior Sampling for General Noisy Inverse Problems",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2209.14687v4",
+      "version": "arXiv 2209.14687 v4, 20 May 2024; final ICLR 2023 text not compared",
+      "read_extent": "§§3.1–3.2 including Algorithms 1–2; §4 setup/tables; Appendix C.4–C.6 and selected D.1/D.2. Proofs and all supplementary results not audited.",
+      "technical": "DPS approximates a measurement likelihood using the estimated clean image and a supplied operator. Stochastic reconstruction handles Gaussian/Poisson noise and nonlinear examples. Its approximation bound is not a calibrated posterior-coverage certificate. Tests synthesize measurements from images; stated limitations include slow sampling and phase-retrieval failures.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "T": "No",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§3, Algorithms 1–2; §4; Appendix C.6",
+      "applicability": "Separate approximate image sampling from blind operator uncertainty.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2209.14687 v4, 20 May 2024; final ICLR 2023 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Noisy linear/nonlinear image inversion; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Approximate reconstruction posterior; §3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Sampling algorithms, numerical comparisons and limitations."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Reconcile §4 and Appendix D.1 descriptions of the FFHQ checkpoint before reproducing results."
+      ]
+    },
+    {
+      "study_id": "P054",
+      "title": "Towards Real-world Event-guided Low-light Video Enhancement and Deblurring",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2408.14916v1",
+      "version": "arXiv 2408.14916 v1 (2024); final ECCV 2024 text not compared",
+      "read_extent": "§§3.1–3.2, §§4.1–4.3, §§5.1–5.3 including main comparisons and component ablations; supplements not assessed.",
+      "technical": "RELED captures synchronized RGB/event measurements and brighter, shorter-exposure references. Event-guided alignment and spectral fusion address combined low light and motion blur. Evaluation uses 29 training and 13 test scenes. Feature offsets are not a physical degradation posterior. Extra event measurements and reference alignment/exposure differences matter when transferring this evidence to ordinary CCTV.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5; Eq. 1 and Tables 2–4",
+      "applicability": "Treat this as a sensor-assisted comparator, not an RGB-only baseline.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2408.14916 v1 (2024); final ECCV 2024 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Video enhancement and deblurring; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Combined low light, noise and motion blur; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Captured dataset, event-guided method and ablations."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Audit reference registration and exposure differences before treating paired targets as exact truth."
+      ]
+    },
+    {
+      "study_id": "P056",
+      "title": "Investigating Tradeoffs in Real-World Video Super-Resolution",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2111.12704v1",
+      "version": "arXiv 2111.12704 v1, 24 November 2021; final CVPR 2022 text not compared",
+      "read_extent": "Main §§3–6, including §4.1 degradation simulation and real-video evaluation; §3.3 only partially inspected; supplements not assessed.",
+      "technical": "RealBasicVSR combines pre-cleaning with temporal propagation. Compound synthetic training includes framewise random-walk degradation parameters. Real VideoLQ testing uses visual and no-reference quality evidence rather than clean video targets. Dynamic refinement thresholds trade detail against cleaning; they are not calibrated abstention. Artifact/text examples support qualitative analysis only.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "Yes",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5; §4.1; VideoLQ evaluation",
+      "applicability": "Compound and changing video degradation already have practical baselines.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2111.12704 v1, 24 November 2021; final CVPR 2022 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Real-world video super-resolution; §3."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Compound/time-varying training degradation; §4.1."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Cleaning/propagation method, ablations and real-video evaluation."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Add paired evidence before claiming recovery of correct text or temporal detail."
+      ]
+    },
+    {
+      "study_id": "P057",
+      "title": "Expanding Synthetic Real-World Degradations for Blind Video Super Resolution",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/2305.02660",
+      "version": "arXiv PDF header 2305.02660 v1, 4 May 2023; final report not compared",
+      "read_extent": "Main §§1–4 and §5.1–5.2 through the primary comparison and ablation discussion; remaining conclusions/supplements not fully assessed.",
+      "technical": "SRWD-VSR trains with shuffled degradations followed by video compression. KernelGAN supplies an offline kernel pool; it is not joint test-image operator inference. Blur/noise settings stay fixed within each ten-frame training group. Motion blur is explicitly excluded. Three real evaluation datasets lack ground truth; NRQM/BRISQUE and visuals assess perceived quality.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§1, 3–5; §5.1 grouped degradation; §5.2",
+      "applicability": "A compound-video baseline with limited fidelity and temporal-shift evidence.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv PDF header 2305.02660 v1, 4 May 2023; final report not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Real-world video super-resolution; §3."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Synthetic compound degradation and real transfer; §§3–5."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Degradation simulator, architecture changes and real-video comparisons."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Do not interpret perceptual text examples as verified character recovery."
+      ]
+    },
+    {
+      "study_id": "P080",
+      "title": "Generative Diffusion Prior for Unified Image Restoration and Enhancement",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2304.01247v1",
+      "version": "arXiv 2304.01247 v1, 3 April 2023; final CVPR 2023 text not compared",
+      "read_extent": "§4 opening/4.1 and Algorithm 2; §5 losses; §§6.1–6.4 and Appendix A limitations. Hierarchical/patch algorithms and proofs not audited.",
+      "technical": "GDP samples images while optimizing degradation parameters. Its blind illumination model uses a scalar gain and image-sized additive mask, not an operator posterior. It reports real low-light and qualitative cross-domain/compound examples. Distribution-dependent guidance tuning is a stated limitation; sample diversity is not calibrated uncertainty or evidence that physical parameters are identifiable.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Yes",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§4.1 Algorithm 2/Eq. 10; §§5–6; Appendix A",
+      "applicability": "Joint point estimation and flexible discrepancy correction already overlap the proposal.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2304.01247 v1, 3 April 2023; final CVPR 2023 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Restoration, low-light enhancement and HDR; §6."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown degradation parameters optimized during reconstruction; §4.1."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Guided sampler, multi-task experiments and stated limitations."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Quantify parameter identifiability and freeze tuning before acquisition-shift evaluation."
+      ]
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "study_id": "P001",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Nan_Deep_Learning_for_Handling_KernelModel_Uncertainty_in_Image_Deconvolution_CVPR_2020_paper.pdf",
+      "outcome": "Retrieval failed; eligibility remains pending. Alternate author sources not exhausted."
+    },
+    {
+      "study_id": "P012",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/95504595b6169131b6ed6cd72eb05616-Paper-Conference.pdf",
+      "outcome": "Attempted PDF locator unavailable; no eligibility decision. Verify the official paper link."
+    },
+    {
+      "study_id": "P017",
+      "urls": [
+        "https://arxiv.org/html/2210.09292v1",
+        "https://arxiv.org/html/2210.09292v3"
+      ],
+      "outcome": "HTML routes failed; eligibility remains pending. PDF/proceedings alternatives not exhausted."
+    },
+    {
+      "study_id": "P055",
+      "urls": [
+        "https://arxiv.org/html/2202.03373v1",
+        "https://arxiv.org/pdf/2202.03373"
+      ],
+      "outcome": "HTML/PDF routes failed; eligibility remains pending."
+    },
+    {
+      "study_ids": [
+        "P057",
+        "P080"
+      ],
+      "outcome": "Initial HTML/version routes failed; alternate PDF/v1 sources above were accessed and assessed."
+    }
+  ]
+}
