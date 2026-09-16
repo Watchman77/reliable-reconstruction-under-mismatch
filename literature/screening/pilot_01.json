@@ -1,0 +1,198 @@
+{
+  "pilot_id": "pilot_01",
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.3",
+  "selection": "First 20 seed records in stable ID order; convenience pilot, not a random or database-derived sample.",
+  "reviewer": "Codex AI-assisted preliminary triage; independent human adjudication pending for every record.",
+  "formal_database_search_executed": false,
+  "full_text_eligibility_assessed": false,
+  "decision_rule": "Advance conservatively when an explicit scope signal is present. Unclear is not exclusion. Abstracts do not establish final eligibility, quality, calibration or novelty.",
+  "records": [
+    {
+      "study_id": "P001",
+      "decision": "AI pilot: advance",
+      "basis": "Title and official author repository; abstract not retrieved",
+      "source_url": "https://github.com/ysnan/NBD_KerUnc",
+      "criterion_3": "Kernel/model uncertainty",
+      "evidence": "The title explicitly concerns kernel/model uncertainty. The author repository identifies Nan and Ji, CVPR 2020, and provides synthetic kernel-error and real-image experiments.",
+      "full_text_question": "Verify the abstract, correction mechanism and kernel-error distribution; distinguish parameter uncertainty from wrong-family mismatch.",
+      "metadata": {"Authors": "Nan, Yuesong; Ji, Hui"}
+    },
+    {
+      "study_id": "P002",
+      "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract",
+      "source_url": "https://arxiv.org/abs/1803.00092",
+      "criterion_3": "Potential OOD reconstruction reliability",
+      "evidence": "NETT combines a learned regularizer with data consistency and convergence analysis. Its abstract reports reconstruction of unknowns that differ from the training-image type.",
+      "full_text_question": "Does the full evaluation operationalize distribution shift relevant to this review, or is this a background regularization method only? The 2018 preprint and 2020 journal report are one lineage."
+    },
+    {
+      "study_id": "P003",
+      "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract",
+      "source_url": "https://arxiv.org/abs/1902.05300",
+      "criterion_3": "Reconstruction instability and missing structure",
+      "evidence": "The abstract studies sensitivity to small image or sampling perturbations, loss of small structural changes, and cases where additional samples reduce reconstruction quality.",
+      "full_text_question": "Separate adversarial perturbation, acquisition mismatch and missing-structure tests; record perturbation scales and comparator access. Link the 2019 preprint to the 2020 journal report."
+    },
+    {
+      "study_id": "P004",
+      "decision": "AI pilot: advance",
+      "basis": "Publisher abstract",
+      "source_url": "https://link.springer.com/chapter/10.1007/978-3-030-58595-2_12",
+      "criterion_3": "Real blur and synthetic-to-real degradation gap",
+      "evidence": "RealBlur introduces paired real sharp/blurred images using a capture and postprocessing pipeline, motivated by the gap between synthetic blur benchmarks and real acquisition.",
+      "full_text_question": "Inspect alignment, exposure and pairing limitations; assess whether it supports controlled mismatch tests. RealBlur is not a CCTV-specific benchmark.",
+      "metadata": {"Authors": "Rim, Jaesung; Lee, Haeyun; Won, Jucheol; Cho, Sunghyun", "Venue": "ECCV", "Primary source URL": "https://doi.org/10.1007/978-3-030-58595-2_12", "DOI": "10.1007/978-3-030-58595-2_12"}
+    },
+    {
+      "study_id": "P005",
+      "decision": "AI pilot: advance",
+      "basis": "Author-hosted published PDF abstract and opening page",
+      "source_url": "https://www.eee.hku.hk/optima/pub/journal/2109_TCI.pdf",
+      "criterion_3": "Explicit forward-model mismatch compensation",
+      "evidence": "The model-mismatch compensation network combines an unrolled model-based branch with a learned correction branch and evaluates lensless reconstruction under an imperfect forward model.",
+      "full_text_question": "Extract exactly what is corrected and what mismatch is held out; test whether uncertainty, measurement support or abstention are actually evaluated. Only the opening material was inspected here."
+    },
+    {
+      "study_id": "P006",
+      "decision": "AI pilot: unclear",
+      "basis": "Author preprint abstract",
+      "source_url": "https://arxiv.org/abs/2102.07944",
+      "criterion_3": "Not established from abstract",
+      "evidence": "The abstract motivates deep-equilibrium inverse solvers through fixed-point reconstruction, accuracy and computational properties. An explicit mismatch or reliability evaluation is not established by this abstract.",
+      "full_text_question": "Locate a criterion-3 experiment or claim. If none exists, retain as architectural background rather than an included primary study. Do not exclude on this pilot alone."
+    },
+    {
+      "study_id": "P007",
+      "decision": "AI pilot: advance",
+      "basis": "Official proceedings abstract",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/view/16366",
+      "criterion_3": "Image posterior uncertainty and multimodal solutions",
+      "evidence": "Deep Probabilistic Imaging uses a generative variational approach to characterize posterior uncertainty and multimodal reconstructions in computational imaging, including interferometry and MRI.",
+      "full_text_question": "Distinguish approximate posterior diversity from empirical calibration; determine whether the operator is fixed or uncertain.",
+      "metadata": {"Authors": "Sun, He; Bouman, Katherine L.", "Title": "Deep Probabilistic Imaging: Uncertainty Quantification and Multi-modal Solution Characterization for Computational Imaging", "Primary source URL": "https://ojs.aaai.org/index.php/AAAI/article/view/16366", "DOI": "10.1609/aaai.v35i3.16366"}
+    },
+    {
+      "study_id": "P008",
+      "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract",
+      "source_url": "https://arxiv.org/abs/2012.00646",
+      "criterion_3": "Hallucination and measurement/null-space analysis",
+      "evidence": "The paper introduces a framework and hallucination maps for tomographic reconstruction, relating learned-prior failures to measurement and null-space components, with numerical demonstrations.",
+      "full_text_question": "Which maps require the unknown ground truth? Separate retrospective assessment from a deployable hallucination detector and inspect sensitivity to an incorrect operator."
+    },
+    {
+      "study_id": "P009",
+      "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract",
+      "source_url": "https://arxiv.org/abs/2103.14006",
+      "criterion_3": "Blind restoration with compound degradation",
+      "evidence": "BSRGAN uses a practical randomized degradation design spanning blur, downsampling, noise and compression, including shuffled processing order and camera-processing effects.",
+      "full_text_question": "Extract training/test degradation overlap and real-image evaluation; do not treat visual realism as measurement faithfulness or calibrated uncertainty."
+    },
+    {
+      "study_id": "P010",
+      "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract",
+      "source_url": "https://arxiv.org/abs/2107.10833",
+      "criterion_3": "Blind super-resolution with high-order degradation",
+      "evidence": "Real-ESRGAN trains from synthetic pairs using a high-order degradation process and models ringing and overshoot artifacts to address practical blind super-resolution.",
+      "full_text_question": "Identify which degradation combinations are evaluated rather than simulated only; separate perceptual restoration from identity/detail recovery."
+    },
+    {
+      "study_id": "P011",
+      "decision": "AI pilot: advance",
+      "basis": "Official proceedings abstract",
+      "source_url": "https://proceedings.mlr.press/v162/angelopoulos22a.html",
+      "criterion_3": "Calibrated image prediction intervals",
+      "evidence": "The paper constructs image-valued prediction intervals with statistical guarantees and demonstrates the approach on imaging applications including MRI, phase imaging and electron microscopy.",
+      "full_text_question": "Record the coverage unit, calibration split and exchangeability assumptions; determine which claims survive operator or device shift. Distribution-free does not mean valid under arbitrary shift."
+    },
+    {
+      "study_id": "P012",
+      "decision": "AI pilot: advance",
+      "basis": "Official proceedings abstract",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/95504595b6169131b6ed6cd72eb05616-Abstract-Conference.html",
+      "criterion_3": "Posterior reconstruction and transfer across image distributions",
+      "evidence": "DDRM uses a pretrained diffusion model for linear inverse problems and describes posterior-based restoration and transfer beyond the training-image distribution.",
+      "full_text_question": "Determine known-operator and noise assumptions, posterior approximation error and whether calibration is tested; sample diversity alone is not calibration."
+    },
+    {
+      "study_id": "P013",
+      "decision": "AI pilot: advance",
+      "basis": "Title and official author repository; abstract not retrieved",
+      "source_url": "https://github.com/XLearning-SCU/2022-CVPR-AirNet",
+      "criterion_3": "Unknown corruption and all-in-one restoration",
+      "evidence": "The AirNet title explicitly targets unknown corruption. Its official repository documents all-in-one and individual denoising, deraining and dehazing training/evaluation modes.",
+      "full_text_question": "Retrieve the abstract and paper. Does one model handle separate task families, simultaneous compound corruption, unseen severity, or all of these? Do not equate all-in-one with compound-chain evaluation."
+    },
+    {
+      "study_id": "P014",
+      "decision": "AI pilot: advance",
+      "basis": "Preprint abstract; peer review not established",
+      "source_url": "https://arxiv.org/abs/2211.09795",
+      "criterion_3": "Diffusion-based confidence intervals",
+      "evidence": "Conffusion adapts pretrained diffusion models to predict confidence intervals for image reconstruction, including super-resolution and inpainting.",
+      "full_text_question": "Extract interval construction, calibration assumptions and OOD evaluation. Keep preprint status unless a corresponding peer-reviewed version is verified."
+    },
+    {
+      "study_id": "P015",
+      "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract",
+      "source_url": "https://arxiv.org/abs/2209.14687",
+      "criterion_3": "Approximate posterior reconstruction under noise",
+      "evidence": "DPS approximates posterior sampling for noisy linear and nonlinear inverse problems, including settings with Gaussian or Poisson noise.",
+      "full_text_question": "Separate known functional form from genuinely unknown operators; record any empirical uncertainty calibration rather than assuming it follows from posterior terminology."
+    },
+    {
+      "study_id": "P016",
+      "decision": "AI pilot: unclear",
+      "basis": "Official search snippet only; full abstract not retrieved",
+      "source_url": "https://openreview.net/forum?id=9_gsMA8MRKQ",
+      "criterion_3": "Cannot adjudicate from retrieved evidence",
+      "evidence": "The retrieved record identifies Pseudoinverse-Guided Diffusion Models for Inverse Problems, but page challenges and failed author-PDF retrieval prevented inspection of the complete abstract.",
+      "full_text_question": "Obtain the abstract/full text and test criterion 3. Access failure is not an exclusion reason at this stage; no substantive method coding was verified in this pilot."
+    },
+    {
+      "study_id": "P017",
+      "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract",
+      "source_url": "https://arxiv.org/abs/2212.00490",
+      "criterion_3": "Range/null-space reconstruction and measurement consistency",
+      "evidence": "DDNM describes zero-shot restoration by refining the null-space component with a pretrained diffusion model while maintaining a data-consistency construction, with an extension for noisy observations.",
+      "full_text_question": "Check when the consistency claim holds and whether null-space detail is supported by evidence. Data consistency alone does not identify the true image or prevent plausible hallucination.",
+      "metadata": {"Title": "Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model"}
+    },
+    {
+      "study_id": "P018",
+      "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract",
+      "source_url": "https://arxiv.org/abs/2211.10656",
+      "criterion_3": "Joint image/operator inference in blind reconstruction",
+      "evidence": "BlindDPS uses parallel diffusion models for the image and forward operator, with demonstrations in blind deblurring and turbulence reconstruction.",
+      "full_text_question": "Extract which operator functional forms remain assumed, training requirements for operator priors, identifiability limits and calibration evidence."
+    },
+    {
+      "study_id": "P019",
+      "decision": "AI pilot: advance",
+      "basis": "Official proceedings abstract",
+      "source_url": "https://proceedings.mlr.press/v202/murata23a.html",
+      "criterion_3": "Joint posterior inference for blind inverse problems",
+      "evidence": "GibbsDDRM proposes a partially collapsed Gibbs sampler for joint signal/operator inference using a diffusion restoration prior; blind image deblurring is among its applications.",
+      "full_text_question": "Extract operator prior/family, sampler approximation and posterior calibration tests. Its additional audio experiments do not negate the central imaging application.",
+      "metadata": {"Title": "GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration"}
+    },
+    {
+      "study_id": "P020",
+      "decision": "AI pilot: advance",
+      "basis": "Official proceedings abstract",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html",
+      "criterion_3": "Unknown degradation types and levels",
+      "evidence": "PromptIR uses prompts to condition restoration on degradation information and evaluates denoising, deraining and dehazing under an all-in-one restoration design.",
+      "full_text_question": "Distinguish multiple separate tasks from simultaneous compound chains and unseen operators. The proceedings title omits 'Blind', which appears in the preprint title; this is not a separate study.",
+      "metadata": {"Title": "PromptIR: Prompting for All-in-One Image Restoration", "Primary source URL": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html"}
+    }
+  ]
+}

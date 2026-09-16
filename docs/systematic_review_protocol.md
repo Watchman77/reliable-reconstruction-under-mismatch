@@ -4,7 +4,7 @@
 
 **Reliable Deep Image Reconstruction Under Forward-Model Mismatch: A Systematic Review of Operator Uncertainty, Hallucination and Selective Reconstruction (2020–2026)**
 
-Protocol version: 0.2  
+Protocol version: 0.3 (working draft, amended 16 September 2026; not registered)  
 Search window: 1 January 2020 to 15 September 2026  
 Historical exception: seminal pre-2020 work may be cited for conceptual background but is not included in the primary evidence synthesis.
 
@@ -151,6 +151,16 @@ Screening has two stages:
 
 Each exclusion receives one primary reason. Ideally two reviewers screen independently; if only one reviewer is available during the exploratory phase, all nearest competitors and a random subset of at least 20% must receive independent verification before publication. Disagreements are resolved by discussion and recorded.
 
+### Exploratory AI-assisted pilot convention (16 September 2026)
+
+The first 20 seed records, in stable ID order, form a convenience pilot to test the criteria and repair metadata. This is not a reproducible database search or a representative sample. Codex's recommendations are labelled `AI pilot: advance` or `AI pilot: unclear`; every recommendation requires human adjudication. AI is not an independent human reviewer.
+
+An explicit title/abstract scope signal permits conservative advancement to full-text review; it does not establish all inclusion criteria. When an abstract cannot be retrieved, the exact evidence basis is recorded (for example, title and official author repository). Missing evidence is not converted into an exclusion. Uncertainty about relevance is retained as `unclear` for retrieval/adjudication.
+
+Formal title/abstract, full-text, inclusion and exclusion counters remain separate from pilot progress. No record receives final inclusion from this pilot. Original discovery dates remain blank where undocumented; 16 September is the verification date, not an invented search/discovery date. All seed feature codes remain provisional until full-text extraction.
+
+The amendment does not change the date window, eligibility criteria or search concepts. It also reconciles the workbook's inconsistent `1.1` version label with this authoritative document and aligns its abbreviated query summary. A 60–100-paper estimate is a planning range, never an inclusion quota.
+
 ## Data extraction
 
 The controlled evidence matrix records bibliographic metadata plus:
@@ -211,6 +221,8 @@ The proposed methodological contribution is rejected or materially redesigned if
 
 Partial overlap narrows the contribution but does not alone establish duplication.
 
+Conversely, failure to find one paper combining all seven features does not prove novelty. A defensible contribution must address a specific limitation relative to the closest methods, not merely assemble a longer feature checklist.
+
 ## Reporting and registration
 
 The review will be reported using PRISMA 2020 and the search methods documented with PRISMA-S principles. Before formal database screening is completed, the protocol should be frozen and registered on a general-purpose repository such as OSF. Deviations from the registered protocol will be dated and justified.
@@ -218,4 +230,3 @@ The review will be reported using PRISMA 2020 and the search methods documented 
 ## Planned updates
 
 The evidence search will be refreshed immediately before manuscript submission. A weekly horizon scan may identify candidates, but papers enter the formal synthesis only after normal screening and verification.
-

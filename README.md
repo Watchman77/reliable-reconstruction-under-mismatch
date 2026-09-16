@@ -4,13 +4,18 @@ Research repository for a journal-first programme on evidence-calibrated image r
 
 ## Current status
 
-- 90-study seed evidence matrix covering 1 January 2020 to 15 September 2026.
-- Systematic-review protocol v0.2 frozen as a working draft.
+- 90-record seed evidence matrix covering 1 January 2020 to 15 September 2026.
+- Systematic-review protocol v0.3, a dated working draft that is not yet registered.
+- First 20 records triaged in an AI-assisted pilot: 18 advance recommendations, 2 unclear; all await human adjudication. The remaining 70 have not received this pilot triage.
+- Seventeen complete abstracts inspected; two records assessed using titles and official author repositories; one has incomplete abstract evidence.
+- Zero formally included studies. Seed feature codes remain provisional, not full-text-verified extraction.
 - Rapid adversarial gap map completed.
 - Phase-0 classical canary implemented and executed.
 - Formal database screening and the 100-image pilot remain outstanding.
 
 The 90 studies are a seed evidence map, not a completed PRISMA corpus. The repository must not be cited as a systematic review until database searches, deduplication, two-stage screening, exclusion logging, full-text verification and citation chaining are complete.
+
+See the [pilot report and next full-text questions](literature/screening/pilot_01_report.md) and [record-level evidence](literature/screening/pilot_01.json). The matrix, screening log and reference exports have been synchronized; bibliographic corrections are recorded in a field-level audit. Unreviewed references are still draft metadata, not submission-ready citations.
 
 ## Candidate research gap
 

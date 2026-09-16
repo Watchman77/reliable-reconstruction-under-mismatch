@@ -11,3 +11,11 @@
 The matrix is a living extraction file. Preserve stable study identifiers. Link preprint, conference and journal reports as one study lineage rather than counting them as independent evidence.
 
 Do not convert `Partial` to `Yes` without full-text evidence. Do not classify a paper as calibrated merely because it displays sample variance or uncertainty maps; calibration requires empirical coverage, calibration error or an equivalent validated reliability criterion.
+
+## Pilot screening checkpoint — 16 September 2026
+
+The first 20 records have preliminary AI recommendations in the Screening Log. `AI pilot: advance` means retrieve and assess the full text, not include the study. `AI pilot: unclear` means resolve scope or retrieval before deciding. All 20 require human adjudication; 70 remain untriaged by this pilot. Formal PRISMA counts remain zero.
+
+The Evidence Matrix's legacy `Include` labels meant membership in the seed map. They have been replaced by `Pending formal eligibility` for all 90 records; this is a clarification, not 90 reversals of completed inclusion decisions. The prior values are recoverable in git and in the pilot change audit. Feature codes outside the bibliographic/evidence-status updates are unchanged and remain provisional.
+
+`screening/pilot_01.json` is the record-level evidence and recommendation log; `screening/pilot_01_report.md` explains limitations and next questions; `screening/pilot_01_changes.json` records field-level metadata/status edits. No paper PDFs are redistributed here. Follow the primary or author-hosted source links for access.

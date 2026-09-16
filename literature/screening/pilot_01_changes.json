@@ -1,0 +1,1554 @@
+{
+  "checked_on": "2026-09-16",
+  "baseline_local_commit": "589e7668e8afc124933a94307d0f52256ac27fc5",
+  "baseline_remote_commit": "9191c3a78e640ce7ff6a99275e1cf465177cb225",
+  "note": "Legacy Include labels expressed seed-map membership. No completed inclusion decisions were reversed. Unrelated feature codes were preserved.",
+  "changes": [
+    {
+      "record": "P001",
+      "field": "Authors",
+      "old": "Dong et al.",
+      "new": "Nan, Yuesong; Ji, Hui",
+      "source": "https://github.com/ysnan/NBD_KerUnc",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "C2",
+      "old": "Dong et al.",
+      "new": "Nan, Yuesong; Ji, Hui",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z2",
+      "old": "Abstract verified",
+      "new": "Title/project checked; abstract pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF2",
+      "old": "Cornerstone mismatch paper",
+      "new": "Cornerstone mismatch paper | AI pilot 2026-09-16; advance to full text. Kernel/model uncertainty. Human adjudication and full-text coding pending. Evidence: https://github.com/ysnan/NBD_KerUnc",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I2",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L2",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Kernel/model uncertainty. Basis: Title and official author repository; abstract not retrieved. Full-text question and source: screening/pilot_01.json (P001).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z3",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF3",
+      "old": "Theoretical physics-informed baseline",
+      "new": "Theoretical physics-informed baseline | AI pilot 2026-09-16; advance to full text. Potential OOD reconstruction reliability. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/1803.00092",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I3",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L3",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Potential OOD reconstruction reliability. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P002).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z4",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF4",
+      "old": "Reliability foundation",
+      "new": "Reliability foundation | AI pilot 2026-09-16; advance to full text. Reconstruction instability and missing structure. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/1902.05300",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I4",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L4",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Reconstruction instability and missing structure. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P003).",
+      "reason": "Pilot update"
+    },
+    {
+      "record": "P004",
+      "field": "Authors",
+      "old": "Rim et al.",
+      "new": "Rim, Jaesung; Lee, Haeyun; Won, Jucheol; Cho, Sunghyun",
+      "source": "https://link.springer.com/chapter/10.1007/978-3-030-58595-2_12",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "C5",
+      "old": "Rim et al.",
+      "new": "Rim, Jaesung; Lee, Haeyun; Won, Jucheol; Cho, Sunghyun",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "record": "P004",
+      "field": "Venue",
+      "old": "CVPR",
+      "new": "ECCV",
+      "source": "https://link.springer.com/chapter/10.1007/978-3-030-58595-2_12",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "E5",
+      "old": "CVPR",
+      "new": "ECCV",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "record": "P004",
+      "field": "Primary source URL",
+      "old": "https://openaccess.thecvf.com/content_CVPR_2020/html/Rim_Real-World_Blur_Dataset_for_Learning_and_Benchmarking_Deblurring_Algorithms_CVPR_2020_paper.html",
+      "new": "https://doi.org/10.1007/978-3-030-58595-2_12",
+      "source": "https://link.springer.com/chapter/10.1007/978-3-030-58595-2_12",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AE5",
+      "old": "https://openaccess.thecvf.com/content_CVPR_2020/html/Rim_Real-World_Blur_Dataset_for_Learning_and_Benchmarking_Deblurring_Algorithms_CVPR_2020_paper.html",
+      "new": "https://doi.org/10.1007/978-3-030-58595-2_12",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "record": "P004",
+      "field": "DOI",
+      "old": "",
+      "new": "10.1007/978-3-030-58595-2_12",
+      "source": "https://link.springer.com/chapter/10.1007/978-3-030-58595-2_12",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z5",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF5",
+      "old": "Data source candidate",
+      "new": "Data source candidate | AI pilot 2026-09-16; advance to full text. Real blur and synthetic-to-real degradation gap. Human adjudication and full-text coding pending. Evidence: https://link.springer.com/chapter/10.1007/978-3-030-58595-2_12",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "G5",
+      "old": "https://openaccess.thecvf.com/content_CVPR_2020/html/Rim_Real-World_Blur_Dataset_for_Learning_and_Benchmarking_Deblurring_Algorithms_CVPR_2020_paper.html",
+      "new": "https://doi.org/10.1007/978-3-030-58595-2_12",
+      "reason": "Mirror corrected source"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I5",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L5",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Real blur and synthetic-to-real degradation gap. Basis: Publisher abstract. Full-text question and source: screening/pilot_01.json (P004).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z6",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF6",
+      "old": "Nearest early mismatch competitor",
+      "new": "Nearest early mismatch competitor | AI pilot 2026-09-16; advance to full text. Explicit forward-model mismatch compensation. Human adjudication and full-text coding pending. Evidence: https://www.eee.hku.hk/optima/pub/journal/2109_TCI.pdf",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I6",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L6",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Explicit forward-model mismatch compensation. Basis: Author-hosted published PDF abstract and opening page. Full-text question and source: screening/pilot_01.json (P005).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z7",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF7",
+      "old": "Architecture baseline",
+      "new": "Architecture baseline | AI pilot 2026-09-16; unclear. Not established from abstract. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2102.07944",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I7",
+      "old": "Pending",
+      "new": "AI pilot: unclear",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L7",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Not established from abstract. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P006).",
+      "reason": "Pilot update"
+    },
+    {
+      "record": "P007",
+      "field": "Authors",
+      "old": "Sun & Bouman",
+      "new": "Sun, He; Bouman, Katherine L.",
+      "source": "https://ojs.aaai.org/index.php/AAAI/article/view/16366",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "C8",
+      "old": "Sun & Bouman",
+      "new": "Sun, He; Bouman, Katherine L.",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "record": "P007",
+      "field": "Title",
+      "old": "Deep Probabilistic Imaging",
+      "new": "Deep Probabilistic Imaging: Uncertainty Quantification and Multi-modal Solution Characterization for Computational Imaging",
+      "source": "https://ojs.aaai.org/index.php/AAAI/article/view/16366",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "D8",
+      "old": "Deep Probabilistic Imaging",
+      "new": "Deep Probabilistic Imaging: Uncertainty Quantification and Multi-modal Solution Characterization for Computational Imaging",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "record": "P007",
+      "field": "Primary source URL",
+      "old": "https://ojs.aaai.org/index.php/AAAI/article/view/16430",
+      "new": "https://ojs.aaai.org/index.php/AAAI/article/view/16366",
+      "source": "https://ojs.aaai.org/index.php/AAAI/article/view/16366",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AE8",
+      "old": "https://ojs.aaai.org/index.php/AAAI/article/view/16430",
+      "new": "https://ojs.aaai.org/index.php/AAAI/article/view/16366",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "record": "P007",
+      "field": "DOI",
+      "old": "",
+      "new": "10.1609/aaai.v35i3.16366",
+      "source": "https://ojs.aaai.org/index.php/AAAI/article/view/16366",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z8",
+      "old": "Abstract verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF8",
+      "old": "UQ foundation",
+      "new": "UQ foundation | AI pilot 2026-09-16; advance to full text. Image posterior uncertainty and multimodal solutions. Human adjudication and full-text coding pending. Evidence: https://ojs.aaai.org/index.php/AAAI/article/view/16366",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "E8",
+      "old": "Deep Probabilistic Imaging",
+      "new": "Deep Probabilistic Imaging: Uncertainty Quantification and Multi-modal Solution Characterization for Computational Imaging",
+      "reason": "Mirror corrected title"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "G8",
+      "old": "https://ojs.aaai.org/index.php/AAAI/article/view/16430",
+      "new": "https://ojs.aaai.org/index.php/AAAI/article/view/16366",
+      "reason": "Mirror corrected source"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I8",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L8",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Image posterior uncertainty and multimodal solutions. Basis: Official proceedings abstract. Full-text question and source: screening/pilot_01.json (P007).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z9",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF9",
+      "old": "Faithfulness foundation",
+      "new": "Faithfulness foundation | AI pilot 2026-09-16; advance to full text. Hallucination and measurement/null-space analysis. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2012.00646",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I9",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L9",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Hallucination and measurement/null-space analysis. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P008).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z10",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF10",
+      "old": "Degradation simulator baseline",
+      "new": "Degradation simulator baseline | AI pilot 2026-09-16; advance to full text. Blind restoration with compound degradation. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2103.14006",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I10",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L10",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Blind restoration with compound degradation. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P009).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z11",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF11",
+      "old": "Generative restoration baseline",
+      "new": "Generative restoration baseline | AI pilot 2026-09-16; advance to full text. Blind super-resolution with high-order degradation. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2107.10833",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I11",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L11",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Blind super-resolution with high-order degradation. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P010).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z12",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF12",
+      "old": "Calibration foundation",
+      "new": "Calibration foundation | AI pilot 2026-09-16; advance to full text. Calibrated image prediction intervals. Human adjudication and full-text coding pending. Evidence: https://proceedings.mlr.press/v162/angelopoulos22a.html",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I12",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L12",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Calibrated image prediction intervals. Basis: Official proceedings abstract. Full-text question and source: screening/pilot_01.json (P011).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z13",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF13",
+      "old": "Diffusion baseline",
+      "new": "Diffusion baseline | AI pilot 2026-09-16; advance to full text. Posterior reconstruction and transfer across image distributions. Human adjudication and full-text coding pending. Evidence: https://proceedings.neurips.cc/paper_files/paper/2022/hash/95504595b6169131b6ed6cd72eb05616-Abstract-Conference.html",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I13",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L13",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Posterior reconstruction and transfer across image distributions. Basis: Official proceedings abstract. Full-text question and source: screening/pilot_01.json (P012).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z14",
+      "old": "Full citation verified",
+      "new": "Title/project checked; abstract pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF14",
+      "old": "Nearest all-in-one baseline",
+      "new": "Nearest all-in-one baseline | AI pilot 2026-09-16; advance to full text. Unknown corruption and all-in-one restoration. Human adjudication and full-text coding pending. Evidence: https://github.com/XLearning-SCU/2022-CVPR-AirNet",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I14",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L14",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Unknown corruption and all-in-one restoration. Basis: Title and official author repository; abstract not retrieved. Full-text question and source: screening/pilot_01.json (P013).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z15",
+      "old": "Preprint abstract verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF15",
+      "old": "UQ method candidate",
+      "new": "UQ method candidate | AI pilot 2026-09-16; advance to full text. Diffusion-based confidence intervals. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2211.09795",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I15",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L15",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Diffusion-based confidence intervals. Basis: Preprint abstract; peer review not established. Full-text question and source: screening/pilot_01.json (P014).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z16",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF16",
+      "old": "Diffusion baseline",
+      "new": "Diffusion baseline | AI pilot 2026-09-16; advance to full text. Approximate posterior reconstruction under noise. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2209.14687",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I16",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L16",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Approximate posterior reconstruction under noise. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P015).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z17",
+      "old": "Full citation verified",
+      "new": "Title/project checked; abstract pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF17",
+      "old": "Data consistency baseline",
+      "new": "Data consistency baseline | AI pilot 2026-09-16; unclear. Cannot adjudicate from retrieved evidence. Human adjudication and full-text coding pending. Evidence: https://openreview.net/forum?id=9_gsMA8MRKQ",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I17",
+      "old": "Pending",
+      "new": "AI pilot: unclear",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L17",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Cannot adjudicate from retrieved evidence. Basis: Official search snippet only; full abstract not retrieved. Full-text question and source: screening/pilot_01.json (P016).",
+      "reason": "Pilot update"
+    },
+    {
+      "record": "P017",
+      "field": "Title",
+      "old": "Denoising Diffusion Null-Space Model",
+      "new": "Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model",
+      "source": "https://arxiv.org/abs/2212.00490",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "D18",
+      "old": "Denoising Diffusion Null-Space Model",
+      "new": "Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z18",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF18",
+      "old": "Support-map component",
+      "new": "Support-map component | AI pilot 2026-09-16; advance to full text. Range/null-space reconstruction and measurement consistency. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2212.00490",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "E18",
+      "old": "Denoising Diffusion Null-Space Model",
+      "new": "Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model",
+      "reason": "Mirror corrected title"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I18",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L18",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Range/null-space reconstruction and measurement consistency. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P017).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z19",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF19",
+      "old": "Nearest blind diffusion competitor",
+      "new": "Nearest blind diffusion competitor | AI pilot 2026-09-16; advance to full text. Joint image/operator inference in blind reconstruction. Human adjudication and full-text coding pending. Evidence: https://arxiv.org/abs/2211.10656",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I19",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L19",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Joint image/operator inference in blind reconstruction. Basis: Author preprint abstract. Full-text question and source: screening/pilot_01.json (P018).",
+      "reason": "Pilot update"
+    },
+    {
+      "record": "P019",
+      "field": "Title",
+      "old": "GibbsDDRM",
+      "new": "GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration",
+      "source": "https://proceedings.mlr.press/v202/murata23a.html",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "D20",
+      "old": "GibbsDDRM",
+      "new": "GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z20",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF20",
+      "old": "Nearest joint posterior competitor",
+      "new": "Nearest joint posterior competitor | AI pilot 2026-09-16; advance to full text. Joint posterior inference for blind inverse problems. Human adjudication and full-text coding pending. Evidence: https://proceedings.mlr.press/v202/murata23a.html",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "E20",
+      "old": "GibbsDDRM",
+      "new": "GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration",
+      "reason": "Mirror corrected title"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I20",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L20",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Joint posterior inference for blind inverse problems. Basis: Official proceedings abstract. Full-text question and source: screening/pilot_01.json (P019).",
+      "reason": "Pilot update"
+    },
+    {
+      "record": "P020",
+      "field": "Title",
+      "old": "PromptIR: Prompting for All-in-One Blind Image Restoration",
+      "new": "PromptIR: Prompting for All-in-One Image Restoration",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "D21",
+      "old": "PromptIR: Prompting for All-in-One Blind Image Restoration",
+      "new": "PromptIR: Prompting for All-in-One Image Restoration",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "record": "P020",
+      "field": "Primary source URL",
+      "old": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a17bb69ab19f3be921f-Abstract-Conference.html",
+      "new": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html",
+      "reason": "Primary-source metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AE21",
+      "old": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a17bb69ab19f3be921f-Abstract-Conference.html",
+      "new": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html",
+      "reason": "Source-backed metadata correction"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z21",
+      "old": "Full citation verified",
+      "new": "Abstract inspected; full-text pending",
+      "reason": "Record actual evidence inspected in this pilot"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF21",
+      "old": "Nearest all-in-one baseline",
+      "new": "Nearest all-in-one baseline | AI pilot 2026-09-16; advance to full text. Unknown degradation types and levels. Human adjudication and full-text coding pending. Evidence: https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "E21",
+      "old": "PromptIR: Prompting for All-in-One Blind Image Restoration",
+      "new": "PromptIR: Prompting for All-in-One Image Restoration",
+      "reason": "Mirror corrected title"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "G21",
+      "old": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a17bb69ab19f3be921f-Abstract-Conference.html",
+      "new": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html",
+      "reason": "Mirror corrected source"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "I21",
+      "old": "Pending",
+      "new": "AI pilot: advance",
+      "reason": "AI recommendation; not a human or final eligibility decision"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L21",
+      "old": "Seed candidate only; requires formal database retrieval, deduplication and eligibility screening.",
+      "new": "2026-09-16 | AI only; human pending. Unknown degradation types and levels. Basis: Official proceedings abstract. Full-text question and source: screening/pilot_01.json (P020).",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA2",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA3",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA4",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA5",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA6",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA7",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA8",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA9",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA10",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA11",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA12",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA13",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA14",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA15",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA16",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA17",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA18",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA19",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA20",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA21",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA22",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA23",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA24",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA25",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA26",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA27",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA28",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA29",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA30",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA31",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA32",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA33",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA34",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA35",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA36",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA37",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA38",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA39",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA40",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA41",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA42",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA43",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA44",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA45",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA46",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA47",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA48",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA49",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA50",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA51",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA52",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA53",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA54",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA55",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA56",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA57",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA58",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA59",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA60",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA61",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA62",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA63",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA64",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA65",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA66",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA67",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA68",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA69",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA70",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA71",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA72",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA73",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA74",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA75",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA76",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA77",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA78",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA79",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA80",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA81",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA82",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA83",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA84",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA85",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA86",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA87",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA88",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA89",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA90",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AA91",
+      "old": "Include",
+      "new": "Pending formal eligibility",
+      "reason": "Legacy Include meant seed-map membership, not completed formal inclusion"
+    },
+    {
+      "sheet": "Summary",
+      "cell": "D10",
+      "old": "Research stream",
+      "new": "AI pilot — not formal",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Summary",
+      "cell": "E10",
+      "old": "Papers",
+      "new": "Records",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Summary",
+      "cell": "D11",
+      "old": null,
+      "new": "Pilot records triaged",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Summary",
+      "cell": "D12",
+      "old": null,
+      "new": "Advance to full text",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Summary",
+      "cell": "D13",
+      "old": null,
+      "new": "Unclear / retrieve",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Summary",
+      "cell": "D14",
+      "old": null,
+      "new": "Not pilot-triaged",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Summary",
+      "cell": "A9",
+      "old": "Title/abstract screened",
+      "new": "Formal title/abstract screened",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Summary",
+      "cell": "A22",
+      "old": "Proceed to formal database screening and a small go/no-go pilot. Do not claim novelty for physics-informed reconstruction, joint image/kernel estimation, blind diffusion, all-in-one restoration, or uncertainty alone.",
+      "new": "Proceed with reproducible database searches and human adjudication. The first 20 seed records received AI pilot recommendations only; no formal inclusion or methodological novelty is established. Feature codes require full-text verification.",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B13",
+      "old": "(\"forward model mismatch\" OR \"operator mismatch\" OR \"model uncertainty\" OR uncalibrated OR blind) AND (\"image reconstruction\" OR \"inverse problems\") AND (deep OR neural OR diffusion OR unrolled)",
+      "new": "(\"forward model mismatch\" OR \"operator mismatch\" OR \"model uncertainty\" OR miscalibrat* OR \"unknown operator\" OR \"blind inverse\") AND (\"image reconstruction\" OR \"video reconstruction\" OR \"inverse imaging\" OR deblurring OR restoration)",
+      "reason": "Align summary with authoritative protocol; no new database execution"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B14",
+      "old": "(deblurring OR restoration OR super-resolution OR surveillance OR CCTV) AND (compound OR mixed OR unknown OR time-varying) AND degradation AND (uncertainty OR calibration OR hallucination OR reliability)",
+      "new": "(restoration OR deblurring OR super-resolution OR surveillance OR CCTV) AND (compound OR composite OR mixed OR unknown OR \"time-varying\") AND (degradation OR operator OR acquisition) AND (uncertainty OR calibration OR hallucination OR reliability OR robustness)",
+      "reason": "Align summary with authoritative protocol; no new database execution"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B15",
+      "old": "(\"inverse problems\" AND hallucination) OR (\"image reconstruction\" AND (abstention OR \"selective prediction\" OR \"risk coverage\" OR conformal))",
+      "new": "(\"inverse problem\" OR \"image reconstruction\") AND (hallucination OR \"measurement support\" OR \"null space\" OR calibration OR \"uncertainty quantification\" OR abstention OR \"selective prediction\" OR \"risk coverage\" OR conformal OR OOD)",
+      "reason": "Align summary with authoritative protocol; no new database execution"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B7",
+      "old": "How can reconstruction under compound, unknown and time-varying operator mismatch provide calibrated image/operator uncertainty, measurement-support assessment and selective abstention?",
+      "new": "To what extent do learning-based image or video reconstruction methods remain accurate, calibrated and evidentially faithful when the true acquisition operator differs from the assumed forward model?",
+      "reason": "Mirror authoritative review question"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B19",
+      "old": "Approximately 60–100 full-text screened papers after citation chaining",
+      "new": "Planning estimate only: 60–100 full-text papers; not an eligibility quota. Include all studies meeting the protocol.",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B21",
+      "old": "1.1 — seed corpus transferred to PRISMA screening log on 16 September 2026",
+      "new": "0.3 — working draft amended 16 September 2026; not registered. Corrects inconsistent workbook 1.1 label.",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B22",
+      "old": "Protocol prepared; formal database searches, deduplication and eligibility screening have not yet started",
+      "new": "20 AI pilot recommendations (18 advance, 2 unclear); all human adjudication pending. Formal database searches and two-stage eligibility are not completed; formal inclusion/exclusion counts remain zero.",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B23",
+      "old": "The 90 coded papers are candidate records for gap mapping. They become formally included studies only after the documented PRISMA workflow",
+      "new": "90 seed candidates, not 90 included studies. AI pilot decisions are preliminary; missing abstracts are flagged, not excluded. See screening/pilot_01.json and docs/systematic_review_protocol.md.",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Coding Dictionary",
+      "cell": "B17",
+      "old": "Controlled label",
+      "new": "Abstract inspected; full-text pending / Title/project checked; abstract pending / Incomplete evidence; retrieval pending / legacy labels",
+      "reason": "Pilot update"
+    },
+    {
+      "sheet": "Coding Dictionary",
+      "cell": "C17",
+      "old": "Whether metadata, abstract or full text has been verified",
+      "new": "Describes evidence actually accessed, not study quality. Legacy labels outside the pilot remain unverified here. All feature codes require full-text verification.",
+      "reason": "Pilot update"
+    }
+  ]
+}
