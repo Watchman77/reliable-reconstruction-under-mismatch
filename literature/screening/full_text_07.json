@@ -1,0 +1,571 @@
+{
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "Full texts inspected online or retrieved as local PDFs. Acquisition flags describe this assessment session, not repository distribution. No paper PDFs are committed; links, versions and PDF hashes preserve retrieval provenance.",
+    "c1": "Primary research belongs to the unchanged date window. P069 retains its verified 2020 journal lineage while the inspected 2019 precursor is explicitly identified; final-version equivalence is not assumed.",
+    "c5": "Every assessed record had an accessible English full text at source_url.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch."
+  },
+  "user_deferral": {
+    "instruction": "User will handle pending items later; continue accessible paper assessment now.",
+    "effect": "No new user action is required for this checkpoint. Human adjudication, unresolved retrieval, version/lineage reconciliation and formal search accounting remain tracked, not marked complete."
+  },
+  "checkpoint": "full_text_07",
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 70,
+    "ai_include": 69,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 20,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "batch_counts": {
+    "new_assessments": 10,
+    "ai_include": 10,
+    "ai_exclude": 0
+  },
+  "counts_scope": "Cumulative across full_text_01 through full_text_07; records contains this batch only.",
+  "records": [
+    {
+      "study_id": "P001",
+      "title": "Deep Learning for Handling Kernel/Model Uncertainty in Image Deconvolution",
+      "decision": "include",
+      "source_url": "https://raw.githubusercontent.com/ysnan/NBD_KerUnc/master/paper/kn.pdf",
+      "version": "Author-hosted CVPR 2020 manuscript; publisher text not compared.",
+      "read_extent": "§1.2; §§3.1–3.5, Algorithm 1; §§4.1–4.4; §5. Figure 3/Algorithm 1 page visually inspected.",
+      "technical": "Unrolling compensates for kernel error through an image-dependent residual while retaining the supplied kernel. Tests include synthesized errors and kernels from blind estimators. Ringing comparisons are partial artifact evidence; no physical-kernel posterior or calibrated reliability is demonstrated.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–4; Figures 3, 5–7",
+      "applicability": "Residual compensation is an existing comparator; transfer tests do not isolate an unseen operator family.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Match kernel-estimator inputs, measurement noise and boundary handling; residual recovery does not identify a physical operator."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Author-hosted CVPR 2020 manuscript; publisher text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method, theory or benchmark."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Explicit kernel/model mismatch with reconstruction experiments."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method, theoretical result or benchmark with assessment in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text retrieved as a PDF at source_url."
+        }
+      },
+      "source_file_sha256": "9e84e4a89f847d01b1156572fa059077bb9660d0bdf73cdd4e9c5311cb3b0610",
+      "source_file_bytes": 22283768
+    },
+    {
+      "study_id": "P004",
+      "title": "Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms",
+      "decision": "include",
+      "source_url": "https://cg.postech.ac.kr/research/RealBlur/assets/pdf/RealBlur_eccv2020.pdf",
+      "version": "Author-hosted ECCV 2020 manuscript; publisher text not compared.",
+      "read_extent": "§§3–4; §§5.1–5.2, Tables 1–4; §6. Separate supplement not audited.",
+      "technical": "RealBlur captures paired blurred/sharp images, then aligns, downsamples and denoises targets. Cross-dataset experiments test synthetic-to-real transfer. The main dataset contains static scenes; dynamic-scene examples do not supply equivalent paired evaluation. Real measurements also contain noise.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5; Tables 1–4; §6 limitations",
+      "applicability": "Useful real-capture benchmark; target preprocessing and scene coverage matter.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Preserve scene-disjoint splits and evaluation alignment; inspect target uncertainty before treating pairs as exact truth."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Author-hosted ECCV 2020 manuscript; publisher text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method, theory or benchmark."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown real blur and synthetic-to-real reconstruction benchmark."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method, theoretical result or benchmark with assessment in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text retrieved as a PDF at source_url."
+        }
+      },
+      "source_file_sha256": "404c8cd81148e5c3ef920f037e71b3f76564d795b87fc5b4b362f28a8d8629b6",
+      "source_file_bytes": 27147281
+    },
+    {
+      "study_id": "P009",
+      "title": "Designing a Practical Degradation Model for Deep Blind Image Super-Resolution",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/2103.14006v2",
+      "version": "arXiv 2103.14006 v2, 30 September 2021; final ICCV text not compared.",
+      "read_extent": "§§3.1–3.4; §§4–5; §§6.1–6.4; §7.",
+      "technical": "BSRGAN randomizes blur, resizing and noise operations, including camera/JPEG effects. Synthetic and unpaired real-image tests examine practical transfer. The network does not explicitly recover an operator. Bubble artifacts and disagreement between quality metrics and visual assessment limit reliability interpretation.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§3; §§6.1–6.4; §7",
+      "applicability": "Practical degradation training is established; transfer is not a controlled unseen-family experiment.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Match training data, losses and degradation distributions; shared architecture alone does not isolate the training contribution."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2103.14006 v2, 30 September 2021; final ICCV text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method, theory or benchmark."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Blind compound degradation with real-image transfer tests."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method, theoretical result or benchmark with assessment in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text retrieved as a PDF at source_url."
+        }
+      },
+      "source_file_sha256": "694c0d15cc335ff9bb5f474f3c5eb5c0a7ed54c2323a1cfe337736fcd2435341",
+      "source_file_bytes": 8970998
+    },
+    {
+      "study_id": "P016",
+      "title": "Pseudoinverse-Guided Diffusion Models for Inverse Problems",
+      "decision": "include",
+      "source_url": "https://jankautz.com/publications/PiGDM_ICLR23.pdf",
+      "version": "Author-hosted PDF marked published at ICLR 2023.",
+      "read_extent": "§§2–3.4; §§5.1–5.3; §6; Appendix A.1 Algorithm 1.",
+      "technical": "ΠGDM approximates measurement-conditioned diffusion scores using supplied operators and pseudoinverses, including nonlinear examples. Compound tasks and pooling-to-bicubic comparisons are evaluated. Image posterior sampling earns P=Yes; it does not infer operator uncertainty or demonstrate calibrated coverage.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "U": "Yes",
+        "V": "No",
+        "X": "No"
+      },
+      "feature_locator": "§3; §5.1.1; §5.3; Algorithm 1",
+      "applicability": "Operator-aware generative baseline with known measurement maps, not blind physical estimation.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Match class-label access and sampling cost; inspect inverse-composition and Gaussian-approximation assumptions."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Author-hosted PDF marked published at ICLR 2023."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method, theory or benchmark."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Posterior reconstruction, altered degradation and composed inverse tasks."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method, theoretical result or benchmark with assessment in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text retrieved as a PDF at source_url."
+        }
+      },
+      "source_file_sha256": "5e9cc26d925a8e85255d12f57ee239f3d818d3cc91402b514f940113a8755c96",
+      "source_file_bytes": 18733368
+    },
+    {
+      "study_id": "P017",
+      "title": "Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/2212.00490v2",
+      "version": "arXiv 2212.00490 v2, 7 December 2022; final ICLR 2023 text not compared.",
+      "read_extent": "§§3.1–3.3; §§4.1–4.3; §6; Appendices C–D.",
+      "technical": "DDNM constrains the range-space component using a supplied linear operator. DDNM+ handles noise and composed old-photo tasks with manually specified masks/noise settings. Its real-image treatment approximates nonlinear corruption; consistency alone does not verify generated null-space detail.",
+      "feature_codes": {
+        "O": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "X": "No"
+      },
+      "feature_locator": "§3; §4.3; Appendices C–D",
+      "applicability": "Separates data consistency from correctness; image-UQ coding is left provisional.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Compare final text, operator approximation and manual inputs; the inspected version does not calibrate sampled detail."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2212.00490 v2, 7 December 2022; final ICLR 2023 text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method, theory or benchmark."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Compound reconstruction and explicitly approximate real-world forward models."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method, theoretical result or benchmark with assessment in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text retrieved as a PDF at source_url."
+        }
+      },
+      "source_file_sha256": "2eb94d7e487039d3575713586699534a2a775f98b61ba2f5692569391f37fa95",
+      "source_file_bytes": 16229389
+    },
+    {
+      "study_id": "P025",
+      "title": "DiffBIR: Toward Blind Image Restoration with Generative Diffusion Prior",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2308.15070v3",
+      "version": "arXiv 2308.15070 v3, 12 April 2024; final ECCV text not compared.",
+      "read_extent": "§§3.1–3.4; §§4.1–4.3; §5. Appendix not fully audited.",
+      "technical": "DiffBIR combines task-specific restorers with diffusion conditioning. Region-adaptive guidance follows the restored image, rather than an estimated physical operator. Compound/real-image tests and distortion ablations provide partial artifact evidence. Guidance is disabled in reported real-world comparisons.",
+      "feature_codes": {
+        "O": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§3.4; §4 implementation; Tables 2–8",
+      "applicability": "Fidelity guidance differs from calibrated abstention; image-UQ coding remains provisional.",
+      "assessment_complete": true,
+      "local_pdf_acquired": false,
+      "quality_followups": [
+        "Match task-specific restorers and total compute; do not infer coverage from guidance or no-reference quality scores."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2308.15070 v3, 12 April 2024; final ECCV text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method, theory or benchmark."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Blind compound restoration with real-world evaluation."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method, theoretical result or benchmark with assessment in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text inspected online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P027",
+      "title": "SR+Codec: a Benchmark of Super-Resolution for Video Compression Bitrate Reduction",
+      "decision": "include",
+      "source_url": "https://bmva-archive.org.uk/bmvc/2024/papers/Paper_959/paper.pdf",
+      "version": "BMVC 2024 official proceedings PDF inspected through the web reader.",
+      "read_extent": "§§3.1–3.3; §§4.1–4.3; §5.",
+      "technical": "SR+Codec benchmarks pretrained SR after downsampling and codec compression. Low-complexity source videos intentionally limit other corruption. Synthetic acquisition from natural footage is not captured CCTV degradation. Human preference and metric correlation do not establish uncertainty calibration.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "No",
+        "U": "Yes",
+        "V": "No",
+        "X": "No"
+      },
+      "feature_locator": "§3 data/codecs and subjective protocol; §4",
+      "applicability": "Relevant compression comparator; temporal operator variation was not evaluated.",
+      "assessment_complete": true,
+      "local_pdf_acquired": false,
+      "quality_followups": [
+        "Audit codec settings and LPIPS-based model shortlisting; validate the combined quality metric on independent data."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "BMVC 2024 official proceedings PDF inspected through the web reader."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method, theory or benchmark."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Compound video degradation and operational restoration benchmark."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method, theoretical result or benchmark with assessment in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text inspected online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P031",
+      "title": "The Troublesome Kernel: On Hallucinations, No Free Lunches, and the Accuracy-Stability Tradeoff in Inverse Problems",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2001.01258v4",
+      "version": "arXiv 2001.01258 v4, 18 June 2024; final SIAM Review text not compared.",
+      "read_extent": "§3; §§4.1–4.3 through Theorem 4.5/discussion; §6; Appendix A.1–A.3 selected examples. Proofs not audited.",
+      "technical": "The theory links near-null measurement directions to accuracy/stability conflicts and hallucinations under stated linear-operator assumptions. Microscopy/MRI examples and inserted-detail tests support distinct empirical cases. These are conditional results, not universal claims that every reconstruction must hallucinate.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "Yes",
+        "W": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "Theorems 4.1–4.5; Appendix A.1–A.3",
+      "applicability": "A theory comparator; measured microscopy and simulated examples must remain distinguished.",
+      "assessment_complete": true,
+      "local_pdf_acquired": false,
+      "quality_followups": [
+        "Check final theorem hypotheses before extending conclusions to nonlinear CCTV; small residuals are not detail certificates."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2001.01258 v4, 18 June 2024; final SIAM Review text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method, theory or benchmark."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Reconstruction hallucinations, stability and held-out detail tests."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method, theoretical result or benchmark with assessment in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text inspected online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P069",
+      "title": "Blind Image Deconvolution Using Deep Generative Priors",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/1802.04073v4",
+      "version": "arXiv v4, 26 February 2019; linked IEEE TCI journal report dated 2020. Final text not compared.",
+      "read_extent": "§§III–IV, Algorithms 1–3; §V.A–B; §V.C selected generator-range/noise/restart analyses; §V.D.",
+      "technical": "Alternating latent optimization jointly estimates an image and blur kernel. Generator-range limitations and noise transfer are tested; all acquisition experiments are synthetic. Random restarts select point estimates, not operator posteriors. VAE prior training does not itself provide inverse-problem calibration.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "No",
+        "U": "Yes",
+        "V": "No",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "Algorithms 1–3; §V.C range/noise analyses; §V.D",
+      "applicability": "Early joint-generative comparator; noise-transfer evidence is narrower than operator-family transfer.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Separate tests on generator-range images from arbitrary targets and reconcile the 2019 manuscript with the 2020 report."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v4, 26 February 2019; linked IEEE TCI journal report dated 2020. Final text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method, theory or benchmark."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Joint blind deconvolution and generative range/noise mismatch."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method, theoretical result or benchmark with assessment in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text retrieved as a PDF at source_url."
+        }
+      },
+      "source_file_sha256": "3184e14106f853ab85e1e60ecee8312a480faa7e4af8619066fe7e6d5431224b",
+      "source_file_bytes": 7455437,
+      "publication_date_evidence": {
+        "url": "https://api.crossref.org/works/10.1109/TCI.2020.3032671",
+        "detail": "Publisher-deposited Crossref metadata retrieved 2026-09-16: matching title and all three authors; IEEE Transactions on Computational Imaging, print year 2020; DOI 10.1109/tci.2020.3032671."
+      }
+    },
+    {
+      "study_id": "P088",
+      "title": "Exploiting Diffusion Prior for Real-World Image Super-Resolution",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/2305.07015v4",
+      "version": "arXiv 2305.07015 v4, 28 June 2024; expanded journal-style manuscript. Final IJCV text not compared.",
+      "read_extent": "§§3.1–3.3; §§4.1–4.3 selected comparisons; §4 ablation excerpts; Appendices A–C.",
+      "technical": "StableSR conditions a fixed diffusion prior with a time-aware encoder and optional fidelity control. Synthetic and captured-image benchmarks assess compound restoration. Severe-degradation examples motivate pre-cleaning. Fidelity control and visual preference provide no calibrated rule for withholding unsupported detail.",
+      "feature_codes": {
+        "O": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§3.2; §4.2–4.3; Appendix C",
+      "applicability": "Diffusion timesteps are not temporal video degradation; image-UQ coding remains provisional.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "quality_followups": [
+        "Reconcile the user-study sample-count inconsistency and final version; separate optional pre-cleaning/CFW settings in comparisons."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2305.07015 v4, 28 June 2024; expanded journal-style manuscript. Final IJCV text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method, theory or benchmark."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Blind compound SR and real-measurement evaluation."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method, theoretical result or benchmark with assessment in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text retrieved as a PDF at source_url."
+        }
+      },
+      "source_file_sha256": "e792302c298df0badf6102dd8bbe8faf69b03c3871de4c7884eb0c11fdb80dc0",
+      "source_file_bytes": 38071387
+    }
+  ],
+  "access_notes": [
+    "P001/P004/P009/P016/P017/P069/P088 PDFs were retrieved from public author/arXiv sources. Earlier failed web-reader routes remain historical, not current access blocks for these records.",
+    "P025/P031 HTML and P027 proceedings text were read online. No local PDF acquisition is asserted for these three.",
+    "A failed P009 candidate route containing 2103.14030 was discarded before content use; the verified source is 2103.14006. Seed metadata was not changed.",
+    "Further web-reader attempts for P073 were unsuccessful. It remains pending; alternate sources are not exhausted."
+  ],
+  "remaining_ids": [
+    "P013",
+    "P021",
+    "P029",
+    "P030",
+    "P032",
+    "P035",
+    "P040",
+    "P043",
+    "P044",
+    "P046",
+    "P049",
+    "P053",
+    "P055",
+    "P058",
+    "P059",
+    "P061",
+    "P068",
+    "P071",
+    "P073",
+    "P090"
+  ]
+}

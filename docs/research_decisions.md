@@ -125,3 +125,13 @@ The research may improve visibility and quantify recoverability. It must not des
 **Version boundary:** P002/P003 remain 2020 journal lineages within the unchanged window. Their inspected precursors are dated 2019; final-text reconciliation remains explicit and outstanding.
 
 **Next work:** assess the remaining 30 seeds and resolve source/version and quality follow-ups before definitive synthesis.
+
+## 16 September 2026 — Seventh AI full-text checkpoint
+
+**Checkpoint:** ten additional include recommendations. Cumulative: 70 assessed, 69 include recommendations, 1 exclude, 20 pending. All eight initial unclear cases now have AI full-text recommendations. Human adjudication and formal search accounting remain pending.
+
+**Decision:** keep the original umbrella topic and candidate question. Continue the existing assessment workflow with the remaining 20 seeds. The [checkpoint report](../literature/screening/full_text_07_report.md) records the new evidence and its limits.
+
+**Research implication:** distinguish compensating for measurement residuals, estimating physical parameters, quantifying uncertainty and deciding which detail to release. These are different claims with different comparators. This synthesis interpretation does not establish the candidate's novelty.
+
+**Version boundary:** P069 retains its verified 2020 journal lineage, with conclusions attributed to the inspected 2019 precursor. Final-text reconciliation remains outstanding; no pre-2020 seed or new screening stage was added.

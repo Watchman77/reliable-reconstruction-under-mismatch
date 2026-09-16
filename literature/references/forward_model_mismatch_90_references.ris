@@ -7,7 +7,7 @@ TI  - Deep Learning for Handling Kernel/Model Uncertainty in Image Deconvolution
 T2  - CVPR
 UR  - https://doi.org/10.1109/CVPR42600.2020.00246
 DO  - 10.1109/CVPR42600.2020.00246
-N1  - Evidence status: Title/project checked; abstract pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -43,7 +43,7 @@ TI  - Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithm
 T2  - ECCV
 UR  - https://doi.org/10.1007/978-3-030-58595-2_12
 DO  - 10.1007/978-3-030-58595-2_12
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -98,7 +98,7 @@ PY  - 2021
 TI  - Designing a Practical Degradation Model for Deep Blind Image Super-Resolution
 T2  - ICCV
 UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Designing_a_Practical_Degradation_Model_for_Deep_Blind_Image_Super-Resolution_ICCV_2021_paper.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -168,7 +168,7 @@ PY  - 2023
 TI  - Pseudoinverse-Guided Diffusion Models for Inverse Problems
 T2  - ICLR
 UR  - https://openreview.net/forum?id=9_gsMA8MRKQ
-N1  - Evidence status: Title/project checked; abstract pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -178,7 +178,7 @@ PY  - 2023
 TI  - Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model
 T2  - ICLR
 UR  - https://openreview.net/forum?id=mRieQgMtNTQ
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -262,7 +262,7 @@ TI  - DiffBIR: Toward Blind Image Restoration with Generative Diffusion Prior
 T2  - ECCV
 UR  - https://link.springer.com/chapter/10.1007/978-3-031-73202-7_25
 DO  - 10.1007/978-3-031-73202-7_25
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -284,7 +284,7 @@ PY  - 2024
 TI  - SR+Codec: a Benchmark of Super-Resolution for Video Compression Bitrate Reduction
 T2  - BMVC
 UR  - https://bmvc2024.org/proceedings/959/
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -331,7 +331,7 @@ TI  - The Troublesome Kernel: On Hallucinations, No Free Lunches, and the Accura
 T2  - SIAM Review
 UR  - https://doi.org/10.1137/23M1568739
 DO  - 10.1137/23M1568739
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -736,7 +736,7 @@ TI  - Blind Image Deconvolution Using Deep Generative Priors
 T2  - IEEE TCI
 UR  - https://doi.org/10.1109/TCI.2020.3032671
 DO  - 10.1109/TCI.2020.3032671
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -929,7 +929,7 @@ TI  - Exploiting Diffusion Prior for Real-World Image Super-Resolution
 T2  - IJCV
 UR  - https://doi.org/10.1007/s11263-024-02168-7
 DO  - 10.1007/s11263-024-02168-7
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER

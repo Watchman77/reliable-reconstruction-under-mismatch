@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.14.0 — 2026-09-16
+
+- Added ten AI full-text eligibility assessments. Cumulative: 70 assessed, 69 include recommendations, 1 exclude, 20 pending.
+- Resolved the last initially unclear record (P016); all eight now have AI full-text recommendations, with historical triage preserved.
+- Distinguished residual compensation, joint point estimation, approximate image posterior sampling, null-space theory and fidelity control. Novelty remains unestablished.
+- Retrieved seven PDFs for assessment and recorded source hashes; no paper PDFs are redistributed. Other assessed sources were inspected online.
+- Verified P069's 2020 journal lineage using publisher-deposited metadata while retaining the inspected 2019 precursor's version boundary.
+- Synchronized the matrix, tracker and four reference exports; preserved all 90 seed IDs, prior decisions, workbook objects and protocol v0.4. User tasks remain deferred.
+
 ## 0.13.0 — 2026-09-16
 
 - Added seven AI full-text eligibility assessments. Cumulative: 60 assessed, 59 include recommendations, 1 exclude, 30 pending.
