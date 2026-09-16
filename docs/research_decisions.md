@@ -32,13 +32,23 @@ The project will not claim novelty for any component alone:
 - data-consistency loss;
 - visually sharper CCTV output.
 
-The candidate contribution must integrate compound/time-varying mismatch, joint image/degradation inference, calibrated dual uncertainty, measurement-support assessment, OOD/device-shift evaluation and risk-controlled selective output.
+The candidate contribution must identify a specific limitation relative to the closest methods and demonstrate a reproducible improvement. Combining compound mismatch, dual uncertainty and selective output is not by itself evidence of novelty.
 
 ## 16 September 2026 — Architecture gate
 
 **Decision:** do not build a large custom neural architecture yet.
 
-**Required evidence:** the formal review must leave the full intersection open, at least two baseline families must fail materially under controlled mismatch, and a calibrated selective mechanism must reduce risk without rejecting most observations.
+**Required evidence:** nearest-method full-text comparisons must substantiate a specific unresolved limitation; controlled experiments must show a reproducible failure under a defined mismatch; and the proposed mechanism must improve a predeclared reliability outcome at useful retained coverage. A missing seven-feature intersection or a failing weak baseline is insufficient. This replaces the earlier checklist-based gate.
+
+## 16 September 2026 — Second pilot and narrower question
+
+**Checkpoint:** 40/90 preliminary recommendations (38 advance, 2 unclear), 50 awaiting pilot triage. No formal inclusions. P006 and P016 remain unresolved; P032 still needs complete text.
+
+**Evidence:** targeted readings show that AverNet evaluates compound/time-varying video degradation and PRISM evaluates image and kernel uncertainty, including image interval diagnostics. The VDPS repository also documents time-varying blind Zernike reconstruction. A hallucination-assessment preprint explicitly cautions against treating its sampled feasible-set diameter as a pointwise upper certificate. See [the source-backed batch report](../literature/screening/pilot_02_report.md) for locations and limits.
+
+**Candidate question:** can propagating estimated-operator uncertainty improve the reliability of selectively released image detail when the true acquisition process leaves the assumed family?
+
+**Decision:** continue the review and the bounded baseline comparison. Do not claim that this question is unsolved until the closest reliability methods, unresolved papers and remaining seed records are assessed. Validate thresholds on a separate split and distinguish empirical behavior under chosen shifts from an arbitrary-OOD guarantee.
 
 ## 16 September 2026 — Forensic boundary
 

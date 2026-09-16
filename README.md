@@ -6,8 +6,8 @@ Research repository for a journal-first programme on evidence-calibrated image r
 
 - 90-record seed evidence matrix covering 1 January 2020 to 15 September 2026.
 - Systematic-review protocol v0.3, a dated working draft that is not yet registered.
-- First 20 records triaged in an AI-assisted pilot: 18 advance recommendations, 2 unclear; all await human adjudication. The remaining 70 have not received this pilot triage.
-- Seventeen complete abstracts inspected; two records assessed using titles and official author repositories; one has incomplete abstract evidence.
+- First 40 records triaged in two AI-assisted batches: 38 advance recommendations, 2 unclear; all await human adjudication. The remaining 50 have not received this pilot triage.
+- Evidence basis is recorded per study. Three close competitors received targeted technical inspection; incomplete retrieval is flagged explicitly.
 - Zero formally included studies. Seed feature codes remain provisional, not full-text-verified extraction.
 - Rapid adversarial gap map completed.
 - Phase-0 classical canary implemented and executed.
@@ -15,15 +15,15 @@ Research repository for a journal-first programme on evidence-calibrated image r
 
 The 90 studies are a seed evidence map, not a completed PRISMA corpus. The repository must not be cited as a systematic review until database searches, deduplication, two-stage screening, exclusion logging, full-text verification and citation chaining are complete.
 
-See the [pilot report and next full-text questions](literature/screening/pilot_01_report.md) and [record-level evidence](literature/screening/pilot_01.json). The matrix, screening log and reference exports have been synchronized; bibliographic corrections are recorded in a field-level audit. Unreviewed references are still draft metadata, not submission-ready citations.
+See the [latest screening and novelty check](literature/screening/pilot_02_report.md) and [record-level evidence](literature/screening/pilot_02.json), alongside the preserved [first pilot](literature/screening/pilot_01_report.md). The matrix, screening log and reference exports are synchronized; bibliographic corrections are recorded in field-level audits. Unreviewed references are still draft metadata, not submission-ready citations.
 
 ## Candidate research gap
 
-The broad claim that physics-informed learning can improve reconstruction under an imperfect operator is already occupied. The surviving candidate problem is narrower:
+The broad claim that physics-informed learning can improve reconstruction under an imperfect operator is already occupied. AverNet, PRISM and VDPS also overlap compound/time-varying restoration, joint operator inference and uncertainty evaluation. Our narrower candidate question is:
 
-> Recover images under a compound and potentially time-varying surveillance acquisition chain; infer the degradation state; calibrate uncertainty for both image and degradation; distinguish measurement-supported from prior-generated detail; and mask or abstain when recovery is unreliable under unseen cameras, codecs and scenes.
+> Can accounting for uncertainty in an estimated forward operator improve the reliability of selectively released image detail when the true acquisition process leaves the assumed model family?
 
-Novelty is provisional until the formal review and larger pilot are complete.
+Novelty is unestablished. This requires a specific contribution against the nearest methods, not a checklist of combined features. See the linked screening report for primary sources, demonstrated overlaps and a bounded feasibility comparison.
 
 ## Repository structure
 

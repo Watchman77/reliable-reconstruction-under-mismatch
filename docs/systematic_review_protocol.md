@@ -155,6 +155,8 @@ Each exclusion receives one primary reason. Ideally two reviewers screen indepen
 
 The first 20 seed records, in stable ID order, form a convenience pilot to test the criteria and repair metadata. This is not a reproducible database search or a representative sample. Codex's recommendations are labelled `AI pilot: advance` or `AI pilot: unclear`; every recommendation requires human adjudication. AI is not an independent human reviewer.
 
+Checkpoint continuation, 16 September 2026: P021–P040 were assessed under the same convention, bringing preliminary triage to 40 records. This is an execution-status update, not an eligibility, date-window or search-method change. Targeted full-text passages may support individual findings without constituting a complete full-text eligibility assessment.
+
 An explicit title/abstract scope signal permits conservative advancement to full-text review; it does not establish all inclusion criteria. When an abstract cannot be retrieved, the exact evidence basis is recorded (for example, title and official author repository). Missing evidence is not converted into an exclusion. Uncertainty about relevance is retained as `unclear` for retrieval/adjudication.
 
 Formal title/abstract, full-text, inclusion and exclusion counters remain separate from pilot progress. No record receives final inclusion from this pilot. Original discovery dates remain blank where undocumented; 16 September is the verification date, not an invented search/discovery date. All seed feature codes remain provisional until full-text extraction.

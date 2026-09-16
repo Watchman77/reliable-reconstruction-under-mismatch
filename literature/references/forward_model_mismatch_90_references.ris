@@ -65,7 +65,7 @@ TI  - Deep Equilibrium Architectures for Inverse Problems in Imaging
 T2  - IEEE TCI
 UR  - https://doi.org/10.1109/TCI.2021.3118944
 DO  - 10.1109/TCI.2021.3118944
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Targeted full-text sections inspected; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -218,17 +218,20 @@ PY  - 2024
 TI  - Differentiable Uncalibrated Imaging
 T2  - IEEE TCI
 UR  - https://arxiv.org/abs/2211.10525
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
 ID  - P022
-AU  - Laroche et al.
+AU  - Laroche, Charles
+AU  - Almansa, Andrés
+AU  - Coupete, Eva
 PY  - 2024
-TI  - Fast Diffusion EM
+TI  - Fast Diffusion EM: A Diffusion Model for Blind Inverse Problems With Application to Deconvolution
 T2  - WACV
 UR  - https://openaccess.thecvf.com/content/WACV2024/html/Laroche_Fast_Diffusion_EM_A_Diffusion_Model_for_Blind_Inverse_Problems_WACV_2024_paper.html
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+DO  - 10.1109/WACV57701.2024.00519
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -238,17 +241,17 @@ PY  - 2024
 TI  - Blind Image Restoration via Fast Diffusion Inversion
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/3d13d910b48ac2e672a32cfdf98be1bf-Abstract-Conference.html
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
-TY  - GEN
+TY  - JOUR
 ID  - P024
 AU  - Bai et al.
-PY  - 2024
+PY  - 2026
 TI  - Blind Inversion Using Latent Diffusion Priors
-T2  - arXiv/TIP later
-UR  - https://arxiv.org/abs/2407.01027
-N1  - Evidence status: Abstract verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+T2  - IEEE Transactions on Image Processing
+UR  - https://ieeexplore.ieee.org/document/11351303/
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -257,8 +260,9 @@ AU  - Lin et al.
 PY  - 2024
 TI  - DiffBIR: Toward Blind Image Restoration with Generative Diffusion Prior
 T2  - ECCV
-UR  - https://eccv.ecva.net/virtual/2024/poster/2315
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+UR  - https://link.springer.com/chapter/10.1007/978-3-031-73202-7_25
+DO  - 10.1007/978-3-031-73202-7_25
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -268,17 +272,19 @@ PY  - 2024
 TI  - AverNet: All-in-One Video Restoration for Time-Varying Unknown Degradations
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/e635a25e49e73adc51f76aef462ff2f8-Abstract-Conference.html
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Targeted full-text sections inspected; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
 ID  - P027
-AU  - Bogatyrev et al.
+AU  - Bogatyrev, Evgeney
+AU  - Molodetskikh, Ivan
+AU  - Vatolin, Dmitriy S.
 PY  - 2024
-TI  - SR+Codec: A Benchmark of Super-Resolution for Video Compression
-T2  - BMVC/arXiv
-UR  - https://arxiv.org/abs/2412.02506
-N1  - Evidence status: Abstract verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+TI  - SR+Codec: a Benchmark of Super-Resolution for Video Compression Bitrate Reduction
+T2  - BMVC
+UR  - https://bmvc2024.org/proceedings/959/
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -288,7 +294,7 @@ PY  - 2024
 TI  - Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild
 T2  - CVPR
 UR  - https://arxiv.org/abs/2401.13627
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -298,29 +304,34 @@ PY  - 2024
 TI  - Robust Unrolled Network for Lensless Imaging with Enhanced Resistance to Model Mismatch and Noise
 T2  - Optics Express
 UR  - https://opg.optica.org/oe/abstract.cfm?uri=oe-32-17-30267
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+DO  - 10.1364/OE.531694
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
 ID  - P030
-AU  - Akinwande et al.
+AU  - Melidonis, S.
+AU  - Holden, M.
+AU  - Altmann, Y.
+AU  - Pereyra, M.
+AU  - Zygalakis, K. C.
 PY  - 2024
 TI  - Empirical Bayesian Imaging With Large-Scale Push-Forward Generative Priors
 T2  - IEEE SPL
 UR  - https://doi.org/10.1109/LSP.2024.3361806
 DO  - 10.1109/LSP.2024.3361806
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
 ID  - P031
 AU  - Gottschling et al.
 PY  - 2025
-TI  - The Troublesome Kernel
+TI  - The Troublesome Kernel: On Hallucinations, No Free Lunches, and the Accuracy-Stability Tradeoff in Inverse Problems
 T2  - SIAM Review
 UR  - https://doi.org/10.1137/23M1568739
 DO  - 10.1137/23M1568739
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -331,7 +342,7 @@ TI  - Uncertainty-Aware Fourier Ptychography
 T2  - Light: Science & Applications
 UR  - https://doi.org/10.1038/s41377-025-01915-w
 DO  - 10.1038/s41377-025-01915-w
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Incomplete evidence; retrieval pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -341,7 +352,7 @@ PY  - 2025
 TI  - Unsupervised Detection of Distribution Shift in Inverse Problems Using Diffusion Models
 T2  - arXiv
 UR  - https://arxiv.org/abs/2505.11482
-N1  - Evidence status: Preprint abstract verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -351,7 +362,7 @@ PY  - 2025
 TI  - Towards Distribution-Shift Uncertainty Estimation for Inverse Problems with Generative Priors
 T2  - arXiv
 UR  - https://arxiv.org/abs/2510.10947
-N1  - Evidence status: Preprint abstract verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -360,8 +371,9 @@ AU  - Lee & Jang
 PY  - 2026
 TI  - Mitigating Forward Model Mismatch in Inverse Problems via Learned Residuals and Diffusion Priors
 T2  - SPIE
-UR  - https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13849/1384908/
-N1  - Evidence status: Abstract verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+UR  - https://doi.org/10.1117/12.3098133
+DO  - 10.1117/12.3098133
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -371,7 +383,7 @@ PY  - 2026
 TI  - InverseNet: Benchmarking Operator Mismatch and Calibration Across Compressive Imaging Modalities
 T2  - arXiv
 UR  - https://arxiv.org/abs/2603.04538
-N1  - Evidence status: Preprint abstract verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -381,7 +393,7 @@ PY  - 2026
 TI  - On Hallucinations in Inverse Problems: Fundamental Limits and Provable Assessment Methods
 T2  - arXiv
 UR  - https://arxiv.org/abs/2605.13146
-N1  - Evidence status: Preprint full abstract verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Targeted full-text sections inspected; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -392,7 +404,7 @@ TI  - PRISM: Probabilistic and Robust Inverse Solver with Measurement-Conditione
 T2  - ICASSP
 UR  - https://doi.org/10.1109/ICASSP55912.2026.11462668
 DO  - 10.1109/ICASSP55912.2026.11462668
-N1  - Evidence status: Full preprint verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Targeted full-text sections inspected; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -403,7 +415,7 @@ TI  - Adaptive Blind All-in-One Image Restoration
 T2  - CVIU
 UR  - https://doi.org/10.1016/j.cviu.2026.104795
 DO  - 10.1016/j.cviu.2026.104795
-N1  - Evidence status: Full citation verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -414,7 +426,7 @@ TI  - Video Diffusion Posterior Sampling for Seeing Beyond Dynamic Scattering La
 T2  - IEEE TPAMI
 UR  - https://doi.org/10.1109/TPAMI.2025.3598457
 DO  - 10.1109/TPAMI.2025.3598457
-N1  - Evidence status: Full abstract verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract and repository inspected; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN

@@ -1,0 +1,224 @@
+{
+  "pilot_id": "pilot_02",
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.3",
+  "selection": "Next 20 stable seed IDs, P021–P040; continuation of the convenience pilot, not a database-derived or random sample.",
+  "reviewer": "Codex AI-assisted preliminary triage; human adjudication pending for every record.",
+  "formal_database_search_executed": false,
+  "full_text_eligibility_assessed": false,
+  "decision_rule": "Conservative advancement on a documented scope signal. Partial full-text inspection supports only the named findings, not full eligibility or all feature codes.",
+  "records": [
+    {
+      "study_id": "P021", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract; journal citation not independently rechecked in this batch",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2211.10525",
+      "criterion_3": "Joint acquisition-parameter calibration and reconstruction",
+      "evidence": "Differentiable interpolation of a measurement representation enables joint estimation of sensor coordinates and the reconstructed object, with tomography applications.",
+      "full_text_question": "Which coordinate errors and initialization regimes are evaluated? Physical calibration is not statistical calibration of uncertainty intervals."
+    },
+    {
+      "study_id": "P022", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract and authors' institutional publication record",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2309.00287",
+      "metadata_source_url": "https://researchportal.ip-paris.fr/en/publications/fast-diffusion-em-a-diffusion-model-for-blind-inverse-problems-wi/",
+      "criterion_3": "Blind operator estimation using diffusion and expectation maximization",
+      "evidence": "Diffusion sampling supplies an approximate E-step, while the M-step estimates a blur kernel with an optional plug-and-play kernel prior. A faster variant reduces sampling cost.",
+      "full_text_question": "Does uncertainty describe only image samples conditional on a point-estimated kernel, or propagate kernel uncertainty? Extract assumed kernel/noise families.",
+      "metadata": {"Title": "Fast Diffusion EM: A Diffusion Model for Blind Inverse Problems With Application to Deconvolution", "Authors": "Laroche, Charles; Almansa, Andrés; Coupete, Eva", "DOI": "10.1109/WACV57701.2024.00519"}
+    },
+    {
+      "study_id": "P023", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract and official proceedings record",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2405.19572",
+      "additional_source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3d13d910b48ac2e672a32cfdf98be1bf-Abstract-Conference.html",
+      "criterion_3": "Blind degradation estimation and image restoration",
+      "evidence": "BIRD optimizes degradation parameters and initial diffusion noise through fast diffusion inversion, seeking restoration within a generative image prior.",
+      "full_text_question": "Which degradation combinations and mismatched families are tested? Optimization on a generative manifold does not itself certify measurement-supported detail."
+    },
+    {
+      "study_id": "P024", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract; journal lineage reconciled with the existing verification audit",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2407.01027",
+      "metadata_source_url": "https://ieeexplore.ieee.org/document/11351303/",
+      "additional_source_url": "https://pubmed.ncbi.nlm.nih.gov/41528900/",
+      "criterion_3": "Joint image and unknown-operator recovery",
+      "evidence": "LatentDEM combines latent diffusion with expectation maximization for blind deblurring and sparse-view inverse rendering. The 2024 preprint and 2026 TIP report remain one study.",
+      "full_text_question": "Inspect the final journal report for additions, operator constraints and uncertainty evaluation; the DOI remains unverified and is not invented.",
+      "metadata": {"Year": 2026, "Venue": "IEEE Transactions on Image Processing", "Publication type": "Journal", "Peer reviewed": "Yes", "Primary source URL": "https://ieeexplore.ieee.org/document/11351303/"}
+    },
+    {
+      "study_id": "P025", "decision": "AI pilot: advance",
+      "basis": "Publisher chapter abstract",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://link.springer.com/chapter/10.1007/978-3-031-73202-7_25",
+      "criterion_3": "Blind restoration with a generative prior",
+      "evidence": "DiffBIR separates degradation removal from diffusion-based detail generation and provides guidance to adjust fidelity. It evaluates several restoration tasks with synthetic and real inputs.",
+      "full_text_question": "How is fidelity measured, and are unsupported details assessed against ground truth? The former ECCV poster URL pointed to the unrelated CLOSER paper.",
+      "metadata": {"Primary source URL": "https://link.springer.com/chapter/10.1007/978-3-031-73202-7_25", "DOI": "10.1007/978-3-031-73202-7_25"}
+    },
+    {
+      "study_id": "P026", "decision": "AI pilot: advance",
+      "basis": "Official proceedings record and targeted full-text inspection of sections 4.1–4.2",
+      "status": "Targeted full-text sections inspected",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e635a25e49e73adc51f76aef462ff2f8-Paper-Conference.pdf",
+      "criterion_3": "Compound, unknown and time-varying video degradation",
+      "evidence": "AverNet explicitly evaluates changing combinations of noise, blur, JPEG and video compression. The experimental setup overlaps our proposed surveillance-style simulation.",
+      "full_text_question": "Separate new degradation combinations and change intervals from genuinely unseen operator families or cameras; verify any reliability claims beyond PSNR/SSIM."
+    },
+    {
+      "study_id": "P027", "decision": "AI pilot: advance",
+      "basis": "Official BMVC proceedings abstract and citation",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://bmvc2024.org/proceedings/959/",
+      "criterion_3": "Codec-dependent restoration and generalization",
+      "evidence": "SR+Codec benchmarks 19 super-resolution models across five video codecs, with perceptual assessment and codec-transfer evaluation.",
+      "full_text_question": "Can its codec transfer protocol support a controlled degradation-shift experiment? It studies bitrate reduction, not forensic reconstruction. The former arXiv URL was an unrelated SLAM paper.",
+      "metadata": {"Title": "SR+Codec: a Benchmark of Super-Resolution for Video Compression Bitrate Reduction", "Authors": "Bogatyrev, Evgeney; Molodetskikh, Ivan; Vatolin, Dmitriy S.", "Venue": "BMVC", "Primary source URL": "https://bmvc2024.org/proceedings/959/"}
+    },
+    {
+      "study_id": "P028", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract with CVPR acceptance identified",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2401.13627",
+      "criterion_3": "Generative restoration of unknown real-world degradation",
+      "evidence": "SUPIR scales a generative restoration model and uses text conditioning and restoration guidance to balance perceptual quality and fidelity.",
+      "full_text_question": "How do prompts and prior strength affect invented detail? Extract quantitative fidelity tests and inference costs before choosing a baseline."
+    },
+    {
+      "study_id": "P029", "decision": "AI pilot: advance",
+      "basis": "Paper abstract indexed by PubMed and publisher citation",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39573193/",
+      "metadata_source_url": "https://opg.optica.org/oe/abstract.cfm?uri=oe-32-17-30267",
+      "criterion_3": "Explicit model-mismatch and noise robustness",
+      "evidence": "MN-FISTA-Net unrolls an optimization method using mixed-norm regularization and a learned denoiser for lensless reconstruction affected by model error and noise.",
+      "full_text_question": "Which PSF errors are held out, and does the design distinguish noise from operator error? Extract any real-system validation.",
+      "metadata": {"DOI": "10.1364/OE.531694"}
+    },
+    {
+      "study_id": "P030", "decision": "AI pilot: advance",
+      "basis": "Authors' institutional publication abstract and author list",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://www.research.ed.ac.uk/en/publications/empirical-bayesian-imaging-with-large-scale-push-forward-generati/",
+      "criterion_3": "Bayesian reconstruction uncertainty",
+      "evidence": "The empirical Bayes procedure estimates a low-resolution representation and samples high-resolution reconstructions through a conditional generative prior; deblurring illustrates the approach.",
+      "full_text_question": "What uncertainty is lost by conditioning on an estimated representation, and what calibration or shift tests are reported?",
+      "metadata": {"Authors": "Melidonis, S.; Holden, M.; Altmann, Y.; Pereyra, M.; Zygalakis, K. C."}
+    },
+    {
+      "study_id": "P031", "decision": "AI pilot: advance",
+      "basis": "Publisher abstract",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://epubs.siam.org/doi/10.1137/23M1568739",
+      "criterion_3": "Hallucination and accuracy–stability limits",
+      "evidence": "The work analyzes how inverse-problem kernels and ill-conditioning constrain reconstruction accuracy, stability and hallucinations across reconstruction methods.",
+      "full_text_question": "State the theorem assumptions and operational examples precisely; do not generalize a worst-case limitation into universal failure of every learned method.",
+      "metadata": {"Title": "The Troublesome Kernel: On Hallucinations, No Free Lunches, and the Accuracy-Stability Tradeoff in Inverse Problems"}
+    },
+    {
+      "study_id": "P032", "decision": "AI pilot: advance",
+      "basis": "Publisher title and indexed abstract excerpt only; complete abstract and full text blocked by retrieval challenges",
+      "status": "Incomplete evidence; retrieval pending",
+      "source_url": "https://www.nature.com/articles/s41377-025-01915-w",
+      "additional_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12234902/",
+      "criterion_3": "Uncertain acquisition in Fourier ptychographic reconstruction; conservative scope signal",
+      "evidence": "The title and indexed evidence place the study within uncertainty-aware Fourier ptychographic reconstruction. The available evidence is insufficient to validate the seed matrix's image-UQ, operator-UQ or calibration ratings.",
+      "full_text_question": "Retrieve the complete paper. Does uncertainty mean uncertain acquisition parameters, probabilistic posterior uncertainty, or both? Existing positive feature codes remain unverified."
+    },
+    {
+      "study_id": "P033", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2505.11482",
+      "criterion_3": "Distribution-shift detection in inverse problems",
+      "evidence": "The method uses corrupted observations and diffusion scores to estimate a distribution discrepancy and adapt score alignment for reconstruction.",
+      "full_text_question": "Distinguish image-prior shift from acquisition-operator shift; identify the detection unit, assumptions and validated thresholds."
+    },
+    {
+      "study_id": "P034", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract; final conference metadata still pending",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2510.10947",
+      "criterion_3": "Instance-level distribution-shift uncertainty",
+      "evidence": "Measurement-perturbation sensitivity is proposed as a calibration-free shift indicator, illustrated by an MNIST experiment with a restricted training class.",
+      "full_text_question": "Does it generalize to natural images and unseen acquisition families? Calibration-free estimation is not a coverage guarantee. Resolve the CAMSAP lineage before locking metadata."
+    },
+    {
+      "study_id": "P035", "decision": "AI pilot: advance",
+      "basis": "Authors' institutional abstract and complete proceedings metadata",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://pure.kaist.ac.kr/en/publications/mitigating-forward-model-mismatch-in-inverse-problems-via-learned/",
+      "criterion_3": "Learned residual compensation for forward-model mismatch",
+      "evidence": "A shallow network learns discrepancies between measurements and model predictions, providing adaptive guidance to diffusion reconstruction. The record identifies SPIE volume 14016, article 140160D, published in February 2026.",
+      "full_text_question": "Can a flexible residual absorb noise or unsupported image detail? Extract identifiability constraints, optimization and held-out mismatch tests.",
+      "metadata": {"Primary source URL": "https://doi.org/10.1117/12.3098133", "DOI": "10.1117/12.3098133"}
+    },
+    {
+      "study_id": "P036", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2603.04538",
+      "criterion_3": "Controlled operator-mismatch benchmark and calibration",
+      "evidence": "InverseNet compares reconstruction and calibration regimes across three compressive imaging modalities with simulated scenes and real captures.",
+      "full_text_question": "Inspect operator access, mismatch generation, data splits and released resources. Acquisition calibration must not be coded automatically as uncertainty calibration."
+    },
+    {
+      "study_id": "P037", "decision": "AI pilot: advance",
+      "basis": "Author abstract and targeted full-text definitions, Remark 3.4, Proposition 3.5 and Algorithm 2",
+      "status": "Targeted full-text sections inspected",
+      "source_url": "https://arxiv.org/html/2605.13146v1",
+      "criterion_3": "Formal hallucination assessment and feasibility limits",
+      "evidence": "The paper relates hallucination assessment to the diameter of feasible solutions. Its finite-sample diameter estimate approaches the complete-set diameter from below and is not directly a pointwise upper certificate.",
+      "full_text_question": "What operational guarantee survives approximate sampling and an estimated acquisition model? The seed abstention code is not established by these inspected sections."
+    },
+    {
+      "study_id": "P038", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract and targeted full-text sections 2–3, Tables 1–3 and Figures 3–4; conference lineage retained",
+      "status": "Targeted full-text sections inspected",
+      "source_url": "https://arxiv.org/html/2509.16106v1",
+      "additional_source_url": "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=6271&bare=1",
+      "criterion_3": "Joint image/kernel posterior sampling and uncertainty evaluation",
+      "evidence": "PRISM evaluates both image and kernel uncertainty, including image Gaussian NLL and a credible-interval example. Joint blind inference plus uncertainty is therefore already a substantive competitor capability.",
+      "full_text_question": "Does the final conference report test interval reliability under unseen operator families? The inspected experiment establishes neither arbitrary-shift coverage nor a deployed selective-output mechanism."
+    },
+    {
+      "study_id": "P039", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract and publisher journal metadata",
+      "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2411.18412",
+      "metadata_source_url": "https://www.sciencedirect.com/science/article/pii/S1077314226001621",
+      "criterion_3": "Blind all-in-one restoration with composite and unseen degradation",
+      "evidence": "ABAIR learns degradation representations and blends low-rank restoration adapters, evaluating composite and unseen distortions.",
+      "full_text_question": "Which distortions are truly held out, and are uncertainty, temporal behavior or selective risk assessed? Composite/OOD restoration alone is an occupied direction."
+    },
+    {
+      "study_id": "P040", "decision": "AI pilot: advance",
+      "basis": "Authors' institutional paper abstract and official repository experiment descriptions",
+      "status": "Abstract and repository inspected",
+      "source_url": "https://pure.kaist.ac.kr/en/publications/video-diffusion-posterior-sampling-for-seeing-beyond-dynamic-scat-2/",
+      "additional_source_url": "https://github.com/star-kwon/VDPS",
+      "criterion_3": "Blind video reconstruction under dynamic physical degradation",
+      "evidence": "VDPS combines an approximate scattering model, video diffusion and inference-time parameter estimation. The official repository documents both static and time-varying blind Zernike experiments; these were not executed in this batch.",
+      "full_text_question": "Inspect the final paper, uncertainty treatment, changing-PSF assumptions and real-capture validation. Video plus joint time-varying operator recovery alone cannot be claimed as new."
+    }
+  ],
+  "revisits": [
+    {
+      "study_id": "P006", "decision": "AI pilot: unclear",
+      "basis": "Targeted inspection of section 6 in the author PDF",
+      "source_url": "https://arxiv.org/pdf/2102.07944",
+      "note": "The inspected experiments cover Gaussian deblurring, compressed sensing and MRI. A criterion-3 mismatch/reliability study is still not established. Retain unclear for human scope adjudication; this is not an exclusion or full-text eligibility decision."
+    },
+    {
+      "study_id": "P016", "decision": "AI pilot: unclear",
+      "basis": "Retrieval retry unsuccessful: OpenReview challenge and author-PDF fetch failure",
+      "source_url": "https://openreview.net/forum?id=9_gsMA8MRKQ",
+      "additional_source_url": "https://jankautz.com/publications/PiGDM_ICLR23.pdf",
+      "note": "No additional substantive evidence retrieved. Keep the prior unclear recommendation and incomplete-evidence label; missing access is not an exclusion."
+    }
+  ]
+}

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.0 — 2026-09-16
+
+- Triaged P021–P040 with 20 preliminary advance recommendations; cumulative progress is 40/90 (38 advance, 2 unclear, 50 untriaged), with human adjudication and formal eligibility pending.
+- Revisited P006/P016 without resolving their scope/access uncertainty. Recorded P032's incomplete evidence without interpreting it as exclusion.
+- Inspected targeted technical sections of AverNet, hallucination assessment and PRISM; documented existing compound/time-varying degradation and dual-uncertainty evaluations.
+- Replaced the feature-checklist novelty gate with a precise candidate reliability question and nearest-method comparison requirements. No novelty or complete full-text review is claimed.
+- Corrected or completed eight reference records, including three erroneous source locators, one incorrect author attribution and the LatentDEM journal lineage.
+- Synchronized the existing workbook and four reference exports, retained native workbook objects and all unrelated feature codes, and recorded field-level changes.
+
 ## 0.5.0 — 2026-09-16
 
 - Triaged P001–P020 as an explicitly AI-assisted convenience pilot: 18 advance recommendations, 2 unclear, no final inclusions or exclusions.
