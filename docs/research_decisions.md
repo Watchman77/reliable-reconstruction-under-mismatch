@@ -71,3 +71,13 @@ The research may improve visibility and quantify recoverability. It must not des
 **Decision:** assess eligibility and extract technical evidence together. Record the version/read extent and verify only source-supported feature fields. Use separate counters for completed AI decisions and formal inclusion, so actual progress is visible without overstating PRISMA completion. Protocol v0.4 documents this convention without changing eligibility.
 
 **Implication:** the evidence distinguishes several kinds of mismatch and reliability. The candidate research question survives as a question to investigate, not as proven novelty. Continue the remaining full-text assessments and closest-method comparisons. See [the full-text report](../literature/screening/full_text_01_report.md) and its primary-source register.
+
+## 16 September 2026 — Second AI full-text checkpoint
+
+**Checkpoint:** 12 additional assessments, all include recommendations. Cumulative: 24 assessed, 23 include, 1 exclude, 66 pending. Formal database-search accounting and human adjudication remain outstanding.
+
+**Decision:** retain the umbrella topic and candidate question. Operator point estimation, residual correction, image uncertainty and calibration already have relevant competitors; the contribution must specify what is estimated, which uncertainty is covered and under which acquisition shifts. No corpus-wide novelty conclusion is warranted yet.
+
+**Evidence limits:** inspected versions and exact feature corrections are recorded in [checkpoint 02](../literature/screening/full_text_02_report.md). Retrieval failures remain pending. P026/P053 and the P065 precursor need lineage resolution. Version-specific quantitative/theoretical questions require reconciliation before reuse.
+
+**Next gate:** continue the same full-text workflow for all 66 remaining seed records. Preserve the first 24 decisions, stable IDs and earlier audits; do not restart screening.

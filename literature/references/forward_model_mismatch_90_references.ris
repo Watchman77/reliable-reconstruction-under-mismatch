@@ -272,7 +272,7 @@ PY  - 2024
 TI  - AverNet: All-in-One Video Restoration for Time-Varying Unknown Degradations
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/e635a25e49e73adc51f76aef462ff2f8-Abstract-Conference.html
-N1  - Evidence status: Targeted full-text sections inspected; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -352,7 +352,7 @@ PY  - 2025
 TI  - Unsupervised Detection of Distribution Shift in Inverse Problems Using Diffusion Models
 T2  - arXiv
 UR  - https://arxiv.org/abs/2505.11482
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -362,7 +362,7 @@ PY  - 2025
 TI  - Towards Distribution-Shift Uncertainty Estimation for Inverse Problems with Generative Priors
 T2  - arXiv
 UR  - https://arxiv.org/abs/2510.10947
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -383,7 +383,7 @@ PY  - 2026
 TI  - InverseNet: Benchmarking Operator Mismatch and Calibration Across Compressive Imaging Modalities
 T2  - arXiv
 UR  - https://arxiv.org/abs/2603.04538
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -393,7 +393,7 @@ PY  - 2026
 TI  - On Hallucinations in Inverse Problems: Fundamental Limits and Provable Assessment Methods
 T2  - arXiv
 UR  - https://arxiv.org/abs/2605.13146
-N1  - Evidence status: Targeted full-text sections inspected; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -415,7 +415,7 @@ TI  - Adaptive Blind All-in-One Image Restoration
 T2  - CVIU
 UR  - https://doi.org/10.1016/j.cviu.2026.104795
 DO  - 10.1016/j.cviu.2026.104795
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -478,7 +478,7 @@ PY  - 2023
 TI  - Block Coordinate Plug-and-Play Methods for Blind Inverse Problems
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/f810c2ba07bae78dfe9d25c5d40c5536-Abstract-Conference.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -499,7 +499,7 @@ PY  - 2024
 TI  - Solving Inverse Problems with Model Mismatch using Untrained Neural Networks within Model-based Architectures
 T2  - TMLR
 UR  - https://openreview.net/forum?id=XHEhjDxPDl
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -660,7 +660,7 @@ PY  - 2023
 TI  - How to Trust Your Diffusion Model: A Convex Optimization Approach to Conformal Risk Control
 T2  - ICML
 UR  - https://proceedings.mlr.press/v202/teneggi23a.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -671,7 +671,7 @@ TI  - Task-Driven Uncertainty Quantification in Inverse Problems via Conformal P
 T2  - ECCV
 UR  - https://doi.org/10.1007/978-3-031-73027-6_11
 DO  - 10.1007/978-3-031-73027-6_11
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -693,7 +693,7 @@ TI  - Conformalized Generative Bayesian Imaging: An Uncertainty Quantification F
 T2  - IEEE TCI
 UR  - https://doi.org/10.1109/TCI.2025.3649389
 DO  - 10.1109/TCI.2025.3649389
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -714,7 +714,7 @@ PY  - 2025
 TI  - QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems
 T2  - arXiv
 UR  - https://arxiv.org/abs/2507.14760
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER

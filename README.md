@@ -6,7 +6,7 @@ Research repository for a journal-first programme on evidence-calibrated image r
 
 - 90-record seed evidence matrix covering 1 January 2020 to 15 September 2026.
 - Systematic-review protocol v0.4, a dated working draft that is not yet registered.
-- Initial triage complete for all 90 seed records: 82 advance recommendations, 8 unclear, 0 untriaged. 12 AI full-text eligibility assessments are now complete: 11 include recommendations, 1 exclude; 78 remain. Human adjudication and final formal eligibility remain pending.
+- Initial triage complete for all 90 seed records: 82 advance recommendations, 8 unclear, 0 untriaged. 24 AI full-text eligibility assessments are now complete: 23 include recommendations, 1 exclude; 66 remain. Human adjudication and final formal eligibility remain pending.
 - Evidence basis is recorded per study. Inspected versions, reading extent and criterion-level decisions are recorded; incomplete retrieval is flagged explicitly.
 - Zero formally included studies. Only the feature fields explicitly listed in the full-text register are verified; other seed codes remain provisional.
 - Rapid adversarial gap map completed.
@@ -15,7 +15,7 @@ Research repository for a journal-first programme on evidence-calibrated image r
 
 The 90 studies are a seed evidence map, not a completed PRISMA corpus. The repository must not be cited as a systematic review until database searches, deduplication, two-stage screening, exclusion logging, full-text verification and citation chaining are complete.
 
-See the [latest full-text checkpoint](literature/screening/full_text_01_report.md) and [criterion-level evidence](literature/screening/full_text_01.json), alongside the preserved [first pilot](literature/screening/pilot_01_report.md). The matrix, screening log and reference exports are synchronized; bibliographic corrections are recorded in field-level audits. Reference exports remain draft metadata, not submission-ready citations. Seven of the eight initial unclear cases now have decisions; P016 still needs an accessible full text. The latest report lists retrieval priorities.
+See the [latest full-text checkpoint](literature/screening/full_text_02_report.md) and [criterion-level evidence](literature/screening/full_text_02.json), alongside [checkpoint 01](literature/screening/full_text_01_report.md) and the preserved [first pilot](literature/screening/pilot_01_report.md). The matrix, screening log and reference exports are synchronized; bibliographic corrections are recorded in field-level audits. Reference exports remain draft metadata, not submission-ready citations. Seven of the eight initial unclear cases now have decisions; P016 still needs an accessible full text. The latest report lists retrieval priorities.
 
 The original umbrella topic remains **Physics-Informed Deep Learning for Robust Image Reconstruction Under Forward-Model Mismatch**.
 

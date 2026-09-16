@@ -1,0 +1,649 @@
+{
+  "checkpoint": "full_text_02",
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 24,
+    "ai_include": 23,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 66,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "batch_counts": {
+    "new_assessments": 12,
+    "ai_include": 12,
+    "ai_exclude": 0
+  },
+  "counts_scope": "counts are cumulative across full_text_01 and full_text_02; records contains this batch only.",
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "Full texts inspected online. No downloaded paper copies are added to the repository.",
+    "c1": "All reviewed reports are primary research dated inside the existing search window; see version and canonical seed metadata.",
+    "c5": "Every assessed record had an accessible English full text at source_url.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch."
+  },
+  "records": [
+    {
+      "study_id": "P026",
+      "title": "AverNet: All-in-One Video Restoration for Time-Varying Unknown Degradations",
+      "decision": "include",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e635a25e49e73adc51f76aef462ff2f8-Paper-Conference.pdf",
+      "version": "NeurIPS 2024 proceedings PDF",
+      "read_extent": "Introduction, §§3.1–3.2, 4.1–4.2 and Appendices A.1/A.4; partial §4.3.",
+      "technical": "Alignment/enhancement prompts handle randomly combined, reordered and temporally varying synthetic degradations. DAVIS and Set8 tests vary degradation combinations and temporal intervals. Appendix A.4 acknowledges the need for real deployment validation. Prompts are not an explicit physical-operator estimate or posterior. Held-out intervals do not establish unseen-codec-family robustness.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "U": "Yes",
+        "V": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§3.1–4.2; Appendices A.1/A.4",
+      "applicability": "Required compound-video baseline; P053 lineage remains unresolved.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "NeurIPS 2024 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Video restoration; §3."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Compound and time-varying acquisition degradation; §§4.1–4.2."
+        },
+        "4": {
+          "met": true,
+          "evidence": "AverNet method and DAVIS/Set8 experiments; §§3–4."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P033",
+      "title": "Unsupervised Detection of Distribution Shift in Inverse Problems Using Diffusion Models",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2505.11482v1",
+      "version": "arXiv v1, 16 May 2025",
+      "read_extent": "§§2–4, Assumptions 1–2, Theorem 1 and Tables 1–2; appendix proofs not audited.",
+      "technical": "Uses two pretrained scores to estimate dataset-level distribution shift from corrupted measurements. Its known linear operators satisfy structural assumptions, including a common right-singular basis and aggregate signal-space coverage. Inpainting and simulated MRI examples assess prior/content shift. This does not establish pointwise reconstruction coverage or uncertainty about an unknown operator.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§2–4; Assumptions 1–2; Theorem 1; Tables 1–2",
+      "applicability": "Compare prior shift separately from acquisition mismatch.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 16 May 2025"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Imaging inverse problems; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Distribution-shift detection using incomplete observations; §§2–3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Score-based estimator and cross-distribution imaging experiments; §§3–4."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Independently audit theorem assumptions before reusing the KL identity."
+      ]
+    },
+    {
+      "study_id": "P034",
+      "title": "Towards Distribution-Shift Uncertainty Estimation for Inverse Problems with Generative Priors",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2510.10947v1",
+      "version": "arXiv v1, 13 October 2025; final CAMSAP text not compared",
+      "read_extent": "Main text §§I–V; no code reproduction.",
+      "technical": "A learned proximal network trained on digit zero is tested on other MNIST digits with a known CT operator. Reconstruction variance tracks error under repeated noisy measurement simulations. Although the motivation discusses measurement subsets, the experiment uses independent measurement seeds. Variance is heuristic: no interval calibration or implemented abstention threshold is demonstrated. Null-space novelty can remain undetected.",
+      "feature_codes": {
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§II–V; experimental setup and discussion",
+      "applicability": "Low-cost variance comparator; distinguish repeat acquisition from single-scan resampling.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 13 October 2025; final CAMSAP text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "CT reconstruction; §IV."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Prior-distribution shift and reconstruction uncertainty; §§III–IV."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Learned proximal reconstruction, digit shifts and measurement repetitions; §IV."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P036",
+      "title": "InverseNet: Benchmarking Operator Mismatch and Calibration Across Compressive Imaging Modalities",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2603.04538v1",
+      "version": "arXiv v1, 4 March 2026",
+      "read_extent": "§3, §§4.1–4.2/4.4–4.6 and §§5–6; supplement not fully inspected.",
+      "technical": "CACTI blind search estimates two of eight parameters, with six fixed to truth. Real captures test classical/PnP methods; deep-network hardware evaluation is deferred. Physical calibration is parameter fitting, not coverage.",
+      "feature_codes": {
+        "O": "Partial",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "Partial",
+        "U": "Yes",
+        "V": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§3; §§4.4–4.6; Tables 1–2; §5",
+      "applicability": "Useful mismatch protocol; blind-parameter coverage is limited.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 4 March 2026"
+        },
+        "2": {
+          "met": true,
+          "evidence": "CASSI/CACTI/SPC reconstruction; §3."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Controlled acquisition mismatch and blind calibration; §4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Benchmark protocol, multiple solvers and hardware captures; §§3–4."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Reconcile Tables 1–2 against §4.4 before numerical synthesis."
+      ]
+    },
+    {
+      "study_id": "P037",
+      "title": "On Hallucinations in Inverse Problems: Fundamental Limits and Provable Assessment Methods",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2605.13146v1",
+      "version": "arXiv v1, 13 May 2026",
+      "read_extent": "§§3.2–3.3, §4, §§5.3.3–5.4.1 and §§6–7; not every proof or experiment.",
+      "technical": "Assessment uses a known forward map, a noise set and assumptions about realistic images. Remark 3.4 and Algorithm 2 approximate feasible-set diameter from below; this is not an upper certificate for pointwise reconstruction error. Detail-replacement tests use a known linear operator and constructed alternatives. MRI and paired super-resolution examples assess unsupported detail; feasibility searches can be inconclusive.",
+      "feature_codes": {
+        "O": "No",
+        "Q": "No",
+        "R": "No",
+        "W": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "Remark 3.4; Algorithm 2; §4; §§5.3.3–5.4.1; §6",
+      "applicability": "Sample disagreement alone cannot be treated as an upper error bound.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 13 May 2026"
+        },
+        "2": {
+          "met": true,
+          "evidence": "MRI and super-resolution reconstruction assessment; §5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Hallucination limits and measurement-supported detail; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Theoretical assessment methods and imaging tests; §§3–5."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P039",
+      "title": "Adaptive Blind All-in-One Image Restoration",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2411.18412v1",
+      "version": "arXiv v1, 27 November 2024; CVIU 2026 version not compared",
+      "read_extent": "§§3–5, Tables 1–6 and opening of Appendix B; code not audited.",
+      "technical": "ABAIR combines synthetic pretraining, task adapters and predicted blending weights. Table 4 separates zero-shot tasks from newly trained adapters. Table 5 explicitly tests blur/noise, blur/JPEG and haze/snow combinations. Real low-light validation and cross-dataset tests are included. Degradation-class blending weights do not constitute a physical-operator posterior or calibrated uncertainty.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "Yes",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5; Tables 4–6",
+      "applicability": "Strong discriminative comparator; match zero-shot versus adapted training budgets.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 27 November 2024; CVIU 2026 version not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "All-in-one image restoration; §3."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unseen tasks and compound degradation; Tables 4–5."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Adapter-based reconstruction and synthetic/real benchmarks; §§3–4."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P045",
+      "title": "Block Coordinate Plug-and-Play Methods for Blind Inverse Problems",
+      "decision": "include",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/f810c2ba07bae78dfe9d25c5d40c5536-Paper-Conference.pdf",
+      "version": "NeurIPS 2023 proceedings PDF",
+      "read_extent": "§§3–5.2 and §6; theorem statements and selected assumptions, not appendix proof verification.",
+      "technical": "Block-coordinate PnP applies learned denoisers to image and operator-parameter blocks. Convergence statements depend on approximate-MMSE denoiser conditions and error bounds. Tests use retrospectively undersampled fastMRI and synthetic Gaussian deblurring. Joint inference is point estimation; random block updates and physical calibration are not posterior uncertainty or statistical coverage.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5.2; Theorems 1–2",
+      "applicability": "Existing joint-inference baseline with conditional convergence theory.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "NeurIPS 2023 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "MRI and blind deblurring; §5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Joint image/operator estimation; §3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "BC-PnP algorithm, conditional theory and imaging experiments; §§3–5."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P047",
+      "title": "Solving Inverse Problems with Model Mismatch using Untrained Neural Networks within Model-based Architectures",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2403.04847v1",
+      "version": "arXiv v1, 7 March 2024; final OpenReview version not compared",
+      "read_extent": "Main §§3–6 and Proposition 4.1; no independent proof/code validation.",
+      "technical": "An instance-adapted residual network corrects nominal forward predictions alongside reconstruction. Residual regularization assumes a useful nominal operator. Experiments include blur-parameter errors, synthetic seismic inversion and depth-based defogging. Random-initialization and iteration robustness are distinct from wrong-family guarantees. Proposition 4.1 relies on idealized convex-regularizer updates; objective descent alone is not general learned-network recovery.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–6; Proposition 4.1",
+      "applicability": "Learned residual correction is already occupied; compare out-of-family acquisition explicitly.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 7 March 2024; final OpenReview version not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image deblurring/defogging; §5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Adaptive forward-model correction; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "A-adaptive unrolling/equilibrium networks and mismatch experiments; §§4–5."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P062",
+      "title": "How to Trust Your Diffusion Model: A Convex Optimization Approach to Conformal Risk Control",
+      "decision": "include",
+      "source_url": "https://proceedings.mlr.press/v202/teneggi23a/teneggi23a.pdf",
+      "version": "ICML 2023 proceedings PDF",
+      "read_extent": "§§3.1–3.2, Algorithm 1, §§4–5 and Appendix D.3.2; proofs not audited.",
+      "technical": "K-RCPS separates calibration-set optimization from risk-bound calibration. It controls average pixel miscoverage under the stated independent, identically distributed setup. Coverage of a generated posterior sample is explicitly distinguished from ground-truth-image coverage. Denoising experiments use known Gaussian noise on face and CT images. Neither arbitrary distribution shift nor selectively retained-region coverage follows automatically.",
+      "feature_codes": {
+        "P": "Yes",
+        "Q": "No",
+        "R": "Yes",
+        "S": "No",
+        "T": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§3.1–3.2; Algorithm 1; §4; Appendix D.3.2",
+      "applicability": "Baseline for risk control; specify the covered object and aggregation level.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "ICML 2023 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image denoising; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Ground-truth reconstruction risk control; §3.2."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Optimized prediction intervals and empirical coverage/width tests; §§3–4."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P063",
+      "title": "Task-Driven Uncertainty Quantification in Inverse Problems via Conformal Prediction",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2405.18527v1",
+      "version": "arXiv v1, 28 May 2024; final ECCV text not compared",
+      "read_extent": "Main §§2–6; appendices not audited.",
+      "technical": "Conformal intervals target a classifier score on the true image, not necessarily the true clinical label. Conditional-flow samples support task-specific intervals under exchangeability. Retrospective fastMRI experiments include interval-width stopping for further acquisition. Single-round splits are slice-level; the multi-round experiment separates volumes. Marginal fixed-round coverage does not automatically establish coverage after adaptive stopping.",
+      "feature_codes": {
+        "P": "Yes",
+        "Q": "No",
+        "R": "Yes",
+        "S": "No",
+        "T": "Partial",
+        "X": "Partial"
+      },
+      "feature_locator": "§§3–5; single-round and multi-round experimental designs",
+      "applicability": "Acquisition deferral precedes us; audit dependence and stopping guarantees.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 28 May 2024; final ECCV text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Task-driven MRI reconstruction; §§3–5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Conformal task uncertainty and acquisition stopping; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Score intervals and retrospective MRI measurements; §5."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P065",
+      "title": "Conformalized Generative Bayesian Imaging: An Uncertainty Quantification Framework for Computational Imaging",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2504.07696v1",
+      "version": "arXiv v1, 10 April 2025; final TCI text not compared",
+      "read_extent": "§§II-A/B/E, III-A–G and IV–V; selected II-C/D, not every proof.",
+      "technical": "Conditional generators combine image aleatoric uncertainty and neural-weight epistemic uncertainty with conformal likelihood-level sets. These are not operator-parameter posteriors. Experiments use simulated CT/MRI/inpainting measurements. MNIST coverage tests are separate from qualitative metal-implant and MRI-spike uncertainty examples; the latter do not establish calibrated OOD coverage.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "Yes",
+        "S": "Partial",
+        "T": "No",
+        "X": "No"
+      },
+      "feature_locator": "§II; §§III-E–G; §IV; §I-B for precursor",
+      "applicability": "Joint aleatoric/epistemic conformal imaging is existing work.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 10 April 2025; final TCI text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "CT/MRI/inpainting reconstruction; §III."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Generative uncertainty and conformal calibration; §II."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Conditional generators, intervals/sets and imaging experiments; §§II–III."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Resolve the explicitly cited conference precursor before counting distinct studies."
+      ]
+    },
+    {
+      "study_id": "P067",
+      "title": "QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2507.14760v1",
+      "version": "arXiv v1, 19 July 2025",
+      "read_extent": "§§3–6; Appendices A.1.1/A.1.2/A.3.2/A.4.1; no independent guarantee proof.",
+      "technical": "Quantile-conditioned reconstruction calibrates lower and upper bounds and tests empirical coverage, including real fluorescence data. Appendix A.4.1 reports risk-stratified bins above target despite aggregate control. No operator posterior or explicit output rejection is demonstrated. Distribution shift remains future work.",
+      "feature_codes": {
+        "P": "Yes",
+        "Q": "No",
+        "R": "Yes",
+        "S": "No",
+        "T": "Yes",
+        "U": "No",
+        "V": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5; Algorithm 1; Appendix A.4.1",
+      "applicability": "Evaluate retained-region risk separately from average coverage.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 19 July 2025"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Denoising and MRI reconstruction; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Quantile uncertainty and empirical calibration; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Task-specific networks, coverage tests and FMD measurements; §4/Appendix A."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Check the direction of the displayed §3.4 coverage inequality and reconcile the claimed 1−δ guarantee with Algorithm 1 before reuse."
+      ]
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "study_id": "P032",
+      "assessment_complete": false,
+      "decision": "Pending",
+      "source_url": "https://www.nature.com/articles/s41377-025-01915-w",
+      "outcome": "Publisher lookup returned article metadata; subsequent full-text section access failed. Accessible snippets were insufficient for eligibility.",
+      "next_action": "Obtain a complete author or publisher copy; positive legacy codes remain unverified."
+    },
+    {
+      "study_id": "P035",
+      "assessment_complete": false,
+      "decision": "Pending",
+      "source_url": "https://pure.kaist.ac.kr/en/publications/mitigating-forward-model-mismatch-in-inverse-problems-via-learned/",
+      "outcome": "Institutional abstract located; SPIE full text not retrieved.",
+      "next_action": "Retrieve DOI 10.1117/12.3098133 full text."
+    },
+    {
+      "study_id": "P040",
+      "assessment_complete": false,
+      "decision": "Pending",
+      "source_url": "https://pure.kaist.ac.kr/en/publications/video-diffusion-posterior-sampling-for-seeing-beyond-dynamic-scat-2/",
+      "outcome": "Institutional record available; attempted author pages did not provide a usable full text.",
+      "next_action": "Retrieve DOI 10.1109/TPAMI.2025.3598457 or an author manuscript."
+    },
+    {
+      "study_id": "P043",
+      "assessment_complete": false,
+      "decision": "Pending",
+      "source_url": "https://arxiv.org/abs/2012.00139",
+      "outcome": "HTML unavailable and PDF retrieval failed.",
+      "next_action": "Retrieve an author or publisher copy for DOI 10.1109/TCI.2021.3094714."
+    },
+    {
+      "study_id": "P046",
+      "assessment_complete": false,
+      "decision": "Pending",
+      "source_url": "https://arxiv.org/abs/2202.11342",
+      "outcome": "HTML unavailable and PDF retrieval failed.",
+      "next_action": "Retrieve an author or publisher copy for DOI 10.1137/23M1545628."
+    },
+    {
+      "study_id": "P053",
+      "assessment_complete": false,
+      "decision": "Pending",
+      "source_url": "https://link.springer.com/article/10.1007/s11263-026-02977-y",
+      "outcome": "Publisher metadata, abstract and references available; full methods not accessible.",
+      "next_action": "Obtain FaverNet full text and compare with P026 before a lineage decision."
+    }
+  ],
+  "lineage_checks": [
+    {
+      "study_ids": [
+        "P026",
+        "P053"
+      ],
+      "status": "Unresolved",
+      "evidence": "P053 cites P026; shared authors and a citation do not establish duplicate-study identity. P053 full methods unavailable. Both seed IDs retained; no count reduction."
+    },
+    {
+      "study_ids": [
+        "P065"
+      ],
+      "status": "Unresolved",
+      "evidence": "The inspected preprint explicitly identifies a conference precursor (§I-B). Verify identity, overlap and seed membership before any merge or addition."
+    }
+  ],
+  "next_queue": [
+    "P016",
+    "P032",
+    "P035",
+    "P040",
+    "P043",
+    "P046",
+    "P053"
+  ],
+  "followups": [
+    "Continue all 66 remaining records under the same criteria. The retrieval queue is not the complete pending list.",
+    "Compare final publication versions where only a preprint was inspected; retain version-specific findings.",
+    "Keep human adjudication and reproducible database searching distinct from completed AI eligibility work."
+  ]
+}

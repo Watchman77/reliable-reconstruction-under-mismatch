@@ -14,7 +14,7 @@ Do not convert `Partial` to `Yes` without full-text evidence. Do not classify a 
 
 ## Current full-text checkpoint — 16 September 2026
 
-Twelve AI full-text assessments are complete: 11 include recommendations and 1 exclude; 78 remain. See [the report](screening/full_text_01_report.md), [criterion-level register](screening/full_text_01.json) and [change audit](screening/full_text_01_changes.json). Summary E15 counts completed AI decisions. Screening Log J records those decisions; Matrix AA remains pending final formal eligibility. Only explicitly listed feature fields are verified.
+Twenty-four AI full-text assessments are complete: 23 include recommendations and 1 exclude; 66 remain. Twelve assessments were added in checkpoint 02. See [the report](screening/full_text_02_report.md), [criterion-level register](screening/full_text_02.json) and [change audit](screening/full_text_02_changes.json). Summary E15 counts completed AI decisions. Screening Log J records those decisions; Matrix AA remains pending final formal eligibility. Only explicitly listed feature fields are verified.
 
 ## Historical initial-triage checkpoint — 16 September 2026
 
@@ -26,4 +26,4 @@ The Evidence Matrix's legacy `Include` labels meant membership in the seed map. 
 
 The matching `pilot_02` files cover P021–P040, two unresolved revisits and targeted full-text findings. P032's positive uncertainty/calibration codes and other unverified feature ratings must not be used as established capabilities. Partial technical inspection does not constitute complete full-text eligibility; the Screening Log's full-text decision remains pending. Its acquisition field continues to record local full-paper acquisition, not merely remote access to selected passages.
 
-The historical `screening/pilot_03` files complete P041–P090 and revisit five older records. The report lists all eight unresolved recommendations and incomplete-source advances. Use `full_text_01` for current status; `pilot_01`, `pilot_02` and the earlier lineage audit preserve their historical results. Current metadata corrections include the LADiBI workshop venue, DA-CLIP title alias and StableSR DOI.
+The historical `screening/pilot_03` files complete P041–P090 and revisit five older records. The report lists all eight unresolved recommendations and incomplete-source advances. Use `full_text_01` and `full_text_02` for cumulative decisions and `full_text_02_report.md` for current status; `pilot_01`, `pilot_02` and the earlier lineage audit preserve their historical results. Current metadata corrections include the LADiBI workshop venue, DA-CLIP title alias and StableSR DOI.
