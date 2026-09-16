@@ -1,6 +1,6 @@
 # Forward-Model Mismatch Review: 90 Seed Publications
 
-> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 85 AI full-text assessments are complete (84 include recommendations, 1 exclude); 5 remain. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_10_report.md for evidence limits and corrected links.
+> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 89 AI full-text assessments are complete (88 include recommendations, 1 exclude); 1 remains. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_11_report.md for evidence limits and corrected links.
 
 1. **P001** — Nan, Yuesong; Ji, Hui (2020). “Deep Learning for Handling Kernel/Model Uncertainty in Image Deconvolution.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR42600.2020.00246)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
@@ -61,7 +61,7 @@
 29. **P029** — Qian et al. (2024). “Robust Unrolled Network for Lensless Imaging with Enhanced Resistance to Model Mismatch and Noise.” *Optics Express*. [Primary source](https://opg.optica.org/oe/abstract.cfm?uri=oe-32-17-30267)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 30. **P030** — Melidonis, S.; Holden, M.; Altmann, Y.; Pereyra, M.; Zygalakis, K. C. (2024). “Empirical Bayesian Imaging With Large-Scale Push-Forward Generative Priors.” *IEEE SPL*. [Primary source](https://doi.org/10.1109/LSP.2024.3361806)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 31. **P031** — Gottschling et al. (2025). “The Troublesome Kernel: On Hallucinations, No Free Lunches, and the Accuracy-Stability Tradeoff in Inverse Problems.” *SIAM Review*. [Primary source](https://doi.org/10.1137/23M1568739)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 32. **P032** — Chen et al. (2025). “Uncertainty-Aware Fourier Ptychography.” *Light: Science & Applications*. [Primary source](https://doi.org/10.1038/s41377-025-01915-w)  
@@ -81,7 +81,7 @@
 39. **P039** — Serrano-Lozano et al. (2026). “Adaptive Blind All-in-One Image Restoration.” *CVIU*. [Primary source](https://doi.org/10.1016/j.cviu.2026.104795)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 40. **P040** — Kwon et al. (2025). “Video Diffusion Posterior Sampling for Seeing Beyond Dynamic Scattering Layers.” *IEEE TPAMI*. [Primary source](https://doi.org/10.1109/TPAMI.2025.3598457)  
-   Evidence: Abstract and repository inspected; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 41. **P041** — Romero et al. (2025). “Uncertainty Quantification in HSI Reconstruction using Physics-Aware Diffusion Priors and Optics-Encoded Measurements.” *arXiv*. [Primary source](https://arxiv.org/abs/2511.18473)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 42. **P042** — Katende (2026). “No-Harm Physics-Informed Inverse Learning with Residual-Calibrated Uncertainty.” *arXiv*. [Primary source](https://arxiv.org/abs/2606.07153)  
@@ -99,7 +99,7 @@
 48. **P048** — Renaud et al. (2024). “Plug-and-Play Posterior Sampling under Mismatched Measurement and Prior Models.” *ICLR*. [Primary source](https://proceedings.iclr.cc/paper_files/paper/2024/hash/2a2874875861f6a6436b505dd77683d1-Abstract-Conference.html)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 49. **P049** — Nguyen et al. (2024). “DeepVibes: Correcting Micro-Vibrations in Satellite Imaging With Pushbroom Cameras.” *IEEE TGRS*. [Primary source](https://doi.org/10.1109/TGRS.2024.3415372)  
-   Evidence: Incomplete evidence; retrieval pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 50. **P050** — Dontas et al. (2025). “Blind Inverse Problem Solving Made Easy by Text-to-Image Latent Diffusion.” *SPIGM at NeurIPS 2025 (workshop)*. [Primary source](https://arxiv.org/abs/2412.00557)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 51. **P051** — Hu et al. (2026). “ADOBI: Adaptive Diffusion Bridge For Blind Inverse Problems with Application to MRI Reconstruction.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2026.3678407)  
@@ -107,7 +107,7 @@
 52. **P052** — Liu et al. (2026). “Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling.” *ICML*. [Primary source](https://arxiv.org/abs/2603.01890)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 53. **P053** — Zhao et al. (2026). “FaverNet: All-in-One Video Restoration via Frequency-Discriminative Conditioning.” *IJCV*. [Primary source](https://doi.org/10.1007/s11263-026-02977-y)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 54. **P054** — Kim et al. (2024). “Towards Real-world Event-guided Low-light Video Enhancement and Deblurring.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-031-73254-6_25)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 55. **P055** — Zhou et al. (2022). “LEDNet: Joint Low-Light Enhancement and Deblurring in the Dark.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-031-20068-7_33)  

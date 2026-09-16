@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.18.0 — 2026-09-16
+
+- Assessed four uploaded complete manuscripts: P030, P040, P049 and P053. Cumulative: 89 AI full-text assessments, 88 include recommendations, 1 exclude, 1 pending (P035).
+- Recorded file identity, version, reading extent and SHA-256 provenance without redistributing paper PDFs.
+- Distinguished image posterior sampling and variance maps from probability calibration, physical parameter estimates from operator posteriors, and intra-image attitude changes from video-frame variation.
+- Confirmed the explicit AverNet–FaverNet predecessor relationship; kept both stable records and left study-level grouping for adjudication.
+- Updated matrix, tracker, references and current-status documents. Preserved historical triage, formal decisions and protocol v0.4. Novelty remains unestablished.
+
 ## 0.17.0 — 2026-09-16
 
 - Resolved P029 using complete publisher-supplied online text. Cumulative: 85 AI full-text assessments, 84 include recommendations, 1 exclude, 5 pending.

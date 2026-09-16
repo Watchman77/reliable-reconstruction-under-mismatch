@@ -163,3 +163,15 @@ The research may improve visibility and quantify recoverability. It must not des
 **Decision:** retain the umbrella topic and candidate question. Structured mismatch correction must be represented among comparators. This is a design implication from the extraction, not a novelty finding. P029 does not settle the reliability question, and five unresolved full texts can still change the comparison.
 
 **Next action:** obtain the five named manuscripts to close AI full-text eligibility for the existing seeds. Human adjudication, publication lineage, source-specific quality checks and formal search accounting remain separately tracked. Do not substitute abstracts or related versions for missing complete papers.
+
+## 16 September 2026 — Eleventh AI full-text checkpoint
+
+**Checkpoint:** the uploaded P030, P040, P049 and P053 manuscripts support four include recommendations. Cumulative: 89 assessed, 88 include recommendations, 1 exclude, 1 pending (P035). See the [report](../literature/screening/full_text_11_report.md).
+
+**Evidence:** VDPS confirms joint estimation of video and changing physical parameters. DeepVibes provides a geometry-estimation/unrolling comparator with explicit identifiability limits. FaverNet uses frequency prompts for compound temporal degradation and explicitly identifies AverNet as previous work. The empirical-Bayes paper evaluates image variance visually, without coverage calibration.
+
+**Decision:** retain the umbrella topic and narrower reliability question. Joint operator estimation, temporal modeling or adding uncertainty maps alone cannot define our novelty. Compare reliability under operator-family misspecification, with appropriate image-sampling, point-operator and restoration baselines. This is a design inference, not a proven new contribution.
+
+**Lineage:** the P026/P053 predecessor relationship is now evidenced. Both records remain in the seed map; whether and how their shared experiments contribute to study-level synthesis still requires adjudication. Earlier unresolved statements remain historical.
+
+**Remaining access:** obtain P035 through an author copy or library route. No email has been sent. All previously deferred human and formal-search tasks remain recorded, with no new screening stage or seed quota.

@@ -1,0 +1,307 @@
+{
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "Four user-supplied complete PDFs inspected. P035 retains its pending decision. A canonical source URL is bibliographic provenance, not evidence that the PDF was fetched remotely.",
+    "c1": "The unchanged 2020–2026 window applies. Official proceedings or explicitly identified preprint/journal versions are inspected; final-version equivalence is not assumed.",
+    "c5": "Every new assessment used a complete English uploaded manuscript with publication identity and hash recorded.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch."
+  },
+  "user_deferral": {
+    "instruction": "User will handle pending items later; continue accessible paper assessment now.",
+    "effect": "No new user action is required for this checkpoint. Human adjudication, unresolved retrieval, version/lineage reconciliation and formal search accounting remain tracked, not marked complete."
+  },
+  "checkpoint": "full_text_11",
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 89,
+    "ai_include": 88,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 1,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "batch_counts": {
+    "new_assessments": 4,
+    "ai_include": 4,
+    "ai_exclude": 0,
+    "retrieval_pending": 1
+  },
+  "counts_scope": "Cumulative across full_text_01 through full_text_11. Four new assessments; one pending access case; one linked prior-record note without a new decision.",
+  "records": [
+    {
+      "study_id": "P030",
+      "title": "Empirical Bayesian Imaging With Large-Scale Push-Forward Generative Priors",
+      "decision": "include",
+      "source_url": "https://doi.org/10.1109/LSP.2024.3361806",
+      "version": "Edinburgh peer-reviewed manuscript with repository cover, 6 PDF pages; published SPL 31:631–635 (2024). Final publisher text not compared.",
+      "read_extent": "Article §§I–V, PDF pp. 2–5; Algorithm 1 and Figs. 1–3. The reference list was not audited.",
+      "technical": "An empirical-Bayes SRFlow prior conditions image posterior sampling on a point MMLE of a low-resolution image. SOUL intertwines latent Langevin sampling with MMLE updates. Eleven DIV2K images are synthetically blurred using a known uniform kernel and Gaussian noise. Pixel standard-deviation maps are compared visually with reconstruction errors at two scales; coverage calibration, operator uncertainty and operator-mismatch tests are not demonstrated.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "No",
+        "T": "No",
+        "U": "Yes",
+        "V": "No",
+        "W": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§II–IV; Eqs. 1–4; Algorithm 1; Figs. 2–3; Table I",
+      "applicability": "P is image posterior variability. R remains No because visual variance/error agreement is not a coverage or probability-calibration experiment. The estimated low-resolution image is not a forward operator.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "source_kind": "User-supplied complete PDF; DOI identifies the publication, not a claim of successful remote PDF retrieval.",
+      "source_filename": "IEEE_Empirical_Bayesian.pdf",
+      "source_file_sha256": "c09184b443bf6d2d7978bf6ab779afe8c6af9b9d0b08e03421f25c1ad0423ac0",
+      "source_file_bytes": 4006523,
+      "source_file_pages": 6,
+      "quality_followups": [
+        "The low-resolution conditioning image is estimated as a point; account for its uncertainty before stronger reliability claims. Convergence theory for this setting is explicitly future work.",
+        "Only eleven synthetically degraded images support the demonstration. Check sampler mixing, effective samples, initialization and computational budget before replication."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Edinburgh peer-reviewed manuscript with repository cover, 6 PDF pages; published SPL 31:631–635 (2024). Final publisher text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Bayesian image reconstruction and uncertainty reliability comparison."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation inspected at read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "Complete English manuscript supplied and inspected locally; identity and hash verified."
+        }
+      }
+    },
+    {
+      "study_id": "P040",
+      "title": "Video Diffusion Posterior Sampling for Seeing Beyond Dynamic Scattering Layers",
+      "decision": "include",
+      "source_url": "https://doi.org/10.1109/TPAMI.2025.3598457",
+      "version": "Published TPAMI 47(12):11152–11167 (2025), 16-page publisher PDF. Current-version date 5 November 2025.",
+      "read_extent": "Main article §§II–IV and introduction contributions, pp. 11154–11165; Algorithms 1–2 and evaluation descriptions. Eq. 10 visually checked. Referenced supplement and videos not supplied or audited.",
+      "technical": "VDPS combines a video diffusion prior with propagated intensity and a scattering kernel. A small MLP is optimized during inference for unknown frame-specific distance/kernel parameters or Zernike coefficients. Experiments cover blind changing operators, held-out DAVIS scenes, captured optical measurements and other supplied forward models. Gaussian latent initialization of the MLP does not establish an operator posterior; parameter-tolerance accuracy is not probability calibration.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "Yes",
+        "W": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§II.C–D; Algorithms 1–2; §§III.A–F; Table III; Figs. 8–12",
+      "applicability": "P denotes approximate stochastic image sampling, not validated uncertainty intervals. O denotes physical parameter estimation. Tests with supplied new operators differ from adaptation outside the assumed model family.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "source_kind": "User-supplied complete PDF; DOI identifies the publication, not a claim of successful remote PDF retrieval.",
+      "source_filename": "Video_Diffusion_Posterior_Sampling_for_Seeing_Beyond_Dynamic_Scattering_Layers.pdf",
+      "source_file_sha256": "a007e87e0be9e2c8b952f00f88fbe6bcd26dc846f01291084e72c409eb7cae7d",
+      "source_file_bytes": 10012322,
+      "source_file_pages": 16,
+      "quality_followups": [
+        "Assess operator-family misspecification separately from parameter variation within a supplied family. Do not convert Table III tolerance-based accuracy into calibrated confidence.",
+        "Reconcile the possible OpenReview predecessor separately. Supplement-only results, numerical tables and code require inspection before reuse; no same-study merge is inferred."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Published TPAMI 47(12):11152–11167 (2025), 16-page publisher PDF. Current-version date 5 November 2025."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Blind video reconstruction with unknown, time-varying physical parameters and real optical measurements."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation inspected at read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "Complete English manuscript supplied and inspected locally; identity and hash verified."
+        }
+      }
+    },
+    {
+      "study_id": "P049",
+      "title": "DeepVibes: Correcting Micro-Vibrations in Satellite Imaging With Pushbroom Cameras",
+      "decision": "include",
+      "source_url": "https://doi.org/10.1109/TGRS.2024.3415372",
+      "version": "HAL hal-04606597v1 accepted manuscript, submitted 10 June 2024, supplied as accepted_version.pdf; 11 PDF pages including repository cover. Final TGRS text not compared.",
+      "read_extent": "Article §§I–IV, PDF pp. 2–10; forward model, two-stage reconstruction, identifiability example and real-data evaluation. Fig. 8 and its surrounding discussion visually checked.",
+      "technical": "An identification CNN estimates line-wise satellite attitude, then a Douglas–Rachford-inspired unrolled network reconstructs the image. The simulator combines geometric distortion, optical blur, sensor integration, heteroskedastic noise and quantization. A real Sentinel-2B example uses adapted camera parameters and lacks ground truth. The paper identifies texture-dependent attitude ambiguity and warns that reconstructed high frequencies can come solely from the learned prior.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "No",
+        "W": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§II.A–B; Algorithm 1; Remark II.1; §§III.C–E; §IV",
+      "applicability": "S is limited synthetic-to-real transfer with camera adaptation. V is No under the workbook definition requiring variation across a video sequence; this paper varies attitude within a pushbroom image. Identifiability discussion is not a hallucination-detection experiment.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "source_kind": "User-supplied complete PDF; DOI identifies the publication, not a claim of successful remote PDF retrieval.",
+      "source_filename": "accepted_version.pdf",
+      "source_file_sha256": "dee19ac93c2324b470120305660709febabfa898133f9a3b9f77a49a2f87d9fb",
+      "source_file_bytes": 21498441,
+      "source_file_pages": 11,
+      "quality_followups": [
+        "Planar-scene and known-camera-geometry assumptions limit transfer. The real example is qualitative and uses larger low-frequency shifts than the simulated micro-vibration regime.",
+        "Reconcile the stated L1 training loss with the later squared-risk/MMSE explanation and the 4x versus 2x resolution descriptions before implementation."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "HAL hal-04606597v1 accepted manuscript, submitted 10 June 2024, supplied as accepted_version.pdf; 11 PDF pages including repository cover. Final TGRS text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Estimated acquisition geometry, physics-based reconstruction and explicit sensor/likelihood mismatch."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation inspected at read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "Complete English manuscript supplied and inspected locally; identity and hash verified."
+        }
+      }
+    },
+    {
+      "study_id": "P053",
+      "title": "FaverNet: All-in-One Video Restoration via Frequency-Discriminative Conditioning",
+      "decision": "include",
+      "source_url": "https://doi.org/10.1007/s11263-026-02977-y",
+      "version": "Published IJCV 134:390, 8 August 2026; 18-page publisher PDF.",
+      "read_extent": "Prior-work relationship on pp. 4–5; §§3–5; dataset/training descriptions, selected quantitative and qualitative evaluations, Tables 7–10 and data availability. Supplement and code not audited.",
+      "technical": "FaverNet uses FFT-magnitude prompts to condition restoration and guide temporal alignment. Synthetic benchmarks combine changing blur/noise/compression or weather effects; tests vary combinations, intervals and worsening intensity. VideoLQ provides unpaired real-video evaluation using NIQE and BRISQUE. The method builds on and compares with AverNet. Prompts are not recovered physical operators, and Bayesian MAP notation does not demonstrate image or operator uncertainty.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "Yes",
+        "U": "Yes",
+        "V": "Yes",
+        "W": "No",
+        "X": "No"
+      },
+      "feature_locator": "§§2–4; Eqs. 3–14; §4.1; Table 7; §4.4; Table 8",
+      "applicability": "S includes altered temporal degradation patterns and synthetic-to-real testing. Real-video no-reference quality metrics do not establish faithful recovery or probability calibration.",
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "source_kind": "User-supplied complete PDF; DOI identifies the publication, not a claim of successful remote PDF retrieval.",
+      "source_filename": "s11263-026-02977-y.pdf",
+      "source_file_sha256": "e8eaff764e0d97c466763ae91eeb42b182c8fba285913e5204ed6e197291be9b",
+      "source_file_bytes": 2069036,
+      "source_file_pages": 18,
+      "quality_followups": [
+        "AverNet is an explicit predecessor and comparator; shared benchmark construction requires study-lineage adjudication before pooling evidence.",
+        "Inspect supplement for exact corruption settings and training/test separation. Verify suspicious extracted numerical entries against the page or code before numerical reuse."
+      ],
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Published IJCV 134:390, 8 August 2026; 18-page publisher PDF."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown compound and temporally varying video degradation with real-video evaluation."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation inspected at read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "Complete English manuscript supplied and inspected locally; identity and hash verified."
+        }
+      }
+    }
+  ],
+  "pending_access": [
+    {
+      "study_id": "P035",
+      "title": "Mitigating Forward Model Mismatch in Inverse Problems via Learned Residuals and Diffusion Priors",
+      "source_url": "https://doi.org/10.1117/12.3098133",
+      "previous_attempts_register": "full_text_10.json",
+      "attempts": [
+        {
+          "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14016/140160D/Mitigating-forward-model-mismatch-in-inverse-problems-via-learned-residuals/10.1117/12.3098133.full",
+          "result": "Full article route could not be retrieved; no complete text acquired."
+        },
+        {
+          "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14016/140160D/Mitigating-forward-model-mismatch-in-inverse-problems-via-learned-residuals/10.1117/12.3098133.pdf",
+          "result": "Search indexed a PDF snippet, but opening the complete PDF timed out. Snippet not used for eligibility."
+        },
+        {
+          "url": "https://pure.kaist.ac.kr/en/publications/mitigating-forward-model-mismatch-in-inverse-problems-via-learned/",
+          "result": "Institutional record verifies publication and authors; no accessible manuscript found in targeted searches."
+        }
+      ],
+      "next_action": "Obtain an author manuscript or a full publisher copy through library access/document delivery. Mooseok Jang can be contacted at the public address in P040, PDF p. 1: mooseok@kaist.ac.kr. No message has been sent."
+    }
+  ],
+  "remaining_ids": [
+    "P035"
+  ],
+  "access_notes": [
+    "Four complete uploaded manuscripts were verified and assessed; P035 remains inaccessible.",
+    "Paper PDFs are not copied into the repository. Filenames, versions, reading extent and SHA-256 hashes preserve provenance.",
+    "No abstract, indexed snippet, code repository or unverified predecessor substituted for a missing complete paper. No author message was sent."
+  ],
+  "lineage_updates": [
+    {
+      "study_ids": [
+        "P026",
+        "P053"
+      ],
+      "source_study_id": "P053",
+      "source_url": "https://doi.org/10.1007/s11263-026-02977-y",
+      "locator": "PDF pp. 4–5; §4.1; Tables 2–8",
+      "finding": "P053 explicitly identifies AverNet (P026) as the authors’ previous work, reuses its common-degradation synthesis approach and compares the two methods. The predecessor relationship is confirmed; this does not alone establish that the reports are one study or independent studies.",
+      "action": "Retain both stable records. Adjudicate shared experiments and study-level grouping before pooled synthesis; do not count the linkage as an additional assessment."
+    }
+  ]
+}
