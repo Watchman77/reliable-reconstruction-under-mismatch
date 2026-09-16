@@ -1,6 +1,6 @@
 # Forward-Model Mismatch Review: 90 Seed Publications
 
-> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. The first 40 received preliminary AI triage; all require human adjudication and full-text verification. Author lists outside verified corrections may remain abbreviated. See ../screening/pilot_02_report.md for evidence limits and corrected links.
+> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. Complete formal full-text assessment and human adjudication remain pending for every record. Author lists outside verified corrections may remain abbreviated. See ../screening/pilot_03_report.md for evidence limits and corrected links.
 
 1. **P001** — Nan, Yuesong; Ji, Hui (2020). “Deep Learning for Handling Kernel/Model Uncertainty in Image Deconvolution.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR42600.2020.00246)  
    Evidence: Title/project checked; abstract pending; formal eligibility: pending; closest competitor (provisional): Yes.
@@ -83,102 +83,102 @@
 40. **P040** — Kwon et al. (2025). “Video Diffusion Posterior Sampling for Seeing Beyond Dynamic Scattering Layers.” *IEEE TPAMI*. [Primary source](https://doi.org/10.1109/TPAMI.2025.3598457)  
    Evidence: Abstract and repository inspected; formal eligibility: pending; closest competitor (provisional): Yes.
 41. **P041** — Romero et al. (2025). “Uncertainty Quantification in HSI Reconstruction using Physics-Aware Diffusion Priors and Optics-Encoded Measurements.” *arXiv*. [Primary source](https://arxiv.org/abs/2511.18473)  
-   Evidence: Full preprint verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 42. **P042** — Katende (2026). “No-Harm Physics-Informed Inverse Learning with Residual-Calibrated Uncertainty.” *arXiv*. [Primary source](https://arxiv.org/abs/2606.07153)  
-   Evidence: Full abstract verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Targeted full-text sections inspected; formal eligibility: pending; closest competitor (provisional): Yes.
 43. **P043** — Gilton et al. (2021). “Model Adaptation for Inverse Problems in Imaging.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2021.3094714)  
-   Evidence: Primary-source verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 44. **P044** — Rego et al. (2021). “Robust Lensless Image Reconstruction via PSF Estimation.” *WACV*. [Primary source](https://doi.org/10.1109/WACV48630.2021.00045)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 45. **P045** — Gan et al. (2023). “Block Coordinate Plug-and-Play Methods for Blind Inverse Problems.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f810c2ba07bae78dfe9d25c5d40c5536-Abstract-Conference.html)  
-   Evidence: Proceedings verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 46. **P046** — Gossard & Weiss (2024). “Training Adaptive Reconstruction Networks for Blind Inverse Problems.” *SIAM Journal on Imaging Sciences*. [Primary source](https://doi.org/10.1137/23M1545628)  
-   Evidence: Publisher verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 47. **P047** — Guan et al. (2024). “Solving Inverse Problems with Model Mismatch using Untrained Neural Networks within Model-based Architectures.” *TMLR*. [Primary source](https://openreview.net/forum?id=XHEhjDxPDl)  
-   Evidence: OpenReview verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 48. **P048** — Renaud et al. (2024). “Plug-and-Play Posterior Sampling under Mismatched Measurement and Prior Models.” *ICLR*. [Primary source](https://proceedings.iclr.cc/paper_files/paper/2024/hash/2a2874875861f6a6436b505dd77683d1-Abstract-Conference.html)  
-   Evidence: Proceedings verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 49. **P049** — Nguyen et al. (2024). “DeepVibes: Correcting Micro-Vibrations in Satellite Imaging With Pushbroom Cameras.” *IEEE TGRS*. [Primary source](https://doi.org/10.1109/TGRS.2024.3415372)  
-   Evidence: Author manuscript verified; formal eligibility: pending; closest competitor (provisional): Yes.
-50. **P050** — Dontas et al. (2025). “Blind Inverse Problem Solving Made Easy by Text-to-Image Latent Diffusion.” *NeurIPS*. [Primary source](https://arxiv.org/abs/2412.00557)  
-   Evidence: Primary page verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Incomplete evidence; retrieval pending; formal eligibility: pending; closest competitor (provisional): Yes.
+50. **P050** — Dontas et al. (2025). “Blind Inverse Problem Solving Made Easy by Text-to-Image Latent Diffusion.” *SPIGM at NeurIPS 2025 (workshop)*. [Primary source](https://arxiv.org/abs/2412.00557)  
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 51. **P051** — Hu et al. (2026). “ADOBI: Adaptive Diffusion Bridge For Blind Inverse Problems with Application to MRI Reconstruction.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2026.3678407)  
-   Evidence: Publisher/preprint verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 52. **P052** — Liu et al. (2026). “Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling.” *ICML*. [Primary source](https://arxiv.org/abs/2603.01890)  
-   Evidence: Preprint verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 53. **P053** — Zhao et al. (2026). “FaverNet: All-in-One Video Restoration via Frequency-Discriminative Conditioning.” *IJCV*. [Primary source](https://doi.org/10.1007/s11263-026-02977-y)  
-   Evidence: Publisher/code verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 54. **P054** — Kim et al. (2024). “Towards Real-world Event-guided Low-light Video Enhancement and Deblurring.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-031-73254-6_25)  
-   Evidence: Full text/code verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 55. **P055** — Zhou et al. (2022). “LEDNet: Joint Low-Light Enhancement and Deblurring in the Dark.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-031-20068-7_33)  
-   Evidence: Publisher/code verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 56. **P056** — Chan et al. (2022). “Investigating Tradeoffs in Real-World Video Super-Resolution.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR52688.2022.00587)  
-   Evidence: Full text/code verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 57. **P057** — Jeelani et al. (2023). “Expanding Synthetic Real-World Degradations for Blind Video Super Resolution.” *CVPR Workshops*. [Primary source](https://doi.org/10.1109/CVPRW59228.2023.00127)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 58. **P058** — Yang et al. (2021). “Real-world Video Super-resolution: A Benchmark Dataset and a Decomposition Based Learning Scheme.” *ICCV*. [Primary source](https://doi.org/10.1109/ICCV48922.2021.00474)  
-   Evidence: Full text/code verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 59. **P059** — Zhong et al. (2023). “Real-World Video Deblurring: A Benchmark Dataset and an Efficient Recurrent Neural Network.” *IJCV*. [Primary source](https://doi.org/10.1007/s11263-022-01705-6)  
-   Evidence: Publisher/code verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 60. **P060** — Han & Kim (2025). “CQAD: An Image Quality Assessment Dataset for CCTV.” *JMIS*. [Primary source](https://doi.org/10.33851/JMIS.2025.12.3.81)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 61. **P061** — Endrei & Cserey (2026). “S3-CLIP: Video Super Resolution for Person-ReID.” *WACV Workshops*. [Primary source](https://doi.org/10.1109/WACVW68408.2026.00174)  
-   Evidence: Full text/code verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract and repository inspected; formal eligibility: pending; closest competitor (provisional): Yes.
 62. **P062** — Teneggi et al. (2023). “How to Trust Your Diffusion Model: A Convex Optimization Approach to Conformal Risk Control.” *ICML*. [Primary source](https://proceedings.mlr.press/v202/teneggi23a.html)  
-   Evidence: PMLR verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 63. **P063** — Wen et al. (2024). “Task-Driven Uncertainty Quantification in Inverse Problems via Conformal Prediction.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-031-73027-6_11)  
-   Evidence: Publisher/preprint verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 64. **P064** — Lütjen et al. (2024). “Learning-Based Approaches for Reconstructions With Inexact Operators in nanoCT Applications.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2024.3380319)  
-   Evidence: Publisher/preprint verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 65. **P065** — Ekmekci & Cetin (2025). “Conformalized Generative Bayesian Imaging: An Uncertainty Quantification Framework for Computational Imaging.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2025.3649389)  
-   Evidence: Publisher/preprint verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 66. **P066** — Everink et al. (2025). “Self-supervised Conformal Prediction for Uncertainty Quantification in Imaging Problems.” *SSVM*. [Primary source](https://doi.org/10.1007/978-3-031-92366-1_9)  
-   Evidence: Publisher verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 67. **P067** — Ye et al. (2025). “QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems.” *arXiv*. [Primary source](https://arxiv.org/abs/2507.14760)  
-   Evidence: Full preprint verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 68. **P068** — Abu Hussein et al. (2020). “Correction Filter for Single Image Super-Resolution.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR42600.2020.00150)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 69. **P069** — Asim et al. (2020). “Blind Image Deconvolution Using Deep Generative Priors.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2020.3032671)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 70. **P070** — Janjua et al. (2026). “Grounding Degradations in Natural Language for All-In-One Video Restoration.” *WACV*. [Primary source](https://arxiv.org/abs/2507.14851)  
-   Evidence: Full text/code verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 71. **P071** — Park et al. (2023). “All-in-One Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations.” *CVPR*. [Primary source](https://openaccess.thecvf.com/content/CVPR2023/html/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Title/project checked; abstract pending; formal eligibility: pending; closest competitor (provisional): No.
 72. **P072** — Wang et al. (2023). “PromptRestorer: A Prompting Image Restoration Method with Degradation Perception.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2023/file/1c364d98a5cdc426fd8c76fbb2c10e34-Paper-Conference.pdf)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 73. **P073** — Jiang et al. (2024). “AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-031-73661-2_19)  
-   Evidence: Publisher/preprint verified; formal eligibility: pending; closest competitor (provisional): Yes.
-74. **P074** — Luo et al. (2024). “Controlling Vision-Language Models for Universal Image Restoration.” *ICLR*. [Primary source](https://openreview.net/forum?id=t3vnnLeajU)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+74. **P074** — Luo et al. (2024). “Controlling Vision-Language Models for Multi-Task Image Restoration.” *ICLR*. [Primary source](https://openreview.net/forum?id=t3vnnLeajU)  
+   Evidence: Abstract and repository inspected; formal eligibility: pending; closest competitor (provisional): Yes.
 75. **P075** — Ai et al. (2024). “Multimodal Prompt Perceiver: Empower Adaptiveness, Generalizability and Fidelity for All-in-One Image Restoration.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR52733.2024.02403)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 76. **P076** — Conde et al. (2024). “InstructIR: High-Quality Image Restoration Following Human Instructions.” *ECCV*. [Primary source](https://arxiv.org/abs/2401.16468)  
-   Evidence: Full text/code verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 77. **P077** — Chen et al. (2024). “RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/file/c78f639424b8d89ceb4f2efbb4dfe4f4-Paper-Conference.pdf)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 78. **P078** — Ai et al. (2024). “DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/file/6452474601429509f3035dc81c233226-Paper-Conference.pdf)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 79. **P079** — Tu et al. (2024). “Taming Generative Diffusion Prior for Universal Blind Image Restoration.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/hash/25869dbf7682272357bc2cbbf860e1c8-Abstract-Conference.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 80. **P080** — Fei et al. (2023). “Generative Diffusion Prior for Unified Image Restoration and Enhancement.” *CVPR*. [Primary source](https://openaccess.thecvf.com/content/CVPR2023/html/Fei_Generative_Diffusion_Prior_for_Unified_Image_Restoration_and_Enhancement_CVPR_2023_paper.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 81. **P081** — Zhussip et al. (2024). “A Modular Conditional Diffusion Framework for Image Reconstruction.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/hash/b213d9a999b82cb6fcd03a0d5a7498be-Abstract-Conference.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 82. **P082** — Li & Pereira (2024). “Solving Inverse Problems via Diffusion Optimal Control.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/hash/86655bc516148e311bcfcf88f1744de7-Abstract-Conference.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 83. **P083** — Xu & Chi (2024). “Provably Robust Score-Based Diffusion Posterior Sampling for Plug-and-Play Image Reconstruction.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3fa2d2b637122007845a2fbb7c21453b-Abstract-Conference.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 84. **P084** — Zhang et al. (2024). “Unleashing the Denoising Capability of Diffusion Prior for Solving Inverse Problems.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/hash/54fa8255cdf30736ecad38e842725e7f-Abstract-Conference.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 85. **P085** — Elata et al. (2025). “InvFusion: Bridging Supervised and Zero-shot Diffusion for Inverse Problems.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2025/hash/33367b9ff199d26280db6cf539d1125c-Abstract-Conference.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 86. **P086** — Erbach et al. (2025). “Solving Inverse Problems with FLAIR.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2025/hash/c7ae6e9659f0c99582c2e8214ba0b413-Abstract-Conference.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 87. **P087** — Jayaram et al. (2025). “Linearly Constrained Diffusion Implicit Models.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2025/hash/d92d3aec6a48e93f93194503ee49f11a-Abstract-Conference.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): No.
-88. **P088** — Wang et al. (2024). “Exploiting Diffusion Prior for Real-World Image Super-Resolution.” *IJCV*. [Primary source](https://doi.org/10.1007/s11263-024-02092-y)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
+88. **P088** — Wang et al. (2024). “Exploiting Diffusion Prior for Real-World Image Super-Resolution.” *IJCV*. [Primary source](https://doi.org/10.1007/s11263-024-02168-7)  
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 89. **P089** — Wu et al. (2024). “SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution.” *CVPR*. [Primary source](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_SeeSR_Towards_Semantics-Aware_Real-World_Image_Super-Resolution_CVPR_2024_paper.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 90. **P090** — Zhou et al. (2024). “Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution.” *CVPR*. [Primary source](https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Upscale-A-Video_Temporal-Consistent_Diffusion_Model_for_Real-World_Video_Super-Resolution_CVPR_2024_paper.html)  
-   Evidence: Full text verified; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.

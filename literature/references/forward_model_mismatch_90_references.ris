@@ -436,7 +436,7 @@ PY  - 2025
 TI  - Uncertainty Quantification in HSI Reconstruction using Physics-Aware Diffusion Priors and Optics-Encoded Measurements
 T2  - arXiv
 UR  - https://arxiv.org/abs/2511.18473
-N1  - Evidence status: Full preprint verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -446,7 +446,7 @@ PY  - 2026
 TI  - No-Harm Physics-Informed Inverse Learning with Residual-Calibrated Uncertainty
 T2  - arXiv
 UR  - https://arxiv.org/abs/2606.07153
-N1  - Evidence status: Full abstract verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Targeted full-text sections inspected; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -457,7 +457,7 @@ TI  - Model Adaptation for Inverse Problems in Imaging
 T2  - IEEE TCI
 UR  - https://doi.org/10.1109/TCI.2021.3094714
 DO  - 10.1109/TCI.2021.3094714
-N1  - Evidence status: Primary-source verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -468,7 +468,7 @@ TI  - Robust Lensless Image Reconstruction via PSF Estimation
 T2  - WACV
 UR  - https://doi.org/10.1109/WACV48630.2021.00045
 DO  - 10.1109/WACV48630.2021.00045
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -478,7 +478,7 @@ PY  - 2023
 TI  - Block Coordinate Plug-and-Play Methods for Blind Inverse Problems
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/f810c2ba07bae78dfe9d25c5d40c5536-Abstract-Conference.html
-N1  - Evidence status: Proceedings verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -489,7 +489,7 @@ TI  - Training Adaptive Reconstruction Networks for Blind Inverse Problems
 T2  - SIAM Journal on Imaging Sciences
 UR  - https://doi.org/10.1137/23M1545628
 DO  - 10.1137/23M1545628
-N1  - Evidence status: Publisher verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -499,7 +499,7 @@ PY  - 2024
 TI  - Solving Inverse Problems with Model Mismatch using Untrained Neural Networks within Model-based Architectures
 T2  - TMLR
 UR  - https://openreview.net/forum?id=XHEhjDxPDl
-N1  - Evidence status: OpenReview verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -509,7 +509,7 @@ PY  - 2024
 TI  - Plug-and-Play Posterior Sampling under Mismatched Measurement and Prior Models
 T2  - ICLR
 UR  - https://proceedings.iclr.cc/paper_files/paper/2024/hash/2a2874875861f6a6436b505dd77683d1-Abstract-Conference.html
-N1  - Evidence status: Proceedings verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -520,7 +520,7 @@ TI  - DeepVibes: Correcting Micro-Vibrations in Satellite Imaging With Pushbroom
 T2  - IEEE TGRS
 UR  - https://doi.org/10.1109/TGRS.2024.3415372
 DO  - 10.1109/TGRS.2024.3415372
-N1  - Evidence status: Author manuscript verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Incomplete evidence; retrieval pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -528,9 +528,9 @@ ID  - P050
 AU  - Dontas et al.
 PY  - 2025
 TI  - Blind Inverse Problem Solving Made Easy by Text-to-Image Latent Diffusion
-T2  - NeurIPS
+T2  - SPIGM at NeurIPS 2025 (workshop)
 UR  - https://arxiv.org/abs/2412.00557
-N1  - Evidence status: Primary page verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -541,7 +541,7 @@ TI  - ADOBI: Adaptive Diffusion Bridge For Blind Inverse Problems with Applicati
 T2  - IEEE TCI
 UR  - https://doi.org/10.1109/TCI.2026.3678407
 DO  - 10.1109/TCI.2026.3678407
-N1  - Evidence status: Publisher/preprint verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -551,7 +551,7 @@ PY  - 2026
 TI  - Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling
 T2  - ICML
 UR  - https://arxiv.org/abs/2603.01890
-N1  - Evidence status: Preprint verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -562,7 +562,7 @@ TI  - FaverNet: All-in-One Video Restoration via Frequency-Discriminative Condit
 T2  - IJCV
 UR  - https://doi.org/10.1007/s11263-026-02977-y
 DO  - 10.1007/s11263-026-02977-y
-N1  - Evidence status: Publisher/code verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -573,7 +573,7 @@ TI  - Towards Real-world Event-guided Low-light Video Enhancement and Deblurring
 T2  - ECCV
 UR  - https://doi.org/10.1007/978-3-031-73254-6_25
 DO  - 10.1007/978-3-031-73254-6_25
-N1  - Evidence status: Full text/code verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -584,7 +584,7 @@ TI  - LEDNet: Joint Low-Light Enhancement and Deblurring in the Dark
 T2  - ECCV
 UR  - https://doi.org/10.1007/978-3-031-20068-7_33
 DO  - 10.1007/978-3-031-20068-7_33
-N1  - Evidence status: Publisher/code verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -595,7 +595,7 @@ TI  - Investigating Tradeoffs in Real-World Video Super-Resolution
 T2  - CVPR
 UR  - https://doi.org/10.1109/CVPR52688.2022.00587
 DO  - 10.1109/CVPR52688.2022.00587
-N1  - Evidence status: Full text/code verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -606,7 +606,7 @@ TI  - Expanding Synthetic Real-World Degradations for Blind Video Super Resoluti
 T2  - CVPR Workshops
 UR  - https://doi.org/10.1109/CVPRW59228.2023.00127
 DO  - 10.1109/CVPRW59228.2023.00127
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -617,7 +617,7 @@ TI  - Real-world Video Super-resolution: A Benchmark Dataset and a Decomposition
 T2  - ICCV
 UR  - https://doi.org/10.1109/ICCV48922.2021.00474
 DO  - 10.1109/ICCV48922.2021.00474
-N1  - Evidence status: Full text/code verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -628,7 +628,7 @@ TI  - Real-World Video Deblurring: A Benchmark Dataset and an Efficient Recurren
 T2  - IJCV
 UR  - https://doi.org/10.1007/s11263-022-01705-6
 DO  - 10.1007/s11263-022-01705-6
-N1  - Evidence status: Publisher/code verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -639,7 +639,7 @@ TI  - CQAD: An Image Quality Assessment Dataset for CCTV
 T2  - JMIS
 UR  - https://doi.org/10.33851/JMIS.2025.12.3.81
 DO  - 10.33851/JMIS.2025.12.3.81
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -650,7 +650,7 @@ TI  - S3-CLIP: Video Super Resolution for Person-ReID
 T2  - WACV Workshops
 UR  - https://doi.org/10.1109/WACVW68408.2026.00174
 DO  - 10.1109/WACVW68408.2026.00174
-N1  - Evidence status: Full text/code verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract and repository inspected; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -660,7 +660,7 @@ PY  - 2023
 TI  - How to Trust Your Diffusion Model: A Convex Optimization Approach to Conformal Risk Control
 T2  - ICML
 UR  - https://proceedings.mlr.press/v202/teneggi23a.html
-N1  - Evidence status: PMLR verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -671,7 +671,7 @@ TI  - Task-Driven Uncertainty Quantification in Inverse Problems via Conformal P
 T2  - ECCV
 UR  - https://doi.org/10.1007/978-3-031-73027-6_11
 DO  - 10.1007/978-3-031-73027-6_11
-N1  - Evidence status: Publisher/preprint verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -682,7 +682,7 @@ TI  - Learning-Based Approaches for Reconstructions With Inexact Operators in na
 T2  - IEEE TCI
 UR  - https://doi.org/10.1109/TCI.2024.3380319
 DO  - 10.1109/TCI.2024.3380319
-N1  - Evidence status: Publisher/preprint verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -693,7 +693,7 @@ TI  - Conformalized Generative Bayesian Imaging: An Uncertainty Quantification F
 T2  - IEEE TCI
 UR  - https://doi.org/10.1109/TCI.2025.3649389
 DO  - 10.1109/TCI.2025.3649389
-N1  - Evidence status: Publisher/preprint verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -704,7 +704,7 @@ TI  - Self-supervised Conformal Prediction for Uncertainty Quantification in Ima
 T2  - SSVM
 UR  - https://doi.org/10.1007/978-3-031-92366-1_9
 DO  - 10.1007/978-3-031-92366-1_9
-N1  - Evidence status: Publisher verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -714,7 +714,7 @@ PY  - 2025
 TI  - QUTCC: Quantile Uncertainty Training and Conformal Calibration for Imaging Inverse Problems
 T2  - arXiv
 UR  - https://arxiv.org/abs/2507.14760
-N1  - Evidence status: Full preprint verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -725,7 +725,7 @@ TI  - Correction Filter for Single Image Super-Resolution
 T2  - CVPR
 UR  - https://doi.org/10.1109/CVPR42600.2020.00150
 DO  - 10.1109/CVPR42600.2020.00150
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -736,7 +736,7 @@ TI  - Blind Image Deconvolution Using Deep Generative Priors
 T2  - IEEE TCI
 UR  - https://doi.org/10.1109/TCI.2020.3032671
 DO  - 10.1109/TCI.2020.3032671
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -746,7 +746,7 @@ PY  - 2026
 TI  - Grounding Degradations in Natural Language for All-In-One Video Restoration
 T2  - WACV
 UR  - https://arxiv.org/abs/2507.14851
-N1  - Evidence status: Full text/code verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -756,7 +756,7 @@ PY  - 2023
 TI  - All-in-One Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations
 T2  - CVPR
 UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Title/project checked; abstract pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -766,7 +766,7 @@ PY  - 2023
 TI  - PromptRestorer: A Prompting Image Restoration Method with Degradation Perception
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2023/file/1c364d98a5cdc426fd8c76fbb2c10e34-Paper-Conference.pdf
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -777,17 +777,17 @@ TI  - AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion
 T2  - ECCV
 UR  - https://doi.org/10.1007/978-3-031-73661-2_19
 DO  - 10.1007/978-3-031-73661-2_19
-N1  - Evidence status: Publisher/preprint verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
 ID  - P074
 AU  - Luo et al.
 PY  - 2024
-TI  - Controlling Vision-Language Models for Universal Image Restoration
+TI  - Controlling Vision-Language Models for Multi-Task Image Restoration
 T2  - ICLR
 UR  - https://openreview.net/forum?id=t3vnnLeajU
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract and repository inspected; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -798,7 +798,7 @@ TI  - Multimodal Prompt Perceiver: Empower Adaptiveness, Generalizability and Fi
 T2  - CVPR
 UR  - https://doi.org/10.1109/CVPR52733.2024.02403
 DO  - 10.1109/CVPR52733.2024.02403
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -808,7 +808,7 @@ PY  - 2024
 TI  - InstructIR: High-Quality Image Restoration Following Human Instructions
 T2  - ECCV
 UR  - https://arxiv.org/abs/2401.16468
-N1  - Evidence status: Full text/code verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -818,7 +818,7 @@ PY  - 2024
 TI  - RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/file/c78f639424b8d89ceb4f2efbb4dfe4f4-Paper-Conference.pdf
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -828,7 +828,7 @@ PY  - 2024
 TI  - DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/file/6452474601429509f3035dc81c233226-Paper-Conference.pdf
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -838,7 +838,7 @@ PY  - 2024
 TI  - Taming Generative Diffusion Prior for Universal Blind Image Restoration
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/25869dbf7682272357bc2cbbf860e1c8-Abstract-Conference.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -848,7 +848,7 @@ PY  - 2023
 TI  - Generative Diffusion Prior for Unified Image Restoration and Enhancement
 T2  - CVPR
 UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Fei_Generative_Diffusion_Prior_for_Unified_Image_Restoration_and_Enhancement_CVPR_2023_paper.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -858,7 +858,7 @@ PY  - 2024
 TI  - A Modular Conditional Diffusion Framework for Image Reconstruction
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/b213d9a999b82cb6fcd03a0d5a7498be-Abstract-Conference.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -868,7 +868,7 @@ PY  - 2024
 TI  - Solving Inverse Problems via Diffusion Optimal Control
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/86655bc516148e311bcfcf88f1744de7-Abstract-Conference.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -878,7 +878,7 @@ PY  - 2024
 TI  - Provably Robust Score-Based Diffusion Posterior Sampling for Plug-and-Play Image Reconstruction
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/3fa2d2b637122007845a2fbb7c21453b-Abstract-Conference.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -888,7 +888,7 @@ PY  - 2024
 TI  - Unleashing the Denoising Capability of Diffusion Prior for Solving Inverse Problems
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/54fa8255cdf30736ecad38e842725e7f-Abstract-Conference.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -898,7 +898,7 @@ PY  - 2025
 TI  - InvFusion: Bridging Supervised and Zero-shot Diffusion for Inverse Problems
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/33367b9ff199d26280db6cf539d1125c-Abstract-Conference.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -908,7 +908,7 @@ PY  - 2025
 TI  - Solving Inverse Problems with FLAIR
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/c7ae6e9659f0c99582c2e8214ba0b413-Abstract-Conference.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -918,7 +918,7 @@ PY  - 2025
 TI  - Linearly Constrained Diffusion Implicit Models
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/d92d3aec6a48e93f93194503ee49f11a-Abstract-Conference.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -927,9 +927,9 @@ AU  - Wang et al.
 PY  - 2024
 TI  - Exploiting Diffusion Prior for Real-World Image Super-Resolution
 T2  - IJCV
-UR  - https://doi.org/10.1007/s11263-024-02092-y
-DO  - 10.1007/s11263-024-02092-y
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+UR  - https://doi.org/10.1007/s11263-024-02168-7
+DO  - 10.1007/s11263-024-02168-7
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -939,7 +939,7 @@ PY  - 2024
 TI  - SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution
 T2  - CVPR
 UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Wu_SeeSR_Towards_Semantics-Aware_Real-World_Image_Super-Resolution_CVPR_2024_paper.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -949,5 +949,5 @@ PY  - 2024
 TI  - Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution
 T2  - CVPR
 UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Upscale-A-Video_Temporal-Consistent_Diffusion_Model_for_Real-World_Video_Super-Resolution_CVPR_2024_paper.html
-N1  - Evidence status: Full text verified; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
+N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI pilot recommendations, where present, require human adjudication.
 ER  -

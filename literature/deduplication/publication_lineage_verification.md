@@ -1,6 +1,8 @@
 # Publication-lineage verification
 
-Audit date: 2026-09-16
+Audit date: 2026-09-16 (historical checkpoint, before pilot 03)
+
+**Later evidence:** pilot 03 found an explicit [coauthor announcement of ICML 2026 acceptance for P052](https://iwuqing.github.io/). Final proceedings metadata remain pending. The P052 conclusions below and the accompanying CSV describe the earlier audit, not the latest acceptance evidence. See [pilot_03_report.md](../screening/pilot_03_report.md) for current metadata corrections and the P026/P053 lineage question.
 
 ## Purpose
 

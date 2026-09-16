@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.0 — 2026-09-16
+
+- Completed initial triage for P041–P090: 44 advance and 6 unclear recommendations; cumulative 90/90, 82 advance, 8 unclear, zero untriaged.
+- Revisited five older access/scope records; preserved incomplete evidence rather than treating retrieval failure as exclusion.
+- Added record-level sources and full-text questions for all remaining seeds, a complete decision register and explicit full-text work remaining.
+- Inspected No-Harm discussion/limitations and documented existing posterior-mismatch theory and self-supervised calibration. Original umbrella title retained; novelty remains unestablished.
+- Corrected LADiBI workshop venue, DA-CLIP title and StableSR DOI; updated CaMB-Diff acceptance evidence and flagged AverNet/FaverNet lineage for comparison.
+- Synchronized the workbook and four reference exports. Preserved all native workbook objects, unrelated feature codes and zero formal eligibility counts.
+
 ## 0.6.0 — 2026-09-16
 
 - Triaged P021–P040 with 20 preliminary advance recommendations; cumulative progress is 40/90 (38 advance, 2 unclear, 50 untriaged), with human adjudication and formal eligibility pending.

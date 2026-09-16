@@ -53,3 +53,13 @@ The candidate contribution must identify a specific limitation relative to the c
 ## 16 September 2026 — Forensic boundary
 
 The research may improve visibility and quantify recoverability. It must not describe plausible generated faces, text or number plates as recovered truth when the observation does not contain adequate supporting information.
+
+## 16 September 2026 — Complete initial seed triage
+
+**Checkpoint:** all 90 seed records have an initial recommendation: 82 advance, 8 unclear, zero untriaged. P006/P016 remain unresolved; the six new unclear cases are P060/P072/P082/P084/P086/P087. No complete formal full-text eligibility assessments or final inclusion/exclusion decisions are claimed.
+
+**Decision:** retain the original umbrella title, **Physics-Informed Deep Learning for Robust Image Reconstruction Under Forward-Model Mismatch**. Continue to treat the selective-detail/operator-uncertainty question as a candidate, with novelty unestablished.
+
+**New evidence:** P042 already proposes certificate-based fallback, P048 analyzes posterior sensitivity to measurement/prior mismatch, and P066 calibrates uncertainty from noisy data without clean targets. P064 joins inexact operators and uncertainty; further video and conformal competitors narrow any defensible claim. Primary sources and evidence limits are in `literature/screening/pilot_03_report.md`.
+
+**Next gate:** complete full-text eligibility and source-supported extraction, resolve possible P026/P053 lineage, and compare the exact operator assumptions and reliability guarantees. Do not restart the seed list or add papers merely to reach a round number. Formal searches and citation chaining may legitimately add relevant records.

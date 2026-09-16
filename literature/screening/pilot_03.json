@@ -1,0 +1,464 @@
+{
+  "pilot_id": "pilot_03",
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.3",
+  "selection": "All remaining seed records, P041–P090, in stable ID order. Targeted source lookups, not a systematic database search.",
+  "reviewer": "Codex AI-assisted preliminary triage; human adjudication pending for all 90 records.",
+  "formal_database_search_executed": false,
+  "full_text_eligibility_assessed": false,
+  "decision_rule": "Advance on an explicit relevance signal; retain unclear for scope or access questions. No missing evidence is treated as an exclusion. Selected passages support only their recorded findings; all feature codes remain provisional.",
+  "records": [
+    {
+      "study_id": "P041", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2511.18473",
+      "criterion_3": "Posterior uncertainty and calibration for hyperspectral reconstruction",
+      "evidence": "HSDiff uses a diffusion image prior with optics-encoded measurements for hyperspectral posterior inference and evaluates uncertainty calibration across optical encodings.",
+      "full_text_question": "Are the optical operators known, estimated or misspecified? Extract calibration units and tests beyond the trained optical family."
+    },
+    {
+      "study_id": "P042", "decision": "AI pilot: advance",
+      "basis": "Author preprint abstract and targeted discussion/limitations, sections 9–10", "status": "Targeted full-text sections inspected",
+      "source_url": "https://arxiv.org/html/2606.07153v1",
+      "criterion_3": "Residual-based reliability certification and selective replacement of a baseline",
+      "evidence": "The method compares learned and baseline error certificates derived under a stability assumption. It falls back when certificate dominance fails. This is deterministic certification, not joint image/operator posterior inference. The limitations identify conservative radii, fixed-candidate independent collocation and controlled numerical validation.",
+      "full_text_question": "Verify the stability constants, admissible class and operational radius. Certificate dominance does not imply lower actual error than the baseline; test whether the guarantee survives an uncertain or misspecified observation operator."
+    },
+    {
+      "study_id": "P043", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract; existing journal citation retained", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2012.00139",
+      "criterion_3": "Adaptation to changing or partially known forward models",
+      "evidence": "Two adaptation procedures update learned reconstruction when the forward operator changes, without requiring new ground-truth training images; applications include deblurring, super-resolution and MRI.",
+      "full_text_question": "Which operator changes are supplied to the method, which are inferred, and how are adaptation data separated from evaluation?"
+    },
+    {
+      "study_id": "P044", "decision": "AI pilot: advance",
+      "basis": "Complete institutional publication abstract and DOI metadata", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://asu.elsevierpure.com/en/publications/robust-lensless-image-reconstruction-via-psf-estimation/",
+      "criterion_3": "Joint image/PSF estimation without test-time PSF access",
+      "evidence": "An adversarial-learning reconstruction method estimates the image and point-spread function across lensless camera PSFs, removing the requirement for a supplied test-time PSF.",
+      "full_text_question": "Are evaluated cameras or PSF families genuinely held out, and is uncertainty propagated beyond a point PSF estimate?"
+    },
+    {
+      "study_id": "P045", "decision": "AI pilot: advance",
+      "basis": "Complete official NeurIPS proceedings abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/f810c2ba07bae78dfe9d25c5d40c5536-Abstract-Conference.html",
+      "criterion_3": "Blind joint reconstruction with image and operator priors",
+      "evidence": "Block-coordinate plug-and-play updates use learned denoisers for both image and operator variables, with convergence analysis and MRI/deblurring evaluations.",
+      "full_text_question": "Extract the convergence assumptions and distinguish stationary-point analysis from statistical operator uncertainty or robustness to an incorrect operator family."
+    },
+    {
+      "study_id": "P046", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract and SIAM citation", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2202.11342",
+      "additional_source_url": "https://epubs.siam.org/doi/10.1137/23M1545628",
+      "criterion_3": "Operator-family adaptation and blind reconstruction",
+      "evidence": "Training over an operator family supports adaptive and blind reconstruction in settings including MRI calibration, tilted tomography and Fresnel propagation.",
+      "full_text_question": "Separate interpolation within the training operator family from extrapolation or wrong-family mismatch. The 2022 preprint and 2024 journal record are one lineage."
+    },
+    {
+      "study_id": "P047", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract; OpenReview access challenged", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2403.04847",
+      "criterion_3": "Explicit forward-model residual correction inside unrolled/equilibrium models",
+      "evidence": "An untrained instance-specific residual network compensates model discrepancy while reconstructing within learned unrolled or deep-equilibrium architectures; linear and nonlinear cases are studied.",
+      "full_text_question": "What prevents the correction from absorbing image structure or measurement noise, and which mismatch families and convergence assumptions are tested?"
+    },
+    {
+      "study_id": "P048", "decision": "AI pilot: advance",
+      "basis": "Complete official ICLR proceedings abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/2a2874875861f6a6436b505dd77683d1-Abstract-Conference.html",
+      "criterion_3": "Posterior-sampling sensitivity to measurement and prior mismatch",
+      "evidence": "The paper bounds changes in plug-and-play Langevin posterior sampling under both measurement-model and denoiser mismatch, with Gaussian-mixture and deblurring assessments.",
+      "full_text_question": "Which model assumptions support the posterior-distance bound? Does it imply calibrated intervals or selective-output reliability under structured acquisition mismatch?"
+    },
+    {
+      "study_id": "P049", "decision": "AI pilot: advance",
+      "basis": "Publisher-indexed title and abstract excerpt; IEEE PDF retrieval failed and HAL challenged", "status": "Incomplete evidence; retrieval pending",
+      "source_url": "https://ieeexplore.ieee.org/document/10559627/",
+      "additional_source_url": "https://hal.science/hal-04606597",
+      "criterion_3": "Explicit correction of acquisition micro-vibrations in pushbroom satellite imaging",
+      "evidence": "The indexed primary-source excerpt identifies estimation of micro-vibrations and correction of their image effects. A complete abstract or technical assessment was not obtained; no performance or uncertainty claim is verified here.",
+      "full_text_question": "Retrieve the full text to verify the physical parameterization, motion identification, synthetic versus real evidence and any uncertainty analysis."
+    },
+    {
+      "study_id": "P050", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract and coauthor publication listing", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2412.00557",
+      "metadata_source_url": "https://kellyyutonghe.github.io/",
+      "metadata": {"Venue": "SPIGM at NeurIPS 2025 (workshop)"},
+      "criterion_3": "Blind image/operator inference with text-conditioned latent diffusion priors",
+      "evidence": "LADiBI uses text-guided image and operator priors with iterative flexible-operator estimation, including nonlinear degradation. The author listing identifies a NeurIPS workshop, not the main conference.",
+      "full_text_question": "Check prompt sensitivity, operator constraints and identifiability. Retained peer-review flag is legacy metadata; workshop review procedure was not independently verified."
+    },
+    {
+      "study_id": "P051", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract; journal lineage from the existing audit", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2411.16535",
+      "criterion_3": "Adaptive unknown-operator calibration during diffusion-bridge MRI reconstruction",
+      "evidence": "ADOBI adapts an unknown operator while using a conditional diffusion bridge to reconstruct MRI images, emphasizing efficient inference.",
+      "full_text_question": "Does coil calibration propagate operator uncertainty or yield a point estimate? Test the distinction between imperfect parameters and a wrong acquisition family."
+    },
+    {
+      "study_id": "P052", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract and coauthor ICML acceptance announcement", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2603.01890",
+      "additional_source_url": "https://openreview.net/forum?id=LTp4Q9aNJP",
+      "metadata_source_url": "https://iwuqing.github.io/",
+      "criterion_3": "Structured unknown nonlinear forward-operator estimation",
+      "evidence": "CaMB-Diff imposes monotonicity through cascaded Bernstein operators to estimate dynamic-range compression within a diffusion reconstruction framework. The coauthor announces ICML 2026 acceptance; the full OpenReview record remains access-limited.",
+      "full_text_question": "Distinguish radiometric dynamic-range compression from image/video codec artifacts. Assess identifiability, saturation and validity when the true operator violates monotonicity."
+    },
+    {
+      "study_id": "P053", "decision": "AI pilot: advance",
+      "basis": "Complete publisher abstract and publication metadata", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://link.springer.com/article/10.1007/s11263-026-02977-y",
+      "criterion_3": "Unknown and time-varying multi-degradation video restoration",
+      "evidence": "FaverNet uses frequency-sensitive degradation conditioning and prompt-guided temporal alignment across conventional and weather degradations.",
+      "full_text_question": "Compare its study lineage and experiments with P026 AverNet before counting independent evidence. Verify temporal/compound settings and complete code/data release rather than infer release from a link."
+    },
+    {
+      "study_id": "P054", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2408.14916",
+      "criterion_3": "Joint low-light and motion-blur restoration with real paired acquisition",
+      "evidence": "ELEDNet uses event/image temporal and cross-modal information; a beam-splitter acquisition setup supplies paired low-light blurred and reference video.",
+      "full_text_question": "Which information depends on an event sensor unavailable in ordinary CCTV? Verify pairing, exposure differences and cross-device generalization."
+    },
+    {
+      "study_id": "P055", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2202.03373",
+      "criterion_3": "Joint low-light enhancement and deblurring",
+      "evidence": "LEDNet jointly addresses darkness and blur using the LOL-Blur paired dataset, with synthetic and real-image evaluations.",
+      "full_text_question": "How are blur, exposure, noise and processing ordered in synthesis? Determine which real examples have trustworthy references."
+    },
+    {
+      "study_id": "P056", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2111.12704",
+      "criterion_3": "Blind real-world video super-resolution under complex degradation",
+      "evidence": "RealBasicVSR studies degradation propagation, pre-cleaning and training tradeoffs, and introduces the VideoLQ real-world benchmark.",
+      "full_text_question": "Separate perceptual gains on unpaired videos from faithful detail recovery. Verify held-out cameras/codecs and which degradations are jointly simulated."
+    },
+    {
+      "study_id": "P057", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2305.02660",
+      "criterion_3": "Compound synthetic image/video acquisition and compression degradation",
+      "evidence": "The synthesis pipeline combines shuffled blur, noise, downsampling, pixel binning and image/video compression to train blind video super-resolution.",
+      "full_text_question": "Do the tested codecs and degradation orders leave the training distribution? Non-reference quality scores alone do not establish recovery of true detail."
+    },
+    {
+      "study_id": "P058", "decision": "AI pilot: advance",
+      "basis": "Complete institutional publication abstract and DOI metadata", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://research.polyu.edu.hk/en/publications/real-world-video-super-resolution-a-benchmark-dataset-and-a-decom/",
+      "criterion_3": "Real acquisition mismatch and cross-camera video restoration",
+      "evidence": "A dual-camera phone dataset supplies real low/high-resolution video pairs; decomposition-based learning addresses pair misalignment and color differences, with cross-camera evaluation.",
+      "full_text_question": "Quantify reference alignment and color bias, device separation and whether errors attributed to reconstruction could arise from imperfect ground truth."
+    },
+    {
+      "study_id": "P059", "decision": "AI pilot: advance",
+      "basis": "Complete author abstract and publisher journal metadata", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://link.springer.com/article/10.1007/s11263-022-01705-6",
+      "criterion_3": "Real blurred/sharp video acquisition and cross-dataset generalization",
+      "evidence": "BSD provides beam-splitter paired video for evaluating recurrent deblurring with spatiotemporal features and attention.",
+      "full_text_question": "Check acquisition timing, alignment, reference quality and cross-dataset splits. Link any earlier conference report to the journal study before synthesis."
+    },
+    {
+      "study_id": "P060", "decision": "AI pilot: unclear",
+      "basis": "Publisher abstract and opening full-text context", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://www.jmis.org/archive/view_article?pid=jmis-12-3-81",
+      "criterion_3": "CCTV distortion and downstream quality assessment are relevant, but criterion 2 needs adjudication",
+      "evidence": "CQAD combines real CCTV reference images with synthetic distortion variants and subjective ratings. Its central task is image-quality assessment rather than an inverse reconstruction method.",
+      "full_text_question": "Does this dataset provide a reconstruction-relevant evaluation under criterion 2/4, or belong only in contextual background? Real reference CCTV frames are not automatically clean scene truth."
+    },
+    {
+      "study_id": "P061", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract and official repository", "status": "Abstract and repository inspected",
+      "source_url": "https://arxiv.org/abs/2601.08807",
+      "additional_source_url": "https://github.com/TomasDelaney/S3-CLIP",
+      "criterion_3": "Task-driven super-resolution across surveillance viewpoint/domain shift",
+      "evidence": "S3-CLIP combines video super-resolution and CLIP-based person retrieval across ground/aerial views in a WACV workshop challenge setting.",
+      "full_text_question": "Which task improvements are caused by restored evidence rather than prior bias? Person-retrieval accuracy is not a certificate of image-detail fidelity."
+    },
+    {
+      "study_id": "P062", "decision": "AI pilot: advance",
+      "basis": "Complete official PMLR abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.mlr.press/v202/teneggi23a.html",
+      "criterion_3": "Conformal risk control for diffusion reconstruction uncertainty",
+      "evidence": "K-RCPS optimizes multidimensional prediction intervals for entrywise reconstruction risk, evaluating natural-image and CT denoising.",
+      "full_text_question": "Extract the risk unit, calibration assumptions and coverage statement; check whether any guarantee addresses changing or misspecified operators."
+    },
+    {
+      "study_id": "P063", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract and existing ECCV lineage", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2405.18527",
+      "criterion_3": "Task-level uncertainty calibration and adaptive measurement stopping",
+      "evidence": "Conformal intervals quantify a downstream task output associated with the unknown image; interval width can guide additional measurements in MRI.",
+      "full_text_question": "Distinguish stopping acquisition from abstaining on reconstructed content. Verify exchangeability and whether task-specific coverage survives operator shift."
+    },
+    {
+      "study_id": "P064", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract and existing journal lineage", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2307.10474",
+      "criterion_3": "Deterministic/stochastic inexact operators and reconstruction uncertainty",
+      "evidence": "The nanoCT study compares classical methods, a U-Net and conditional invertible reconstruction under inexact forward operators, including uncertainty assessment.",
+      "full_text_question": "Identify the stochastic operator model, image uncertainty measure and calibration evidence. Mismatch plus uncertainty is already studied; wrong-family reliability needs specific verification."
+    },
+    {
+      "study_id": "P065", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract and existing journal lineage", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2504.07696",
+      "criterion_3": "Conformalized aleatoric/epistemic reconstruction uncertainty",
+      "evidence": "A generative image posterior is combined with Bayesian-network or ensemble uncertainty and conformal calibration for computational imaging tasks.",
+      "full_text_question": "Aleatoric and epistemic components do not automatically mean image and operator posteriors. Extract the latent variables, calibration target and operator-shift tests."
+    },
+    {
+      "study_id": "P066", "decision": "AI pilot: advance",
+      "basis": "Complete official Springer proceedings abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://link.springer.com/chapter/10.1007/978-3-031-92366-1_9",
+      "criterion_3": "Self-supervised uncertainty calibration without clean ground truth",
+      "evidence": "The method uses Stein's unbiased risk estimate with conformal prediction to calibrate reconstruction uncertainty from noisy data for linear imaging problems.",
+      "full_text_question": "Which noise and operator assumptions make the risk estimate valid? Check whether the calibration remains valid when those assumptions are wrong. Ground-truth-free calibration alone is not a new contribution."
+    },
+    {
+      "study_id": "P067", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2507.14760",
+      "criterion_3": "Spatially adaptive conformal reconstruction intervals and hallucination examples",
+      "evidence": "QUTCC learns quantiles for conformal prediction intervals in denoising, MRI and phase microscopy; its stated guarantee is pixel-marginal coverage.",
+      "full_text_question": "Separate pixel-marginal from conditional or whole-image coverage. Does elevated uncertainty detect unsupported details reliably under operator shift, rather than in selected examples?"
+    },
+    {
+      "study_id": "P068", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract; shorter seed conference title retained", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/1912.00157",
+      "criterion_3": "Correction of degradation mismatch for pretrained super-resolution",
+      "evidence": "A low-resolution correction filter adapts observations to a pretrained super-resolver's assumed degradation; the work also considers blind filter estimation.",
+      "full_text_question": "Verify the supplied versus estimated kernel assumptions and the publication lineage of the longer preprint title. Use 2020 conference publication for the review window."
+    },
+    {
+      "study_id": "P069", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract; existing journal citation retained", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/1802.04073",
+      "criterion_3": "Joint blind image/kernel recovery using generative priors",
+      "evidence": "Separate image and blur generators support alternating latent-variable optimization; variants address limitations of a fixed generator's image range.",
+      "full_text_question": "Verify journal/preprint lineage and identifiability when the image or kernel lies outside the generator range. A deterministic latent optimum is not an uncertainty estimate."
+    },
+    {
+      "study_id": "P070", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract; seed WACV venue not independently rechecked", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2507.14851",
+      "criterion_3": "Multi-degradation and time-varying compound video restoration",
+      "evidence": "Language-grounded degradation representations guide video restoration, with a distilled inference component and tests including time-varying composite degradation.",
+      "full_text_question": "Extract the exact held-out combinations, temporal changes and inference inputs. Natural-language guidance plus changing compound degradation is an existing direction."
+    },
+    {
+      "study_id": "P071", "decision": "AI pilot: advance",
+      "basis": "Specific official proceedings title located; CVF HTML/PDF access failed; complete abstract unavailable", "status": "Title/project checked; abstract pending",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.html",
+      "criterion_3": "Title explicitly identifies restoration with unknown degradations",
+      "evidence": "The title establishes a conservative scope signal for all-in-one restoration using adaptive degradation-specific filters. No technical or performance claim is verified from the unavailable abstract.",
+      "full_text_question": "Retrieve the complete paper and verify how degradation is inferred, whether combinations are simultaneous and how unknown degradation is operationally tested."
+    },
+    {
+      "study_id": "P072", "decision": "AI pilot: unclear",
+      "basis": "Official PDF abstract/opening page; a text search for unknown yielded no match", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/1c364d98a5cdc426fd8c76fbb2c10e34-Paper-Conference.pdf",
+      "criterion_3": "Degradation perception is explicit, but the qualifying mismatch/reliability setting needs verification",
+      "evidence": "PromptRestorer couples restoration with a degradation-perception branch and prompting modules across several restoration tasks. This alone does not establish a single blind, compound or OOD evaluation.",
+      "full_text_question": "Are task models trained separately, and do experiments explicitly address any criterion-3 condition? A missing keyword is not an exclusion reason."
+    },
+    {
+      "study_id": "P073", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract and existing ECCV lineage", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2310.10123",
+      "criterion_3": "Automatic unknown-degradation detection and all-in-one restoration",
+      "evidence": "AutoDIR combines vision-language quality/degradation analysis with structurally corrected latent diffusion restoration and text control.",
+      "full_text_question": "Which unknown or combined degradations are tested independently of training, and how is structural or semantic fidelity measured?"
+    },
+    {
+      "study_id": "P074", "decision": "AI pilot: advance",
+      "basis": "Complete author abstract, project page and official ICLR slides title", "status": "Abstract and repository inspected",
+      "source_url": "https://arxiv.org/abs/2310.01018",
+      "metadata_source_url": "https://iclr.cc/media/iclr-2024/Slides/17626.pdf",
+      "additional_source_url": "https://algolzw.github.io/daclip-uir/",
+      "metadata": {"Title": "Controlling Vision-Language Models for Multi-Task Image Restoration"},
+      "criterion_3": "Unknown-degradation representation for unified restoration",
+      "evidence": "DA-CLIP predicts degradation and clean-content embeddings to guide restoration. Current author/proceedings materials use Multi-Task in the title; Universal persists in older repository BibTeX and is retained as an alias in the audit.",
+      "full_text_question": "Distinguish a dataset mixing different degradation classes from images with simultaneously compounded corruption. Verify the final citation against the accepted paper."
+    },
+    {
+      "study_id": "P075", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2312.02918",
+      "criterion_3": "Adaptive all-in-one restoration with unseen-task transfer",
+      "evidence": "MPerceiver uses predicted degradation and multimodal diffusion prompts with detail refinement, including zero/few-shot evaluation beyond its training task set.",
+      "full_text_question": "What adaptation data or instructions are supplied for unseen tasks, and is fidelity measured against observation-supported detail rather than perceptual appearance?"
+    },
+    {
+      "study_id": "P076", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2401.16468",
+      "criterion_3": "Instruction-conditioned restoration across unknown degradation types",
+      "evidence": "InstructIR uses human instructions to guide a shared restoration system across noise, blur, rain, haze and low-light tasks.",
+      "full_text_question": "Which degradation information is provided by the instruction? Multiple tasks alone do not demonstrate simultaneous compound corruption or reliable recovery under shift."
+    },
+    {
+      "study_id": "P077", "decision": "AI pilot: advance",
+      "basis": "Official NeurIPS PDF abstract and opening page", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c78f639424b8d89ceb4f2efbb4dfe4f4-Paper-Conference.pdf",
+      "criterion_3": "Identification and ordered treatment of compound image degradation",
+      "evidence": "RestoreAgent uses a multimodal language model to diagnose degradation and select/order restoration tools for compound inputs.",
+      "full_text_question": "How are tool-order decisions evaluated, and can the controller reject unsupported enhancement? Reported quality or expert comparisons are author results, not independent validation."
+    },
+    {
+      "study_id": "P078", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract; seed proceedings PDF retrieval failed", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2410.18666",
+      "criterion_3": "Generative real-world restoration with degradation-aware conditioning",
+      "evidence": "DreamClear combines a generated training corpus with diffusion-transformer restoration, degradation-aware modulation and multimodal semantic conditioning.",
+      "full_text_question": "Verify degradation composition and real-data transfer. Dataset-generation or semantic-quality claims do not establish reconstruction uncertainty or recovered truth."
+    },
+    {
+      "study_id": "P079", "decision": "AI pilot: advance",
+      "basis": "Complete official NeurIPS abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/25869dbf7682272357bc2cbbf860e1c8-Abstract-Conference.html",
+      "criterion_3": "Blind operator adaptation for universal compound restoration",
+      "evidence": "BIR-D optimizes a convolutional degradation operator and guidance strength during diffusion restoration of complex synthetic and real degradations.",
+      "full_text_question": "When is a convolutional proxy insufficient for nonlinear or codec degradation, and how are ambiguity and correction bias assessed?"
+    },
+    {
+      "study_id": "P080", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2304.01247",
+      "criterion_3": "Blind linear/nonlinear degradation-parameter inference",
+      "evidence": "GDP uses a pretrained diffusion prior with measurement guidance and degradation-parameter optimization across restoration and enhancement tasks, including low-light and HDR settings.",
+      "full_text_question": "Identify predefined operator families, parameter bounds and out-of-distribution tests. Blind parameter fitting is not arbitrary forward-model discovery."
+    },
+    {
+      "study_id": "P081", "decision": "AI pilot: advance",
+      "basis": "Complete official NeurIPS abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/b213d9a999b82cb6fcd03a0d5a7498be-Abstract-Conference.html",
+      "criterion_3": "Blind and compound image reconstruction with modular task conditioning",
+      "evidence": "DP-IR connects pretrained restoration and diffusion models through a small task-specific module, including burst reconstruction and joint demosaicing, denoising and super-resolution.",
+      "full_text_question": "What training is required per degradation, and are unseen operators or joint acquisition errors evaluated independently?"
+    },
+    {
+      "study_id": "P082", "decision": "AI pilot: unclear",
+      "basis": "Complete official NeurIPS abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/86655bc516148e311bcfcf88f1744de7-Abstract-Conference.html",
+      "criterion_3": "Known differentiable inverse operators are explicit; a qualifying mismatch/reliability condition is not established by the abstract",
+      "evidence": "Diffusion Optimal Control formulates conditional generation through discrete optimal control and evaluates several differentiable image inverse problems.",
+      "full_text_question": "Does the full paper explicitly study operator/prior misspecification, uncertainty reliability or measurement-supported detail? Otherwise retain as a solver baseline outside the primary synthesis."
+    },
+    {
+      "study_id": "P083", "decision": "AI pilot: advance",
+      "basis": "Complete official NeurIPS abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3fa2d2b637122007845a2fbb7c21453b-Abstract-Conference.html",
+      "criterion_3": "Reconstruction posterior sampling with approximation-robustness guarantees",
+      "evidence": "DPnP alternates likelihood-related sampling with diffusion denoising and gives asymptotic/nonasymptotic posterior-sampling analysis for image reconstruction.",
+      "full_text_question": "Specify whether robustness concerns score/sampling approximation, physical-operator error or both; do not interpret the title as arbitrary acquisition-mismatch tolerance."
+    },
+    {
+      "study_id": "P084", "decision": "AI pilot: unclear",
+      "basis": "Complete official NeurIPS abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/54fa8255cdf30736ecad38e842725e7f-Abstract-Conference.html",
+      "criterion_3": "Noisy inverse reconstruction is explicit, but mismatch or reliability evaluation is not established by the abstract",
+      "evidence": "ProjDiff reformulates diffusion-prior MAP reconstruction as a constrained problem and evaluates linear/nonlinear image and audio tasks.",
+      "full_text_question": "Does the imaging evaluation explicitly meet criterion 3? Noise handling or multiple inverse operators alone does not establish blind reconstruction or uncertainty calibration."
+    },
+    {
+      "study_id": "P085", "decision": "AI pilot: advance",
+      "basis": "Complete official NeurIPS abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/33367b9ff199d26280db6cf539d1125c-Abstract-Conference.html",
+      "criterion_3": "Operator-conditioned posterior reconstruction and test-time operator adaptation",
+      "evidence": "InvFusion combines supervised degradation-aware reconstruction and zero-shot diffusion, incorporating the operator into denoising and supporting test-time adaptation to linear inverse tasks.",
+      "full_text_question": "Distinguish a supplied new operator from blind estimation and uncertainty over operators; extract adaptation cost, posterior accuracy and out-of-family tests."
+    },
+    {
+      "study_id": "P086", "decision": "AI pilot: unclear",
+      "basis": "Complete official NeurIPS abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/c7ae6e9659f0c99582c2e8214ba0b413-Abstract-Conference.html",
+      "criterion_3": "Observation fidelity is explicit; a qualifying reliability or mismatch assessment requires full-text verification",
+      "evidence": "FLAIR uses a flow-prior variational objective and time-dependent regularization for inverse reconstruction. Calibration of a regularization weight is not statistical calibration of predictive intervals.",
+      "full_text_question": "Does the paper assess measurement-supported detail beyond its data-fidelity objective, or study operator shift, blind inference or uncertainty reliability?"
+    },
+    {
+      "study_id": "P087", "decision": "AI pilot: unclear",
+      "basis": "Complete official NeurIPS abstract", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d92d3aec6a48e93f93194503ee49f11a-Abstract-Conference.html",
+      "criterion_3": "Noisy linear data consistency is explicit; mismatch or calibrated reconstruction uncertainty is not established by the abstract",
+      "evidence": "CDIM enforces linear constraints and matches noisy residual energy to a theoretical distribution while adapting sampling iterations.",
+      "full_text_question": "Is an incorrect noise/measurement model tested, or uncertainty calibrated? Residual matching under an assumed model is not itself a guarantee of trustworthy recovered detail."
+    },
+    {
+      "study_id": "P088", "decision": "AI pilot: advance",
+      "basis": "Complete publisher/author abstracts and publisher DOI metadata", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://link.springer.com/article/10.1007/s11263-024-02168-7",
+      "additional_source_url": "https://arxiv.org/abs/2305.07015",
+      "metadata": {"DOI": "10.1007/s11263-024-02168-7", "Primary source URL": "https://doi.org/10.1007/s11263-024-02168-7"},
+      "criterion_3": "Blind real-world super-resolution and fidelity/perception control",
+      "evidence": "StableSR adapts a frozen diffusion prior with a time-aware encoder and controllable feature modulation, exposing a restoration-quality/fidelity tradeoff.",
+      "full_text_question": "What evidence distinguishes plausible texture from recovered detail under severe degradation? The previous seed DOI ended 02092-y; the publisher verifies 02168-7."
+    },
+    {
+      "study_id": "P089", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract with CVPR acceptance note", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2311.16518",
+      "criterion_3": "Semantic errors in blind generative super-resolution",
+      "evidence": "SeeSR estimates degradation-aware semantic prompts and incorporates the low-resolution input into sampling initialization to reduce semantic mistakes and excessive random details.",
+      "full_text_question": "How is semantic fidelity evaluated when the input is ambiguous? Reduced semantic error does not establish calibrated uncertainty or measurement support for every generated detail."
+    },
+    {
+      "study_id": "P090", "decision": "AI pilot: advance",
+      "basis": "Complete author preprint abstract and official project locator", "status": "Abstract inspected; full-text pending",
+      "source_url": "https://arxiv.org/abs/2312.06640",
+      "additional_source_url": "https://shangchenzhou.com/projects/upscale-a-video/",
+      "criterion_3": "Blind generative real-world video restoration and temporal fidelity",
+      "evidence": "Upscale-A-Video combines temporal diffusion components with flow-guided latent propagation and controls for generated texture and fidelity.",
+      "full_text_question": "Distinguish temporal output consistency from testing time-varying acquisition operators. Verify whether propagated generated detail stays consistent with measurements."
+    }
+  ],
+  "revisits": [
+    {
+      "study_id": "P001", "decision": "AI pilot: advance",
+      "basis": "Additional search located the existing author repository but did not supply a complete abstract",
+      "source_url": "https://github.com/ysnan/NBD_KerUnc",
+      "note": "Keep the prior title/project-based advancement; full technical evidence remains pending. Do not upgrade feature codes from search snippets."
+    },
+    {
+      "study_id": "P006", "decision": "AI pilot: unclear",
+      "basis": "Author abstract rechecked; prior section-6 evidence retained",
+      "source_url": "https://arxiv.org/abs/2102.07944",
+      "note": "Known-operator reconstruction is established; criterion-3 relevance still needs adjudication. Prior selected-section inspection is not a complete eligibility review."
+    },
+    {
+      "study_id": "P013", "decision": "AI pilot: advance",
+      "basis": "Indexed proceedings excerpt and previous official repository; complete abstract still not retrieved",
+      "source_url": "https://github.com/XLearning-SCU/2022-CVPR-AirNet",
+      "note": "Unknown-corruption restoration remains an explicit scope signal. Preserve incomplete evidence and do not equate mixed task training with compound corruption."
+    },
+    {
+      "study_id": "P016", "decision": "AI pilot: unclear",
+      "basis": "OpenReview remains challenged; author PDF fetch failed; author publication listing confirms title and venue only",
+      "source_url": "https://openreview.net/forum?id=9_gsMA8MRKQ",
+      "additional_source_url": "https://jankautz.com/publications/PiGDM_ICLR23.pdf",
+      "note": "The complete abstract/technical evidence is still unavailable in this pass. Retain unclear for retrieval and criterion-3 assessment; access failure is not a rejection."
+    },
+    {
+      "study_id": "P032", "decision": "AI pilot: advance",
+      "basis": "Additional indexed publisher excerpt and PubMed locator; complete abstract/text still inaccessible",
+      "source_url": "https://www.nature.com/articles/s41377-025-01915-w",
+      "additional_source_url": "https://pubmed.ncbi.nlm.nih.gov/40624000/",
+      "note": "The excerpt concerns system uncertainties such as misalignment and aberration. Positive legacy image/operator uncertainty and calibration codes are not verified probabilistic capabilities. Full text is required."
+    }
+  ],
+  "counts": {
+    "new_triaged": 50, "new_advance": 44, "new_unclear": 6,
+    "cumulative_triaged": 90, "advance": 82, "unclear": 8, "untriaged": 0,
+    "complete_formal_full_text_assessments": 0, "formally_included": 0, "formally_excluded": 0
+  }
+}
