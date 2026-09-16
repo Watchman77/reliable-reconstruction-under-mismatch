@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.10.0 — 2026-09-16
+
+- Added 12 AI full-text eligibility assessments, all include recommendations. Cumulative: 36 assessed, 35 include, 1 exclude, 54 pending.
+- Recorded criterion-level evidence, inspected versions and feature corrections for posterior sampling, operator point estimation, image coverage and nonlinear/compound restoration.
+- Preserved version and method assumptions instead of equating uncertainty maps, physical calibration and calibrated coverage. Novelty remains unestablished.
+- Logged two unresolved access attempts and three successful alternate-source resolutions. Deferred user-side work remains listed without blocking accessible assessments.
+- Synchronized the matrix, tracker and reference exports; preserved prior decisions, stable IDs, historical triage, formal counters and native workbook objects.
+- Eligibility criteria, search window and protocol v0.4 are unchanged.
+
 ## 0.9.0 — 2026-09-16
 
 - Added 12 AI full-text eligibility assessments, all include recommendations. Cumulative: 24 assessed, 23 include, 1 exclude, 66 pending; human adjudication remains outstanding.

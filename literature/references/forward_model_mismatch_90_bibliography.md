@@ -1,6 +1,6 @@
 # Forward-Model Mismatch Review: 90 Seed Publications
 
-> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 24 AI full-text assessments are complete (23 include recommendations, 1 exclude); 66 remain. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_02_report.md for evidence limits and corrected links.
+> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 36 AI full-text assessments are complete (35 include recommendations, 1 exclude); 54 remain. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_03_report.md for evidence limits and corrected links.
 
 1. **P001** — Nan, Yuesong; Ji, Hui (2020). “Deep Learning for Handling Kernel/Model Uncertainty in Image Deconvolution.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR42600.2020.00246)  
    Evidence: Title/project checked; abstract pending; formal eligibility: pending; closest competitor (provisional): Yes.
@@ -15,15 +15,15 @@
 6. **P006** — Gilton et al. (2021). “Deep Equilibrium Architectures for Inverse Problems in Imaging.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2021.3118944)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 7. **P007** — Sun, He; Bouman, Katherine L. (2021). “Deep Probabilistic Imaging: Uncertainty Quantification and Multi-modal Solution Characterization for Computational Imaging.” *AAAI*. [Primary source](https://ojs.aaai.org/index.php/AAAI/article/view/16366)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 8. **P008** — Bhadra et al. (2021). “On Hallucinations in Tomographic Image Reconstruction.” *IEEE TMI*. [Primary source](https://doi.org/10.1109/TMI.2021.3077857)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 9. **P009** — Zhang et al. (2021). “Designing a Practical Degradation Model for Deep Blind Image Super-Resolution.” *ICCV*. [Primary source](https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Designing_a_Practical_Degradation_Model_for_Deep_Blind_Image_Super-Resolution_ICCV_2021_paper.html)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 10. **P010** — Wang et al. (2021). “Real-ESRGAN: Training Real-World Blind Super-Resolution With Pure Synthetic Data.” *ICCV Workshops*. [Primary source](https://openaccess.thecvf.com/content/ICCV2021W/AIM/html/Wang_Real-ESRGAN_Training_Real-World_Blind_Super-Resolution_With_Pure_Synthetic_Data_ICCVW_2021_paper.html)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 11. **P011** — Angelopoulos et al. (2022). “Image-to-Image Regression with Distribution-Free Uncertainty Quantification and Applications in Imaging.” *ICML*. [Primary source](https://proceedings.mlr.press/v162/angelopoulos22a.html)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 12. **P012** — Kawar et al. (2022). “Denoising Diffusion Restoration Models.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2022/hash/95504595b6169131b6ed6cd72eb05616-Abstract-Conference.html)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 13. **P013** — Li et al. (2022). “All-in-One Image Restoration for Unknown Corruption.” *CVPR*. [Primary source](https://openaccess.thecvf.com/content/CVPR2022/html/Li_All-in-One_Image_Restoration_for_Unknown_Corruption_CVPR_2022_paper.html)  
@@ -37,19 +37,19 @@
 17. **P017** — Wang et al. (2023). “Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model.” *ICLR*. [Primary source](https://openreview.net/forum?id=mRieQgMtNTQ)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 18. **P018** — Chung et al. (2023). “Parallel Diffusion Models of Operator and Image for Blind Inverse Problems.” *CVPR*. [Primary source](https://openaccess.thecvf.com/content/CVPR2023/html/Chung_Parallel_Diffusion_Models_of_Operator_and_Image_for_Blind_Inverse_Problems_CVPR_2023_paper.html)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 19. **P019** — Murata et al. (2023). “GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration.” *ICML*. [Primary source](https://proceedings.mlr.press/v202/murata23a.html)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 20. **P020** — Potlapalli et al. (2023). “PromptIR: Prompting for All-in-One Image Restoration.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2023/hash/e187897ed7780a579a0d76fd4a35d107-Abstract-Conference.html)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 21. **P021** — Gupta et al. (2024). “Differentiable Uncalibrated Imaging.” *IEEE TCI*. [Primary source](https://arxiv.org/abs/2211.10525)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 22. **P022** — Laroche, Charles; Almansa, Andrés; Coupete, Eva (2024). “Fast Diffusion EM: A Diffusion Model for Blind Inverse Problems With Application to Deconvolution.” *WACV*. [Primary source](https://openaccess.thecvf.com/content/WACV2024/html/Laroche_Fast_Diffusion_EM_A_Diffusion_Model_for_Blind_Inverse_Problems_WACV_2024_paper.html)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 23. **P023** — Chihaoui et al. (2024). “Blind Image Restoration via Fast Diffusion Inversion.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3d13d910b48ac2e672a32cfdf98be1bf-Abstract-Conference.html)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 24. **P024** — Bai et al. (2026). “Blind Inversion Using Latent Diffusion Priors.” *IEEE Transactions on Image Processing*. [Primary source](https://ieeexplore.ieee.org/document/11351303/)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 25. **P025** — Lin et al. (2024). “DiffBIR: Toward Blind Image Restoration with Generative Diffusion Prior.” *ECCV*. [Primary source](https://link.springer.com/chapter/10.1007/978-3-031-73202-7_25)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 26. **P026** — Zhao et al. (2024). “AverNet: All-in-One Video Restoration for Time-Varying Unknown Degradations.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/hash/e635a25e49e73adc51f76aef462ff2f8-Abstract-Conference.html)  
@@ -83,7 +83,7 @@
 40. **P040** — Kwon et al. (2025). “Video Diffusion Posterior Sampling for Seeing Beyond Dynamic Scattering Layers.” *IEEE TPAMI*. [Primary source](https://doi.org/10.1109/TPAMI.2025.3598457)  
    Evidence: Abstract and repository inspected; formal eligibility: pending; closest competitor (provisional): Yes.
 41. **P041** — Romero et al. (2025). “Uncertainty Quantification in HSI Reconstruction using Physics-Aware Diffusion Priors and Optics-Encoded Measurements.” *arXiv*. [Primary source](https://arxiv.org/abs/2511.18473)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 42. **P042** — Katende (2026). “No-Harm Physics-Informed Inverse Learning with Residual-Calibrated Uncertainty.” *arXiv*. [Primary source](https://arxiv.org/abs/2606.07153)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 43. **P043** — Gilton et al. (2021). “Model Adaptation for Inverse Problems in Imaging.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2021.3094714)  
@@ -101,11 +101,11 @@
 49. **P049** — Nguyen et al. (2024). “DeepVibes: Correcting Micro-Vibrations in Satellite Imaging With Pushbroom Cameras.” *IEEE TGRS*. [Primary source](https://doi.org/10.1109/TGRS.2024.3415372)  
    Evidence: Incomplete evidence; retrieval pending; formal eligibility: pending; closest competitor (provisional): Yes.
 50. **P050** — Dontas et al. (2025). “Blind Inverse Problem Solving Made Easy by Text-to-Image Latent Diffusion.” *SPIGM at NeurIPS 2025 (workshop)*. [Primary source](https://arxiv.org/abs/2412.00557)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 51. **P051** — Hu et al. (2026). “ADOBI: Adaptive Diffusion Bridge For Blind Inverse Problems with Application to MRI Reconstruction.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2026.3678407)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 52. **P052** — Liu et al. (2026). “Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling.” *ICML*. [Primary source](https://arxiv.org/abs/2603.01890)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 53. **P053** — Zhao et al. (2026). “FaverNet: All-in-One Video Restoration via Frequency-Discriminative Conditioning.” *IJCV*. [Primary source](https://doi.org/10.1007/s11263-026-02977-y)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 54. **P054** — Kim et al. (2024). “Towards Real-world Event-guided Low-light Video Enhancement and Deblurring.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-031-73254-6_25)  

@@ -1,0 +1,603 @@
+{
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "Full texts inspected online. No downloaded paper copies are added to the repository.",
+    "c1": "All reviewed reports are primary research dated inside the existing search window; see version and canonical seed metadata.",
+    "c5": "Every assessed record had an accessible English full text at source_url.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch."
+  },
+  "checkpoint": "full_text_03",
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 36,
+    "ai_include": 35,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 54,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "batch_counts": {
+    "new_assessments": 12,
+    "ai_include": 12,
+    "ai_exclude": 0
+  },
+  "counts_scope": "Counts are cumulative across full_text_01, full_text_02 and full_text_03; records contains this batch only.",
+  "records": [
+    {
+      "study_id": "P007",
+      "title": "Deep Probabilistic Imaging: Uncertainty Quantification and Multi-modal Solution Characterization for Computational Imaging",
+      "decision": "include",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/view/16366/16173",
+      "version": "AAAI 2021 proceedings PDF",
+      "read_extent": "Method, selected toy examples and interferometric case study through real EHT results; Eqs. 9–10, 12–17 and Figs. 4, 6–8. MRI case study and supplements not assessed.",
+      "technical": "A measurement-specific flow approximates the image posterior. Analytic toy comparisons assess posterior accuracy; empirical likelihoods and heuristic diversity weights need not reproduce physical probabilities. Closure observables remove station gains/phases, rather than infer their posterior. Real EHT imaging lacks a reference image. No empirical interval-coverage test is established by these sections.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "Partial",
+        "T": "Yes"
+      },
+      "feature_locator": "Method, Eqs. 9–10; interferometric case study, Figs. 6–8",
+      "applicability": "Separate analytic posterior approximation tests from acquisition-shift calibration.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "AAAI 2021 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Interferometric image reconstruction; case study."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Image posterior uncertainty and approximate likelihoods; Method."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Flow method, analytic comparisons and EHT observations."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Inspect the MRI case study before making modality-wide claims."
+      ]
+    },
+    {
+      "study_id": "P010",
+      "title": "Real-ESRGAN: Training Real-World Blind Super-Resolution With Pure Synthetic Data",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2107.10833v2",
+      "version": "arXiv report 2107.10833, v2; final ICCV Workshops 2021 text not compared",
+      "read_extent": "Main §§3–5, including high-order degradation and §4.4 limitations; training subsection partially inspected; appendix not assessed.",
+      "technical": "Repeated blur, resizing, noise and JPEG plus sinc filtering train a GAN restoration network without explicit operator inference. Real-image examples are qualitative. The limitations describe artifacts and unseen complex degradations; those examples are not calibrated hallucination detection. Compound synthetic training and visually plausible real restoration are already established comparators.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Yes",
+        "U": "Yes",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–4, especially §4.4 and Figs. 7–11",
+      "applicability": "Use as a compound-degradation baseline.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv report 2107.10833, v2; final ICCV Workshops 2021 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Blind image super-resolution; §3."
+        },
+        "3": {
+          "met": true,
+          "evidence": "High-order compound degradation and real generalization; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "GAN method, ablations, real examples and limitations."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P011",
+      "title": "Image-to-Image Regression with Distribution-Free Uncertainty Quantification and Applications in Imaging",
+      "decision": "include",
+      "source_url": "https://proceedings.mlr.press/v162/angelopoulos22a/angelopoulos22a.pdf",
+      "version": "ICML 2022 proceedings PDF",
+      "read_extent": "§1.1, §2 including Definition 2.1, Remark 2.2, Algorithms 1–2 and Proposition 2.3; §3.1 and selected §§3.2–3.4. Appendix not audited.",
+      "technical": "RCPS controls expected pixel miscoverage with high probability over iid calibration data, under a shared calibration/test distribution. This is not conditional coverage for every fixed pixel or image. Size-stratified risk is explicitly evaluated. Cell imaging uses a DPC reconstruction as reference; MRI is retrospectively undersampled. Qualitative hallucination examples accompany uncertainty sets.",
+      "feature_codes": {
+        "P": "Yes",
+        "Q": "No",
+        "R": "Yes",
+        "T": "Yes",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§2; §§3.1–3.4",
+      "applicability": "Stratified uncertainty evaluation itself is not a new contribution.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "ICML 2022 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction and cell imaging; §3."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Distribution-free image uncertainty; §2."
+        },
+        "4": {
+          "met": true,
+          "evidence": "RCPS procedure and imaging experiments; §§2–3."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Check subject/volume independence before reusing MRI split assumptions."
+      ]
+    },
+    {
+      "study_id": "P018",
+      "title": "Parallel Diffusion Models of Operator and Image for Blind Inverse Problems",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2211.10656v1",
+      "version": "arXiv v1, November 2022; final CVPR 2023 text not compared",
+      "read_extent": "§§2–3, selected §4.1, §§4.2–4.3 and §§5–6; supplement not audited.",
+      "technical": "BlindDPS couples stochastic image and operator processes using learned priors and physical kernel constraints. Experiments use synthetic blur or turbulence within specified functional forms. Section 5 explicitly leaves unknown functional forms unresolved. Joint posterior sampling is present; empirical image/operator coverage and a rejection rule are not established in the inspected experiments.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "Yes",
+        "Q": "Yes",
+        "R": "No",
+        "T": "No",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5, especially §5 limitations",
+      "applicability": "Joint image/operator sampling already exists; compare model-family assumptions.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, November 2022; final CVPR 2023 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Blind deblurring and turbulence restoration; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown operator parameters and joint inference; §3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Coupled diffusion method and synthetic imaging evaluation; §§3–4."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P019",
+      "title": "GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration",
+      "decision": "include",
+      "source_url": "https://proceedings.mlr.press/v202/murata23a/murata23a.pdf",
+      "version": "ICML 2023 proceedings PDF",
+      "read_extent": "§2, §§3.1–3.3 and §4.1; appendix proofs and audio results not assessed.",
+      "technical": "Partially collapsed Gibbs sampling alternates image restoration with Langevin operator updates. Gaussian measurement noise is specified. Proposition 3.1 requires exact conditional distributions for its stationary-posterior statement; implementation uses approximations. Synthetic FFHQ/AFHQ blur experiments report reconstruction metrics and kernel examples, not calibrated posterior coverage.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "Yes",
+        "Q": "Yes",
+        "R": "No",
+        "T": "No",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "Proposition 3.1; §§3.2–3.3 and §4.1",
+      "applicability": "Separate sampler target, approximation quality and empirical calibration.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "ICML 2023 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Blind image deblurring; §4.1."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Image and unknown linear-operator inference; §3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Gibbs method and synthetic deblurring experiments; §§3–4.1."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Audit conditional approximations before invoking an exact-posterior guarantee."
+      ]
+    },
+    {
+      "study_id": "P022",
+      "title": "Fast Diffusion EM: A Diffusion Model for Blind Inverse Problems With Application to Deconvolution",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2309.00287v2",
+      "version": "arXiv v2, 6 November 2023; final WACV 2024 text not compared",
+      "read_extent": "Selected §2, §§3.1–3.3, §§4.1–4.4 and §5; appendix not assessed.",
+      "technical": "An image-sampling E-step alternates with a MAP kernel M-step: the operator is a point estimate shared across image samples. Noise level is supplied. Tests include synthetic blur/noise and an FFHQ prior applied to DIV2K. Figure 4 isolates kernel regularization with a known sharp image, not an end-to-end blind input.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "U": "Yes",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–4; Fig. 4; §4.3",
+      "applicability": "Distinguish content transfer from unseen operator-family robustness.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v2, 6 November 2023; final WACV 2024 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Blind deconvolution; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Operator estimation and prior-domain transfer; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Diffusion EM, synthetic tests and component ablations."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P023",
+      "title": "Blind Image Restoration via Fast Diffusion Inversion",
+      "decision": "include",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3d13d910b48ac2e672a32cfdf98be1bf-Paper-Conference.pdf",
+      "version": "NeurIPS 2024 proceedings PDF",
+      "read_extent": "§§3.1–3.2.3, Algorithms 1–2, selected §4.1, §§4.2–4.5 and §5; appendix not assessed.",
+      "technical": "BIRD optimizes the initial DDIM noise and operator parameters through a deterministic generator. Random initialization alone is not posterior uncertainty. The objective threshold is an optimization stopping criterion, not abstention. Known functional form is required; unknown-form restoration is left open. Experiments include synthetic restoration and combined noise.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "No",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§3, Algorithms 1–2; §4.5",
+      "applicability": "Point-estimation comparator with a generative prior.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "NeurIPS 2024 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Blind image restoration; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Joint operator and latent-image optimization; §3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Inversion algorithm, restoration tests and ablations; §§3–4."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": []
+    },
+    {
+      "study_id": "P024",
+      "title": "Blind Inversion Using Latent Diffusion Priors",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2407.01027v1",
+      "version": "arXiv v1, July 2024; final IEEE TIP 2026 text not compared",
+      "read_extent": "Selected §3, §§4.1–4.2 and application descriptions, §5.1; complete 3D evaluation and appendix not assessed.",
+      "technical": "LatentDEM samples image latents while fitting a MAP operator. Annealed consistency reduces reliance on a poor early operator estimate; it is not an operator posterior. The inspected 2D tests use synthetic motion blur on ImageNet/FFHQ. Joint camera estimation is described, but the full 3D evaluation was not assessed here.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No"
+      },
+      "feature_locator": "§§4.1–4.2; §5.1",
+      "applicability": "Adaptive consistency weighting already has a direct comparator.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, July 2024; final IEEE TIP 2026 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Blind image reconstruction; §5.1."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Latent image sampling and operator estimation; §4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Latent EM method and 2D deblurring evaluation."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Reconcile the inspected preprint with the final journal version before definitive synthesis."
+      ]
+    },
+    {
+      "study_id": "P041",
+      "title": "Uncertainty Quantification in HSI Reconstruction using Physics-Aware Diffusion Priors and Optics-Encoded Measurements",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2511.18473v1",
+      "version": "arXiv v1, 23 November 2025",
+      "read_extent": "Main §§3–5 including Tables 1–2 and §4.1 limitations; supplement not fully assessed.",
+      "technical": "HSDiff samples images conditional on specified optics/noise parameters and uses metamer augmentation. Cross-dataset tests evaluate interval coverage and error–uncertainty correlation under several simulated operators. Coverage varies materially by dataset; evaluation is not proof of uniformly calibrated probabilities. Changing a known encoder is distinct from inferring an uncertain operator. Main-text experiments synthesize measurements.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "Yes",
+        "S": "Yes",
+        "T": "No",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–4, Tables 1–2 and §4.1",
+      "applicability": "Use ambiguity-sensitive coverage as an existing comparator.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 23 November 2025"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Hyperspectral image reconstruction; §§3–4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Image uncertainty, metamer ambiguity and domain shift; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Diffusion method, cross-dataset tests and coverage metrics."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Check supplementary hardware evidence before extending the real-data code beyond inspected main-text tests."
+      ]
+    },
+    {
+      "study_id": "P050",
+      "title": "Blind Inverse Problem Solving Made Easy by Text-to-Image Latent Diffusion",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2412.00557v1",
+      "version": "arXiv report 2412.00557, v1; final workshop text not compared",
+      "read_extent": "Main §§1–5 including Algorithms 1–2, Tables 2–4 and §4.5 examples; appendix not assessed.",
+      "technical": "LADiBI alternates diffusion image updates and optimized operator parameters, not an operator posterior. Synthetic blind JPEG uses a learned U-Net operator; the negative prompt names JPEG artifacts, so analytic-codec independence is not absence of task information. Padding-matched GibbsDDRM changes comparisons. Painting examples are qualitative content transfer; operator fitting occurs per measurement.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "No",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§3; §§4.2–4.5, Tables 2–4",
+      "applicability": "Blind nonlinear codec restoration already has a direct comparator.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv report 2412.00557, v1; final workshop text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Blind deblurring and JPEG decompression; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown operator approximation; §3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Alternating solver, synthetic tests and ablations."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Match operator boundaries and disclose task prompts in any reproduction."
+      ]
+    },
+    {
+      "study_id": "P051",
+      "title": "ADOBI: Adaptive Diffusion Bridge For Blind Inverse Problems with Application to MRI Reconstruction",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2411.16535v1",
+      "version": "arXiv report 2411.16535, v1; final IEEE TCI 2026 text not compared",
+      "read_extent": "§§2–5 including Algorithms 1–2, Eq. 16, §4.3 and §5.2; appendix not assessed. Missing HTML table entries not transcribed.",
+      "technical": "ADOBI fits coil sensitivity maps around an ESPIRiT initialization while holding sampling/Fourier structure known. Image sampling produces uncertainty maps; operator updates are point estimates. Forward-model calibration means parameter fitting. Error–variance correspondence is shown, but interval calibration is not established. fastMRI measurements are retrospectively undersampled with an additional simulated-noise setting.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "T": "Partial",
+        "U": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "Eq. 16; §§4.1, 4.3 and 5.2",
+      "applicability": "Distinguish physical parameter calibration from uncertainty calibration.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv report 2411.16535, v1; final IEEE TCI 2026 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Multicoil MRI reconstruction; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Uncertain sensitivity maps and image variability; §§3, 5.2."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Adaptive bridge, MRI tests and ablations."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Reconcile the final journal version; audit subject-level split independence before reuse."
+      ]
+    },
+    {
+      "study_id": "P052",
+      "title": "Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2603.01890v1",
+      "version": "arXiv v1, March 2026; final conference text not compared",
+      "read_extent": "§§2.2–5 including Assumptions 3.1/3.3, Algorithm 1, §5.3 and conclusion; proofs not independently audited.",
+      "technical": "CaMB-Diff restricts its estimated operator to stationary, monotone pointwise intensity mappings. Real low-light tests accompany simulated MRI and clipped/noisy HDR. Operator validation uses ground truth as an oracle diagnostic. Plausible clipped-region detail is explicitly generated; physical consistency is not a recoverability certificate. No calibrated image/operator uncertainty is established by these experiments.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "U": "Yes",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "Assumptions 3.1/3.3; §§5.1–5.3",
+      "applicability": "Test violations of the stated intensity-mapping family explicitly.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, March 2026; final conference text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Low-light, MRI enhancement and HDR reconstruction; §5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown structured intensity operator; §§3–4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Structured operator method and multi-task experiments."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "An approximation theorem is not an identifiability or arbitrary-mismatch guarantee."
+      ]
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "study_id": "P009",
+      "url": "https://arxiv.org/html/2103.14006v1",
+      "outcome": "HTML retrieval failed; CVF route also unavailable in this session. Eligibility remains pending; access failure is not exclusion."
+    },
+    {
+      "study_id": "P021",
+      "url": "https://arxiv.org/html/2211.10525v1",
+      "outcome": "HTML retrieval failed. Eligibility remains pending; no full-text decision inferred."
+    },
+    {
+      "study_ids": [
+        "P010",
+        "P018",
+        "P022"
+      ],
+      "outcome": "Initial CVF routes unavailable; author arXiv versions subsequently accessed and assessed at the URLs recorded above."
+    }
+  ],
+  "user_deferral": {
+    "instruction": "User will handle pending items later; continue accessible paper assessment now.",
+    "effect": "No new user action is required for this checkpoint. Human adjudication, unresolved retrieval, version/lineage reconciliation and formal search accounting remain tracked, not marked complete."
+  }
+}

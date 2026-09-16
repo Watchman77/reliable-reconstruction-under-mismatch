@@ -81,3 +81,13 @@ The research may improve visibility and quantify recoverability. It must not des
 **Evidence limits:** inspected versions and exact feature corrections are recorded in [checkpoint 02](../literature/screening/full_text_02_report.md). Retrieval failures remain pending. P026/P053 and the P065 precursor need lineage resolution. Version-specific quantitative/theoretical questions require reconciliation before reuse.
 
 **Next gate:** continue the same full-text workflow for all 66 remaining seed records. Preserve the first 24 decisions, stable IDs and earlier audits; do not restart screening.
+
+## 16 September 2026 — Third AI full-text checkpoint
+
+**Checkpoint:** 12 additional assessments, all include recommendations. Cumulative: 36 assessed, 35 include, 1 exclude, 54 pending. These are AI eligibility recommendations; formal counts remain zero.
+
+**Decision:** continue accessible full-text work while the user handles pending items later. Keep human adjudication, unresolved retrieval and version/lineage questions in the [deferred-work list](../literature/screening/deferred_review_tasks.md). This introduces no additional screening stage.
+
+**Research implication:** retain the original umbrella topic and candidate question. The current [source-backed report](../literature/screening/full_text_03_report.md) distinguishes stochastic inference, operator point estimation, physical calibration, empirical coverage and content versus acquisition shifts. Those distinctions guide comparison design; they do not establish novelty.
+
+**Next work:** assess the remaining 54 seed records under the existing criteria, resolve access as sources become available, and preserve all completed decisions. Do not infer final journal results from an earlier preprint or convert an unverified legacy code into established evidence.

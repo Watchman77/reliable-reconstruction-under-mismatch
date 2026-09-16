@@ -77,7 +77,7 @@ TI  - Deep Probabilistic Imaging: Uncertainty Quantification and Multi-modal Sol
 T2  - AAAI
 UR  - https://ojs.aaai.org/index.php/AAAI/article/view/16366
 DO  - 10.1609/aaai.v35i3.16366
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -108,7 +108,7 @@ PY  - 2021
 TI  - Real-ESRGAN: Training Real-World Blind Super-Resolution With Pure Synthetic Data
 T2  - ICCV Workshops
 UR  - https://openaccess.thecvf.com/content/ICCV2021W/AIM/html/Wang_Real-ESRGAN_Training_Real-World_Blind_Super-Resolution_With_Pure_Synthetic_Data_ICCVW_2021_paper.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -118,7 +118,7 @@ PY  - 2022
 TI  - Image-to-Image Regression with Distribution-Free Uncertainty Quantification and Applications in Imaging
 T2  - ICML
 UR  - https://proceedings.mlr.press/v162/angelopoulos22a.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -188,7 +188,7 @@ PY  - 2023
 TI  - Parallel Diffusion Models of Operator and Image for Blind Inverse Problems
 T2  - CVPR
 UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Chung_Parallel_Diffusion_Models_of_Operator_and_Image_for_Blind_Inverse_Problems_CVPR_2023_paper.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -198,7 +198,7 @@ PY  - 2023
 TI  - GibbsDDRM: A Partially Collapsed Gibbs Sampler for Solving Blind Inverse Problems with Denoising Diffusion Restoration
 T2  - ICML
 UR  - https://proceedings.mlr.press/v202/murata23a.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -231,7 +231,7 @@ TI  - Fast Diffusion EM: A Diffusion Model for Blind Inverse Problems With Appli
 T2  - WACV
 UR  - https://openaccess.thecvf.com/content/WACV2024/html/Laroche_Fast_Diffusion_EM_A_Diffusion_Model_for_Blind_Inverse_Problems_WACV_2024_paper.html
 DO  - 10.1109/WACV57701.2024.00519
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -241,7 +241,7 @@ PY  - 2024
 TI  - Blind Image Restoration via Fast Diffusion Inversion
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/3d13d910b48ac2e672a32cfdf98be1bf-Abstract-Conference.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -251,7 +251,7 @@ PY  - 2026
 TI  - Blind Inversion Using Latent Diffusion Priors
 T2  - IEEE Transactions on Image Processing
 UR  - https://ieeexplore.ieee.org/document/11351303/
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -436,7 +436,7 @@ PY  - 2025
 TI  - Uncertainty Quantification in HSI Reconstruction using Physics-Aware Diffusion Priors and Optics-Encoded Measurements
 T2  - arXiv
 UR  - https://arxiv.org/abs/2511.18473
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -530,7 +530,7 @@ PY  - 2025
 TI  - Blind Inverse Problem Solving Made Easy by Text-to-Image Latent Diffusion
 T2  - SPIGM at NeurIPS 2025 (workshop)
 UR  - https://arxiv.org/abs/2412.00557
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -541,7 +541,7 @@ TI  - ADOBI: Adaptive Diffusion Bridge For Blind Inverse Problems with Applicati
 T2  - IEEE TCI
 UR  - https://doi.org/10.1109/TCI.2026.3678407
 DO  - 10.1109/TCI.2026.3678407
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -551,7 +551,7 @@ PY  - 2026
 TI  - Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling
 T2  - ICML
 UR  - https://arxiv.org/abs/2603.01890
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
