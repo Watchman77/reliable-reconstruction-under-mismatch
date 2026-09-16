@@ -135,3 +135,13 @@ The research may improve visibility and quantify recoverability. It must not des
 **Research implication:** distinguish compensating for measurement residuals, estimating physical parameters, quantifying uncertainty and deciding which detail to release. These are different claims with different comparators. This synthesis interpretation does not establish the candidate's novelty.
 
 **Version boundary:** P069 retains its verified 2020 journal lineage, with conclusions attributed to the inspected 2019 precursor. Final-text reconciliation remains outstanding; no pre-2020 seed or new screening stage was added.
+
+## 16 September 2026 — Eighth AI full-text checkpoint
+
+**Checkpoint:** ten additional include recommendations. Cumulative: 80 assessed, 79 include recommendations, 1 exclude, 10 pending. Human adjudication and formal search accounting remain pending.
+
+**Decision:** retain the umbrella topic and candidate question. Continue with the ten remaining seeds; no additional screening stage has been introduced. The [checkpoint report](../literature/screening/full_text_08_report.md) and register record source-specific evidence and limits.
+
+**Research implication:** compare parameter correction, categorical degradation inference, calibrated uncertainty and selective output as separate capabilities. Existing operator-family methods and real-video failure cases constrain the experimental design. This is a synthesis inference, not a novelty finding or a result from our own reconstruction model.
+
+**Evidence correction:** P032's full methods supersede its provisional positive uncertainty/calibration ratings. P071's soft degradation-type probabilities receive partial credit with an explicit interpretation boundary. Unlisted feature fields remain provisional.

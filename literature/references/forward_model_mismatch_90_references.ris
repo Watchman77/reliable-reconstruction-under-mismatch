@@ -138,7 +138,7 @@ PY  - 2022
 TI  - All-in-One Image Restoration for Unknown Corruption
 T2  - CVPR
 UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Li_All-in-One_Image_Restoration_for_Unknown_Corruption_CVPR_2022_paper.html
-N1  - Evidence status: Title/project checked; abstract pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -218,7 +218,7 @@ PY  - 2024
 TI  - Differentiable Uncalibrated Imaging
 T2  - IEEE TCI
 UR  - https://arxiv.org/abs/2211.10525
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -342,7 +342,7 @@ TI  - Uncertainty-Aware Fourier Ptychography
 T2  - Light: Science & Applications
 UR  - https://doi.org/10.1038/s41377-025-01915-w
 DO  - 10.1038/s41377-025-01915-w
-N1  - Evidence status: Incomplete evidence; retrieval pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN
@@ -457,7 +457,7 @@ TI  - Model Adaptation for Inverse Problems in Imaging
 T2  - IEEE TCI
 UR  - https://doi.org/10.1109/TCI.2021.3094714
 DO  - 10.1109/TCI.2021.3094714
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -489,7 +489,7 @@ TI  - Training Adaptive Reconstruction Networks for Blind Inverse Problems
 T2  - SIAM Journal on Imaging Sciences
 UR  - https://doi.org/10.1137/23M1545628
 DO  - 10.1137/23M1545628
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -628,7 +628,7 @@ TI  - Real-World Video Deblurring: A Benchmark Dataset and an Efficient Recurren
 T2  - IJCV
 UR  - https://doi.org/10.1007/s11263-022-01705-6
 DO  - 10.1007/s11263-022-01705-6
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -650,7 +650,7 @@ TI  - S3-CLIP: Video Super Resolution for Person-ReID
 T2  - WACV Workshops
 UR  - https://doi.org/10.1109/WACVW68408.2026.00174
 DO  - 10.1109/WACVW68408.2026.00174
-N1  - Evidence status: Abstract and repository inspected; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -721,11 +721,11 @@ TY  - CPAPER
 ID  - P068
 AU  - Abu Hussein et al.
 PY  - 2020
-TI  - Correction Filter for Single Image Super-Resolution
+TI  - Correction Filter for Single Image Super-Resolution: Robustifying Off-the-Shelf Deep Super-Resolvers
 T2  - CVPR
 UR  - https://doi.org/10.1109/CVPR42600.2020.00150
 DO  - 10.1109/CVPR42600.2020.00150
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -756,7 +756,7 @@ PY  - 2023
 TI  - All-in-One Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations
 T2  - CVPR
 UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.html
-N1  - Evidence status: Title/project checked; abstract pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -949,5 +949,5 @@ PY  - 2024
 TI  - Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution
 T2  - CVPR
 UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Upscale-A-Video_Temporal-Consistent_Diffusion_Model_for_Real-World_Video_Super-Resolution_CVPR_2024_paper.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -

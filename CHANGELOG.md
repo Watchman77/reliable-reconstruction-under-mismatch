@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.15.0 — 2026-09-16
+
+- Added ten AI full-text eligibility assessments. Cumulative: 80 assessed, 79 include recommendations, 1 exclude, 10 pending.
+- Corrected UA-FP's provisional uncertainty/calibration codes using the full methods; distinguished latent/categorical degradation inference from physical-parameter uncertainty.
+- Recorded operator-family training, blind-estimation failures, real-video transfer and propagation-versus-output rejection as comparison boundaries. Novelty remains unestablished.
+- Retrieved nine PDFs and a public full-article XML source; recorded versions and hashes without redistributing paper content.
+- Restored P068's full official proceedings title across the matrix, tracker and reference exports.
+- Synchronized counts and deferred work while preserving 90 seed IDs, prior decisions, native workbook objects and protocol v0.4. Human decisions and formal searches remain pending.
+
 ## 0.14.0 — 2026-09-16
 
 - Added ten AI full-text eligibility assessments. Cumulative: 70 assessed, 69 include recommendations, 1 exclude, 20 pending.
