@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived release or resulting publication."
+title: "Reliable Reconstruction Under Forward-Model Mismatch"
+type: software
+authors:
+  - family-names: Akinwumi
+    given-names: Bamidele Moses
+    orcid: "https://orcid.org/0009-0002-1396-2893"
+version: 0.3.0
+date-released: 2026-09-16
+abstract: "Evidence mapping and reproducible experiments for reliable image reconstruction under compound forward-model mismatch."
+keywords:
+  - inverse problems
+  - computational imaging
+  - forward-model mismatch
+  - uncertainty quantification
+  - image restoration
+  - selective prediction
