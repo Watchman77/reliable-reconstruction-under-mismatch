@@ -1,0 +1,536 @@
+{
+  "checkpoint": "full_text_01",
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 12,
+    "ai_include": 11,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 78,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "Full texts inspected online. No downloaded paper copies are added to the repository.",
+    "c1": "All reviewed reports are primary research dated inside the existing search window; see version and canonical seed metadata.",
+    "c5": "Every assessed record had an accessible English full text at source_url.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch."
+  },
+  "records": [
+    {
+      "study_id": "P006",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/2102.07944",
+      "version": "arXiv v2, 3 June 2021",
+      "read_extent": "Problem formulation and experimental sections 6.1–6.7; eligibility-focused reading, not independent proof verification.",
+      "technical": "Known linear operators enter fixed-point reconstruction. The noise-sensitivity experiment changes Gaussian noise at inference. This resolves the initial scope uncertainty, but does not demonstrate wrong blur-family recovery or calibrated output uncertainty.",
+      "feature_codes": {
+        "S": "Partial"
+      },
+      "feature_locator": "§6.7, Figure 8(b)",
+      "applicability": "Noise-shift baseline; acquisition-operator estimation is not evaluated.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v2, 3 June 2021"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Imaging reconstruction; §1 and §6."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Test-time measurement-noise variation; §6.7, Figure 8(b)."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Deep-equilibrium method and deblurring, compressed-sensing and MRI experiments; §6."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P038",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2509.16106v1",
+      "version": "arXiv v1, 19 September 2025; final ICASSP 2026 text not compared",
+      "read_extent": "Main text §§1–4, equations and reported tables; final proceedings version and released code not independently checked.",
+      "technical": "Samples image and spatially invariant motion-kernel distributions with a measurement-conditioned kernel prior. Experiments use synthetic blur and known Gaussian-noise levels. Reported robustness concerns random initialization. Image NLL and illustrative coverage, plus kernel variability, do not establish calibrated joint uncertainty under an incorrect acquisition family.",
+      "feature_codes": {
+        "O": "Yes",
+        "P": "Yes",
+        "Q": "Yes",
+        "R": "Partial",
+        "S": "No",
+        "T": "No",
+        "W": "No",
+        "X": "No"
+      },
+      "feature_locator": "§3, Tables 1–3, Figures 2–3",
+      "applicability": "Direct joint-uncertainty comparator; unmodelled codec and wrong-family deployment remain untested here.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 19 September 2025; final ICASSP 2026 text not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Blind image deblurring; §2."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Joint image/kernel inference and uncertainty; §§2–3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Split-Gibbs diffusion method and FFHQ experiments; §§2–3."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P042",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2606.07153v1",
+      "version": "arXiv v1, 5 June 2026",
+      "read_extent": "Problem, certificates, assumptions and selection results (§§2–7), numerical design/results and limitations (§§8–10); appendix proofs not independently verified.",
+      "technical": "The theoretical radius and weighted operational score differ. Certificate dominance bounds error by the baseline certificate, not the baseline's actual error. Experiments construct candidate reconstructions from perturbed ground truth rather than training competitive neural solvers. Uncertain observation operators are a stated limitation. Uncertainty sets are deterministic, not posterior probabilities.",
+      "feature_codes": {
+        "P": "Yes",
+        "Q": "No",
+        "R": "Partial",
+        "S": "Partial",
+        "T": "No",
+        "W": "Partial",
+        "X": "Yes"
+      },
+      "feature_locator": "§4.2 equations 4.4–4.6; Theorem 2; §§8.1–8.2 and 9.1",
+      "applicability": "Relevant selection comparator; operational weighting and realistic learned candidates require validation.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 5 June 2026"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Includes limited-angle tomography and transferable inverse reconstruction; §8.1."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Residual uncertainty and accept/fallback rule; §§4–6."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Conditional-stability results with controlled numerical assessment; §§4–8."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P048",
+      "decision": "include",
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/2a2874875861f6a6436b505dd77683d1-Paper-Conference.pdf",
+      "version": "ICLR 2024 proceedings PDF",
+      "read_extent": "Background, main assumptions/results and experiments (§§2–7); full supplementary proofs not independently verified.",
+      "technical": "PnP-ULA bounds changes in invariant sampling laws under denoiser or operator perturbations, subject to regularity/stability assumptions. Deblurring experiments vary an assumed Gaussian width. Operators are supplied, not jointly inferred. Distribution-distance bounds are different from calibrated image intervals or selective-detail guarantees.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "No",
+        "X": "No"
+      },
+      "feature_locator": "§2 footnote 1; §§3–5, especially §5.3",
+      "applicability": "Theoretical starting point; finite-sample calibration under unknown-family error is not established.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "ICLR 2024 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image deblurring; §5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Denoiser and supplied measurement-operator mismatch; §§3–5."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Posterior-sensitivity bounds and numerical assessment; Theorem 1, Corollary 1.3, §5."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P060",
+      "decision": "exclude",
+      "source_url": "https://www.jmis.org/archive/view_article?pid=jmis-12-3-81",
+      "version": "JMIS 12(3), 2025, publisher HTML",
+      "read_extent": "Publisher introduction, dataset design, subjective assessment/results and conclusion (§§I–IV).",
+      "technical": "CQAD applies six separate distortions to 120 real surveillance reference images and collects subjective ratings. It may help select practical CCTV test scenes, but is not evidence that a reconstruction system handles compound acquisition mismatch.",
+      "feature_codes": {
+        "T": "Yes",
+        "U": "No"
+      },
+      "feature_locator": "§§III.1–III.3 and IV",
+      "exclusion_reason": "Other",
+      "exclusion_detail": "Criterion 2: IQA is central; no central inverse/restoration experiment. Retain as an ancillary dataset reference.",
+      "applicability": "Background/data-design resource outside the main synthesis; do not delete its seed record.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "JMIS 12(3), 2025, publisher HTML"
+        },
+        "2": {
+          "met": false,
+          "evidence": "Not met: central task is CCTV image-quality assessment, not reconstruction."
+        },
+        "3": {
+          "met": false,
+          "evidence": "Not established for reconstruction; single distortions support quality ratings (§III)."
+        },
+        "4": {
+          "met": false,
+          "evidence": "Primary dataset, but its operational evaluation concerns perceptual quality rather than inverse reconstruction."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P064",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/2307.10474",
+      "version": "arXiv v3, 24 October 2024; linked TCI journal study",
+      "read_extent": "Formulation, reconstruction/post-processing, data generation, main experiments and discussion (§§II–V); supplementary implementation not audited.",
+      "technical": "Combines geometry correction or error-tolerant RESESOP with UNet/conditional invertible post-processing. Simulated angle-dependent motion has zero additive measurement noise. Error levels are computed using simulated unperturbed measurements, then varied by ±20%. Image standard deviations are qualitative; calibrated operator-parameter posteriors are not provided. Measured nanoCT validation is future work.",
+      "feature_codes": {
+        "O": "Partial",
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "No",
+        "V": "Yes"
+      },
+      "feature_locator": "§III-A1, III-B/C; §IV error-level construction and uncertainty discussion; §V",
+      "applicability": "Existing mismatch-plus-UQ pipeline; obtaining usable error bounds from real measurements is a practical concern.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v3, 24 October 2024; linked TCI journal study"
+        },
+        "2": {
+          "met": true,
+          "evidence": "nanoCT image reconstruction; §§II–III."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Inexact geometry, motion and image uncertainty; §§III–IV."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Classical/learned comparisons on synthetic phantoms; §IV."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P066",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2502.05127v1",
+      "version": "arXiv v1, 7 February 2025; SSVM proceedings version not compared",
+      "read_extent": "Complete main text §§1–5, algorithm, experiment descriptions and figure captions.",
+      "technical": "Uses SURE scores from exchangeable measurements with a known full-rank linear operator and supplied Gaussian-noise variance. Sets use operator-weighted reconstruction error. Substituting estimated scores introduces bias, so ordinary exact split-conformal coverage does not automatically transfer. Experiments use synthetically degraded DIV2K; unknown noise parameters and rank-deficient operators are future directions.",
+      "feature_codes": {
+        "O": "No",
+        "P": "Yes",
+        "Q": "No",
+        "R": "Yes",
+        "S": "No",
+        "T": "No",
+        "X": "No"
+      },
+      "feature_locator": "§2 assumptions; §3 equations 4–5 and Algorithm 1; §§4–5",
+      "applicability": "Ground-truth-free calibration already exists; misspecified-operator reliability needs a separate argument.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 7 February 2025; SSVM proceedings version not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Denoising and non-blind deblurring; §§2,4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Self-supervised reconstruction uncertainty calibration; §3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "SURE-based conformal method and empirical coverage evaluation; §§3–4."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P072",
+      "decision": "include",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/1c364d98a5cdc426fd8c76fbb2c10e34-Paper-Conference.pdf",
+      "version": "NeurIPS 2023 proceedings PDF",
+      "read_extent": "Degradation-perception method, training and task evaluations (§§3–4), conclusion; proof/code audit not applicable/performed.",
+      "technical": "Trains separate models for different restoration tasks. The deblurring model trained on GoPro is directly tested on HIDE and RealBlur. This supports transfer relevance, but separate task results do not demonstrate one system jointly removing compound degradations.",
+      "feature_codes": {
+        "S": "Yes",
+        "T": "Yes",
+        "U": "No"
+      },
+      "feature_locator": "§4 opening paragraph; §4.1 Table 2 and dehazing results",
+      "applicability": "Useful discriminative transfer baseline; not a calibrated joint-operator estimator.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "NeurIPS 2023 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image deraining, deblurring, desnowing and dehazing; §4."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Explicit cross-dataset deblurring transfer; §4.1, Table 2."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Prompted restoration network with quantitative experiments; §§3–4."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P082",
+      "decision": "include",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/86655bc516148e311bcfcf88f1744de7-Paper-Conference.pdf",
+      "version": "NeurIPS 2024 proceedings PDF",
+      "read_extent": "Control formulation/results (§§3–4), approximation-robustness example, experiments and conclusion (§§6–7); appendix proofs not independently verified.",
+      "technical": "Controls the diffusion trajectory using the supplied observation model. Tests include a randomly initialized score network, addressing prior approximation rather than unknown acquisition-operator recovery. Synthetic Gaussian-noise tasks assess image quality; calibrated image/operator coverage is not demonstrated.",
+      "feature_codes": {
+        "P": "Partial",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "No"
+      },
+      "feature_locator": "§4, especially dependence on approximate score; Figure 6; §6",
+      "applicability": "Prior-misspecification comparator; distinguish score error from acquisition error.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "NeurIPS 2024 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Super-resolution, inpainting and deblurring; §6."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Reconstruction posterior sampling and explicit prior-approximation robustness; §4, Figure 6."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Control-based solver, theoretical results and FFHQ tests; §§3–4,6."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P084",
+      "decision": "include",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/54fa8255cdf30736ecad38e842725e7f-Paper-Conference.pdf",
+      "version": "NeurIPS 2024 proceedings PDF",
+      "read_extent": "Formulation (§§2–3), imaging experiments/limitations (§§4–5), Appendix C imaging ablations including Table 14.",
+      "technical": "Introduces an auxiliary noisy variable for constrained diffusion-prior optimization. Appendix C.2 varies the supplied noise standard deviation from 0.7 to 1.3 times its nominal value. This is explicit noise-model mismatch evidence, not blind blur-family recovery. MAP optimization and multiple trials are not calibrated uncertainty estimates.",
+      "feature_codes": {
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "No"
+      },
+      "feature_locator": "§§2.2–3.1; Appendix C.2, Table 14",
+      "applicability": "Retain for noise-parameter mismatch; test operator-family departures separately.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "NeurIPS 2024 proceedings PDF"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image restoration and phase retrieval; §4.1."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Assumed noise-level perturbation; Appendix C.2, Table 14."
+        },
+        "4": {
+          "met": true,
+          "evidence": "ProjDiff constrained optimization and sensitivity tests; §3 and Appendix C."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P086",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2506.02680v1",
+      "version": "arXiv v1, 3 June 2025; final NeurIPS version not compared",
+      "read_extent": "Problem, method, main evaluation/limitations (§§3–6), Appendix A.10 failure discussion.",
+      "technical": "Uses supplied operators and evaluates repeated-sample variance. Its calibrated regularizer adjusts time-dependent weights from offline prediction error; this is not coverage calibration. Synthetic FFHQ/DIV2K tests and qualitative failures reveal remaining semantic/texture errors despite fidelity constraints. No joint operator uncertainty is demonstrated.",
+      "feature_codes": {
+        "P": "Yes",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "No",
+        "W": "Partial"
+      },
+      "feature_locator": "§4 weighting; §5.2 posterior variance; §5.3; §6 and Appendix A.10",
+      "applicability": "Fidelity/variance comparator; hard consistency alone does not certify missing details.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v1, 3 June 2025; final NeurIPS version not compared"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Super-resolution, inpainting and motion deblurring; §5."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Reconstruction variance, fidelity ablation and failure cases; §5.2–5.3, Appendix A.10."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Flow-prior variational solver and experiments; §§4–5."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    },
+    {
+      "study_id": "P087",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2411.00359v2",
+      "version": "arXiv v2, 27 November 2025; NeurIPS-linked author version",
+      "read_extent": "Residual-control method and propositions (§4), results/applications and limitations (§§5–6); appendix derivations not independently verified.",
+      "technical": "Adapts projection effort using a tractable proxy-residual distribution with a supplied linear operator. Includes Gaussian-noise benchmarks, a Poisson approximation and qualitative sparse-point-cloud inpainting. Projection stopping is not output abstention, and a plausible residual region is not calibrated reconstruction coverage. Nonlinear constraints are an explicit limitation.",
+      "feature_codes": {
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Partial",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§4.2–4.4, 5.2–5.4 and 6",
+      "applicability": "Measurement-fidelity comparator; real application is qualitative, with no certified recovered-detail claim.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv v2, 27 November 2025; NeurIPS-linked author version"
+        },
+        "2": {
+          "met": true,
+          "evidence": "Linear image restoration; §5.1."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Explicit measurement-support assessment; §5.2, Figure 7; imprecise non-Gaussian application in §5.4."
+        },
+        "4": {
+          "met": true,
+          "evidence": "CDIM residual-control method and operational comparisons; §§4–5."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      }
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "study_id": "P016",
+      "assessment_complete": false,
+      "decision": "Pending",
+      "source_url": "https://jankautz.com/publications/PiGDM_ICLR23.pdf",
+      "outcome": "Search locates the author PDF; opening still fails. Not excluded and not counted among the 12 assessments.",
+      "next_action": "Obtain an accessible complete author/proceedings copy."
+    }
+  ],
+  "followups": [
+    {
+      "url": "https://arxiv.org/abs/2502.19194",
+      "topic": "Poisson self-supervised conformal extension",
+      "status": "Discovery only; check lineage/seed overlap before any addition."
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18655",
+      "topic": "Self-supervised conformal with equivariant bootstrapping",
+      "status": "Discovery only; not assessed or added to the 90."
+    }
+  ]
+}

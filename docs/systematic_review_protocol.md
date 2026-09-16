@@ -4,7 +4,7 @@
 
 **Reliable Deep Image Reconstruction Under Forward-Model Mismatch: A Systematic Review of Operator Uncertainty, Hallucination and Selective Reconstruction (2020–2026)**
 
-Protocol version: 0.3 (working draft, amended 16 September 2026; not registered)  
+Protocol version: 0.4 (working draft, amended 16 September 2026; not registered)
 Search window: 1 January 2020 to 15 September 2026  
 Historical exception: seminal pre-2020 work may be cited for conceptual background but is not included in the primary evidence synthesis.
 
@@ -164,6 +164,16 @@ An explicit title/abstract scope signal permits conservative advancement to full
 Formal title/abstract, full-text, inclusion and exclusion counters remain separate from pilot progress. No record receives final inclusion from this pilot. Original discovery dates remain blank where undocumented; 16 September is the verification date, not an invented search/discovery date. All seed feature codes remain provisional until full-text extraction.
 
 The amendment does not change the date window, eligibility criteria or search concepts. It also reconciles the workbook's inconsistent `1.1` version label with this authoritative document and aligns its abbreviated query summary. A 60–100-paper estimate is a planning range, never an inclusion quota.
+
+### AI full-text assessment convention (v0.4, 16 September 2026)
+
+AI full-text eligibility recommendations are recorded separately as `AI full-text: include` or `AI full-text: exclude` in Screening Log J. An assessment is complete when accessible English full text supplies sufficient evidence to evaluate every inclusion criterion; record the inspected version, sections, rationale and primary exclusion reason. This does not imply independent proof verification, code reproduction or comparison of every report version. Retrieval failures remain pending. Full-text evidence already collected should be reused for human adjudication rather than discarded or counted as a second study.
+
+At checkpoint 01, 12 assessments are complete (11 include recommendations, 1 exclude); 78 await AI full-text assessment. Historical initial-triage decisions are retained. Final formal inclusion/exclusion and human verification remain pending. The acquisition field continues to track locally obtained complete papers, while online text access is documented in notes.
+
+Only feature fields explicitly listed in the full-text register have been verified in this checkpoint; other seed codes remain provisional. Image uncertainty may mean deterministic sets or sample variability and must not be conflated with calibrated probabilities. Operator uncertainty requires uncertainty for operator parameters, not merely image variation caused by uncertain physics. Each code's applicability limit is recorded.
+
+This is an operational status/recording amendment, not a change to eligibility criteria, the search window or search methods. No registration or formal search completion is claimed. The latest checkpoint supersedes historical statements that full-text assessment is pending for every record.
 
 ## Data extraction
 

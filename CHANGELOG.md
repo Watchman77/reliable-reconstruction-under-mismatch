@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.0 — 2026-09-16
+
+- Completed 12 AI full-text eligibility assessments: 11 include recommendations, 1 exclude, 78 pending. All remain subject to human adjudication.
+- Resolved seven initially unclear cases; recorded P016 retrieval failure without excluding it. CQAD remains an ancillary dataset reference and a retained seed record.
+- Added criterion-level evidence, inspected versions/read extent and source-backed feature corrections. Distinguished acquisition, noise and prior errors, variance, coverage and selection.
+- Added a formula-driven full-text counter to the existing workbook; synchronized reference exports and preserved initial triage, formal decisions and native workbook objects.
+- Protocol v0.4 documents the AI full-text convention; eligibility criteria, date window and search methods are unchanged.
+
 ## 0.7.0 — 2026-09-16
 
 - Completed initial triage for P041–P090: 44 advance and 6 unclear recommendations; cumulative 90/90, 82 advance, 8 unclear, zero untriaged.

@@ -63,3 +63,11 @@ The research may improve visibility and quantify recoverability. It must not des
 **New evidence:** P042 already proposes certificate-based fallback, P048 analyzes posterior sensitivity to measurement/prior mismatch, and P066 calibrates uncertainty from noisy data without clean targets. P064 joins inexact operators and uncertainty; further video and conformal competitors narrow any defensible claim. Primary sources and evidence limits are in `literature/screening/pilot_03_report.md`.
 
 **Next gate:** complete full-text eligibility and source-supported extraction, resolve possible P026/P053 lineage, and compare the exact operator assumptions and reliability guarantees. Do not restart the seed list or add papers merely to reach a round number. Formal searches and citation chaining may legitimately add relevant records.
+
+## 16 September 2026 — First complete AI full-text eligibility decisions
+
+**Checkpoint:** 12 assessed, 11 include recommendations, 1 exclude, 78 pending. Human adjudication and final formal inclusion remain pending. Seven initially unclear records now have decisions; P016 is still an access problem. Preserve the historical initial-triage column and all 90 seed IDs.
+
+**Decision:** assess eligibility and extract technical evidence together. Record the version/read extent and verify only source-supported feature fields. Use separate counters for completed AI decisions and formal inclusion, so actual progress is visible without overstating PRISMA completion. Protocol v0.4 documents this convention without changing eligibility.
+
+**Implication:** the evidence distinguishes several kinds of mismatch and reliability. The candidate research question survives as a question to investigate, not as proven novelty. Continue the remaining full-text assessments and closest-method comparisons. See [the full-text report](../literature/screening/full_text_01_report.md) and its primary-source register.
