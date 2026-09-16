@@ -18,7 +18,7 @@ TI  - NETT: Solving Inverse Problems with Deep Neural Networks
 T2  - Inverse Problems
 UR  - https://doi.org/10.1088/1361-6420/ab6d57
 DO  - 10.1088/1361-6420/ab6d57
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -29,7 +29,7 @@ TI  - On Instabilities of Deep Learning in Image Reconstruction and the Potentia
 T2  - PNAS
 UR  - https://doi.org/10.1073/pnas.1907377117
 DO  - 10.1073/pnas.1907377117
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -294,7 +294,7 @@ PY  - 2024
 TI  - Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild
 T2  - CVPR
 UR  - https://arxiv.org/abs/2401.13627
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - JOUR
@@ -746,7 +746,7 @@ PY  - 2026
 TI  - Grounding Degradations in Natural Language for All-In-One Video Restoration
 T2  - WACV
 UR  - https://arxiv.org/abs/2507.14851
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -818,7 +818,7 @@ PY  - 2024
 TI  - RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/file/c78f639424b8d89ceb4f2efbb4dfe4f4-Paper-Conference.pdf
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -828,7 +828,7 @@ PY  - 2024
 TI  - DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation
 T2  - NeurIPS
 UR  - https://proceedings.neurips.cc/paper_files/paper/2024/file/6452474601429509f3035dc81c233226-Paper-Conference.pdf
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER
@@ -939,7 +939,7 @@ PY  - 2024
 TI  - SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution
 T2  - CVPR
 UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Wu_SeeSR_Towards_Semantics-Aware_Real-World_Image_Super-Resolution_CVPR_2024_paper.html
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - CPAPER

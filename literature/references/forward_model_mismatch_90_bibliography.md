@@ -1,13 +1,13 @@
 # Forward-Model Mismatch Review: 90 Seed Publications
 
-> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 53 AI full-text assessments are complete (52 include recommendations, 1 exclude); 37 remain. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_05_report.md for evidence limits and corrected links.
+> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 60 AI full-text assessments are complete (59 include recommendations, 1 exclude); 30 remain. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_06_report.md for evidence limits and corrected links.
 
 1. **P001** — Nan, Yuesong; Ji, Hui (2020). “Deep Learning for Handling Kernel/Model Uncertainty in Image Deconvolution.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR42600.2020.00246)  
    Evidence: Title/project checked; abstract pending; formal eligibility: pending; closest competitor (provisional): Yes.
 2. **P002** — Li et al. (2020). “NETT: Solving Inverse Problems with Deep Neural Networks.” *Inverse Problems*. [Primary source](https://doi.org/10.1088/1361-6420/ab6d57)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 3. **P003** — Antun et al. (2020). “On Instabilities of Deep Learning in Image Reconstruction and the Potential Costs of AI.” *PNAS*. [Primary source](https://doi.org/10.1073/pnas.1907377117)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 4. **P004** — Rim, Jaesung; Lee, Haeyun; Won, Jucheol; Cho, Sunghyun (2020). “Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms.” *ECCV*. [Primary source](https://doi.org/10.1007/978-3-030-58595-2_12)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 5. **P005** — Zeng & Lam (2021). “Robust Reconstruction With Deep Learning to Handle Model Mismatch in Lensless Imaging.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2021.3114542)  
@@ -57,7 +57,7 @@
 27. **P027** — Bogatyrev, Evgeney; Molodetskikh, Ivan; Vatolin, Dmitriy S. (2024). “SR+Codec: a Benchmark of Super-Resolution for Video Compression Bitrate Reduction.” *BMVC*. [Primary source](https://bmvc2024.org/proceedings/959/)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 28. **P028** — Yu et al. (2024). “Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild.” *CVPR*. [Primary source](https://arxiv.org/abs/2401.13627)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 29. **P029** — Qian et al. (2024). “Robust Unrolled Network for Lensless Imaging with Enhanced Resistance to Model Mismatch and Noise.” *Optics Express*. [Primary source](https://opg.optica.org/oe/abstract.cfm?uri=oe-32-17-30267)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 30. **P030** — Melidonis, S.; Holden, M.; Altmann, Y.; Pereyra, M.; Zygalakis, K. C. (2024). “Empirical Bayesian Imaging With Large-Scale Push-Forward Generative Priors.” *IEEE SPL*. [Primary source](https://doi.org/10.1109/LSP.2024.3361806)  
@@ -141,7 +141,7 @@
 69. **P069** — Asim et al. (2020). “Blind Image Deconvolution Using Deep Generative Priors.” *IEEE TCI*. [Primary source](https://doi.org/10.1109/TCI.2020.3032671)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): No.
 70. **P070** — Janjua et al. (2026). “Grounding Degradations in Natural Language for All-In-One Video Restoration.” *WACV*. [Primary source](https://arxiv.org/abs/2507.14851)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 71. **P071** — Park et al. (2023). “All-in-One Image Restoration for Unknown Degradations Using Adaptive Discriminative Filters for Specific Degradations.” *CVPR*. [Primary source](https://openaccess.thecvf.com/content/CVPR2023/html/Park_All-in-One_Image_Restoration_for_Unknown_Degradations_Using_Adaptive_Discriminative_Filters_CVPR_2023_paper.html)  
    Evidence: Title/project checked; abstract pending; formal eligibility: pending; closest competitor (provisional): No.
 72. **P072** — Wang et al. (2023). “PromptRestorer: A Prompting Image Restoration Method with Degradation Perception.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2023/file/1c364d98a5cdc426fd8c76fbb2c10e34-Paper-Conference.pdf)  
@@ -155,9 +155,9 @@
 76. **P076** — Conde et al. (2024). “InstructIR: High-Quality Image Restoration Following Human Instructions.” *ECCV*. [Primary source](https://arxiv.org/abs/2401.16468)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): No.
 77. **P077** — Chen et al. (2024). “RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/file/c78f639424b8d89ceb4f2efbb4dfe4f4-Paper-Conference.pdf)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 78. **P078** — Ai et al. (2024). “DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/file/6452474601429509f3035dc81c233226-Paper-Conference.pdf)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 79. **P079** — Tu et al. (2024). “Taming Generative Diffusion Prior for Universal Blind Image Restoration.” *NeurIPS*. [Primary source](https://proceedings.neurips.cc/paper_files/paper/2024/hash/25869dbf7682272357bc2cbbf860e1c8-Abstract-Conference.html)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 80. **P080** — Fei et al. (2023). “Generative Diffusion Prior for Unified Image Restoration and Enhancement.” *CVPR*. [Primary source](https://openaccess.thecvf.com/content/CVPR2023/html/Fei_Generative_Diffusion_Prior_for_Unified_Image_Restoration_and_Enhancement_CVPR_2023_paper.html)  
@@ -179,6 +179,6 @@
 88. **P088** — Wang et al. (2024). “Exploiting Diffusion Prior for Real-World Image Super-Resolution.” *IJCV*. [Primary source](https://doi.org/10.1007/s11263-024-02168-7)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
 89. **P089** — Wu et al. (2024). “SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution.” *CVPR*. [Primary source](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_SeeSR_Towards_Semantics-Aware_Real-World_Image_Super-Resolution_CVPR_2024_paper.html)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 90. **P090** — Zhou et al. (2024). “Upscale-A-Video: Temporal-Consistent Diffusion Model for Real-World Video Super-Resolution.” *CVPR*. [Primary source](https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Upscale-A-Video_Temporal-Consistent_Diffusion_Model_for_Real-World_Video_Super-Resolution_CVPR_2024_paper.html)  
    Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.

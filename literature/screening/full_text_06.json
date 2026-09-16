@@ -1,0 +1,420 @@
+{
+  "checked_on": "2026-09-16",
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "Full texts inspected online. No downloaded paper copies are added to the repository.",
+    "c1": "All reviewed reports are primary research dated inside the existing search window; see version and canonical seed metadata.",
+    "c5": "Every assessed record had an accessible English full text at source_url.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch."
+  },
+  "user_deferral": {
+    "instruction": "User will handle pending items later; continue accessible paper assessment now.",
+    "effect": "No new user action is required for this checkpoint. Human adjudication, unresolved retrieval, version/lineage reconciliation and formal search accounting remain tracked, not marked complete."
+  },
+  "checkpoint": "full_text_06",
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 60,
+    "ai_include": 59,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 30,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "batch_counts": {
+    "new_assessments": 7,
+    "ai_include": 7,
+    "ai_exclude": 0
+  },
+  "counts_scope": "Cumulative across full_text_01 through full_text_06; records contains this batch only.",
+  "records": [
+    {
+      "study_id": "P002",
+      "title": "NETT: Solving Inverse Problems with Deep Neural Networks",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/1803.00092",
+      "version": "Inspected arXiv v3, 8 December 2019; journal lineage Inverse Problems 36, 065005 (2020), DOI 10.1088/1361-6420/ab6d57; final text not compared.",
+      "read_extent": "§1.1; §§2.1–2.2 through Theorem 2.6 statement; §4 Algorithm 1; §§5.1–5.3. Proofs not audited.",
+      "technical": "NETT combines a fixed forward operator with a trained regularizer. Stability/convergence statements require specified assumptions. Simulated photoacoustic experiments include phantoms outside the training class. They do not establish robustness to an incorrectly supplied operator.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "X": "No"
+      },
+      "feature_locator": "Theorem 2.6; Algorithm 1; §5",
+      "applicability": "Known-physics baseline; content transfer differs from operator mismatch.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Inspected arXiv v3, 8 December 2019; journal lineage Inverse Problems 36, 065005 (2020), DOI 10.1088/1361-6420/ab6d57; final text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method and experiments."
+        },
+        "3": {
+          "met": true,
+          "evidence": "OOD phantom reconstruction; §5.3."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation in the sections identified in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Check noisy-case iteration selection against Table 1; ground-truth-selected stopping would not be deployable."
+      ],
+      "publication_date_evidence": {
+        "url": "https://crossmark.crossref.org/dialog/?doi=10.1088%2F1361-6420%2Fab6d57&domain=pdf",
+        "detail": "Crossref Crossmark indexed metadata reports print date 2020-06-01; opened dynamic page had no extractable body. Corroborating institutional record below.",
+        "corroboration_url": "https://resolver.sub.uni-goettingen.de/purl?gro-2%2F80270="
+      }
+    },
+    {
+      "study_id": "P003",
+      "title": "On Instabilities of Deep Learning in Image Reconstruction and the Potential Costs of AI",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/1902.05300",
+      "version": "Inspected arXiv v1, 14 February 2019; PNAS 2020 journal lineage confirmed by author arXiv metadata; final text not compared.",
+      "read_extent": "Main instability-test definition and results, pp. 1–6; Methods p. 8 through perturbation objectives. Complete supplement not audited.",
+      "technical": "Tests measurement/image perturbations, inserted structures and sampling changes across MRI/CT networks. Stable compressed-sensing comparisons distinguish network failure from inverse-problem ill-conditioning. Results differ by architecture; these tests do not calibrate failure probabilities.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "W": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "Main instability tests; Figures 1–7; Methods Eqs. 7–10",
+      "applicability": "Unsupported/missing-detail evaluation already has precedents.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "Inspected arXiv v1, 14 February 2019; PNAS 2020 journal lineage confirmed by author arXiv metadata; final text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method and experiments."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Reconstruction instability and altered sampling tests."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation in the sections identified in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Compare final PNAS experiments and model-specific sampling assumptions before transferring conclusions."
+      ],
+      "publication_date_evidence": {
+        "url": "https://arxiv.org/abs/1902.05300",
+        "detail": "Author metadata identifies PNAS 117 (2020), DOI 10.1073/pnas.1907377117; title changed from precursor."
+      }
+    },
+    {
+      "study_id": "P028",
+      "title": "Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2401.13627v1",
+      "version": "arXiv 2401.13627 v1 (2024); later publication text not compared.",
+      "read_extent": "§§3.1–3.3 including Algorithm 1; §§4.1–4.4; §5.",
+      "technical": "SUPIR combines SDXL, degradation-aware conditioning and restoration guidance. Compound degradation experiments and real images accompany prompt/fidelity analyses. Incorrect-prompt examples assess semantic artifacts qualitatively; preference scores do not certify recovered detail.",
+      "feature_codes": {
+        "O": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "U": "Yes",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–4; Figures 9, 11 and 13",
+      "applicability": "Generative-fidelity comparator with additional text input.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2401.13627 v1 (2024); later publication text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method and experiments."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Blind compound restoration and qualitative hallucination analysis."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation in the sections identified in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Match prompts and guidance tuning across baselines; image-uncertainty coding remains unverified."
+      ]
+    },
+    {
+      "study_id": "P070",
+      "title": "Grounding Degradations in Natural Language for All-In-One Video Restoration",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2507.14851v1",
+      "version": "arXiv 2507.14851 v1 (2025); final WACV 2026 text not compared.",
+      "read_extent": "§§3.1–3.2 and loss; §§4.1–4.4; §5 opening.",
+      "technical": "Ronin distills training-time language embeddings into per-frame latent prompts. Synthetic compound video tests vary degradation intervals; held-out intervals differ from training. Physical operators and their uncertainty are not inferred. No inference-time language model is required.",
+      "feature_codes": {
+        "O": "No",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Yes",
+        "T": "No",
+        "U": "Yes",
+        "V": "Yes",
+        "X": "No"
+      },
+      "feature_locator": "§3; §4 TUD/SnowyScenes settings",
+      "applicability": "Temporal-change comparator; interval transfer is narrower than an unseen acquisition family.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2507.14851 v1 (2025); final WACV 2026 text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method and experiments."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Compound and temporally varying video degradation."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation in the sections identified in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Verify interval splits, future-frame access and table/text averages before quantitative comparison."
+      ]
+    },
+    {
+      "study_id": "P077",
+      "title": "RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models",
+      "decision": "include",
+      "source_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c78f639424b8d89ceb4f2efbb4dfe4f4-Paper-Conference.pdf",
+      "version": "NeurIPS 2024 proceedings PDF.",
+      "read_extent": "§§3.1–3.2.2; §§4.1–4.2 and §§4.4–4.6; selected Tables 1, 3–6. Supplement not fully audited.",
+      "technical": "RestoreAgent plans restoration-tool sequences using a tuned multimodal model. Replanning and rollback are evaluated on compound corruption. Rollback partially overlaps failure handling but does not establish calibrated abstention. Its new-task example uses further tuning, not zero-shot transfer.",
+      "feature_codes": {
+        "O": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "No",
+        "U": "Yes",
+        "X": "Partial"
+      },
+      "feature_locator": "§3.2.1; §§4.4–4.6; Table 6",
+      "applicability": "Existing rollback must be compared with our proposed selective-release rule.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "NeurIPS 2024 proceedings PDF."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method and experiments."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Unknown compound degradation and restoration rollback."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation in the sections identified in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Audit score directions and normalization splits; isolate rollback from replanning and count adaptation data."
+      ]
+    },
+    {
+      "study_id": "P078",
+      "title": "DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation",
+      "decision": "include",
+      "source_url": "https://arxiv.org/html/2410.18666v1",
+      "version": "arXiv 2410.18666 v1 (2024); final NeurIPS 2024 text not compared.",
+      "read_extent": "§3 GenIR; §4 DreamClear; §§5.1–5.4.",
+      "technical": "DreamClear combines generated training data, diffusion-transformer conditioning and token experts. Real-ESRGAN corruption and real benchmarks support compound restoration. Detection/segmentation are semantic-fidelity proxies. Training-image filtering does not establish test-time rejection of unreliable reconstruction.",
+      "feature_codes": {
+        "O": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "U": "Yes",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5; Table 2",
+      "applicability": "Semantic fidelity and dataset curation are existing comparators.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "arXiv 2410.18666 v1 (2024); final NeurIPS 2024 text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method and experiments."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Compound restoration with real-image and semantic evaluation."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation in the sections identified in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Keep semantic proxy results separate from measurement-support guarantees; audit generated-data compute and curation effects."
+      ]
+    },
+    {
+      "study_id": "P089",
+      "title": "SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution",
+      "decision": "include",
+      "source_url": "https://arxiv.org/pdf/2311.16518",
+      "version": "PDF header arXiv 2311.16518 v2, 4 June 2024; final CVPR 2024 text not compared.",
+      "read_extent": "§§3.1–3.4; §§4.1–4.3; §5 limitations; selected Tables 2–4.",
+      "technical": "SeeSR distills degradation-resistant semantic prompts and initializes diffusion with low-resolution latents. Real benchmarks, false-detail illustrations and COCO tasks test fidelity. Tag thresholds select prompts, not reliable output regions; wrong tags under severe degradation remain a stated limitation.",
+      "feature_codes": {
+        "O": "No",
+        "Q": "No",
+        "R": "No",
+        "T": "Yes",
+        "U": "Yes",
+        "W": "Partial",
+        "X": "No"
+      },
+      "feature_locator": "§§3–5; Figure 3 and Table 3",
+      "applicability": "Semantic preservation does not certify identity or fine-text truth.",
+      "assessment_complete": true,
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "PDF header arXiv 2311.16518 v2, 4 June 2024; final CVPR 2024 text not compared."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Image reconstruction/restoration is central to the inspected method and experiments."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Blind compound restoration and false-detail analysis."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Operational method and evaluation in the sections identified in read_extent."
+        },
+        "5": {
+          "met": true,
+          "evidence": "English full text accessed online at source_url."
+        }
+      },
+      "quality_followups": [
+        "Assess tag errors and small-text failures separately; diffusion sampling alone leaves uncertainty coding unverified."
+      ]
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "study_id": "P001",
+      "urls": [
+        "https://github.com/ysnan/NBD_KerUnc"
+      ],
+      "outcome": "Author repository located; linked paper/kn.pdf was not available as readable full text through attempted routes. Binary connector response rejected as non-UTF-8. Pending."
+    },
+    {
+      "study_id": "P009",
+      "urls": [
+        "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Designing_a_Practical_Degradation_Model_for_Deep_Blind_Image_Super-Resolution_ICCV_2021_paper.pdf"
+      ],
+      "outcome": "403 response; pending."
+    },
+    {
+      "study_id": "P016",
+      "urls": [
+        "https://jankautz.com/publications/PiGDM_ICLR23.pdf"
+      ],
+      "outcome": "PDF exceeded reader size limit; OpenReview challenge. Pending."
+    },
+    {
+      "study_id": "P025",
+      "urls": [
+        "https://arxiv.org/html/2308.15070v1",
+        "https://arxiv.org/html/2308.15070v2"
+      ],
+      "outcome": "Candidate HTML routes failed; no technical evidence extracted. Pending."
+    },
+    {
+      "study_id": "P090",
+      "urls": [
+        "https://arxiv.org/html/2312.06640v1",
+        "https://arxiv.org/html/2312.06640v2",
+        "https://arxiv.org/pdf/2312.06640"
+      ],
+      "outcome": "Candidate HTML/PDF routes failed; no technical evidence extracted. Pending."
+    },
+    {
+      "study_ids": [
+        "P002",
+        "P003",
+        "P078",
+        "P089"
+      ],
+      "outcome": "Initial publisher/HTML routes failed. Alternate arXiv full texts were assessed with exact versions recorded. P002 and P003 use 2020 journal lineages, not new pre-2020 seed entries."
+    }
+  ]
+}

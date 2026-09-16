@@ -113,3 +113,15 @@ The research may improve visibility and quantify recoverability. It must not des
 **Correction:** checkpoint 04’s P017 retrieval locator was wrong; the new register explicitly supersedes it with arXiv 2212.00490. Seed metadata already held the correct identity, and no P017 eligibility decision used the unrelated locator. Corrected retrieval still failed, so P017 remains pending.
 
 **Next work:** assess the remaining 37 records. Reconcile version/date, numerical and guarantee conditions before definitive synthesis, with quality follow-ups tracked in the registers.
+
+## 16 September 2026 — Sixth AI full-text checkpoint
+
+**Checkpoint:** seven additional include recommendations. Cumulative: 60 assessed, 59 include recommendations, 1 exclude, 30 pending. Human adjudication and formal search accounting remain pending.
+
+**Decision:** retain the umbrella topic and candidate question. Continue the existing full-text workflow without waiting for deferred user tasks.
+
+**Research implication:** the [checkpoint report](../literature/screening/full_text_06_report.md) adds existing comparators for instability testing, semantic fidelity, temporal compound degradation and rollback. These overlaps narrow the claims available to our eventual method; they do not establish or disprove the candidate’s novelty. Earlier calibration and operator-uncertainty competitors remain central.
+
+**Version boundary:** P002/P003 remain 2020 journal lineages within the unchanged window. Their inspected precursors are dated 2019; final-text reconciliation remains explicit and outstanding.
+
+**Next work:** assess the remaining 30 seeds and resolve source/version and quality follow-ups before definitive synthesis.

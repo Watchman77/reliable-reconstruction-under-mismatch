@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.13.0 — 2026-09-16
+
+- Added seven AI full-text eligibility assessments. Cumulative: 60 assessed, 59 include recommendations, 1 exclude, 30 pending.
+- Recorded instability/semantic-fidelity tests, temporal compound restoration and rollback comparators, with source versions and criterion-level evidence.
+- Preserved the original topic and candidate question; novelty remains unestablished. Distinguished rollback, prompt selection and training-data filtering from calibrated selective reconstruction.
+- Recorded unresolved retrievals and 2020 journal lineages for inspected older NETT/instability preprints.
+- Synchronized matrix, tracker and four reference exports; retained all 90 IDs, earlier decisions, workbook objects and protocol v0.4. User tasks remain deferred.
+
 ## 0.12.0 — 2026-09-16
 
 - Added nine AI full-text eligibility assessments, all include recommendations. Cumulative: 53 assessed, 52 include, 1 exclude, 37 pending.
