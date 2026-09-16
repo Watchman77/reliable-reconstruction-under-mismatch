@@ -10,6 +10,7 @@ Research repository for a journal-first programme on evidence-calibrated image r
 - Evidence basis is recorded per study. Inspected versions, reading extent and criterion-level decisions are recorded; incomplete retrieval is flagged explicitly.
 - Zero formally included studies. Only the feature fields explicitly listed in the full-text register are verified; other seed codes remain provisional.
 - Rapid adversarial gap map completed.
+- Provisional full-text synthesis completed using the 88 AI include recommendations, with a source-linked 90-record inventory and three ranked candidate problems.
 - Phase-0 classical canary implemented and executed.
 - Formal database screening and the 100-image pilot remain outstanding.
 
@@ -18,6 +19,12 @@ The 90 studies are a seed evidence map, not a completed PRISMA corpus. The repos
 See the [latest full-text checkpoint](literature/screening/full_text_11_report.md) and [criterion-level evidence](literature/screening/full_text_11.json), alongside [checkpoint 01](literature/screening/full_text_01_report.md), [checkpoint 02](literature/screening/full_text_02_report.md), [checkpoint 03](literature/screening/full_text_03_report.md), [checkpoint 04](literature/screening/full_text_04_report.md), [checkpoint 05](literature/screening/full_text_05_report.md), [checkpoint 06](literature/screening/full_text_06_report.md), [checkpoint 07](literature/screening/full_text_07_report.md), [checkpoint 08](literature/screening/full_text_08_report.md), [checkpoint 09](literature/screening/full_text_09_report.md), [checkpoint 10](literature/screening/full_text_10_report.md) and the preserved [first pilot](literature/screening/pilot_01_report.md). The matrix, screening log and reference exports are synchronized; bibliographic corrections are recorded in field-level audits. Reference exports remain draft metadata, not submission-ready citations. All eight initially unclear cases now have AI full-text recommendations; their historical triage labels are preserved. [Deferred work](literature/screening/deferred_review_tasks.md) remains tracked while accessible-paper assessments continue.
 
 The original umbrella topic remains **Physics-Informed Deep Learning for Robust Image Reconstruction Under Forward-Model Mismatch**.
+
+## Current research decision
+
+The [provisional gap synthesis](literature/synthesis/provisional_gap_synthesis_01.md) recommends a bounded first experiment: test whether operator-sensitive information improves the fidelity of selectively retained image detail beyond image-only uncertainty and residual scores, especially when an acquisition stage is absent from the assumed model. The [pilot specification](docs/selective_reconstruction_pilot_spec.md) defines the information budget, source-separated splits, comparison conditions, error target, compute controls and stop criteria. It is a design brief, not a completed experiment or registered guarantee.
+
+The [generated evidence inventory](literature/synthesis/evidence_inventory_01.md) and [source snapshot](literature/synthesis/evidence_snapshot_01.json) preserve missing feature extractions and source/version limits. They do not count unverified seed codes as findings. P035 remains pending; the user has sent an author-copy request. No additional screening stage or seed quota is introduced.
 
 ## Candidate research gap
 
@@ -35,8 +42,10 @@ docs/
   systematic_review_protocol.md
   research_decisions.md
   roadmap.md
+  selective_reconstruction_pilot_spec.md
 literature/
   evidence_matrix_2020_2026.xlsx
+  synthesis/
 experiments/
   phase0_canary/
     pilot.py
@@ -68,7 +77,7 @@ python experiments/phase0_canary/pilot.py \
 
 ## Immediate research gate
 
-Before designing a custom journal architecture:
+Feasibility work can proceed while the deferred review tasks are completed. Before a custom journal architecture and definitive claims:
 
 1. register and execute the review protocol;
 2. full-text verify the nearest competitors;
@@ -76,6 +85,8 @@ Before designing a custom journal architecture:
 4. compare classical, operator-oblivious, operator-conditioned and blind-generative baselines;
 5. calibrate reliability scores on validation data only;
 6. evaluate risk–coverage, unsupported-detail detection and cross-device transfer.
+
+Reproduce the checkpoint-11 synthesis inventory with `python scripts/build_synthesis_snapshot.py --check`. The descriptive counts cover extracted evidence in the 88 include-recommended records; they are not field-wide prevalence or independent-study estimates.
 
 ## Research integrity
 

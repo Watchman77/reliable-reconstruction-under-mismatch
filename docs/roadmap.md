@@ -1,5 +1,21 @@
 # Roadmap
 
+## Current checkpoint — 16 September 2026
+
+Completed: initial triage of 90 seeds; 89 AI full-text assessments (88 include recommendations, one exclude); a provisional synthesis and source-linked inventory. P035 remains pending after the user sent an author-copy request. The classical single-image canary has run; the multi-image reliability pilot has not.
+
+The two immediate tracks can progress in parallel. These are execution tasks within the existing programme, not additional screening levels.
+
+| Track | Next concrete task | Deliverable / completion evidence |
+|---|---|---|
+| Feasibility — active | Audit code, weights, licences, input domains and inference cost for the operator-conditioned and blind-sampling baselines in [pilot v0.1](selective_reconstruction_pilot_spec.md). | Reproducible baseline manifest; unavailable methods and substitutions explicitly recorded. |
+| Feasibility — next | Freeze source-separated development/calibration/test manifests and implement the declared acquisition regimes and selection scores. | Runnable multi-image pilot, source-level evaluation and a dated design freeze. |
+| Feasibility — evaluate | Compare selective error at matched coverage, information and compute, including a shared omitted-process stress condition. | All-condition report with uncertainty intervals, failures and a go/redesign/stop decision. |
+| Evidence — pending access | Assess P035 when the author or another legitimate route supplies full text. | One criterion-level recommendation, source/version evidence and an updated cumulative checkpoint. |
+| Evidence — deferred | Complete formal search accounting, human adjudication, necessary version checks and lineage grouping. | Auditable final review decisions and search records; no final novelty claim before sufficient evidence. |
+
+See [provisional synthesis 01](../literature/synthesis/provisional_gap_synthesis_01.md) for the three ranked candidate problems and the explanation of what existing methods already cover. Candidate 1 is operator-sensitive selective reconstruction; constrained residual correction and temporal extension are later alternatives.
+
 ## Phase 1 — Formal evidence review
 
 - Freeze and register the protocol.

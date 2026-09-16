@@ -175,3 +175,19 @@ The research may improve visibility and quantify recoverability. It must not des
 **Lineage:** the P026/P053 predecessor relationship is now evidenced. Both records remain in the seed map; whether and how their shared experiments contribute to study-level synthesis still requires adjudication. Earlier unresolved statements remain historical.
 
 **Remaining access:** obtain P035 through an author copy or library route. No email has been sent. All previously deferred human and formal-search tasks remain recorded, with no new screening stage or seed quota.
+
+## 16 September 2026 — Provisional synthesis and feasibility decision
+
+**Checkpoint:** [synthesis 01](../literature/synthesis/provisional_gap_synthesis_01.md) now integrates the 88 AI include recommendations from 89 completed assessments. P060 remains ancillary and P035 remains pending. Formal included/excluded counts remain zero; the workbook and existing registers are unchanged.
+
+**Decision:** retain the umbrella topic and prioritize an operator-sensitive selective-reconstruction experiment. Test whether operator sensitivity adds useful retained-detail fidelity beyond image-only variability and residual scores, using matched information and compute. This is a testable candidate contribution, not established novelty.
+
+**Alternatives:** constrained discrepancy correction is second priority, with P035 particularly relevant; temporal selective restoration is third because it introduces dependence and acquisition-data requirements. Joint sampling, learned residuals, conformal calibration and temporal restoration already have substantial predecessors.
+
+**Evidence discipline:** the reproducible [inventory](../literature/synthesis/evidence_inventory_01.md) counts only explicitly extracted features. Missing fields are not negative evidence, affirmative calibration codes are not universal guarantees, and record counts are not independent-study counts. P064's time-variation scope is flagged for adjudication without recoding. P026/P053 remain related records with unresolved shared-experiment accounting.
+
+**Pilot:** [specification v0.1](selective_reconstruction_pilot_spec.md) defines the detail target, split independence, parameter versus family mismatch, selection controls, compute matching and stop conditions. It is a design brief; no pilot results or statistical guarantees are claimed. Existing single-image canary results remain historical evidence only.
+
+**Access update:** the user has now sent the P035 author-copy request. No response or manuscript is inferred. The school Outlook connection required administrator approval and was set aside; it is not a dependency for research progress. The earlier “no email sent” statement describes the preceding checkpoint.
+
+**Next action:** audit reproducible baseline code/weights and prepare the multi-image pilot from the existing canary. Continue formal-search and adjudication tasks in parallel as resources permit. No new screening stage or round-number quota is created.

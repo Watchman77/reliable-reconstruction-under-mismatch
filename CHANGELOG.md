@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.19.0 — 2026-09-16
+
+- Completed a provisional narrative synthesis of the 88 AI include recommendations, with the excluded ancillary record and pending P035 kept separate.
+- Added a reproducible 90-record inventory and JSON snapshot with per-feature provenance, input hashes, missing-extraction counts and explicit lineage/scope caveats. No screening or workbook decisions changed.
+- Compared the closest mismatch, blind-sampling, calibration, support-assessment and temporal-restoration methods; ranked three candidate questions without asserting novelty.
+- Specified a practical selective-reconstruction pilot, including information and compute matching, source-separated calibration/test splits, omitted-process stress tests and empirical risk–coverage evaluation. No new experiment was run.
+- Recorded the user-sent author-copy request and moved the roadmap to synthesis/feasibility. Marked the rapid-map and canary feature-checklist rationale as historical.
+
 ## 0.18.0 — 2026-09-16
 
 - Assessed four uploaded complete manuscripts: P030, P040, P049 and P053. Cumulative: 89 AI full-text assessments, 88 include recommendations, 1 exclude, 1 pending (P035).

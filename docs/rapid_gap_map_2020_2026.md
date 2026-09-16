@@ -1,5 +1,7 @@
 # Physics-Informed Deep Reconstruction Under Forward-Model Mismatch
 
+> Historical rapid-map checkpoint. For the current full-text-supported interpretation and research decision, use [provisional synthesis 01](../literature/synthesis/provisional_gap_synthesis_01.md). Earlier feature tables are exploratory; the absence of a complete feature intersection does not establish novelty. The original umbrella topic remains in force.
+
 ## Rapid systematic gap map, 2020–16 September 2026
 
 **Research line:** reliable reconstruction of real-world multi-degraded imagery, using surveillance/CCTV as the principal stress test  

@@ -12,6 +12,12 @@ The matrix is a living extraction file. Preserve stable study identifiers. Link 
 
 Do not convert `Partial` to `Yes` without full-text evidence. Do not classify a paper as calibrated merely because it displays sample variance or uncertainty maps; calibration requires empirical coverage, calibration error or an equivalent validated reliability criterion.
 
+## Provisional synthesis — 16 September 2026
+
+The [gap synthesis](synthesis/provisional_gap_synthesis_01.md) compares the main competing approaches, ranks three candidate problems and recommends an operator-sensitive selective-reconstruction pilot. The [inventory](synthesis/evidence_inventory_01.md) indexes all 90 seed records; the [JSON snapshot](synthesis/evidence_snapshot_01.json) records input hashes and feature-level provenance. Main synthesis counts use only the 88 AI include recommendations. Missing feature extractions remain missing; P060 is ancillary and P035 has no full-text contribution.
+
+This is a provisional narrative synthesis, not a new screening stage, formal inclusion decision or meta-analysis. Study lineage and version limitations remain explicit. No new experimental result or proven novelty is asserted. The workbook and reference exports retain their checkpoint-11 screening state.
+
 ## Current full-text checkpoint — 16 September 2026
 
 Eighty-nine AI full-text assessments are complete: 88 include recommendations and 1 exclude; 1 remains (P035). Four uploaded manuscripts were assessed in checkpoint 11. See [the report](screening/full_text_11_report.md), [criterion-level register](screening/full_text_11.json), [change audit](screening/full_text_11_changes.json) and [deferred work](screening/deferred_review_tasks.md). Summary E15 counts completed AI decisions. Screening Log J records those decisions; Matrix AA remains pending final formal eligibility. Only explicitly listed feature fields are verified. Four complete uploaded PDFs were inspected; filenames, versions, hashes and reading extent are recorded. Their acquisition flags are updated. P035 remains pending. P053 explicitly identifies P026 as previous work; the relationship is linked without an automatic study-level merge. Paper content is not redistributed.

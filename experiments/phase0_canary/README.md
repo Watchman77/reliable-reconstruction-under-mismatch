@@ -1,5 +1,7 @@
 # Compound Forward-Model Mismatch: Phase-0 Go/No-Go Pilot
 
+> This file preserves the original canary design and hypotheses. Its executed results remain in `CANARY_RESULT.md`. The current progression gate is defined in [provisional synthesis 01](../../literature/synthesis/provisional_gap_synthesis_01.md) and the [selective-reconstruction pilot specification](../../docs/selective_reconstruction_pilot_spec.md); a missing feature intersection alone is insufficient novelty. The proposed multi-image reliability experiment has not yet run.
+
 ## Purpose
 
 This pilot tests whether controlled forward-model mismatch creates a measurable and scientifically useful reliability problem before any large neural model is trained.
