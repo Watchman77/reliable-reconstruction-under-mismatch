@@ -1,6 +1,6 @@
 # Forward-Model Mismatch Review: 90 Seed Publications
 
-> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 89 AI full-text assessments are complete (88 include recommendations, 1 exclude); 1 remains. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_11_report.md for evidence limits and corrected links.
+> Draft seed references, not a PRISMA-included corpus or submission-ready bibliography. All 90 received preliminary AI triage: 82 advance, 8 unclear, 0 untriaged. 90 AI full-text assessments are complete (89 include recommendations, 1 exclude); 0 remain. Human adjudication and formal inclusion remain pending. Author lists outside verified corrections may remain abbreviated. See ../screening/full_text_12_report.md for evidence limits and corrected links.
 
 1. **P001** — Nan, Yuesong; Ji, Hui (2020). “Deep Learning for Handling Kernel/Model Uncertainty in Image Deconvolution.” *CVPR*. [Primary source](https://doi.org/10.1109/CVPR42600.2020.00246)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
@@ -70,8 +70,8 @@
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 34. **P034** — Kim et al. (2025). “Towards Distribution-Shift Uncertainty Estimation for Inverse Problems with Generative Priors.” *arXiv*. [Primary source](https://arxiv.org/abs/2510.10947)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
-35. **P035** — Lee & Jang (2026). “Mitigating Forward Model Mismatch in Inverse Problems via Learned Residuals and Diffusion Priors.” *SPIE*. [Primary source](https://doi.org/10.1117/12.3098133)  
-   Evidence: Abstract inspected; full-text pending; formal eligibility: pending; closest competitor (provisional): Yes.
+35. **P035** — Lee, Chanseok; Jang, Mooseok (2026). “Mitigating Forward Model Mismatch in Inverse Problems via Learned Residuals and Diffusion Priors.” *Proceedings of SPIE 14016, 140160D (SPIE ABC 2025; published 2026)*. [Primary source](https://doi.org/10.1117/12.3098133)  
+   Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 36. **P036** — Yang & Yuan (2026). “InverseNet: Benchmarking Operator Mismatch and Calibration Across Compressive Imaging Modalities.” *arXiv*. [Primary source](https://arxiv.org/abs/2603.04538)  
    Evidence: AI full-text eligibility assessed; selected features verified; formal eligibility: pending; closest competitor (provisional): Yes.
 37. **P037** — Iagaru et al. (2026). “On Hallucinations in Inverse Problems: Fundamental Limits and Provable Assessment Methods.” *arXiv*. [Primary source](https://arxiv.org/abs/2605.13146)  

@@ -367,13 +367,14 @@ ER  -
 
 TY  - CPAPER
 ID  - P035
-AU  - Lee & Jang
+AU  - Lee, Chanseok
+AU  - Jang, Mooseok
 PY  - 2026
 TI  - Mitigating Forward Model Mismatch in Inverse Problems via Learned Residuals and Diffusion Priors
-T2  - SPIE
+T2  - Proceedings of SPIE 14016, 140160D (SPIE ABC 2025; published 2026)
 UR  - https://doi.org/10.1117/12.3098133
 DO  - 10.1117/12.3098133
-N1  - Evidence status: Abstract inspected; full-text pending; formal eligibility pending. AI recommendations, where present, require human adjudication.
+N1  - Evidence status: AI full-text eligibility assessed; selected features verified; formal eligibility pending. AI recommendations, where present, require human adjudication.
 ER  -
 
 TY  - GEN

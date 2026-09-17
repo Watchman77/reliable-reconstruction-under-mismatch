@@ -136,3 +136,10 @@ The initial empirical threshold rule provides no formal distribution-free risk g
 - A dated freeze of this draft's unresolved implementation choices before running the full calibration/test experiment.
 
 No experiment results, new method performance, or claim of reliable CCTV identity recovery are asserted by this specification.
+
+
+## 17 September 2026 addendum: final direct comparator P035
+
+The [P035 assessment](../literature/screening/full_text_12_report.md) resolves the final seed-set access gap. It establishes learned additive correction with diffusion, an image/residual identifiability concern, prescribed valid-region recovery and an empirical model-error threshold near 0.1. These are prior-art overlaps, not new experimental results here.
+
+Compare observable correction-magnitude and residual scores alongside image-only uncertainty and operator sensitivity when a compatible correction baseline is implemented. Exact reproduction requires code, weights and implementation details; a simplified residual method must be labelled an adaptation. P035 equation 11 uses true-versus-perturbed model evaluations and belongs only in an oracle diagnostic unless an observable estimator is separately validated. Do not transfer its visual 0.1 threshold to DIV2K/JPEG. Preserve source-disjoint calibration/test splits, matched coverage/compute and explicit common-misspecification failures. The existing baseline-development priority and original research topic remain unchanged.

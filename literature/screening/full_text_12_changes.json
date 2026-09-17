@@ -1,0 +1,210 @@
+{
+  "checked_on": "2026-09-17",
+  "baseline_workbook_blob": "fbfb11d60961d0672cc361e5267d8c5fe6be671a",
+  "note": "P035 assessed from supplied full text; cumulative 90 assessed, 89 include, 1 exclude, 0 pending. Historical triage and formal decisions preserved.",
+  "changes": [
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "C36",
+      "old": "Lee & Jang",
+      "new": "Lee, Chanseok; Jang, Mooseok",
+      "reason": "P035: verified from supplied article; O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5."
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "E36",
+      "old": "SPIE",
+      "new": "Proceedings of SPIE 14016, 140160D (SPIE ABC 2025; published 2026)",
+      "reason": "P035: verified from supplied article; O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5."
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "H36",
+      "old": "Computational imaging",
+      "new": "Digital holographic microscopy; scattering imaging",
+      "reason": "P035: verified from supplied article; O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5."
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "I36",
+      "old": "Scientific imaging",
+      "new": "Beads and tissue fields; simulated scattering",
+      "reason": "P035: verified from supplied article; O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5."
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "J36",
+      "old": "Approximate differentiable operator",
+      "new": "Diffraction intensity F(x,d); memory-effect convolution",
+      "reason": "P035: verified from supplied article; O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5."
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "L36",
+      "old": "Residual model discrepancy",
+      "new": "Propagation-distance error; violation of angular memory effect",
+      "reason": "P035: verified from supplied article; O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5."
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "M36",
+      "old": "Diffusion plus learned residual",
+      "new": "Diffusion posterior sampling with learned additive residual",
+      "reason": "P035: verified from supplied article; O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5."
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AC36",
+      "old": "Learns measurement residual mismatch during diffusion inversion",
+      "new": "Regularised residual correction, two-stage diffusion refinement and empirical mismatch boundary",
+      "reason": "P035: verified from supplied article; O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5."
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AD36",
+      "old": "No calibrated joint UQ, abstention or surveillance benchmark",
+      "new": "No calibrated selected-region error control; threshold uses true/perturbed model evaluations. Valid-region recovery is simulated; source-disjoint validation underreported.",
+      "reason": "P035: verified from supplied article; O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5."
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Z36",
+      "old": "Abstract inspected; full-text pending",
+      "new": "AI full-text eligibility assessed; selected features verified",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "AF36",
+      "old": "Highest-priority mismatch competitor | AI pilot 2026-09-16: advance to full-text review; human pending. Basis: Authors' institutional abstract and complete proceedings metadata. Feature codes remain provisional. Can a flexible residual absorb noise or unsupported image detail? Extract identifiability constraints, optimization and held-out mismatch tests. Evidence: https://pure.kaist.ac.kr/en/publications/mitigating-forward-model-mismatch-in-inverse-problems-via-learned/ | Retrieval 2026-09-16: full-text eligibility pending. Source attempts and next action: screening/full_text_09.json (P035, pending_access). No new feature verification. | Retrieval 2026-09-16: full-text eligibility pending. Source attempts and next action: screening/full_text_10.json (P035, pending_access). No new feature verification. | Retrieval 2026-09-16: full-text eligibility pending. Source attempts and next action: screening/full_text_11.json (P035, pending_access). No new feature verification.",
+      "new": "Highest-priority mismatch competitor | AI pilot 2026-09-16: advance to full-text review; human pending. Basis: Authors' institutional abstract and complete proceedings metadata. Feature codes remain provisional. Can a flexible residual absorb noise or unsupported image detail? Extract identifiability constraints, optimization and held-out mismatch tests. Evidence: https://pure.kaist.ac.kr/en/publications/mitigating-forward-model-mismatch-in-inverse-problems-via-learned/ | Retrieval 2026-09-16: full-text eligibility pending. Source attempts and next action: screening/full_text_09.json (P035, pending_access). No new feature verification. | Retrieval 2026-09-16: full-text eligibility pending. Source attempts and next action: screening/full_text_10.json (P035, pending_access). No new feature verification. | Retrieval 2026-09-16: full-text eligibility pending. Source attempts and next action: screening/full_text_11.json (P035, pending_access). No new feature verification. | AI full-text 2026-09-17: include; human pending. Verified fields: O, P, Q, R, S, T, U, V, W, X. Evidence/version/read extent: screening/full_text_12.json (P035). Unlisted feature codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "P36",
+      "old": "Partial",
+      "new": "No",
+      "reason": "P035: O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5.; https://doi.org/10.1117/12.3098133"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "Q36",
+      "old": "Partial",
+      "new": "No",
+      "reason": "P035: O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5.; https://doi.org/10.1117/12.3098133"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "S36",
+      "old": "Yes",
+      "new": "Partial",
+      "reason": "P035: O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5.; https://doi.org/10.1117/12.3098133"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "T36",
+      "old": "Partial",
+      "new": "Yes",
+      "reason": "P035: O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5.; https://doi.org/10.1117/12.3098133"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "W36",
+      "old": "No",
+      "new": "Partial",
+      "reason": "P035: O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5.; https://doi.org/10.1117/12.3098133"
+    },
+    {
+      "sheet": "Evidence Matrix",
+      "cell": "X36",
+      "old": "No",
+      "new": "Partial",
+      "reason": "P035: O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5.; https://doi.org/10.1117/12.3098133"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "J36",
+      "old": "Pending",
+      "new": "AI full-text: include",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "K36",
+      "old": null,
+      "new": "",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "M36",
+      "old": "No",
+      "new": "Yes",
+      "reason": "P035: local PDF acquired for assessment; SHA-256 recorded in register."
+    },
+    {
+      "sheet": "Screening Log",
+      "cell": "L36",
+      "old": "2026-09-16 | Full-text eligibility remains pending. Full article route could not be retrieved; no complete text acquired. Obtain an author manuscript or a full publisher copy through library access/document delivery. Mooseok Jang can be contacted at the public address in P040, PDF p. 1: mooseok@kaist.ac.kr. No message has been sent. Complete retrieval log: screening/full_text_11.json (P035).",
+      "new": "2026-09-17 | AI full-text include; human pending. Explicit forward-model discrepancy correction, image/residual identifiability and empirical operational-boundary analysis (sections 2.3-3.3). Uploaded PDF verified and inspected; source/version/hash in register; not committed. Version, read extent and technical extraction: screening/full_text_12.json (P035).",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Summary",
+      "cell": "A17",
+      "old": "VDPS confirms blind time-varying physical-parameter estimation. FaverNet follows AverNet; image sampling and variance maps do not establish calibration. Only P035 full text remains pending. See screening/full_text_11_report.md for assumptions and version-specific limits. Earlier checkpoints remain available. Novelty is unestablished.",
+      "new": "P035 adds learned residual correction and an empirical failure threshold. Its true-model discrepancy is not a calibrated score for unknown captures. Test observable reliability scores against strong controls. See screening/full_text_12_report.md. Novelty remains unestablished.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B22",
+      "old": "Initial triage 90/90 (82 advance, 8 unclear). AI full-text assessed: 89 (88 include, 1 exclude), 1 remains. All human adjudication and formal searches/inclusion pending. Formal inclusion/exclusion counts remain zero.",
+      "new": "Initial triage 90/90 (82 advance, 8 unclear). AI full-text assessed: 90 (89 include, 1 exclude), 0 remain. Human adjudication and formal searches/inclusion pending. Formal inclusion/exclusion counts remain zero.",
+      "reason": "AI full-text checkpoint"
+    },
+    {
+      "sheet": "Review Protocol",
+      "cell": "B23",
+      "old": "90 seed records retained. Cumulative evidence: screening/full_text_01.json through full_text_11.json. Current report: full_text_11_report.md. AI decisions require human adjudication. Only listed feature fields are verified; other codes remain provisional.",
+      "new": "90 seed records retained. Cumulative evidence: screening/full_text_01.json through full_text_12.json. Current report: full_text_12_report.md. AI decisions require human adjudication. Only listed feature fields are verified; other codes remain provisional.",
+      "reason": "AI full-text checkpoint"
+    }
+  ],
+  "validation": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 90,
+    "ai_include": 89,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 0,
+    "formal_included": 0,
+    "formal_excluded": 0,
+    "batch_counts": {
+      "new_assessments": 1,
+      "ai_include": 1,
+      "ai_exclude": 0,
+      "retrieval_pending": 0
+    },
+    "initial_triage": [
+      90,
+      82,
+      8,
+      0
+    ],
+    "formula_input_change_test": "passed",
+    "unintended_cell_changes": [],
+    "formula_errors": [],
+    "saved_package_checks": {
+      "record_count": 90,
+      "ai_include": 89,
+      "ai_exclude": 1,
+      "remaining": 0,
+      "formal_decisions_unchanged": true,
+      "native_tables_validations_panes_and_drawings_preserved": true,
+      "all_formula_expressions_preserved": true,
+      "relationship_targets_preserved": true,
+      "relationship_ids": "regenerated by export; compared using resolved targets"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "protocol_version": "0.4",
+  "reviewer": "Codex (AI); human adjudication pending",
+  "search_window": "2020-01-01 through 2026-09-15",
+  "checked_on": "2026-09-17",
+  "checkpoint": "full_text_12",
+  "conventions": {
+    "decision": "AI full-text eligibility recommendation, distinct from final human/formal inclusion.",
+    "read_extent": "Eligibility requires sufficient full-text evidence for every criterion, not independent verification of every proof, appendix or codebase. Inspected extent and version are specified per record.",
+    "features": "Only feature_codes fields are verified in this checkpoint. Other legacy feature codes remain provisional. No means not demonstrated in the inspected evidence/version; Partial requires the stated limitation.",
+    "uq": "Image UQ includes deterministic sets and posterior variability; it does not imply calibrated probabilities. Operator UQ requires uncertainty for operator parameters, not image variance caused by uncertain physics.",
+    "access": "One complete user-supplied publisher-formatted article inspected. P035 access resolved. DOI is publication provenance, not remote retrieval evidence.",
+    "c1": "The unchanged 2020–2026 window applies. Official proceedings or explicitly identified preprint/journal versions are inspected; final-version equivalence is not assumed.",
+    "c5": "Complete English supplied manuscript; identity, hash and reading extent recorded.",
+    "provenance": "No reproducible database search or undocumented discovery date is inferred from this targeted batch."
+  },
+  "counts": {
+    "seed_records": 90,
+    "ai_full_text_assessed": 90,
+    "ai_include": 89,
+    "ai_exclude": 1,
+    "remaining_ai_full_text": 0,
+    "formal_included": 0,
+    "formal_excluded": 0
+  },
+  "batch_counts": {
+    "new_assessments": 1,
+    "ai_include": 1,
+    "ai_exclude": 0,
+    "retrieval_pending": 0
+  },
+  "counts_scope": "Cumulative checkpoints 01-12; closes the existing seed-set AI reading pass, not formal review inclusion.",
+  "remaining_ids": [],
+  "pending_access": [],
+  "records": [
+    {
+      "study_id": "P035",
+      "title": "Mitigating Forward Model Mismatch in Inverse Problems via Learned Residuals and Diffusion Priors",
+      "decision": "include",
+      "source_url": "https://doi.org/10.1117/12.3098133",
+      "version": "Complete publisher-formatted SPIE article, volume 14016, article 140160D, 12 pages, 2026 imprint; conference name SPIE ABC 2025.",
+      "read_extent": "Main text pp. 1-8, sections 1-4, equations 1-11 and figures 1-5 inspected. Pages 4-8 rendered and visually inspected. References pp. 8-12 scanned, not independently audited. No supplement/code supplied.",
+      "source_kind": "User-supplied PDF; user reports receipt from Professor Jang. Canonical DOI is bibliographic provenance, not a claim of remote PDF retrieval.",
+      "source_filename": "140160D(1).pdf",
+      "source_file_sha256": "ba25f9979984520a89fbdb049fdc932893c0ca59bdb79c319ee277e25d233eb1",
+      "source_file_bytes": 12433769,
+      "source_file_pages": 12,
+      "assessment_complete": true,
+      "local_pdf_acquired": true,
+      "technical": "A diffusion prior and regularised shallow residual network jointly reconstruct x and additive measurement discrepancy r; a second diffusion pass refines x. Reported DHM tests use propagation-distance mismatch; the scattering experiment is explicitly simulated and absorbs outside-memory-effect contributions into r. Section 3.3 defines zeta as true-versus-perturbed model discrepancy normalised by measurement norm and identifies an empirical visual failure threshold near 0.1. No evaluated image/operator uncertainty or calibrated selective risk is demonstrated.",
+      "feature_codes": {
+        "O": "Partial",
+        "P": "No",
+        "Q": "No",
+        "R": "No",
+        "S": "Partial",
+        "T": "Yes",
+        "U": "No",
+        "V": "No",
+        "W": "Partial",
+        "X": "Partial"
+      },
+      "feature_locator": "O/P/Q: sections 2.3-2.4, equation 8, figure 1, pp. 4-5; R/X: section 3.3, equation 11, figure 5, pp. 7-8; S/T/U/V: sections 3.1-3.3, figures 2-5, pp. 5-8; W: sections 2.4, 3.2-3.3 and figures 2-5.",
+      "applicability": "O=Partial: image and nuisance discrepancy, not physical operator inference. P=No: diffusion reconstruction trajectories are not an evaluated uncertainty output. Q/R=No: no physical-parameter distribution or probability calibration. S=Partial: deliberate physical/model shifts, incomplete training/test separation detail. T=Yes for reported DHM measurements only; scattering is simulated. U/V=No under compound-process/video definitions. W=Partial for visual artifact comparisons and signal-absorption analysis, not a hallucination detector. X=Partial because the dictionary includes explicit reliability thresholds; zeta is an empirical failure boundary, not a deployable calibrated reject/patch-selection rule.",
+      "criteria": {
+        "1": {
+          "met": true,
+          "evidence": "2026 publisher imprint is within unchanged 2020-01-01 to 2026-09-15 publication window; DOI, authors and proceedings identity appear on p. 1."
+        },
+        "2": {
+          "met": true,
+          "evidence": "Computational image reconstruction in digital holography and simulated scattering is central (sections 2-3)."
+        },
+        "3": {
+          "met": true,
+          "evidence": "Explicit forward-model discrepancy correction, image/residual identifiability and empirical operational-boundary analysis (sections 2.3-3.3)."
+        },
+        "4": {
+          "met": true,
+          "evidence": "Primary technical method with equations, algorithm schematic, comparison images and mismatch sweeps (figures 1-5)."
+        },
+        "5": {
+          "met": true,
+          "evidence": "Complete English 12-page manuscript supplied and inspected locally; publication identity and SHA-256 recorded."
+        }
+      },
+      "quality_followups": [
+        "Exact reproduction requires residual-network architecture, hyperparameters, checkpoints, data counts, source-disjoint splits, code and runtime. No code link is printed in the supplied PDF; public availability not exhaustively searched.",
+        "Clarify reference-phase construction and calibration/test independence. Visual fidelity examples do not establish calibrated selected-detail reliability.",
+        "Equation 11 uses true and perturbed physical parameters and a common object; an estimator available from unknown captures alone is not demonstrated. A learned-residual norm is a proxy, not the same quantity.",
+        "Figure 5b appears nonzero at zero depth mismatch, whereas equation 11 is zero for coincident model evaluations. Clarify the plotted definition; do not infer a noise-floor explanation.",
+        "Abstract/introduction imply real-world scattering but section 3.2 explicitly uses simulation. Code hardware evidence only for the reported DHM demonstration.",
+        "Equation 8 uses a signal-shaped residual; section 2.3 initially writes an error magnitude. Do not conflate these in implementation."
+      ],
+      "matrix_updates": {
+        "C": "Lee, Chanseok; Jang, Mooseok",
+        "E": "Proceedings of SPIE 14016, 140160D (SPIE ABC 2025; published 2026)",
+        "H": "Digital holographic microscopy; scattering imaging",
+        "I": "Beads and tissue fields; simulated scattering",
+        "J": "Diffraction intensity F(x,d); memory-effect convolution",
+        "L": "Propagation-distance error; violation of angular memory effect",
+        "M": "Diffusion posterior sampling with learned additive residual",
+        "AC": "Regularised residual correction, two-stage diffusion refinement and empirical mismatch boundary",
+        "AD": "No calibrated selected-region error control; threshold uses true/perturbed model evaluations. Valid-region recovery is simulated; source-disjoint validation underreported."
+      },
+      "reference_updates": {
+        "Authors": "Lee, Chanseok; Jang, Mooseok",
+        "Venue": "Proceedings of SPIE 14016, 140160D (SPIE ABC 2025; published 2026)"
+      }
+    }
+  ],
+  "access_notes": [
+    "The user supplied the final pending full text and reported receiving it from Professor Jang. No email was sent by the assistant.",
+    "The original paper, extracted full text and page renders are not redistributed in the repository.",
+    "Historical registers and synthesis snapshot 01 preserve their dated states."
+  ]
+}
