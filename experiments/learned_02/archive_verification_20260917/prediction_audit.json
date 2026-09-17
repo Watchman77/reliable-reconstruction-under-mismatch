@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "source_images_rehashed": 4,
+  "source_manifest_matches_local_inputs": true,
+  "configuration_matches_frozen_defaults": true,
+  "source_and_vendor_hashes_match_provenance": true,
+  "prior_six_csvs_byte_identical": true,
+  "nominal_prediction_archives_checked": 8,
+  "prediction_dtype": "float32",
+  "prediction_shape": [
+    576,
+    576,
+    3
+  ],
+  "evaluation_shape": [
+    512,
+    512,
+    3
+  ],
+  "quality_rows_independently_recomputed": 24,
+  "risk_rows_recomputed": 448,
+  "rgb_patch_error_max_abs_difference": 0.0,
+  "detail_patch_error_max_abs_difference": 0.0,
+  "reference_texture_max_abs_difference": 0.0,
+  "cheap_score_max_abs_difference": 0.0,
+  "quality_mse_max_abs_difference": 9.627715291671279e-17,
+  "risk_mse_max_abs_difference": 9.996344030316351e-17,
+  "bad_detail_rate_max_abs_difference": 1.1102230246251565e-16,
+  "original_models_not_rerun": true,
+  "remaining_scope_limits": [
+    "Only nominal learned predictions were stored; oracle-blur and denoising-only learned outputs were not independently regenerated.",
+    "Operator and transformation spread arrays were used to recompute rankings and risks; their construction cannot be independently repeated without the unsaved ensemble predictions or new inference.",
+    "Integrity and arithmetic checks do not establish novelty, calibration or independent-test performance."
+  ]
+}

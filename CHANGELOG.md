@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.24.2 — 2026-09-17
+
+- Verified the user's results ZIP: all 23 files in the completed eight-observation Learned 02 run match manifest sizes and SHA-256 hashes. The six CSVs are byte-identical to the previously reviewed exports; all four raw figures were inspected.
+- Rehashed all four source images and independently recomputed errors from all eight stored nominal predictions, 24 quality rows and all 448 risk rows. Patch errors and inexpensive scores agree exactly; CSV differences are below 1.2e-16. Saved a reproducible readback script, audit, per-observation table, run metadata and a JPEG readback montage.
+- Kept the older incomplete Learned 02 run separate: status records 4/8 observations and its compute.csv does not match its manifest. Verified 11/11, 11/11 and 14/14 files in the three earlier pilot folders without claiming a new full scientific review of those runs.
+- Closed the completed-run raw-export verification gap while preserving the historical review/audit. Learned inference, unsaved oracle/denoising outputs and ensemble-spread construction were not independently rerun. Mixed reconstruction findings, novelty/calibration limits and the proposed JPEG-chain diagnosis remain unchanged.
+
 ## 0.24.1 — 2026-09-17
 
 - Reviewed the user's completed Learned 02 Colab notebook: all 19 cell sources match the issued artifact; nine code cells have consecutive counts with no saved errors. CUDA/L4 evidence, eight observations, 40 quality rows, 448 risk rows and 392 experiment denoiser calls are recorded.

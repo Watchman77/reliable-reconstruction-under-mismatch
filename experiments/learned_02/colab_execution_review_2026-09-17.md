@@ -4,6 +4,8 @@
 
 The learned baseline improves reconstruction under linear blur/noise, but loses to the inherited classical baseline when the JPEG chain is added. Operator sensitivity gives positive pooled mean-detail-error comparisons against the included controls. That advantage does not consistently extend to bad-detail rates or every source. These observations support a focused diagnosis of the acquisition-chain failure, not a novelty or calibration claim.
 
+**Subsequent archive update, 17 September 2026:** the user supplied the raw results ZIP. The [separate archive verification](archive_verification_20260917/verification.md) confirms all 23 completed-run file hashes, eight saved nominal predictions and all 448 risk rows, and adds visual inspection of the raw figures and JPEG prediction readback. The access limitation described below and the original audit JSON are preserved as the earlier review history; they no longer describe current access to this completed run.
+
 ## Evidence and execution
 
 - Reviewed the uploaded `02_DIV2K_Learned_Baseline (1).ipynb`, 2,541,643 bytes, SHA-256 `eff283ea870efd5a8c9f39151fd5a78848e8bac627e5fde66897d0e3ab7f33aa`.
@@ -64,7 +66,7 @@ The recorded reconstruction calls total **53.938 seconds**. Nominal DPIR average
 
 The notebook's `validation` metadata and `inprocess_execution_seconds` still describe the earlier local one-case run, including its display replay. They were inherited when the user opened the notebook in Colab. They are not evidence that this new run was partial, nor valid timings for it. Current setup/final outputs and the retrieved CSVs establish the eight-observation scope. Their coexistence is documented rather than silently rewriting historical provenance.
 
-**Full raw-export integrity remains unverified.** The raw manifest transfer produced a signed reference, but downloading it returned HTTP 403; its readable JSON fallback was empty. Therefore, separately exported JSONs, PNGs and prediction archives were not byte-audited. The figures reviewed here are the notebook's embedded versions. The locally recorded CSV hashes preserve the text retrieved for this review; they were not compared with the unavailable run manifest. Nominal predictions and patch arrays were not independently recomputed from the raw archives. This limitation must not be described as “all 23 hashes verified.”
+**Historical limitation at the time of this notebook/CSV review; subsequently resolved by the linked archive review.** Full raw-export integrity was then unverified. The raw manifest transfer produced a signed reference, but downloading it returned HTTP 403; its readable JSON fallback was empty. Therefore, separately exported JSONs, PNGs and prediction archives were not byte-audited. The figures reviewed here are the notebook's embedded versions. The locally recorded CSV hashes preserve the text retrieved for this review; they were not compared with the unavailable run manifest. Nominal predictions and patch arrays were not independently recomputed from the raw archives. This limitation must not be described as “all 23 hashes verified.”
 
 ## Research decision
 
