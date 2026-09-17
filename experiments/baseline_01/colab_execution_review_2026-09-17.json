@@ -1,0 +1,107 @@
+{
+  "review_date": "2026-09-17",
+  "status": "saved_colab_execution_reviewed",
+  "source": {
+    "uploaded_filename": "01_DIV2K_Baseline_Development (1).ipynb",
+    "bytes": 2437859,
+    "sha256": "27f6354b217cfbaf0fbcb545e9e36abf8138c9201372eb85587f3a88aad2df95",
+    "colab_url": "https://colab.research.google.com/drive/1CcWK7rUp9rEePzF_WMd77FRnIVeVajxz",
+    "result_folder_url": "https://drive.google.com/drive/folders/1Gq58XTwllhKXrE6NgIo4fAskjwFxJBcP"
+  },
+  "execution_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "saved_error_outputs": 0,
+  "stderr_warning_count": 1,
+  "warning_type": "pandas FutureWarning: concatenation with empty/all-NA entries",
+  "original_nine_code_cells_identical": true,
+  "added_setup_cells": 2,
+  "computational_source_sha256": "ecc6317921f1b3ed43fee97944306bfb64a089ea43626b835fce76b65925ded3",
+  "drive_mount_output_present": true,
+  "output_folder_matches_verified_drive_folder": true,
+  "saved_numerical_checks": {
+    "dense_solver_max_abs_error": {
+      "ridge": 1.9984014443252818e-15,
+      "gradient": 9.992007221626409e-16
+    },
+    "dc_checks": true,
+    "selection_check": true,
+    "source_count": 4,
+    "observation_count": 48,
+    "grid_rows": 1344,
+    "selected_inverse_rows": 192,
+    "control_rows": 96,
+    "patch_curve_rows": 4608,
+    "input_hashes_unchanged": true,
+    "tuning_excludes_evaluated_source": true,
+    "source_role": "development_only",
+    "elapsed_seconds": 112.11587385600001,
+    "anchor_pooled_psnr": {
+      "blur_noise_nominal": 25.19469081134899,
+      "blur_noise_oracle_blur": 29.10481276708939,
+      "blur_noise_jpeg_nominal": 27.696821849084174,
+      "blur_noise_jpeg_oracle_blur": 28.105475288120687
+    }
+  },
+  "embedded_table_reconciliation": {
+    "summary_rows": 12,
+    "selection_rows": 16,
+    "patch_score_rows": 8,
+    "status": "matches Drive CSVs at displayed precision",
+    "selection_and_score_display_absolute_tolerance": 5.1e-07
+  },
+  "figures": [
+    {
+      "name": "figure_1.png",
+      "bytes": 59811,
+      "sha256": "1302ba3107fe41358305a8625c169753e3043cf678b00cd6f66fb0fccccab4e8",
+      "visually_inspected": true
+    },
+    {
+      "name": "figure_2.png",
+      "bytes": 48491,
+      "sha256": "478d56db84e196465b9a7661af2d1c081f291bee31ed9f417cfa79a55d18561b",
+      "visually_inspected": true
+    },
+    {
+      "name": "figure_3.png",
+      "bytes": 115768,
+      "sha256": "e389dfc95ecb51287d0f529671a0c92ec663edae3d6ed72a1cfac6663a43315d",
+      "visually_inspected": true
+    },
+    {
+      "name": "figure_4.png",
+      "bytes": 1527896,
+      "sha256": "7217882c7aa06d1388ad998bb1a0757cad5b7f226181c5ee06f2d7d47bb83f98",
+      "visually_inspected": true
+    }
+  ],
+  "csv_review_from_preceding_turn": {
+    "readable_tables": 7,
+    "grid_rows": 1344,
+    "selected_inverse_rows": 192,
+    "control_rows": 96,
+    "source_exclusion_choices": 16,
+    "patch_risk_rows": 4608,
+    "gradient_improves_over_input_cases": 48,
+    "grid_max_mse_difference_from_local": 1.1102230246251565e-16,
+    "patch_risk_max_mse_difference_from_local": 9.996344030316351e-17,
+    "recorded_rgb_hashes_match_official_manifest": 4
+  },
+  "limits": [
+    "Saved notebook evidence reviewed; the reviewer did not control the live Colab runtime.",
+    "Top-level validation and per-cell inprocess timing metadata are inherited from the earlier local run; they are not Colab execution provenance.",
+    "Separately exported PNG/JSON bytes and all fourteen export hashes were not independently retrieved and verified. Embedded notebook figures were inspected instead.",
+    "The four images remain development data; no independent testing, calibration, significance or novelty claim."
+  ]
+}

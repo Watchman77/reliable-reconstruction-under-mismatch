@@ -1,0 +1,123 @@
+{
+  "notebook_bytes": 3251602,
+  "notebook_sha256": "018c76ca47ec82728fac364774cfdf915862851f751f9f05d13412921edfe751",
+  "code_cells": 10,
+  "consecutive_execution_counts": true,
+  "all_code_sources_unchanged": true,
+  "changed_markdown_cells": [
+    20
+  ],
+  "saved_error_outputs": 0,
+  "saved_stderr_streams": 0,
+  "reported_checks": {
+    "source_identities_verified": 4,
+    "simulator_endpoints_verified_sources": 4,
+    "input_classical_anchor_rows_checked": 16,
+    "input_classical_anchor_max_abs_mse_difference": 9.638557313396134e-17,
+    "clipping_idempotence": true,
+    "quantization_half_step_bound": true,
+    "dense_hqs_max_abs_error": 6.217248937900877e-15,
+    "transform_inverse_checks": true,
+    "isotropic_operator_rotation_equivariance": true,
+    "official_schedule_matches": true,
+    "strict_weight_load": true,
+    "learned_smoke_finite": true,
+    "repeat_smoke_identical": true,
+    "quality_rows": 80,
+    "stage_delta_rows": 60,
+    "observation_count": 16,
+    "denoiser_calls": 272,
+    "paired_deltas_telescope": true,
+    "saved_prediction_quality_rows_checked": 80,
+    "saved_prediction_max_abs_metric_difference": 0.0,
+    "source_files_unchanged": true
+  },
+  "reported_zip_receipt": {
+    "zip_name": "acquisition_03_20260917T160754_303637Z.zip",
+    "zip_bytes": 431278719,
+    "zip_sha256": "902cee988b76eb982efb068eca4c821d0259b4ef06d6c6f0d09163d1117549dc",
+    "verified_result_files": 38,
+    "configured_observations": 16,
+    "full_design_complete": true
+  },
+  "csv_row_counts": {
+    "quality": 80,
+    "summary": 20,
+    "model_gaps": 16,
+    "stage_deltas": 60,
+    "endpoint_comparison": 40,
+    "acquisition": 16,
+    "compute": 64,
+    "trajectories": 256,
+    "source_manifest": 4
+  },
+  "reconciled_result_tables": 6,
+  "embedded_figures": 4,
+  "csv_files": [
+    {
+      "name": "acquisition.csv",
+      "bytes": 3424,
+      "sha256": "8597ab9115b0c93fa15e3435ff9d6960642f68f42d1d4274ac8af8bfe0fa7be4"
+    },
+    {
+      "name": "compute.csv",
+      "bytes": 6563,
+      "sha256": "74606b40bee1c9b2113e0eefe0b36b8187bd774e81bf6e4e56efac19bdcda02c"
+    },
+    {
+      "name": "endpoint_comparison.csv",
+      "bytes": 4541,
+      "sha256": "4eaffc33bcc9a47429fa14f21181284df7b1123a82c502619a8bd73e371d1c2b"
+    },
+    {
+      "name": "model_gaps.csv",
+      "bytes": 1392,
+      "sha256": "1a4abe07ef5d5e55ce8a4256922df536cb67fcac46cbbdecd4763faf296fc917"
+    },
+    {
+      "name": "quality.csv",
+      "bytes": 10137,
+      "sha256": "d841df2fb30d7a5b34d177f9e48efe795676f267c0ab782dd0978c7398d7ab00"
+    },
+    {
+      "name": "source_manifest.csv",
+      "bytes": 813,
+      "sha256": "136b53ca7d3ab88a4fb41aa432c52963bf22623a999c73baeb7a3f33de87edbd"
+    },
+    {
+      "name": "stage_deltas.csv",
+      "bytes": 6849,
+      "sha256": "2174065c5652b9cf863aa81a841b94057960190dfbf32e2f2a34525d5135194c"
+    },
+    {
+      "name": "summary.csv",
+      "bytes": 1968,
+      "sha256": "96b7d6b607f023ef0a86004120ee965c00a19fb7f1dbcfa04cbe2a4028306f14"
+    },
+    {
+      "name": "trajectories.csv",
+      "bytes": 31409,
+      "sha256": "7280eadbe618046df77a660c97bd781ce3e410b87c1b70a69711571132ba18ae"
+    }
+  ],
+  "source_files_rehashed": 4,
+  "regenerated_observation_hash_matches": 16,
+  "regenerated_observations": 16,
+  "regenerated_codec_hash_matches": 4,
+  "regenerated_codecs": 4,
+  "regenerated_input_classical_quality_rows": 32,
+  "cheap_quality_max_abs_mse_difference": 9.627715291671279e-17,
+  "acquisition_measurement_max_abs_difference": 1.1102230246251565e-16,
+  "notebook_metadata_is_inherited_local_history": true,
+  "recorded_reconstruction_seconds": 99.21242737400007,
+  "recorded_cuda_peak_allocated_mib": [
+    618.43798828125,
+    636.62548828125
+  ],
+  "raw_manifest_retrieved": false,
+  "raw_manifest_transfer_error": "HTTP 403; readable JSON content empty",
+  "full_export_hash_verification": false,
+  "raw_learned_prediction_readback": false,
+  "learned_inference_rerun": false,
+  "zip_bytes_independently_verified": false
+}

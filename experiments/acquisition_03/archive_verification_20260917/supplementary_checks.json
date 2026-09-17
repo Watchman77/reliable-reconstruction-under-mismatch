@@ -1,0 +1,33 @@
+{
+  "csv_files_byte_identical_to_prior_review": [
+    "acquisition.csv",
+    "compute.csv",
+    "endpoint_comparison.csv",
+    "model_gaps.csv",
+    "quality.csv",
+    "source_manifest.csv",
+    "stage_deltas.csv",
+    "summary.csv",
+    "trajectories.csv"
+  ],
+  "raw_figures_byte_identical_to_notebook_embeds": [
+    "source_gaps.png",
+    "stage_changes.png",
+    "stage_examples.png",
+    "stage_quality.png"
+  ],
+  "exact_npz_schemas_verified": 16,
+  "full_patch_vector_shapes_verified": 160,
+  "input_control_equals_clipped_observation": 16,
+  "jpeg_hashes_match_acquisition_table": 4,
+  "project_source_and_design_hashes_verified": {
+    "baseline_helper_sha256": "experiments/baseline_01/baseline.py",
+    "adapter_source_sha256": "experiments/learned_02/learned.py",
+    "diagnostic_source_sha256": "experiments/acquisition_03/diagnostic.py",
+    "design_freeze_sha256": "experiments/acquisition_03/design_freeze.md"
+  },
+  "saved_learned_predictions_recomputed": 48,
+  "saved_control_predictions_recomputed": 32,
+  "full_coverage_tail_rates_recomputed": 240,
+  "learned_inference_repeated": false
+}

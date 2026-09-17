@@ -1,0 +1,27 @@
+{
+  "date_utc": "2026-09-17",
+  "mode": {
+    "code_cells": 9,
+    "finished_utc": "2026-09-17T11:30:26.186127+00:00",
+    "limitation": "Native Jupyter/Colab execution and Drive mounting are unverified.",
+    "mode": "sequential in-process IPython; no Jupyter kernel",
+    "scope": "Four development sources; original cell code is executed without replacement.",
+    "started_utc": "2026-09-17T11:29:21.411761+00:00",
+    "status": "executed_inprocess"
+  },
+  "code_cells": 9,
+  "error_outputs": 0,
+  "embedded_png_outputs": 4,
+  "notebook_sha256": "dedf43a7420b3e8876a64b19196e2eb0cd8a2f5d742fd7ecc89a0c9bdd82fed1",
+  "source_sha256": "ecc6317921f1b3ed43fee97944306bfb64a089ea43626b835fce76b65925ded3",
+  "hashed_output_files": 14,
+  "all_output_hashes_match": true,
+  "source_excluded_choices_verified": 16,
+  "selected_grid_rows_verified": 192,
+  "summary_rows_verified": 12,
+  "full_coverage_all_patch_risk_reconciles": true,
+  "original_pilot00_inverse_anchor_reproduced": true,
+  "final_render_reexecution_preserves_quality_summary": true,
+  "limitation": "No native Jupyter/Colab runtime, Drive mounting, independent test, significance or novelty validation.",
+  "nominal_inverse_full_coverage_rows_verified": 96
+}

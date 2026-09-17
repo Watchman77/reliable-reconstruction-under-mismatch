@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "validation_source": "Earlier local one-source archive, not the current four-source Colab archive",
+  "source_bytes": 107609950,
+  "source_sha256": "d93157f1fecf4257f40450347aa7687f2bda6eeb9f6b63754f5909c777f8f917",
+  "round_trip_byte_identity": true,
+  "zip_crc_check": true,
+  "parts_tested": 2,
+  "max_part_bytes": 100663928,
+  "negative_checks": {
+    "missing_part": true,
+    "duplicate_part": true,
+    "wrong_original_hash": true,
+    "corrupted_chunk": true
+  },
+  "notebook_format_and_code_compilation": true,
+  "drive_mount_and_full_colab_archive_execution": false,
+  "learned_inference_repeated": false
+}

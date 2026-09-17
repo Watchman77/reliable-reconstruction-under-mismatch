@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "torch": "2.14.0+cpu",
+  "pillow": "12.3.0",
+  "matplotlib": "3.10.8",
+  "device": "cpu",
+  "cuda_name": null,
+  "cpu_threads": 4,
+  "deterministic_algorithms": true,
+  "cpu_memory_note": "process lifetime peak RSS; not isolated per-inference memory"
+}

@@ -1,0 +1,86 @@
+{
+  "experiment": "learned_02",
+  "role": "development_only",
+  "files": [
+    {
+      "name": "checks.json",
+      "bytes": 420,
+      "sha256": "a7d328a6f8783b21e69c37b67897c1d104d2a69c2754add9a6d2b78e08bdfcee"
+    },
+    {
+      "name": "compute.csv",
+      "bytes": 988,
+      "sha256": "3e74711aae81f113676feeb7a136988fe6ebcca14a510c08f02a19addf4600f6"
+    },
+    {
+      "name": "config.json",
+      "bytes": 1010,
+      "sha256": "3fb35a1246caab1c35bf24b320e6e4077a35d0f7925d04183fcf306f5d10c2ad"
+    },
+    {
+      "name": "curves.csv",
+      "bytes": 8567,
+      "sha256": "d093224a0ea97e4a951994fdc345553e6b081256ee4431c0c0470615363f898f"
+    },
+    {
+      "name": "detail_risk_coverage.png",
+      "bytes": 124810,
+      "sha256": "a02c11aebd324708283ea4bc4d4db05b9fa947bae78860249101d5a266902047"
+    },
+    {
+      "name": "environment.json",
+      "bytes": 321,
+      "sha256": "d0faf71a989054b0b01c510af6a7c13f6f8344a96a6d3c305dc97c4f0b6291e8"
+    },
+    {
+      "name": "iteration_trajectories.png",
+      "bytes": 65319,
+      "sha256": "e7171ec8aca10789d739fadf6f0bc08fa4597ac490571236d02f762dd4808354"
+    },
+    {
+      "name": "predictions/0801_blur_noise.npz",
+      "bytes": 3577534,
+      "sha256": "f3c8886c6c3d02ec593b2c4eee9df370c3fb489c6faf9a952e3851dc529b53dc"
+    },
+    {
+      "name": "provenance.json",
+      "bytes": 1135,
+      "sha256": "77f6b07afcc1e5f2f3b7e34e14adcd0e760dce0558f40a1bc555f71a48739bd4"
+    },
+    {
+      "name": "quality.csv",
+      "bytes": 661,
+      "sha256": "31711184136807b8d5c9b6383c39fb9aa1ab012b071fdc065263ed2e26fb71c3"
+    },
+    {
+      "name": "quality.png",
+      "bytes": 35258,
+      "sha256": "44942624b461e6fddf7e39ead0ca32c23a5d5c9d2dd013317b2d0dbaf52e8ed6"
+    },
+    {
+      "name": "reconstruction_examples.png",
+      "bytes": 409699,
+      "sha256": "1a2c2cf36f5247f1dc366cb3d378fcadb2352187ad2ab6153e42fe214fefaeb1"
+    },
+    {
+      "name": "source_manifest.csv",
+      "bytes": 264,
+      "sha256": "6e0b01444e25809f2ffa9459a99a0172bbd3ace7fba03915fe9979298a6d9821"
+    },
+    {
+      "name": "status.json",
+      "bytes": 162,
+      "sha256": "5ca2a827bc4b36062a1390870a92d4a491eda7cb874a4d901bb631eea257dfe1"
+    },
+    {
+      "name": "summary.csv",
+      "bytes": 543,
+      "sha256": "ac9324f87d05a5e4a1becc70cb2007ddf540d554543982c446139f9193a9cb2d"
+    },
+    {
+      "name": "trajectories.csv",
+      "bytes": 6814,
+      "sha256": "e0dfc21583dba3af323796efe7cdd0649199714214ed39fbabb1dfa510ee2a20"
+    }
+  ]
+}

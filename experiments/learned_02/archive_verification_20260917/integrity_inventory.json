@@ -1,0 +1,63 @@
+{
+  "archive_name": "results-20260917T145005Z-1-001.zip",
+  "archive_bytes": 64986509,
+  "archive_sha256": "cad475e235aedfcd114d88394c74b9804e9a83068965a695eedc2896960e1ff9",
+  "zip_crc_passed": true,
+  "archive_entries": 79,
+  "runs": [
+    {
+      "run": "pilot_00_20260917T091557_922071Z",
+      "listed_files": 11,
+      "matched": 11,
+      "mismatches": [],
+      "unexpected_files": []
+    },
+    {
+      "run": "learned_02_20260917T125501_043474Z",
+      "listed_files": 15,
+      "matched": 14,
+      "mismatches": [
+        {
+          "name": "compute.csv",
+          "actual_bytes": 4342,
+          "expected_bytes": 3670,
+          "sha256_matches": false
+        }
+      ],
+      "unexpected_files": [],
+      "status": {
+        "status": "running",
+        "completed_observations": 4,
+        "planned_observations": 8,
+        "updated_utc": "2026-09-17T14:01:51.511508+00:00"
+      }
+    },
+    {
+      "run": "pilot_00_20260917T115150_838153Z",
+      "listed_files": 11,
+      "matched": 11,
+      "mismatches": [],
+      "unexpected_files": []
+    },
+    {
+      "run": "learned_02_20260917T141654_945004Z",
+      "listed_files": 23,
+      "matched": 23,
+      "mismatches": [],
+      "unexpected_files": [],
+      "status": {
+        "status": "complete_for_configured_subset",
+        "completed_observations": 8,
+        "planned_observations": 8,
+        "updated_utc": "2026-09-17T14:18:37.945172+00:00"
+      }
+    },
+    {
+      "run": "pilot_01_20260917T115643_959108Z",
+      "listed_files": 14,
+      "matched": 14,
+      "mismatches": [],
+      "unexpected_files": []
+    }
+  ]
+}

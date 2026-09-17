@@ -1,0 +1,6 @@
+{
+  "status": "failed_before_first_cell",
+  "error": "Kernel died before replying to kernel_info",
+  "stderr": "Operation not permitted (src/ip_resolver.cpp:542)",
+  "fallback": "Sequential in-process IPython; Colab/GPU/Drive still require user execution."
+}

@@ -1,0 +1,8 @@
+{
+  "status": "complete_for_configured_subset",
+  "completed_observations": 4,
+  "planned_observations": 4,
+  "full_design_observations": 16,
+  "full_design_complete": false,
+  "updated_utc": "2026-09-17T15:31:33.150782+00:00"
+}

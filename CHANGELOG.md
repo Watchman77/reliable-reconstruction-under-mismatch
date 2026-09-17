@@ -1,5 +1,63 @@
 # Changelog
 
+## 0.25.2 — 2026-09-17
+
+- Reassembled all five uploaded Acquisition 03 transfer parts. The 431,278,719-byte archive exactly matches the SHA-256 recorded in the executed notebook; all 38 result files pass manifest checks and all 39 ZIP entries pass CRC.
+- Independently recomputed all 80 saved-output metric rows, including all 48 learned images and 32 controls, all 160 patch-error vectors and all 240 full-coverage tail rates. Patch errors match exactly; saved metrics agree within the existing numerical tolerance. All four original source images were rehashed.
+- Confirmed nine CSVs and four raw figures are byte-identical to the earlier notebook/table review. Inspected all four raw figures and a new fixed-inset montage across all four sources. Preserved raw metadata and a reproducible archive-review script.
+- Closed the current raw-verification gap. Kept earlier access failures and the locally validated transfer helper as historical records. Neural inference was not repeated; novelty, calibration, pretrained-data overlap and independent testing remain unresolved.
+
+## 0.25.1 — 2026-09-17
+
+- Reviewed the user's completed Acquisition 03 Colab notebook: ten unchanged code cells, counts 1–10, no saved errors/stderr, all 16 observations, 80 quality rows and 272 experiment denoiser calls. One final Markdown sentence changed; inherited local-validation metadata is explicitly historical.
+- Retrieved nine full-precision Drive CSVs and reconciled six rendered result tables. Rehashed all four source images, regenerated all 16 observation hashes and four codec hashes, and independently reproduced 32 input/classical quality rows. Inspected four embedded figures, with the reconstruction montage correctly limited to source 0801.
+- Confirmed the four-source stage effect: nominal DPIR's pooled gain over classical reconstruction remains about 0.494–0.499 dB through clipping/rounding, then becomes −0.412 dB at JPEG Q75. Its relative detail-MSE gap worsens on all four sources; the JPEG RGB ranking still favours nominal on source 0802. Preserved error-tail, true-blur and input-metric qualifications.
+- Recorded successful ZIP verification as notebook-reported evidence only. Raw manifest transfer returned HTTP 403; fresh readback of the 48 learned model images and all 38 export hashes remains pending. No neural inference, new solver, calibration, independent test, novelty claim or review-protocol change was made.
+
+## 0.25.0 — 2026-09-17
+
+- Added Notebook 03, a frozen paired diagnosis of linear float, clipping, 8-bit rounding and JPEG Q75 with all five Learned 02 quality comparators and unchanged reconstruction settings. Default scope is four sources × four stages, 16 observations and 272 experiment denoiser calls.
+- Executed the predeclared source-0801 CPU subset at full resolution: four observations, 20 quality rows and 68 experiment calls plus two small checks. Nominal PSNR changes +0.000705 dB through 8-bit rounding and -2.053549 dB when the JPEG codec is added; these are one-source, order-conditional observations.
+- Verified all four source identities and historical simulator/input/classical anchors before inference. Saved every compared reconstruction, raw stage observations, patch errors, codec bytes, costs, trajectories, metadata, figures and a verified one-run ZIP. Independent readback reconciles all 20 quality rows, saved patch errors, stage contrasts and 23 export hashes.
+- Preserved the failed native-kernel attempt and successful sequential IPython fallback. Presentation cells were replayed from saved exports to embed four PNGs; learned inference was not rerun. Full Colab/GPU/Drive execution remains pending. Topic, review protocol and screening decisions remain unchanged; no novel-method, calibration or independent-test claim is made.
+
+## 0.24.2 — 2026-09-17
+
+- Verified the user's results ZIP: all 23 files in the completed eight-observation Learned 02 run match manifest sizes and SHA-256 hashes. The six CSVs are byte-identical to the previously reviewed exports; all four raw figures were inspected.
+- Rehashed all four source images and independently recomputed errors from all eight stored nominal predictions, 24 quality rows and all 448 risk rows. Patch errors and inexpensive scores agree exactly; CSV differences are below 1.2e-16. Saved a reproducible readback script, audit, per-observation table, run metadata and a JPEG readback montage.
+- Kept the older incomplete Learned 02 run separate: status records 4/8 observations and its compute.csv does not match its manifest. Verified 11/11, 11/11 and 14/14 files in the three earlier pilot folders without claiming a new full scientific review of those runs.
+- Closed the completed-run raw-export verification gap while preserving the historical review/audit. Learned inference, unsaved oracle/denoising outputs and ensemble-spread construction were not independently rerun. Mixed reconstruction findings, novelty/calibration limits and the proposed JPEG-chain diagnosis remain unchanged.
+
+## 0.24.1 — 2026-09-17
+
+- Reviewed the user's completed Learned 02 Colab notebook: all 19 cell sources match the issued artifact; nine code cells have consecutive counts with no saved errors. CUDA/L4 evidence, eight observations, 40 quality rows, 448 risk rows and 392 experiment denoiser calls are recorded.
+- Retrieved six Drive CSVs, reproduced all three embedded tables, checked source identity and the classical anchor, and inspected four embedded figures. Recorded inherited local validation/timing metadata as historical rather than treating it as the new Colab run's status.
+- Preserved mixed scientific findings: nominal DPIR gains 0.494 dB over the classical comparator for linear blur/noise but loses 0.412 dB with the JPEG chain; its JPEG-chain detail MSE is 35.237% higher. Positive pooled operator-selection comparisons coexist with per-source losses, bad-detail-rate reversals and a stronger secondary RGB operator score in some JPEG comparisons.
+- Saved the dated review, six CSV exports, four embedded figures, derived comparisons and reproducible review script. Raw manifest download returned HTTP 403; full separate PNG/JSON/NPZ hash verification remains pending. No full-export verification, calibration, independent-test or novelty claim is made.
+- Recommended a bounded JPEG-chain failure diagnosis while retaining the classical baseline and frozen checkpoint. Original experiments, review protocol and screening decisions remain unchanged.
+
+## 0.24.0 — 2026-09-17
+
+- Added a self-contained learned-baseline notebook using verified official colour DRUNet weights in a declared DPIR-style adapter. Pinned upstream files and MIT licence, recorded observed checkpoint digest and training-overlap limits, and froze settings before examining learned outcomes.
+- Executed one full-resolution development observation (0801, linear blur/noise) with all comparison variants and 49 experiment denoiser calls. Nominal DPIR gains 0.627 dB over the inherited classical inverse; operator detail spread gives positive comparisons against the included fixed-operator transformation/residual/gradient controls. The two larger error tolerances are uninformative in this case. No independent-test, calibration or novelty claim follows.
+- Verified the dense HQS solution, official schedule, transformations, strict checkpoint load, source identity, original classical anchor, prediction/patch-error readback and all 16 exported file hashes. Inspected four figures. Recorded the separate replay of two presentation cells after final notebook readback lacked those displays; numerical inference was preserved.
+- Prepared the default four-source, two-condition Colab experiment. Its remaining seven observations and Colab/GPU behaviour are not claimed as executed. Preserved the prior notebooks, literature corpus and review protocol.
+
+## 0.23.1 — 2026-09-17
+
+- Reviewed the user's uploaded Baseline 01 Colab notebook: eleven consecutive execution counts, no saved error outputs, unchanged computational cells, passing numerical checks and a mounted Drive destination.
+- Reconciled all three embedded tables with the seven previously retrieved Drive CSVs and inspected all four embedded figures. Confirmed the positive gradient-baseline development results while retaining the negative ridge comparisons and novelty limits.
+- Documented the non-fatal pandas FutureWarning and stale metadata inherited from the local execution. Preserved the uploaded notebook and original local-run records; added a source-hashed review instead of rewriting execution history.
+- Closed the saved-notebook Colab inspection gap. Did not claim live runtime control or verification of all separately exported PNG/JSON bytes and hashes. Review protocol and screening decisions remain unchanged.
+
+## 0.23.0 — 2026-09-17
+
+- Added and executed Baseline 01 on the same four development sources: three blur widths, two noise levels, linear/JPEG-chain conditions, two classical regularisers and source-excluded strength selection. Preserved input, smoothing and oracle-blur controls.
+- Gradient regularisation improves pooled PSNR over input by 1.141 dB and 0.615 dB in the nominal-operator branch. Ridge remains weaker on average. The original fixed-ridge anchor reproduces Pilot 00's four pooled inverse PSNR values.
+- Saved full tables, four inspected figures and fourteen output hashes. Added patch selection with residual, image-gradient and fixed-amplitude noise-spread controls, plus a reference-defined texture diagnostic. Recorded positive development comparisons without novelty, significance, calibration or independent-test claims.
+- Preserved executed notebook outputs using a documented sequential IPython fallback after kernel socket operations were denied. Native Colab execution and Drive mounting remain unverified in this turn.
+- Recorded separate experimental and scoping-review decisions. Prior-review overlap, a dated scoping protocol amendment, formal searches and human screening remain outstanding; no review decisions or protocol wording were changed.
+
 ## 0.22.0 — 2026-09-17
 
 - Reviewed the user's saved four-source Colab execution: fifteen code cells report success, the numerical/data checks pass, and 24 reconstruction-metric rows are reported.

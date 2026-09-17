@@ -1,0 +1,56 @@
+{
+  "source_ids": [
+    "0801",
+    "0802",
+    "0803",
+    "0804"
+  ],
+  "seed": 20260917,
+  "crop_size": 512,
+  "context_border": 32,
+  "true_sigmas": [
+    1.2,
+    1.6,
+    2.0
+  ],
+  "noise_stds": [
+    0.00784313725490196,
+    0.0196078431372549
+  ],
+  "nominal_sigma": 1.0,
+  "lambdas": [
+    1e-05,
+    0.0001,
+    0.0005,
+    0.002,
+    0.01,
+    0.05,
+    0.2
+  ],
+  "families": [
+    "ridge",
+    "gradient"
+  ],
+  "scenarios": [
+    "blur_noise",
+    "blur_noise_jpeg"
+  ],
+  "jpeg_quality": 75,
+  "jpeg_subsampling": 0,
+  "smooth_sigma": 0.5,
+  "patch_size": 16,
+  "coverages": [
+    0.5,
+    0.75,
+    0.9,
+    1.0
+  ],
+  "operator_factors": [
+    0.8,
+    1.0,
+    1.2
+  ],
+  "noise_probe_std": 0.00784313725490196,
+  "role": "development_only",
+  "selection": "leave-one-development-source-out; one lambda per family and operator-information mode across all conditions"
+}

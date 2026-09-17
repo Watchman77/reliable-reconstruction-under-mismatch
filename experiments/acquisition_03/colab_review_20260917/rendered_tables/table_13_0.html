@@ -1,0 +1,258 @@
+
+  <div id="df-28a37a2a-fbcf-47e3-8e43-a850b05e91e6" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>source_id</th>
+      <th>stage_index</th>
+      <th>stage</th>
+      <th>nominal_minus_classical_detail_mse</th>
+      <th>nominal_minus_classical_psnr_db</th>
+      <th>change_in_detail_gap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0801</td>
+      <td>0</td>
+      <td>linear_float</td>
+      <td>-0.000018</td>
+      <td>0.627371</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0801</td>
+      <td>1</td>
+      <td>clipped_float</td>
+      <td>-0.000018</td>
+      <td>0.627335</td>
+      <td>0.000000e+00</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0801</td>
+      <td>2</td>
+      <td>quantized_8bit</td>
+      <td>-0.000018</td>
+      <td>0.636522</td>
+      <td>-3.300000e-07</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0801</td>
+      <td>3</td>
+      <td>jpeg_q75</td>
+      <td>0.000146</td>
+      <td>-1.106211</td>
+      <td>1.638400e-04</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0802</td>
+      <td>0</td>
+      <td>linear_float</td>
+      <td>-0.000016</td>
+      <td>0.389415</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>0802</td>
+      <td>1</td>
+      <td>clipped_float</td>
+      <td>-0.000016</td>
+      <td>0.388167</td>
+      <td>6.000000e-08</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>0802</td>
+      <td>2</td>
+      <td>quantized_8bit</td>
+      <td>-0.000016</td>
+      <td>0.395603</td>
+      <td>-3.500000e-07</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>0802</td>
+      <td>3</td>
+      <td>jpeg_q75</td>
+      <td>0.000012</td>
+      <td>0.121048</td>
+      <td>2.833000e-05</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>0803</td>
+      <td>0</td>
+      <td>linear_float</td>
+      <td>-0.000027</td>
+      <td>0.718673</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>0803</td>
+      <td>1</td>
+      <td>clipped_float</td>
+      <td>-0.000027</td>
+      <td>0.718372</td>
+      <td>1.000000e-08</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>0803</td>
+      <td>2</td>
+      <td>quantized_8bit</td>
+      <td>-0.000028</td>
+      <td>0.724599</td>
+      <td>-3.100000e-07</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>0803</td>
+      <td>3</td>
+      <td>jpeg_q75</td>
+      <td>0.000125</td>
+      <td>-0.548791</td>
+      <td>1.523000e-04</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>0804</td>
+      <td>0</td>
+      <td>linear_float</td>
+      <td>-0.000055</td>
+      <td>0.428997</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>0804</td>
+      <td>1</td>
+      <td>clipped_float</td>
+      <td>-0.000055</td>
+      <td>0.429002</td>
+      <td>-0.000000e+00</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>0804</td>
+      <td>2</td>
+      <td>quantized_8bit</td>
+      <td>-0.000056</td>
+      <td>0.431830</td>
+      <td>-4.300000e-07</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>0804</td>
+      <td>3</td>
+      <td>jpeg_q75</td>
+      <td>0.000251</td>
+      <td>-0.357667</td>
+      <td>3.072600e-04</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-28a37a2a-fbcf-47e3-8e43-a850b05e91e6')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-28a37a2a-fbcf-47e3-8e43-a850b05e91e6 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-28a37a2a-fbcf-47e3-8e43-a850b05e91e6');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    </div>
+  </div>
