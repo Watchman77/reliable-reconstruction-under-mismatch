@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.25.0 — 2026-09-17
+
+- Added Notebook 03, a frozen paired diagnosis of linear float, clipping, 8-bit rounding and JPEG Q75 with all five Learned 02 quality comparators and unchanged reconstruction settings. Default scope is four sources × four stages, 16 observations and 272 experiment denoiser calls.
+- Executed the predeclared source-0801 CPU subset at full resolution: four observations, 20 quality rows and 68 experiment calls plus two small checks. Nominal PSNR changes +0.000705 dB through 8-bit rounding and -2.053549 dB when the JPEG codec is added; these are one-source, order-conditional observations.
+- Verified all four source identities and historical simulator/input/classical anchors before inference. Saved every compared reconstruction, raw stage observations, patch errors, codec bytes, costs, trajectories, metadata, figures and a verified one-run ZIP. Independent readback reconciles all 20 quality rows, saved patch errors, stage contrasts and 23 export hashes.
+- Preserved the failed native-kernel attempt and successful sequential IPython fallback. Presentation cells were replayed from saved exports to embed four PNGs; learned inference was not rerun. Full Colab/GPU/Drive execution remains pending. Topic, review protocol and screening decisions remain unchanged; no novel-method, calibration or independent-test claim is made.
+
 ## 0.24.2 — 2026-09-17
 
 - Verified the user's results ZIP: all 23 files in the completed eight-observation Learned 02 run match manifest sizes and SHA-256 hashes. The six CSVs are byte-identical to the previously reviewed exports; all four raw figures were inspected.
