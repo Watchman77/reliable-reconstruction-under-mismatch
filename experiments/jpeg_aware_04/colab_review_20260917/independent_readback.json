@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "configured_sources": [
+    "0801",
+    "0802",
+    "0803",
+    "0804"
+  ],
+  "observations": 8,
+  "full_design_complete": true,
+  "manifest_files_verified_at_readback": 36,
+  "quality_rows_recomputed": 112,
+  "patch_error_vectors": 224,
+  "score_vectors_recomputed": 128,
+  "risk_rows_recomputed": 896,
+  "max_abs_quality_difference": 7.105427357601002e-15,
+  "max_abs_patch_difference": 0.0,
+  "max_abs_score_difference": 0.0,
+  "max_abs_risk_difference": 1.1102230246251565e-16,
+  "source_hashes_verified": 4,
+  "summary_and_contrasts_verified": true,
+  "compute_accounting_verified": true,
+  "decision_scope_verified": true,
+  "neural_inference_repeated": false
+}

@@ -1,0 +1,319 @@
+{
+  "notebook_sha256": "775d5c1c5bb09c802e43aab3c9747c18c0e0d6a0be6bb3ff4600a4345e27c676",
+  "issued_checkpoint": "4fe6e2600d0ee94a2a5f252908b1278c6e3a7919",
+  "issued_notebook_blob": "bb48dd15bcb71ab7b2e5bc9f1e801118eff9a5f9",
+  "original_attachment_library_id": "libfile_26518e4d92cc8191b872525dfdf90cb8",
+  "scope": "Extracted execution record, not a copy of original notebook",
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "machine_shape": "hm",
+      "gpuType": "L4"
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "provenance": {
+      "anchor_sha256": {
+        "acquisition.csv": "8597ab9115b0c93fa15e3435ff9d6960642f68f42d1d4274ac8af8bfe0fa7be4",
+        "quality.csv": "d841df2fb30d7a5b34d177f9e48efe795676f267c0ab782dd0978c7398d7ab00"
+      },
+      "design_freeze_sha256": "bbeda736bb0893aa7e9ddfa83678e0d00d3004ae02e50f7cf28f3444a90618f4",
+      "dpir": {
+        "digest_authority": "observed download; not a publisher-signed checksum",
+        "files": {
+          "LICENSE": "afd973a2b98d60d178342477feed2c5673640288b0663e83e33e0e63ece9634c",
+          "models/basicblock.py": "aab51f43fee655fda5c499a0481fffd45bf390bdb8229944262c41e0a900cec1",
+          "models/network_unet.py": "41c3cc38b2eac3b239aec6a723aefef6c138e5dd8ceb6cd9e18f825248261e91",
+          "utils/utils_pnp.py": "1ac53932f7c47c55b622b88453e2440281d338be988a289240573764dd5421a4"
+        },
+        "training_overlap": "Paper v2 reports 900 DIV2K training images; these four DIV2K sources are development only; exact checkpoint training image manifest unavailable.",
+        "upstream_commit": "15bca3fcc1f3cc51a1f99ccf027691e278c19354",
+        "upstream_repository": "cszn/DPIR",
+        "weight_bytes": 130579305,
+        "weight_sha256": "479abe3c5327dfd10ff54a80ec7d4098ca80752a5c9492cdff31cee430bec4b4",
+        "weight_url": "https://github.com/cszn/KAIR/releases/download/v1.0/drunet_color.pth"
+      },
+      "embedded_source_sha256": {
+        "archive": "3ee21e786a69e48518ae57d78115402748fb02f3cd3027aaed5f802bf0dc1c20",
+        "baseline": "ecc6317921f1b3ed43fee97944306bfb64a089ea43626b835fce76b65925ded3",
+        "diagnostic": "15b60df4d8f90dae43d4259e2ed16290f01366f0e2d629971c7545e11bcd9b41",
+        "jpeg_aware": "3e0cecf1d9d59cf68150f22dfbf1fb351f36f0feb6859ec286b9bdf4f0177d63",
+        "learned": "52694138eeb414d1b80ea9761a1ff4edd56594449d73d56448a0d4e1229a73f8",
+        "validator": "157fff0575c393070bbef5164524d7b41e0a0ae5a895300db872181da5a89fa4"
+      },
+      "experiment": "jpeg_aware_04",
+      "fbcnn": {
+        "adaptation": "AST removes verified-unused torchvision.models import only; full tensor, automatic quality, clip [0,1], no output uint8 rounding",
+        "architecture": "official colour test; in/out 3; nc 64,128,256,512; nb 4; act_mode R",
+        "codec_limit": "Paper reports MATLAB JPEG training; repository dataset/demo use OpenCV. Our frozen acquisition uses Pillow JPEG quality75/subsampling0; not a paper-benchmark reproduction.",
+        "digest_authority": "observed official-release download; not publisher-signed",
+        "files": {
+          "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "data/dataset_jpeg.py": "cb0f908f0f243552fcbdfe8eb81332f67c7caf217701c8f713959ac936665de1",
+          "main_test_fbcnn_color.py": "0367416fb68c9ab2c6f2f130d2a6620048e2440a800c803a07bbda8a9ecc1a64",
+          "models/network_fbcnn.py": "e1afc1f6483d57b774365467393216508f29a708b576dc973bad41bae67e8d03",
+          "options/train_fbcnn_color.json": "94f69fd16a4acd3183a8a8ced2ee2d2cfa142319c66dde723fc70c7e9a89d585"
+        },
+        "license": "Apache-2.0",
+        "quality_normalization": "q=(100-quality)/100, verified in official dataset_jpeg.py; report 100*(1-q).",
+        "training_overlap": "Paper reports DIV2K and Flickr2K; exact released-checkpoint image manifest unavailable. These four sources are exposed development data.",
+        "upstream_commit": "54d1831927506b3247e2d4d245abb4f4dab1a1cd",
+        "upstream_repository": "jiaxi-jiang/FBCNN",
+        "weight_bytes": 287755111,
+        "weight_sha256": "8b0e4ef23d59cf7ac934a342cb31a17619e4fa4a0b3374a9d78c5174312387e8",
+        "weight_url": "https://github.com/jiaxi-jiang/FBCNN/releases/download/v1.0/fbcnn_color.pth"
+      },
+      "parent_checkpoint": "0021f09ddc2da06cf54a8835ba5eaffd7352cc79",
+      "source_paths": {
+        "archive": "experiments/jpeg_aware_04/archive_io.py",
+        "baseline": "experiments/baseline_01/baseline.py",
+        "diagnostic": "experiments/acquisition_03/diagnostic.py",
+        "jpeg_aware": "experiments/jpeg_aware_04/jpeg_aware.py",
+        "learned": "experiments/learned_02/learned.py",
+        "validator": "scripts/validate_jpeg_aware_04.py"
+      }
+    },
+    "validation": {
+      "local_validation": {
+        "all_code_cells_compile": true,
+        "code_cells": 11,
+        "colab_gpu_drive_validated": false,
+        "default_four_source_setup_executed": true,
+        "embedded_numeric_helpers_identical": true,
+        "embedded_png_outputs": 4,
+        "final_artifact_outputs": "clean; local outputs preserved separately",
+        "full_four_source_inference": false,
+        "local_executed_cells": 11,
+        "local_execution_mode": "sequential in-process IPython; no Jupyter kernel",
+        "local_execution_scope": "Source 0801; quantized_8bit and jpeg_q75; full 576x576 context/512x512 evaluation; unchanged 8 iterations; CPU only.",
+        "local_saved_error_outputs": 0,
+        "nbformat_valid": true,
+        "post_local_changes": [
+          "CUDA workspace environment variable before Torch import",
+          "corrected inherited descriptive model_information metadata; no inference setting changed"
+        ],
+        "status": "passed",
+        "unchanged_cells_2_through_11": true
+      },
+      "planned_default_scope": "0801\u20130804; both stages; 8 observations",
+      "status": "prepared_for_colab"
+    },
+    "accelerator": "GPU"
+  },
+  "cells": [
+    {
+      "index": 0,
+      "cell_type": "markdown",
+      "source_sha256": "ab483ad4ba72a7c40dd00fb888893ebea238884fe8a2228abcf067e635d86911",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 1,
+      "cell_type": "code",
+      "source_sha256": "c33f868b55566d369ebb202ebbbd8028996da88e83617741f0aa360166b68389",
+      "execution_count": 1,
+      "text_outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "Embedded sources, design and anchors verified.\n"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "cell_type": "markdown",
+      "source_sha256": "188e0123662de54d3c8c58d160f3d8397f2f5f3068befabeee1e196ce6852798",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 3,
+      "cell_type": "code",
+      "source_sha256": "d6607e64301e99a13823f6d8d8394628b44c5cd5cc090d35f5d0f6b174b943b7",
+      "execution_count": 3,
+      "text_outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "Mounted at /content/drive\nACTUAL SOURCES: ['0801', '0802', '0803', '0804']\nACTUAL STAGES: ['quantized_8bit', 'jpeg_q75']\nObservations: 8 / full design: 8\nExperiment calls: 640 DRUNet + 24 FBCNN; plus 2 and 3 small checks\nDevice: CUDA GPU\nDestination: /content/drive/MyDrive/reliable-reconstruction-under-mismatch/results/jpeg_aware_04_20260917T201107_721467Z\n"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "cell_type": "markdown",
+      "source_sha256": "b5446d7a0f73b3566078dd7e2a8065374439de007f9ff8d9855a8569e41b48ac",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 5,
+      "cell_type": "code",
+      "source_sha256": "40d2cea565e1cc256f6f63703467d03f64aa0b3784fc8a6d49d1752450400da8",
+      "execution_count": 4,
+      "text_outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "Design SHA-256: bbeda736bb0893aa7e9ddfa83678e0d00d3004ae02e50f7cf28f3444a90618f4\nFBCNN weight SHA-256: 8b0e4ef23d59cf7ac934a342cb31a17619e4fa4a0b3374a9d78c5174312387e8\nA score ensemble uses 24 DRUNet calls. FBCNN operator spread adds 1 FBCNN pass; whole-pipeline rotations add 3.\n"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "cell_type": "markdown",
+      "source_sha256": "a2b047e8f26c99c612f9cb9c7298f893ad29a920d31f6b339bbadb314fe50f5e",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 7,
+      "cell_type": "code",
+      "source_sha256": "1fec04d48b99c8cd1e1b2f22a58a0315b1d47bee50d6d124094253379564aa84",
+      "execution_count": 5,
+      "text_outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "Loaded verified DRUNet: 32,640,960 parameters; device=cuda\nLoaded verified FBCNN: 71,921,796 parameters; device=cuda\n0801 | quantized_8bit | 1/8\n  FBCNN rotation 0: 0.25s\n  FBCNN rotation 90: 0.18s\n  FBCNN rotation 180: 0.18s\n  dpir_nominal: 1.37s\n  dpir_nominal_sigma08: 1.06s\n  dpir_nominal_sigma12: 1.06s\n  dpir_nominal_rot90: 1.06s\n  dpir_nominal_rot180: 1.07s\n  fbcnn_dpir: 1.07s\n  fbcnn_dpir_sigma08: 1.07s\n  fbcnn_dpir_sigma12: 1.07s\n  fbcnn_dpir_rot90: 1.07s\n  fbcnn_dpir_rot180: 1.07s\n0801 | jpeg_q75 | 2/8\n  FBCNN rotation 0: 0.18s\n  FBCNN rotation 90: 0.18s\n  FBCNN rotation 180: 0.18s\n  dpir_nominal: 1.07s\n  dpir_nominal_sigma08: 1.08s\n  dpir_nominal_sigma12: 1.07s\n  dpir_nominal_rot90: 1.07s\n  dpir_nominal_rot180: 1.08s\n  fbcnn_dpir: 1.08s\n  fbcnn_dpir_sigma08: 1.08s\n  fbcnn_dpir_sigma12: 1.08s\n  fbcnn_dpir_rot90: 1.08s\n  fbcnn_dpir_rot180: 1.08s\n0802 | quantized_8bit | 3/8\n  FBCNN rotation 0: 0.18s\n  FBCNN rotation 90: 0.18s\n  FBCNN rotation 180: 0.18s\n  dpir_nominal: 1.08s\n  dpir_nominal_sigma08: 1.08s\n  dpir_nominal_sigma12: 1.07s\n  dpir_nominal_rot90: 1.08s\n  dpir_nominal_rot180: 1.08s\n  fbcnn_dpir: 1.08s\n  fbcnn_dpir_sigma08: 1.08s\n  fbcnn_dpir_sigma12: 1.08s\n  fbcnn_dpir_rot90: 1.09s\n  fbcnn_dpir_rot180: 1.08s\n0802 | jpeg_q75 | 4/8\n  FBCNN rotation 0: 0.18s\n  FBCNN rotation 90: 0.19s\n  FBCNN rotation 180: 0.19s\n  dpir_nominal: 1.08s\n  dpir_nominal_sigma08: 1.08s\n  dpir_nominal_sigma12: 1.09s\n  dpir_nominal_rot90: 1.09s\n  dpir_nominal_rot180: 1.09s\n  fbcnn_dpir: 1.09s\n  fbcnn_dpir_sigma08: 1.09s\n  fbcnn_dpir_sigma12: 1.09s\n  fbcnn_dpir_rot90: 1.09s\n  fbcnn_dpir_rot180: 1.09s\n0803 | quantized_8bit | 5/8\n  FBCNN rotation 0: 0.18s\n  FBCNN rotation 90: 0.19s\n  FBCNN rotation 180: 0.19s\n  dpir_nominal: 1.09s\n  dpir_nominal_sigma08: 1.09s\n  dpir_nominal_sigma12: 1.09s\n  dpir_nominal_rot90: 1.10s\n  dpir_nominal_rot180: 1.10s\n  fbcnn_dpir: 1.09s\n  fbcnn_dpir_sigma08: 1.10s\n  fbcnn_dpir_sigma12: 1.10s\n  fbcnn_dpir_rot90: 1.11s\n  fbcnn_dpir_rot180: 1.10s\n0803 | jpeg_q75 | 6/8\n  FBCNN rotation 0: 0.18s\n  FBCNN rotation 90: 0.19s\n  FBCNN rotation 180: 0.19s\n  dpir_nominal: 1.10s\n  dpir_nominal_sigma08: 1.10s\n  dpir_nominal_sigma12: 1.11s\n  dpir_nominal_rot90: 1.10s\n  dpir_nominal_rot180: 1.11s\n  fbcnn_dpir: 1.11s\n  fbcnn_dpir_sigma08: 1.10s\n  fbcnn_dpir_sigma12: 1.11s\n  fbcnn_dpir_rot90: 1.11s\n  fbcnn_dpir_rot180: 1.11s\n0804 | quantized_8bit | 7/8\n  FBCNN rotation 0: 0.19s\n  FBCNN rotation 90: 0.19s\n  FBCNN rotation 180: 0.19s\n  dpir_nominal: 1.10s\n  dpir_nominal_sigma08: 1.11s\n  dpir_nominal_sigma12: 1.11s\n  dpir_nominal_rot90: 1.11s\n  dpir_nominal_rot180: 1.11s\n  fbcnn_dpir: 1.11s\n  fbcnn_dpir_sigma08: 1.11s\n  fbcnn_dpir_sigma12: 1.11s\n  fbcnn_dpir_rot90: 1.11s\n  fbcnn_dpir_rot180: 1.11s\n0804 | jpeg_q75 | 8/8\n  FBCNN rotation 0: 0.19s\n  FBCNN rotation 90: 0.19s\n  FBCNN rotation 180: 0.19s\n  dpir_nominal: 1.10s\n  dpir_nominal_sigma08: 1.11s\n  dpir_nominal_sigma12: 1.11s\n  dpir_nominal_rot90: 1.11s\n  dpir_nominal_rot180: 1.11s\n  fbcnn_dpir: 1.11s\n  fbcnn_dpir_sigma08: 1.11s\n  fbcnn_dpir_sigma12: 1.11s\n  fbcnn_dpir_rot90: 1.11s\n  fbcnn_dpir_rot180: 1.11s\n{\n  \"source_identities_verified\": 4,\n  \"observation_hashes_verified\": 8,\n  \"input_classical_anchor_rows\": 16,\n  \"input_classical_anchor_max_abs_mse_difference\": 9.020562075079397e-17,\n  \"dense_hqs_max_abs_error\": 6.217248937900877e-15,\n  \"transform_inverse_checks\": true,\n  \"isotropic_operator_rotation_equivariance\": true,\n  \"official_schedule_matches\": true,\n  \"strict_weight_load\": true,\n  \"learned_smoke_finite\": true,\n  \"repeat_smoke_identical\": true,\n  \"drunet_small_validation_calls\": 2,\n  \"fbcnn_strict_load\": true,\n  \"fbcnn_repeat_identical\": true,\n  \"fbcnn_odd_size_padding\": true,\n  \"automatic_vs_own_predicted_quality_max_abs_error\": 0.0,\n  \"fbcnn_small_validation_calls\": 3,\n  \"fbcnn_parameters\": 71921796,\n  \"quality_rows\": 112,\n  \"main_quality_rows\": 48,\n  \"risk_rows\": 896,\n  \"drunet_experiment_calls\": 640,\n  \"fbcnn_experiment_calls\": 24,\n  \"source_files_unchanged\": true\n}\n"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "cell_type": "markdown",
+      "source_sha256": "cabe0d5e8602ad354943fb78ff347e143da233a93b1a419347e0614dc7a671e3",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 9,
+      "cell_type": "code",
+      "source_sha256": "bab2e7102b35b71663d83d742af75e7c7014383ed456a799af5bd3bbd808d428",
+      "execution_count": 6,
+      "text_outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "{\n  \"status\": \"passed\",\n  \"configured_sources\": [\n    \"0801\",\n    \"0802\",\n    \"0803\",\n    \"0804\"\n  ],\n  \"observations\": 8,\n  \"full_design_complete\": true,\n  \"manifest_files_verified_at_readback\": 36,\n  \"quality_rows_recomputed\": 112,\n  \"patch_error_vectors\": 224,\n  \"score_vectors_recomputed\": 128,\n  \"risk_rows_recomputed\": 896,\n  \"max_abs_quality_difference\": 7.105427357601002e-15,\n  \"max_abs_patch_difference\": 0.0,\n  \"max_abs_score_difference\": 0.0,\n  \"max_abs_risk_difference\": 1.1102230246251565e-16,\n  \"source_hashes_verified\": 4,\n  \"summary_and_contrasts_verified\": true,\n  \"compute_accounting_verified\": true,\n  \"decision_scope_verified\": true,\n  \"neural_inference_repeated\": false\n}\n"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "cell_type": "markdown",
+      "source_sha256": "5e2cb055bc1998c48e357219f23f3a4b40a1823dc7ca76f4e3f3af375c243b3d",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 11,
+      "cell_type": "code",
+      "source_sha256": "ecad80aabe360a063f965808ae4f4af3ad2f8788151b90aeafd310e12291d666",
+      "execution_count": 7,
+      "text_outputs": []
+    },
+    {
+      "index": 12,
+      "cell_type": "markdown",
+      "source_sha256": "e856d9c8c2017eaf51c0cd73dab3ae4d46bb2a8e39ff01ba30bade73050c2dd9",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 13,
+      "cell_type": "code",
+      "source_sha256": "f51e768e0ed5f8ee2bc1e6206bb68167b490b8a128aa8f935bdf421c3d01a629",
+      "execution_count": 8,
+      "text_outputs": []
+    },
+    {
+      "index": 14,
+      "cell_type": "markdown",
+      "source_sha256": "4eae78894189cc9a6015f02c421ece29376fe5d4b2002ccbff726b01d53ed59d",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 15,
+      "cell_type": "code",
+      "source_sha256": "051e6dcd0371cb02954dbe08e4be7480cf8513f20c68ee310be638f256a06dc9",
+      "execution_count": 9,
+      "text_outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "All regions, coverages, source comparisons and tail rates are saved in the CSVs.\n"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "cell_type": "markdown",
+      "source_sha256": "60d224d165e94659a9e0807ee9f4ff072029dcda3255d58375120fb9f69eb077",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 17,
+      "cell_type": "code",
+      "source_sha256": "af600c57679443c361f24d88be80f0fd0477257cd61c08c0a44b231d278dce36",
+      "execution_count": 10,
+      "text_outputs": []
+    },
+    {
+      "index": 18,
+      "cell_type": "markdown",
+      "source_sha256": "59da9f80625ea424a5202de04197ad4118edc7eeb0fd9c00adc7a6918d2b0494",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 19,
+      "cell_type": "code",
+      "source_sha256": "43b7e7c5478f30aa3551f41d0ff515371ecb68ec1ba85ff9e426cc4490573ecf",
+      "execution_count": 11,
+      "text_outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "{\n  \"scope\": \"descriptive_development_screen_only\",\n  \"full_design_assessed\": true,\n  \"status\": \"assessed_development_only\",\n  \"jpeg_detail_mse_deltas_vs_inverse_controls\": {\n    \"dpir_nominal\": -0.0001630721588287765,\n    \"fbcnn_gradient\": -1.5554392605677813e-05,\n    \"gradient_nominal\": -2.9497234886622602e-05\n  },\n  \"reconstruction_source_wins_vs_raw_dpir\": 4,\n  \"selection_best_pooled_operational_control\": \"image_transform_spread_detail\",\n  \"selection_source_wins\": 4,\n  \"reconstruction_screen_pass\": true,\n  \"selection_screen_pass\": true,\n  \"independent_test\": false,\n  \"calibrated_reliability\": false,\n  \"novelty_established\": false,\n  \"stronger_trained_image_only_uncertainty_comparator_run\": false\n}\nExecuted sources: ['0801', '0802', '0803', '0804']\nReview all results, including failures, before proposing another method or tuning settings.\n"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "cell_type": "markdown",
+      "source_sha256": "03e3dbf1b274a69fa596f55b173a8bd6e6282bfbcf85b4e791cffafc3fbce452",
+      "execution_count": null,
+      "text_outputs": []
+    },
+    {
+      "index": 21,
+      "cell_type": "code",
+      "source_sha256": "b6c8f088ebf2f088d24d35452737247149a3804f67e45cab9525aacea393ace0",
+      "execution_count": 12,
+      "text_outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "UPLOAD SUMMARY: /content/drive/MyDrive/reliable-reconstruction-under-mismatch/results/jpeg_aware_04_20260917T201107_721467Z_SUMMARY.zip\nUPLOAD ALL THESE RAW PARTS:\n/content/drive/MyDrive/reliable-reconstruction-under-mismatch/results/jpeg_aware_04_20260917T201107_721467Z_RAW_upload_parts/jpeg_aware_04_20260917T201107_721467Z_RAW_part_001_of_006.zip\n/content/drive/MyDrive/reliable-reconstruction-under-mismatch/results/jpeg_aware_04_20260917T201107_721467Z_RAW_upload_parts/jpeg_aware_04_20260917T201107_721467Z_RAW_part_002_of_006.zip\n/content/drive/MyDrive/reliable-reconstruction-under-mismatch/results/jpeg_aware_04_20260917T201107_721467Z_RAW_upload_parts/jpeg_aware_04_20260917T201107_721467Z_RAW_part_003_of_006.zip\n/content/drive/MyDrive/reliable-reconstruction-under-mismatch/results/jpeg_aware_04_20260917T201107_721467Z_RAW_upload_parts/jpeg_aware_04_20260917T201107_721467Z_RAW_part_004_of_006.zip\n/content/drive/MyDrive/reliable-reconstruction-under-mismatch/results/jpeg_aware_04_20260917T201107_721467Z_RAW_upload_parts/jpeg_aware_04_20260917T201107_721467Z_RAW_part_005_of_006.zip\n/content/drive/MyDrive/reliable-reconstruction-under-mismatch/results/jpeg_aware_04_20260917T201107_721467Z_RAW_upload_parts/jpeg_aware_04_20260917T201107_721467Z_RAW_part_006_of_006.zip\nVerified parts: 6\nFull raw ZIP bytes: 512634668\nFull raw ZIP SHA-256: 7d5f10a4b31364f202f73a254ed764f60342024dec8b90d2d03d09912d455f8a\nFull four-source design complete: True\n"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "cell_type": "markdown",
+      "source_sha256": "3d9c80a0bb2397f930705f6bf2c70b85d4d00fbe22452acb060cf14e0a0f32a2",
+      "execution_count": null,
+      "text_outputs": []
+    }
+  ]
+}

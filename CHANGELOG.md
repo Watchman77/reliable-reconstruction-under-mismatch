@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.26.1 — 2026-09-17
+
+- Reviewed Notebook 04's completed four-source Colab execution with unchanged source cells, no saved errors/stderr and execution counts 1, 3–12; the missing count's cause remains unknown. Inherited local-validation metadata is identified as historical.
+- Retrieved all 14 CSVs, seven JSONs and the export manifest. Verified 25 of 37 listed file hashes, including all four inspected embedded figures. Reconciled seven result tables, source identities, eight regenerated observation hashes, four regenerated codec hashes, 16 input/classical metric rows, summaries, contrasts and compute.
+- Independently recomputed both frozen descriptive screens from CSVs. JPEG FBCNN + DPIR gains 0.890 dB over raw DPIR and lowers detail MSE by 31.810%; without JPEG it loses 0.084 dB. Primary operator selection lowers detail error by 10.920% versus rotation spread with four source wins. Retained limitations include stronger baseline/uncertainty controls, shared model mismatch, training overlap and uninformative zero tail rates.
+- Saved a reproducible audit and review. Raw transfer returned HTTP 403; the original eight NPZs, four JPEG files and complete ZIP/parts remain unverified in this review. Notebook-reported saved-array checks are explicitly distinguished. No neural inference, new experiment, novelty claim, formal screening or protocol change was made.
+
 ## 0.26.0 — 2026-09-17
 
 - Added Notebook 04 with frozen FBCNN-only, FBCNN + classical and FBCNN + DPIR comparisons against the inherited input/classical/DPIR controls, on paired uncompressed 8-bit and JPEG observations. Pinned official sources/weights, preserved licences and documented automatic quality, codec/training overlap and the declared adapter.

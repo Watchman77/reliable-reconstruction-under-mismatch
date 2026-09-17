@@ -1,0 +1,222 @@
+
+  <div id="df-6c7d5575-adc1-4eb6-94b3-4390dbc0084e" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>stage</th>
+      <th>model</th>
+      <th>mean_mse</th>
+      <th>mean_detail_mse</th>
+      <th>sources</th>
+      <th>pooled_psnr_db</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>jpeg_q75</td>
+      <td>dpir_nominal</td>
+      <td>0.000987</td>
+      <td>0.000513</td>
+      <td>4</td>
+      <td>30.057391</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>jpeg_q75</td>
+      <td>fbcnn</td>
+      <td>0.001052</td>
+      <td>0.000386</td>
+      <td>4</td>
+      <td>29.781192</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>jpeg_q75</td>
+      <td>fbcnn_dpir</td>
+      <td>0.000804</td>
+      <td>0.000350</td>
+      <td>4</td>
+      <td>30.947555</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>jpeg_q75</td>
+      <td>fbcnn_gradient</td>
+      <td>0.000863</td>
+      <td>0.000365</td>
+      <td>4</td>
+      <td>30.638944</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>jpeg_q75</td>
+      <td>gradient_nominal</td>
+      <td>0.000898</td>
+      <td>0.000379</td>
+      <td>4</td>
+      <td>30.469349</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>jpeg_q75</td>
+      <td>observed</td>
+      <td>0.001077</td>
+      <td>0.000402</td>
+      <td>4</td>
+      <td>29.677595</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>quantized_8bit</td>
+      <td>dpir_nominal</td>
+      <td>0.000739</td>
+      <td>0.000337</td>
+      <td>4</td>
+      <td>31.315850</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>quantized_8bit</td>
+      <td>fbcnn</td>
+      <td>0.001021</td>
+      <td>0.000386</td>
+      <td>4</td>
+      <td>29.910081</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>quantized_8bit</td>
+      <td>fbcnn_dpir</td>
+      <td>0.000753</td>
+      <td>0.000340</td>
+      <td>4</td>
+      <td>31.231396</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>quantized_8bit</td>
+      <td>fbcnn_gradient</td>
+      <td>0.000818</td>
+      <td>0.000359</td>
+      <td>4</td>
+      <td>30.872558</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>quantized_8bit</td>
+      <td>gradient_nominal</td>
+      <td>0.000828</td>
+      <td>0.000367</td>
+      <td>4</td>
+      <td>30.817274</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>quantized_8bit</td>
+      <td>observed</td>
+      <td>0.001062</td>
+      <td>0.000424</td>
+      <td>4</td>
+      <td>29.738777</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-6c7d5575-adc1-4eb6-94b3-4390dbc0084e')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-6c7d5575-adc1-4eb6-94b3-4390dbc0084e button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-6c7d5575-adc1-4eb6-94b3-4390dbc0084e');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    </div>
+  </div>

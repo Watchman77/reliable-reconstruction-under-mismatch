@@ -4,9 +4,15 @@ Notebook: [`04_DIV2K_JPEG_Aware_Baseline.ipynb`](../../notebooks/04_DIV2K_JPEG_A
 
 Acquisition 03's verified four-source run showed the nominal DPIR/classical gap worsening at JPEG processing. This experiment compares established blind FBCNN preprocessing while preserving the historical simulator, inverse settings and exposed development sources. The [frozen design](design_freeze.md) specifies comparisons and descriptive decision rules before inspecting new outcomes. The [comparator audit](comparator_audit.md) documents official source/weight identities, training and codec limits, and the declared adapter.
 
-## Local validation checkpoint
+## Four-source Colab checkpoint
 
-The [predeclared one-source CPU run](local_execution_review_2026-09-17.md) completed both conditions. Independent saved-array readback reproduced all 28 quality rows, 56 patch-error vectors, 32 score vectors and 224 risk rows; all four figures were inspected. On source 0801, FBCNN + DPIR gains 1.528 dB over raw DPIR with JPEG and reduces detail MSE by 52.563%, but loses 0.170 dB without JPEG. Operator detail spread beats the included operational controls in the primary one-source comparison. Both full four-source screens remain unassessed. The released notebook is clean, defaults to all four sources and has no inherited outputs; the exact local execution is preserved separately. GPU, Drive and full four-source inference remain pending.
+The [completed Colab run is now reviewed](colab_execution_review_2026-09-17.md). Both predeclared descriptive screens pass when independently recomputed from retrieved CSVs. FBCNN + DPIR gains 0.890 dB and lowers detail MSE by 31.810% over raw DPIR with JPEG, but loses 0.084 dB without JPEG. At primary 50% retention, operator detail spread lowers detail error by 10.920% versus the strongest included simple control, with four source wins. These remain exposed development results.
+
+Fourteen CSVs, seven JSONs and four inspected notebook figures match 25 of the 37 export-manifest entries. All eight observation hashes and 16 input/classical rows reproduce independently. A raw-part transfer returned HTTP 403; original prediction arrays and the complete archive remain unverified here. Upload all six existing numbered ZIP parts from the folder linked in the review; no rerun or additional SUMMARY upload is needed. The saved notebook's own array-readback report remains separately attributed.
+
+## Local validation checkpoint (historical preparation)
+
+The [predeclared one-source CPU run](local_execution_review_2026-09-17.md) completed both conditions. Independent saved-array readback reproduced all 28 quality rows, 56 patch-error vectors, 32 score vectors and 224 risk rows; all four figures were inspected. On source 0801, FBCNN + DPIR gains 1.528 dB over raw DPIR with JPEG and reduces detail MSE by 52.563%, but loses 0.170 dB without JPEG. Operator detail spread beats the included operational controls in the primary one-source comparison. Both full four-source screens remain unassessed. The released notebook is clean, defaults to all four sources and has no inherited outputs; the exact local execution is preserved separately. At that preparation checkpoint, GPU, Drive and full four-source inference remained pending; the subsequent Colab review above supersedes that status.
 
 ## Design
 

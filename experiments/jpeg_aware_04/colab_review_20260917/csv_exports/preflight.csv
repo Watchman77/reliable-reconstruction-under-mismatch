@@ -1,0 +1,17 @@
+source_id,stage,model,max_abs_mse_difference
+0801,quantized_8bit,observed,8.868773770931426e-17
+0801,quantized_8bit,gradient_nominal,8.348356728138384e-17
+0801,jpeg_q75,observed,6.537739100087592e-17
+0801,jpeg_q75,gradient_nominal,9.020562075079397e-17
+0802,quantized_8bit,observed,6.852157730108388e-17
+0802,quantized_8bit,gradient_nominal,6.139294801699169e-17
+0802,jpeg_q75,observed,7.882149793969617e-17
+0802,jpeg_q75,gradient_nominal,6.646159317336142e-17
+0803,quantized_8bit,observed,4.3259666682171627e-17
+0803,quantized_8bit,gradient_nominal,8.326672684688674e-17
+0803,jpeg_q75,observed,1.6994869053710282e-17
+0803,jpeg_q75,gradient_nominal,7.686993402922226e-17
+0804,quantized_8bit,observed,6.461844948013606e-17
+0804,quantized_8bit,gradient_nominal,2.211772431870429e-17
+0804,jpeg_q75,observed,7.892991815694472e-17
+0804,jpeg_q75,gradient_nominal,6.635317295611287e-17

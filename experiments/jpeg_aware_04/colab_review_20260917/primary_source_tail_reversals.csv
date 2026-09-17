@@ -1,0 +1,1 @@
+source_id,stage,pipeline,region,coverage,control,delta_rgb_mse,delta_detail_mse,delta_bad_detail_rate_0.025,delta_bad_detail_rate_0.05,delta_bad_detail_rate_0.1

@@ -1,0 +1,118 @@
+{
+  "status": "passed_for_notebook_and_readable_export_scope",
+  "notebook_sha256": "775d5c1c5bb09c802e43aab3c9747c18c0e0d6a0be6bb3ff4600a4345e27c676",
+  "notebook_bytes": 2691423,
+  "all_23_cell_sources_unchanged": true,
+  "code_cells": 11,
+  "execution_counts": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "consecutive_execution_counts": false,
+  "execution_count_gap_cause": "unknown",
+  "saved_errors": 0,
+  "saved_stderr": 0,
+  "inherited_validation_metadata_is_historical": true,
+  "reported_checks_readback_decision_match_export_json": true,
+  "design_freeze_hash_matches": true,
+  "manifest_entries": 37,
+  "verified_export_files": 25,
+  "verified_export_names": [
+    "acquisition.csv",
+    "checks.json",
+    "compute.csv",
+    "config.json",
+    "decisions.json",
+    "endpoint_comparison.csv",
+    "environment.json",
+    "examples.png",
+    "fbcnn_diagnostics.csv",
+    "independent_readback.json",
+    "preflight.csv",
+    "provenance.json",
+    "quality.csv",
+    "quality.png",
+    "quality_changes.csv",
+    "risk.csv",
+    "risk_coverage.png",
+    "risk_summary.csv",
+    "score_costs.csv",
+    "selection_comparisons.csv",
+    "source_changes.png",
+    "source_manifest.csv",
+    "status.json",
+    "summary.csv",
+    "trajectories.csv"
+  ],
+  "original_learned_prediction_files_retrieved": 0,
+  "full_export_hash_verification": false,
+  "zip_or_parts_bytes_verified": false,
+  "original_codec_files_retrieved": 0,
+  "regenerated_codec_hashes_matching_manifest": 4,
+  "raw_download_attempt": {
+    "part": "006_of_006",
+    "http_status": 403
+  },
+  "csv_row_counts": {
+    "quality": 112,
+    "risk": 896,
+    "source_manifest": 4,
+    "acquisition": 8,
+    "summary": 12,
+    "risk_summary": 224,
+    "quality_changes": 40,
+    "selection_comparisons": 512,
+    "compute": 120,
+    "score_costs": 32,
+    "trajectories": 640,
+    "preflight": 16,
+    "fbcnn_diagnostics": 24,
+    "endpoint_comparison": 24
+  },
+  "embedded_figures_matching_export_hashes": 4,
+  "html_tables_preserved": 8,
+  "result_tables_reconciled": 7,
+  "source_files_and_official_rgb_hashes_verified": [
+    "0801",
+    "0802",
+    "0803",
+    "0804"
+  ],
+  "regenerated_observation_hashes": 8,
+  "independently_recomputed_input_classical_quality_rows": 16,
+  "cheap_quality_max_abs_mse_difference": 1.3010426069826053e-18,
+  "primary_screens_recomputed_from_csv": {
+    "reconstruction": true,
+    "selection": true
+  },
+  "stage_comparisons": {
+    "jpeg_q75": {
+      "pooled_psnr_gain_vs_raw_dpir": 0.8901640611702888,
+      "detail_mse_percent_change_vs_raw_dpir": -31.809679927689814
+    },
+    "quantized_8bit": {
+      "pooled_psnr_gain_vs_raw_dpir": -0.08445403066286872,
+      "detail_mse_percent_change_vs_raw_dpir": 0.8627932649557968
+    }
+  },
+  "primary_selection_relative_detail_mse_change_percent": -10.92017392762006,
+  "primary_per_source_tail_reversal_rows": 0,
+  "recorded_component_seconds": 93.1873421930004,
+  "experiment_drunet_calls": 640,
+  "experiment_fbcnn_calls": 24,
+  "small_validation_calls": {
+    "drunet": 2,
+    "fbcnn": 3
+  },
+  "neural_inference_rerun": false,
+  "independent_learned_array_readback": false
+}
