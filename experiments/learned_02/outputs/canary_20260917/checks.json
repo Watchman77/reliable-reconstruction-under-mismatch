@@ -1,0 +1,15 @@
+{
+  "dense_hqs_max_abs_error": 6.217248937900877e-15,
+  "transform_inverse_checks": true,
+  "isotropic_operator_rotation_equivariance": true,
+  "official_schedule_matches": true,
+  "strict_weight_load": true,
+  "learned_smoke_finite": true,
+  "repeat_smoke_identical": true,
+  "source_count": 1,
+  "observation_count": 1,
+  "quality_rows": 5,
+  "risk_rows": 56,
+  "denoiser_calls": 49,
+  "input_files_unchanged": true
+}

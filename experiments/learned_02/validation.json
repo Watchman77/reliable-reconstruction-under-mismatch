@@ -1,0 +1,35 @@
+{
+  "audited_utc": "2026-09-17T12:44:40.793199+00:00",
+  "status": "passed",
+  "scope": "0801, linear anchor only; eight-observation Colab experiment pending",
+  "notebook_sha256": "2c74113c3dd06d36dd467af971e45dedbbe2b5c963d3325d861fde2ad7c85820",
+  "notebook_code_cells": 9,
+  "embedded_figures": 4,
+  "presentation_cells_replayed": [
+    8,
+    9
+  ],
+  "error_outputs": 0,
+  "adapter_functions_identical": true,
+  "upstream_files_and_license_verified": true,
+  "exported_files_verified": 16,
+  "manifest_covers_all_outputs": true,
+  "quality_rows": 5,
+  "risk_rows": 56,
+  "trajectory_rows": 48,
+  "experiment_denoiser_calls": 49,
+  "learned_validation_calls": 2,
+  "dense_hqs_max_abs_error": 6.217248937900877e-15,
+  "baseline01_classical_anchor_reproduced": true,
+  "saved_prediction_and_patch_errors_reconcile": true,
+  "saved_score_rankings_and_bad_detail_rates_reconcile": true,
+  "full_run_complete": false,
+  "colab_drive_gpu_validation": "pending",
+  "figures_visually_inspected": [
+    "quality.png",
+    "detail_risk_coverage.png",
+    "reconstruction_examples.png",
+    "iteration_trajectories.png"
+  ],
+  "figure_review": "All four plots inspected; labels and curves legible, correct source montage, no truncation observed."
+}

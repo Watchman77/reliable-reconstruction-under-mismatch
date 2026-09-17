@@ -1,0 +1,2 @@
+source_id,filename,sha256,rgb_sha256,width,height,crop_left,crop_top,extent,role
+0801,0801.png,9015e9bc9c29a9272d26fb898f14c7d9208e6f61570301be0f9270285b7fb4ad,c3b9ecc733b39ad48d0c260cbdc70e8cd08ed088ef9b82dc8d7dbc01b929d2e5,2040,1356,732,390,576,development_only

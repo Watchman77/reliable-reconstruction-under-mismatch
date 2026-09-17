@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.24.0 — 2026-09-17
+
+- Added a self-contained learned-baseline notebook using verified official colour DRUNet weights in a declared DPIR-style adapter. Pinned upstream files and MIT licence, recorded observed checkpoint digest and training-overlap limits, and froze settings before examining learned outcomes.
+- Executed one full-resolution development observation (0801, linear blur/noise) with all comparison variants and 49 experiment denoiser calls. Nominal DPIR gains 0.627 dB over the inherited classical inverse; operator detail spread gives positive comparisons against the included fixed-operator transformation/residual/gradient controls. The two larger error tolerances are uninformative in this case. No independent-test, calibration or novelty claim follows.
+- Verified the dense HQS solution, official schedule, transformations, strict checkpoint load, source identity, original classical anchor, prediction/patch-error readback and all 16 exported file hashes. Inspected four figures. Recorded the separate replay of two presentation cells after final notebook readback lacked those displays; numerical inference was preserved.
+- Prepared the default four-source, two-condition Colab experiment. Its remaining seven observations and Colab/GPU behaviour are not claimed as executed. Preserved the prior notebooks, literature corpus and review protocol.
+
 ## 0.23.1 — 2026-09-17
 
 - Reviewed the user's uploaded Baseline 01 Colab notebook: eleven consecutive execution counts, no saved error outputs, unchanged computational cells, passing numerical checks and a mounted Drive destination.

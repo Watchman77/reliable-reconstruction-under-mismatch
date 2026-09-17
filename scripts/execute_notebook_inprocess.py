@@ -18,6 +18,7 @@ from IPython.utils.capture import capture_output
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('notebook', type=Path)
+    parser.add_argument('--scope', default='Four development sources; original cell code is executed without replacement.')
     args = parser.parse_args()
     nb = nbformat.read(args.notebook, as_version=4)
     nbformat.validate(nb)
@@ -30,7 +31,7 @@ def main():
     metadata = dict(status='in_progress', mode='sequential in-process IPython; no Jupyter kernel',
         started_utc=datetime.now(timezone.utc).isoformat(),
         limitation='Native Jupyter/Colab execution and Drive mounting are unverified.',
-        scope='Four development sources; original cell code is executed without replacement.')
+        scope=args.scope)
     nb.metadata.validation = metadata
     count = 0
     for index, cell in enumerate(nb.cells):
