@@ -1,6 +1,10 @@
 # Learned baseline 02: verified DRUNet development
 
-17 September 2026. **One-observation local validation; the full eight-observation Colab experiment is pending.**
+17 September 2026. **The user's eight-observation Colab run is now reviewed.**
+
+**Latest checkpoint:** [read the completed Colab review](colab_execution_review_2026-09-17.md). Nine unchanged code cells report completion of all eight observations on CUDA; six retrieved CSVs reproduce the displayed tables. Nominal DPIR improves over the classical baseline by 0.494 dB for linear blur/noise but loses by 0.412 dB with the JPEG chain, where its detail MSE is 35.237% higher. Positive mean-error selection comparisons coexist with bad-detail-rate and source-specific exceptions. All four embedded figures were inspected; complete raw-export hash verification remains pending after a raw-transfer access error.
+
+The sections below preserve the original one-case local validation and its execution limits. Their statements that the full Colab experiment was pending are historical; the linked review supersedes that status. The initial canary and its validated export hashes are unchanged.
 
 This checkpoint adds a pretrained reconstruction comparator after Baseline 01 repaired the weak classical baseline. It keeps the research topic and tests the proposed sensitivity mechanism under a learned prior. It does not establish novelty, calibrated uncertainty or independent-test performance.
 

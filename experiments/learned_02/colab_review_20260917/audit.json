@@ -1,0 +1,71 @@
+{
+  "uploaded_notebook_sha256": "eff283ea870efd5a8c9f39151fd5a78848e8bac627e5fde66897d0e3ab7f33aa",
+  "notebook_code_cells": 9,
+  "code_identical_to_issued": true,
+  "error_outputs": 0,
+  "stderr_streams": 0,
+  "embedded_tables_reconciled": 3,
+  "embedded_figures_inspected": 4,
+  "source_count": 4,
+  "observations": 8,
+  "quality_rows": 40,
+  "risk_rows": 448,
+  "compute_rows": 64,
+  "trajectory_rows": 384,
+  "experiment_denoiser_calls": 392,
+  "official_reported_rgb_hashes_match": true,
+  "classical_anchor_max_mse_difference": 0.0,
+  "metadata_warning": "validation and inprocess_execution_seconds are inherited local records, not this Colab run.",
+  "full_raw_export_hash_verification": false,
+  "raw_access_limitation": "Raw manifest transfer returned HTTP 403; readable JSON fallback was empty. CSV text retrieval succeeded. Separate PNG/NPZ bytes were not retrieved.",
+  "inference_not_rerun_for_review": true,
+  "development_only": true,
+  "files": [
+    {
+      "name": "compute.csv",
+      "bytes": 8176,
+      "sha256": "b2cac906b40d9e53eced8d9e2bf4c5b39a3df453982ab792c5a66a463b1339fc"
+    },
+    {
+      "name": "curves.csv",
+      "bytes": 71313,
+      "sha256": "2a65dd7bdc54838d984c76bb9dc6711a96feef1b06973c8f615420817c2662bf"
+    },
+    {
+      "name": "quality.csv",
+      "bytes": 4888,
+      "sha256": "72f84d5669d89d412a804ff472a4c44170c43b8e92415d01219a64962e1ed7a5"
+    },
+    {
+      "name": "source_manifest.csv",
+      "bytes": 813,
+      "sha256": "136b53ca7d3ab88a4fb41aa432c52963bf22623a999c73baeb7a3f33de87edbd"
+    },
+    {
+      "name": "summary.csv",
+      "bytes": 1031,
+      "sha256": "fad75742f2994c3e3f9e762bec5c2abf548e4321173986652aac2a0302d1e91e"
+    },
+    {
+      "name": "trajectories.csv",
+      "bytes": 54633,
+      "sha256": "39c972bb1bb6b229f533ade550a74d4ea03b8633dcf0e9c6d110a7b6fae98723"
+    }
+  ],
+  "reviewed_notebook_url": "https://colab.research.google.com/drive/1HLzxabIHN0r6EO0FqX5zCgIfZKtyZ_yL",
+  "issued_repository_commit": "fe8c2d7b879552267f98402108ff4af616eb4dea",
+  "drive_run_folder": "https://drive.google.com/drive/folders/1c_613akY5iGZOga6n5PMbAqmq-39uZW5",
+  "drive_run_name": "learned_02_20260917T141654_945004Z",
+  "drive_files_listed": 24,
+  "drive_export_files_excluding_manifest": 23,
+  "figures_origin": "Decoded from the uploaded notebook; not the separately saved Drive PNG bytes.",
+  "recorded_gpu_type": "L4",
+  "logged_reconstruction_seconds": 53.93775371500044,
+  "table_reconciliation_precision": "Within displayed rounding: 0.5e-6 absolute; full CSV arithmetic checked separately.",
+  "method_limits": [
+    "Four previously exposed DIV2K sources; reported denoiser training overlap.",
+    "One noise realization per source; eight observations are not eight independent sources.",
+    "One true blur/noise anchor; source-disjoint calibration and testing not performed.",
+    "Transformation spread is a heuristic comparator, not a calibrated uncertainty estimator."
+  ]
+}

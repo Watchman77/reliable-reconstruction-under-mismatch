@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.24.1 — 2026-09-17
+
+- Reviewed the user's completed Learned 02 Colab notebook: all 19 cell sources match the issued artifact; nine code cells have consecutive counts with no saved errors. CUDA/L4 evidence, eight observations, 40 quality rows, 448 risk rows and 392 experiment denoiser calls are recorded.
+- Retrieved six Drive CSVs, reproduced all three embedded tables, checked source identity and the classical anchor, and inspected four embedded figures. Recorded inherited local validation/timing metadata as historical rather than treating it as the new Colab run's status.
+- Preserved mixed scientific findings: nominal DPIR gains 0.494 dB over the classical comparator for linear blur/noise but loses 0.412 dB with the JPEG chain; its JPEG-chain detail MSE is 35.237% higher. Positive pooled operator-selection comparisons coexist with per-source losses, bad-detail-rate reversals and a stronger secondary RGB operator score in some JPEG comparisons.
+- Saved the dated review, six CSV exports, four embedded figures, derived comparisons and reproducible review script. Raw manifest download returned HTTP 403; full separate PNG/JSON/NPZ hash verification remains pending. No full-export verification, calibration, independent-test or novelty claim is made.
+- Recommended a bounded JPEG-chain failure diagnosis while retaining the classical baseline and frozen checkpoint. Original experiments, review protocol and screening decisions remain unchanged.
+
 ## 0.24.0 — 2026-09-17
 
 - Added a self-contained learned-baseline notebook using verified official colour DRUNet weights in a declared DPIR-style adapter. Pinned upstream files and MIT licence, recorded observed checkpoint digest and training-overlap limits, and froze settings before examining learned outcomes.
