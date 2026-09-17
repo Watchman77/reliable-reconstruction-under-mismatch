@@ -1,0 +1,88 @@
+{
+  "archive_bytes": 431278719,
+  "archive_sha256": "902cee988b76eb982efb068eca4c821d0259b4ef06d6c6f0d09163d1117549dc",
+  "verified_parts": 5,
+  "byte_preserving_transfer_verified": true,
+  "parts": [
+    {
+      "filename": "acquisition03_transfer_part_01_of_05.zip",
+      "bytes": 100663941,
+      "sha256": "e74b2333f2c93bc3f76c87ba5f5f77a77fdd5e9991a0491452a2ce5336c3bbdb",
+      "metadata": {
+        "format": "acquisition03-byte-parts-v1",
+        "archive_name": "acquisition_03_20260917T160754_303637Z.zip",
+        "archive_bytes": 431278719,
+        "archive_sha256": "902cee988b76eb982efb068eca4c821d0259b4ef06d6c6f0d09163d1117549dc",
+        "part_index": 1,
+        "part_count": 5,
+        "chunk_offset": 0,
+        "chunk_bytes": 100663296,
+        "chunk_sha256": "e16782e5d0f6538ac574d4dd41f45b5eed1bcbc6f8ecd0876ec7ffdfec927d7f"
+      }
+    },
+    {
+      "filename": "acquisition03_transfer_part_02_of_05.zip",
+      "bytes": 100663949,
+      "sha256": "c113152601a533c2c745249c04b9e4782549842412872274dcca555b1853b9a2",
+      "metadata": {
+        "format": "acquisition03-byte-parts-v1",
+        "archive_name": "acquisition_03_20260917T160754_303637Z.zip",
+        "archive_bytes": 431278719,
+        "archive_sha256": "902cee988b76eb982efb068eca4c821d0259b4ef06d6c6f0d09163d1117549dc",
+        "part_index": 2,
+        "part_count": 5,
+        "chunk_offset": 100663296,
+        "chunk_bytes": 100663296,
+        "chunk_sha256": "a4536bc84c5b491c3249ed97a8aa7e5b8a0ee1a1227270a6735162739edc6363"
+      }
+    },
+    {
+      "filename": "acquisition03_transfer_part_03_of_05.zip",
+      "bytes": 100663949,
+      "sha256": "d552f7e6d87c1bbb763ffdc1c41019ef8b31240b121dc6bf00361ff84ad4b321",
+      "metadata": {
+        "format": "acquisition03-byte-parts-v1",
+        "archive_name": "acquisition_03_20260917T160754_303637Z.zip",
+        "archive_bytes": 431278719,
+        "archive_sha256": "902cee988b76eb982efb068eca4c821d0259b4ef06d6c6f0d09163d1117549dc",
+        "part_index": 3,
+        "part_count": 5,
+        "chunk_offset": 201326592,
+        "chunk_bytes": 100663296,
+        "chunk_sha256": "cca8a8fddc1c0225969829403015840c30c7fe63bfd40b1dcc00d148c22a543c"
+      }
+    },
+    {
+      "filename": "acquisition03_transfer_part_04_of_05.zip",
+      "bytes": 100663949,
+      "sha256": "5253a61d7007984a2c1564cf92ad59ac1d7a38185036229b11906a9ef5252706",
+      "metadata": {
+        "format": "acquisition03-byte-parts-v1",
+        "archive_name": "acquisition_03_20260917T160754_303637Z.zip",
+        "archive_bytes": 431278719,
+        "archive_sha256": "902cee988b76eb982efb068eca4c821d0259b4ef06d6c6f0d09163d1117549dc",
+        "part_index": 4,
+        "part_count": 5,
+        "chunk_offset": 301989888,
+        "chunk_bytes": 100663296,
+        "chunk_sha256": "4b5787d9f2044af414396c1f1867f0a75c425ec4a2b5082c38a8830921afe147"
+      }
+    },
+    {
+      "filename": "acquisition03_transfer_part_05_of_05.zip",
+      "bytes": 28626187,
+      "sha256": "b99bb3a7e6918bd7bb3e534e2a70097862800100acfb529027ca3e8ac432fb4b",
+      "metadata": {
+        "format": "acquisition03-byte-parts-v1",
+        "archive_name": "acquisition_03_20260917T160754_303637Z.zip",
+        "archive_bytes": 431278719,
+        "archive_sha256": "902cee988b76eb982efb068eca4c821d0259b4ef06d6c6f0d09163d1117549dc",
+        "part_index": 5,
+        "part_count": 5,
+        "chunk_offset": 402653184,
+        "chunk_bytes": 28625535,
+        "chunk_sha256": "3a07710d09d98804901e0378fd968288ea794012ae23ad4bd5a8d2714168ffdc"
+      }
+    }
+  ]
+}

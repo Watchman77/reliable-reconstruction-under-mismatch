@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "configured_sources": [
+    "0801",
+    "0802",
+    "0803",
+    "0804"
+  ],
+  "observations": 16,
+  "full_design_complete": true,
+  "manifest_files_verified": 38,
+  "all_source_images_rehashed": 4,
+  "independently_recomputed_quality_rows": 80,
+  "max_abs_quality_difference": 7.105427357601002e-15,
+  "max_abs_patch_error_difference": 0.0,
+  "stage_construction_and_saved_codec_verified": true,
+  "summary_deltas_and_gaps_verified": true,
+  "zip_sha256": "902cee988b76eb982efb068eca4c821d0259b4ef06d6c6f0d09163d1117549dc",
+  "zip_verified": true,
+  "learned_inference_repeated": false
+}

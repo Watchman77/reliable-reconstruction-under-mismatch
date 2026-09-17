@@ -1,5 +1,7 @@
 # Acquisition 03: review of the completed Colab run
 
+**Subsequent checkpoint:** the [complete raw archive has now been verified](archive_verification_20260917/verification.md): all 38 exported hashes and all 80 saved reconstruction metric rows pass. The access limitations below describe this earlier notebook/CSV review and are retained as historical evidence.
+
 17 September 2026. **All 16 observations are recorded complete, and the retrieved tables reproduce the notebook's results. The main reconstruction deterioration appears when the JPEG codec is added.** This statement is specific to these four exposed development sources and the frozen stage order.
 
 ## Execution evidence and source identity

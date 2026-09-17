@@ -1,5 +1,7 @@
 # Acquisition 03: archive access and transfer helper
 
+**Resolved:** the five transfer parts were subsequently received and the [complete raw archive audit passed](archive_verification_20260917/verification.md). No additional transfer is needed for this run. The account below records the earlier access problem and its remedy.
+
 17 September 2026. The user supplied the dated Drive folder after two chat ZIP uploads failed to become accessible. Neither failed upload was read.
 
 ## Confirmed access

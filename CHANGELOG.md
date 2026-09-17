@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.25.2 — 2026-09-17
+
+- Reassembled all five uploaded Acquisition 03 transfer parts. The 431,278,719-byte archive exactly matches the SHA-256 recorded in the executed notebook; all 38 result files pass manifest checks and all 39 ZIP entries pass CRC.
+- Independently recomputed all 80 saved-output metric rows, including all 48 learned images and 32 controls, all 160 patch-error vectors and all 240 full-coverage tail rates. Patch errors match exactly; saved metrics agree within the existing numerical tolerance. All four original source images were rehashed.
+- Confirmed nine CSVs and four raw figures are byte-identical to the earlier notebook/table review. Inspected all four raw figures and a new fixed-inset montage across all four sources. Preserved raw metadata and a reproducible archive-review script.
+- Closed the current raw-verification gap. Kept earlier access failures and the locally validated transfer helper as historical records. Neural inference was not repeated; novelty, calibration, pretrained-data overlap and independent testing remain unresolved.
+
 ## 0.25.1 — 2026-09-17
 
 - Reviewed the user's completed Acquisition 03 Colab notebook: ten unchanged code cells, counts 1–10, no saved errors/stderr, all 16 observations, 80 quality rows and 272 experiment denoiser calls. One final Markdown sentence changed; inherited local-validation metadata is explicitly historical.
