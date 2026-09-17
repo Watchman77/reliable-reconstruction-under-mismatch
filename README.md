@@ -13,6 +13,7 @@ Research repository for a journal-first programme on evidence-calibrated image r
 - Provisional full-text synthesis completed using the 88 AI include recommendations, with a source-linked 90-record inventory and three ranked candidate problems.
 - Phase-0 classical canary implemented and executed.
 - Formal database screening and the 100-image pilot remain outstanding.
+- Experimental work is now the user's priority. An initial dataset/baseline audit is complete; 100 DIV2K sources are acquired for development only, with 24 paired observations generated from 12 sources. Learned reconstruction and independent calibration/test evaluation have not run.
 
 The 90 studies are a seed evidence map, not a completed PRISMA corpus. The repository must not be cited as a systematic review until database searches, deduplication, two-stage screening, exclusion logging, full-text verification and citation chaining are complete.
 
@@ -23,6 +24,8 @@ The original umbrella topic remains **Physics-Informed Deep Learning for Robust 
 The [research topic and review reference](docs/research_topic_and_review_reference.md), also available as an [editable Word document](docs/research_topic_and_review_reference.docx), explains the retained topic, focused experimental question, evidence limits and recommended scoping-review workflow. The scoping designation is a recommendation pending a dated protocol amendment; protocol v0.4 and screening decisions remain unchanged.
 
 ## Current research decision
+
+The [dataset and baseline audit](docs/dataset_and_baseline_audit_01.md) identifies DPIR's reported training overlap with DIV2K and the face/dog domains of the released blind diffusion checkpoints. The [new preparation workflow](experiments/selective_reconstruction/README.md) records source identities and controlled float measurements. Final evaluation data remain to be selected after checkpoint overlap checks; these development images are not held-out evidence.
 
 The [provisional gap synthesis](literature/synthesis/provisional_gap_synthesis_01.md) recommends a bounded first experiment: test whether operator-sensitive information improves the fidelity of selectively retained image detail beyond image-only uncertainty and residual scores, especially when an acquisition stage is absent from the assumed model. The [pilot specification](docs/selective_reconstruction_pilot_spec.md) defines the information budget, source-separated splits, comparison conditions, error target, compute controls and stop criteria. It is a design brief, not a completed experiment or registered guarantee.
 

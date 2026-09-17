@@ -1,14 +1,14 @@
 # Roadmap
 
-## Current checkpoint — 16 September 2026
+## Current checkpoint — 17 September 2026
 
 Completed: initial triage of 90 seeds; 89 AI full-text assessments (88 include recommendations, one exclude); a provisional synthesis and source-linked inventory. P035 remains pending after the user sent an author-copy request. The classical single-image canary has run; the multi-image reliability pilot has not.
 
-The two immediate tracks can progress in parallel. These are execution tasks within the existing programme, not additional screening levels.
+The user prioritised the experimental track. The first static [dataset/baseline audit](dataset_and_baseline_audit_01.md) is complete: 100 development-only sources acquired, 24 controlled observations generated, no learned reconstruction or independent evaluation run. DPIR training overlap and diffusion-prior domains must be handled before freezing evaluation data. Review work remains deferred apart from evidence directly relevant to the experimental decision.
 
 | Track | Next concrete task | Deliverable / completion evidence |
 |---|---|---|
-| Feasibility — active | Audit code, weights, licences, input domains and inference cost for the operator-conditioned and blind-sampling baselines in [pilot v0.1](selective_reconstruction_pilot_spec.md). | Reproducible baseline manifest; unavailable methods and substitutions explicitly recorded. |
+| Feasibility — active | Implement consistent classical and DPIR adapters; obtain/check weights and measure per-image inference cost using the initial audit. | Matched forward/adjoint implementation, checkpoint hashes, runtime and memory measurements. |
 | Feasibility — next | Freeze source-separated development/calibration/test manifests and implement the declared acquisition regimes and selection scores. | Runnable multi-image pilot, source-level evaluation and a dated design freeze. |
 | Feasibility — evaluate | Compare selective error at matched coverage, information and compute, including a shared omitted-process stress condition. | All-condition report with uncertainty intervals, failures and a go/redesign/stop decision. |
 | Evidence — pending access | Assess P035 when the author or another legitimate route supplies full text. | One criterion-level recommendation, source/version evidence and an updated cumulative checkpoint. |

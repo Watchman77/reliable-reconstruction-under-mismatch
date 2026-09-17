@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-17",
+  "scope": "data and forward-operator engineering checks only",
+  "reconstruction_run": false,
+  "sources_acquired": 100,
+  "sources_in_observation_smoke_run": 12,
+  "observations_generated": 24,
+  "constant_preservation_max_error": 0.0,
+  "adjoint_inner_product_absolute_error": 2.7922214940190315e-07,
+  "fft_equivalence_max_error": 8.940696716308594e-08,
+  "all_source_and_crop_hashes_verified": true,
+  "exact_decoded_source_duplicates": 0,
+  "all_observations_regenerated_identically": true,
+  "source_manifest_sha256": "a5d296f1da28dae3946c2da577c09cf94cde0717ebf2037fd4390d745095a902",
+  "observation_manifest_sha256": "9a37b7c35a16fc529a2018007a5d4db48dcf14c09c39bcca584e3e847e2204b0",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "Pillow": "12.3.0"
+  },
+  "scripts": {
+    "experiments/selective_reconstruction/prepare_observations.py": "84f10a0e3f9b8343e86dd1aa17fc9adde75d45435fe484fcede325bd1f6f01a4",
+    "scripts/prepare_div2k_development.py": "1f9a76b04db62516ad9e1cf4dcce25f4f5c1c9035cfb165380e2ade5e7852f51"
+  }
+}

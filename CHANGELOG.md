@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.21.0 — 2026-09-17
+
+- Prioritised experimental feasibility as requested; retained the original topic and all review decisions.
+- Audited official dataset and baseline sources, pinned DPIR/NAFNet/GibbsDDRM/BlindDPS code snapshots, and recorded unresolved checkpoint, licence, domain and compute questions.
+- Identified DPIR's reported 900-image DIV2K training overlap; acquired 100 DIV2K sources strictly for development, with archive/source/crop hashes and reproducible preparation scripts.
+- Generated 24 paired float observations from 12 sources, explicitly declaring circular blur, noise, clipping, quantization and JPEG. Verified deterministic regeneration and forward-operator consistency.
+- Added an executable engineering verifier. No learned reconstruction, calibration, held-out evaluation or novelty result is claimed; raw data and observation arrays are not committed.
+
 ## 0.20.0 — 2026-09-16
 
 - Added a five-page editable research reference and Markdown source, retaining the original umbrella topic and specifying the narrower experimental working title and research question.

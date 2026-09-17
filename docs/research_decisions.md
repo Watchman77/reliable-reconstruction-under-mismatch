@@ -201,3 +201,15 @@ The research may improve visibility and quantify recoverability. It must not des
 **Review direction:** a scoping review is recommended for the broad evidence-mapping purpose, using systematic methods and PRISMA-ScR reporting. The reference explains database search records, eligibility, deduplication, human screening, extraction and software roles. This recommendation has not been applied as a formal protocol amendment; protocol v0.4 remains the current working draft.
 
 **Evidence boundary:** 90 seed records, 89 AI full-text assessments, 88 include recommendations, one exclude recommendation and P035 pending. Formal eligibility and novelty remain unestablished. No workbook, register, source extraction or pilot result was changed for this reference note.
+
+## 17 September 2026 — Experimental data and baseline preparation
+
+**User priority:** resolve the experimental contribution first; defer the scoping-review production work. The original topic and operator-sensitive selective-reconstruction question remain.
+
+**Decision:** use clean reference images and simulated, recorded degradations for the first test. The [initial audit](dataset_and_baseline_audit_01.md) identifies official implementations and separates development acquisition from independent evaluation.
+
+**Data:** acquired 100 official DIV2K validation HR images as project development sources. DPIR's inspected paper reports training on 900 DIV2K images, so these are not independent test images for those weights. Recorded archive/source/crop checksums, native-resolution crop boxes and original IDs; no raw images are redistributed.
+
+**Execution:** generated 24 paired observations from 12 development sources, then checked exact regeneration and the Gaussian operator's constant preservation, adjoint and FFT representation. No reconstruction or selection result was produced. The previous classical canary remains unchanged; its zero-padded forward versus Fourier-inverse boundary issue is flagged for the new solver.
+
+**Next:** consistent classical solver and DPIR adapter, selected-weight integrity and runtime checks, and independent evaluation-data selection compatible with the chosen image priors. Face-domain diffusion weights require a matched-domain panel or an explicit general-image alternative. The 100-calibration plus 100-test-source target remains a future pilot target.
