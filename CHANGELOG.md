@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.25.3 — 2026-09-17
+
+- Read the full supplied Lee and Jang paper (P035), including all 12 pages and five figures, and saved a page-located methodological assessment with source identity/hash.
+- Distinguished learned measurement-residual correction, simulated valid-region recovery and an empirical truth-dependent failure threshold from calibrated selective reconstruction. Recorded missing reproduction details and an apparent Equation 11/Figure 5b discrepancy without inventing an explanation.
+- Checked targeted primary-source overlap in residual correction, blind JPEG restoration, joint operator/image inference and imaging uncertainty. Recommended an acquisition-aware baseline comparison before a new correction architecture, followed by a controlled selective-detail test.
+- Updated the current research summary while preserving formal screening counts and historical records. No new experiment, notebook, reproduction or novelty claim was introduced.
+
 ## 0.25.2 — 2026-09-17
 
 - Reassembled all five uploaded Acquisition 03 transfer parts. The 431,278,719-byte archive exactly matches the SHA-256 recorded in the executed notebook; all 38 result files pass manifest checks and all 39 ZIP entries pass CRC.
