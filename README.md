@@ -14,6 +14,7 @@ Research repository for a journal-first programme on evidence-calibrated image r
 - Phase-0 classical canary implemented and executed.
 - Formal database screening and the 100-image pilot remain outstanding.
 - Experimental work is now the user's priority. An initial dataset/baseline audit is complete; 100 DIV2K sources are acquired for development only, with 24 paired observations generated from 12 sources. Learned reconstruction and independent calibration/test evaluation have not run.
+- A separate [four-source Colab pilot](experiments/colab_pilot_00/README.md) now has saved successful execution checks. Its fixed inverses underperform the degraded-input baseline, and operator spread does not beat the best simple control at 50% retention. A Drive export cell has been added; raw results and figure review remain pending.
 
 The 90 studies are a seed evidence map, not a completed PRISMA corpus. The repository must not be cited as a systematic review until database searches, deduplication, two-stage screening, exclusion logging, full-text verification and citation chaining are complete.
 

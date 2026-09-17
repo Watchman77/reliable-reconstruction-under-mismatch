@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.22.0 — 2026-09-17
+
+- Reviewed the user's saved four-source Colab execution: fifteen code cells report success, the numerical/data checks pass, and 24 reconstruction-metric rows are reported.
+- Preserved code and saved text outputs in a repository notebook, with account identifiers omitted from execution metadata and a source hash recorded in the review.
+- Recorded the actual negative baseline and control comparisons without claiming novelty, independent evaluation, or visual verification of inaccessible embedded figures.
+- Added a final Drive export cell to preserve eleven result files with copy hashes in a dated folder. Local copy behaviour was verified; user execution in Colab and raw-result retrieval remain pending.
+- Kept the 90-record review corpus, protocol, historical experiments and independent-evaluation requirements unchanged.
+
 ## 0.21.0 — 2026-09-17
 
 - Prioritised experimental feasibility as requested; retained the original topic and all review decisions.

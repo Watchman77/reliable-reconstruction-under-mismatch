@@ -2,7 +2,9 @@
 
 ## Current checkpoint — 17 September 2026
 
-Completed: initial triage of 90 seeds; 89 AI full-text assessments (88 include recommendations, one exclude); a provisional synthesis and source-linked inventory. P035 remains pending after the user sent an author-copy request. The classical single-image canary has run; the multi-image reliability pilot has not.
+Completed: initial triage of 90 seeds; 89 AI full-text assessments (88 include recommendations, one exclude); a provisional synthesis and source-linked inventory. P035 remains pending after the user sent an author-copy request. The classical single-image canary and a four-source Colab development diagnostic have run; the declared multi-image reliability study has not.
+
+Latest: the [saved Colab run review](../experiments/colab_pilot_00/README.md) confirms successful saved numerical checks but weak fixed-inverse baselines. Its final Drive export cell awaits execution; raw-result and figure review remain pending. Baseline development is the next scientific step.
 
 The user prioritised the experimental track. The first static [dataset/baseline audit](dataset_and_baseline_audit_01.md) is complete: 100 development-only sources acquired, 24 controlled observations generated, no learned reconstruction or independent evaluation run. DPIR training overlap and diffusion-prior domains must be handled before freezing evaluation data. Review work remains deferred apart from evidence directly relevant to the experimental decision.
 
