@@ -1,0 +1,9 @@
+source_id,stage,pipeline,score_family,elapsed_seconds,denoiser_calls,fbcnn_calls,accounting
+0801,quantized_8bit,dpir_nominal,operator,160.04184163700847,24,0,standalone score cost incl. shared nominal; do not sum overlapping score costs
+0801,quantized_8bit,dpir_nominal,transformation,160.6140053199997,24,0,standalone score cost incl. shared nominal; do not sum overlapping score costs
+0801,quantized_8bit,fbcnn_dpir,operator,161.64457995999692,24,1,standalone score cost incl. shared nominal; do not sum overlapping score costs
+0801,quantized_8bit,fbcnn_dpir,transformation,182.87691523099056,24,3,standalone score cost incl. shared nominal; do not sum overlapping score costs
+0801,jpeg_q75,dpir_nominal,operator,157.92311286501354,24,0,standalone score cost incl. shared nominal; do not sum overlapping score costs
+0801,jpeg_q75,dpir_nominal,transformation,157.47338457500882,24,0,standalone score cost incl. shared nominal; do not sum overlapping score costs
+0801,jpeg_q75,fbcnn_dpir,operator,168.6217702179856,24,1,standalone score cost incl. shared nominal; do not sum overlapping score costs
+0801,jpeg_q75,fbcnn_dpir,transformation,180.57348161999107,24,3,standalone score cost incl. shared nominal; do not sum overlapping score costs

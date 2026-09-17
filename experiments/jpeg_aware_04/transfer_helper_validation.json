@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "test": "small deterministic byte archive; 4 transfer parts with 4096-byte payload",
+  "checks": [
+    "byte-identical reconstruction",
+    "unordered part input accepted",
+    "idempotent export preserves existing parts",
+    "missing part rejected",
+    "valid-ZIP modified chunk rejected by SHA-256"
+  ],
+  "full_result_export": "separately verified by executed notebook",
+  "inference_rerun": false
+}

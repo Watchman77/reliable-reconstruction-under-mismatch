@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "code_cells": 11,
+  "all_code_cells_compile": true,
+  "nbformat_valid": true,
+  "default_four_source_setup_executed": true,
+  "unchanged_cells_2_through_11": true,
+  "embedded_numeric_helpers_identical": true,
+  "post_local_changes": [
+    "CUDA workspace environment variable before Torch import",
+    "corrected inherited descriptive model_information metadata; no inference setting changed"
+  ],
+  "local_execution_mode": "sequential in-process IPython; no Jupyter kernel",
+  "local_execution_scope": "Source 0801; quantized_8bit and jpeg_q75; full 576x576 context/512x512 evaluation; unchanged 8 iterations; CPU only.",
+  "local_executed_cells": 11,
+  "local_saved_error_outputs": 0,
+  "embedded_png_outputs": 4,
+  "full_four_source_inference": false,
+  "colab_gpu_drive_validated": false,
+  "final_artifact_outputs": "clean; local outputs preserved separately"
+}

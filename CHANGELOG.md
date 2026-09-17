@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.26.0 — 2026-09-17
+
+- Added Notebook 04 with frozen FBCNN-only, FBCNN + classical and FBCNN + DPIR comparisons against the inherited input/classical/DPIR controls, on paired uncompressed 8-bit and JPEG observations. Pinned official sources/weights, preserved licences and documented automatic quality, codec/training overlap and the declared adapter.
+- Executed the predeclared full-resolution source-0801 CPU subset at both conditions: 28 quality rows, 224 risk rows, 160 experiment DRUNet calls and six FBCNN calls. Independent readback reproduced 56 patch-error vectors, all 32 saved score vectors, every metric/risk row, summaries, contrasts and compute accounting. All four figures were inspected.
+- Recorded JPEG improvement of 1.528 dB and 52.563% lower detail MSE for FBCNN + DPIR versus raw DPIR on this source, alongside the 0.170 dB uncompressed loss. Operator detail spread beats the included controls in the primary one-source comparison. The four-source descriptive screens remain unassessed; no calibration, independent-test or novelty claim is made.
+- Added final manifest/archive verification and automatic RAW ZIP parts below 100 MiB, with roundtrip, repeat-export, missing-part and corruption checks. Preserved the complete local raw archive separately and the exact executed notebook/results in the checkpoint.
+- Issued a clean four-source Colab notebook. After local CPU execution, added the documented CUDA workspace bootstrap and corrected an inherited descriptive information-budget field; every numerical helper and cells 2–11 remain identical. The final setup passed locally. Full Colab/GPU/Drive execution remains pending; earlier experiments, formal screening and the review protocol are preserved.
+
 ## 0.25.3 — 2026-09-17
 
 - Read the full supplied Lee and Jang paper (P035), including all 12 pages and five figures, and saved a page-located methodological assessment with source identity/hash.

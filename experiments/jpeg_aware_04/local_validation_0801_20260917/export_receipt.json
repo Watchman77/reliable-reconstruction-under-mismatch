@@ -1,0 +1,27 @@
+{
+  "experiment": "jpeg_aware_04",
+  "summary": {
+    "path": "/workspace/scratch/7ff69f9960d0/jpeg_aware_04_local_0801_SUMMARY.zip",
+    "bytes": 1656396,
+    "sha256": "2315fff46b87ddea44700da990d6207995e75f4995fe1df436628aa4b0a43d7f",
+    "entries": 27
+  },
+  "raw": {
+    "path": "/workspace/scratch/7ff69f9960d0/jpeg_aware_04_local_0801_RAW.zip",
+    "bytes": 127219832,
+    "sha256": "f166db93cad5b5b3776289532d5449bab557bd13bc7421406e0b56391aa75d54",
+    "entries": 29
+  },
+  "transfer": {
+    "archive_name": "jpeg_aware_04_local_0801_RAW.zip",
+    "archive_bytes": 127219832,
+    "archive_sha256": "f166db93cad5b5b3776289532d5449bab557bd13bc7421406e0b56391aa75d54",
+    "verified_parts": 2,
+    "part_paths": [
+      "/workspace/scratch/7ff69f9960d0/jpeg_aware_04_local_0801_RAW_upload_parts/jpeg_aware_04_local_0801_RAW_part_001_of_002.zip",
+      "/workspace/scratch/7ff69f9960d0/jpeg_aware_04_local_0801_RAW_upload_parts/jpeg_aware_04_local_0801_RAW_part_002_of_002.zip"
+    ]
+  },
+  "manifest_files_verified": 28,
+  "full_design_complete": false
+}

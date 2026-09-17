@@ -1,0 +1,60 @@
+{
+  "source_ids": [
+    "0801"
+  ],
+  "seed": 20260917,
+  "crop_size": 512,
+  "context_border": 32,
+  "true_sigmas": [
+    1.6
+  ],
+  "noise_stds": [
+    0.00784313725490196
+  ],
+  "nominal_sigma": 1.0,
+  "nominal_noise_std": 0.00784313725490196,
+  "scenarios": [
+    "blur_noise",
+    "blur_noise_jpeg"
+  ],
+  "jpeg_quality": 75,
+  "jpeg_subsampling": 0,
+  "gradient_lambda": 0.05,
+  "iterations": 8,
+  "model_sigma_start_255": 49.0,
+  "model_sigma_end_255": 2.0,
+  "prior_tradeoff": 0.23,
+  "periodic_x8": true,
+  "operator_sigmas": [
+    0.8,
+    1.0,
+    1.2
+  ],
+  "outer_rotations": [
+    0,
+    1,
+    2
+  ],
+  "patch_size": 16,
+  "coverages": [
+    0.5,
+    0.75,
+    0.9,
+    1.0
+  ],
+  "detail_blur_sigma": 1.0,
+  "detail_rmse_tolerances": [
+    0.025,
+    0.05,
+    0.1
+  ],
+  "cpu_threads": 4,
+  "role": "development_only",
+  "model_information": "fixed nominal blur/noise; true blur only in oracle diagnostic",
+  "uncertainty_interpretation": "heuristic sensitivities; not posterior samples or calibrated uncertainty",
+  "experiment": "jpeg_aware_04",
+  "stages": [
+    "quantized_8bit",
+    "jpeg_q75"
+  ]
+}

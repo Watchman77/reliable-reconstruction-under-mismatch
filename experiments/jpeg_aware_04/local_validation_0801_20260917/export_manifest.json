@@ -1,0 +1,147 @@
+{
+  "experiment": "jpeg_aware_04",
+  "role": "development_only",
+  "snapshot_status": "complete_for_configured_subset",
+  "files": [
+    {
+      "name": "acquisition.csv",
+      "bytes": 639,
+      "sha256": "78d549503c6dc5a1f3937916bacd968580bceb5570564052971d8e0226a8fedb"
+    },
+    {
+      "name": "checks.json",
+      "bytes": 928,
+      "sha256": "2b4cb61b9d4e03fad110ab4a56edec646739d131d521c6865fc774d65686af85"
+    },
+    {
+      "name": "codec_inputs/0801_q75.jpg",
+      "bytes": 34805,
+      "sha256": "715ccc923874d6bcb637bc7317421a1f7dd59ed99fe9fb394bb7915700dd3c1f"
+    },
+    {
+      "name": "compute.csv",
+      "bytes": 2782,
+      "sha256": "adab7429398a7716f7b9b95faebc620d0208ff1c0662e918dc579c9f23c30668"
+    },
+    {
+      "name": "config.json",
+      "bytes": 1122,
+      "sha256": "d1510af4bbea63a64831131b76e9b4c12475c497f40e641b4415278d9a69c18a"
+    },
+    {
+      "name": "decisions.json",
+      "bytes": 712,
+      "sha256": "99c98232a5ccd8aa96006e0e64e48051a11ed031048873aa4e0848f92add0486"
+    },
+    {
+      "name": "endpoint_comparison.csv",
+      "bytes": 628,
+      "sha256": "8561dbf2afc2e5d7412bdc8832a4c572e99973d72e6067eba19149b3bb106e1b"
+    },
+    {
+      "name": "environment.json",
+      "bytes": 289,
+      "sha256": "f4ac2f93c1c0b21a972d7106b75ab9890089ccb698bb1e0bd549fb856105f1b9"
+    },
+    {
+      "name": "examples.png",
+      "bytes": 1270852,
+      "sha256": "42909d3c83cba1cff7fed06a3584ba146d7ed775c2381f987483a38d135c83ab"
+    },
+    {
+      "name": "fbcnn_diagnostics.csv",
+      "bytes": 465,
+      "sha256": "97344110a111a345511b224181594022ddf9dc60a6aafa1792c8e05a6eddcd70"
+    },
+    {
+      "name": "independent_readback.json",
+      "bytes": 654,
+      "sha256": "1f1d995a0778483f1d7946106874f8073039a32cfea0ce3cf32e3d67bcc8fb54"
+    },
+    {
+      "name": "predictions/0801_jpeg_q75.npz",
+      "bytes": 62426622,
+      "sha256": "1b5f32799904a841c8bc2e970b3faf483fa2b744709057ca0e9d6a1c21c22460"
+    },
+    {
+      "name": "predictions/0801_quantized_8bit.npz",
+      "bytes": 63224624,
+      "sha256": "995cd4d6f7dadee7a62af078a05c4af3e911d5000c59c3869673fed95b2999d0"
+    },
+    {
+      "name": "preflight.csv",
+      "bytes": 878,
+      "sha256": "e9cfdf8da94d13c1cc14f726f4433e5e4776c9536171285f7a67ffa0a38f3df4"
+    },
+    {
+      "name": "provenance.json",
+      "bytes": 3975,
+      "sha256": "7ff5eaa314f4683c4e80640619f1a06f92c264fa48f8dd20f8d1dde91bd21a2a"
+    },
+    {
+      "name": "quality.csv",
+      "bytes": 3889,
+      "sha256": "ac8242fbdc5dcbc06779238b75716150bc4fc8552ae1fdf2a75de8b9e9bff3a9"
+    },
+    {
+      "name": "quality.png",
+      "bytes": 86121,
+      "sha256": "b1fb1c08c164173324d8e82df3981f3b92df909745f8d6ed944de977a4771daa"
+    },
+    {
+      "name": "quality_changes.csv",
+      "bytes": 1157,
+      "sha256": "d3c68ec6fbd81339548f46a4a983dd914454499cf21d4870f48b57ca565f8310"
+    },
+    {
+      "name": "risk.csv",
+      "bytes": 31703,
+      "sha256": "7d845a3fe3f4f510bf21f164046d68a142a20e717850129937cfd3322cfdfa06"
+    },
+    {
+      "name": "risk_coverage.png",
+      "bytes": 253370,
+      "sha256": "0c67d0e66c5b9448e5defa11f322dc51943c988338e785db0ed50578826a01ea"
+    },
+    {
+      "name": "risk_summary.csv",
+      "bytes": 28606,
+      "sha256": "8c3c470b863b3745fd3b84ca3b3da058feb4af862510390a3f2aa10be2378598"
+    },
+    {
+      "name": "score_costs.csv",
+      "bytes": 1242,
+      "sha256": "c4e25e2bd5c2033c5f6dde6669078616864f8ae9b45423f84af233ca43820fab"
+    },
+    {
+      "name": "selection_comparisons.csv",
+      "bytes": 16725,
+      "sha256": "99de55ba7530def27b5ce2e0e4991734563345c2a18a3704ff0f8563ee6c4b04"
+    },
+    {
+      "name": "source_changes.png",
+      "bytes": 59591,
+      "sha256": "52b96e249af959780371da5c6d0964aad7dd6e21741896619a152c002351126a"
+    },
+    {
+      "name": "source_manifest.csv",
+      "bytes": 813,
+      "sha256": "136b53ca7d3ab88a4fb41aa432c52963bf22623a999c73baeb7a3f33de87edbd"
+    },
+    {
+      "name": "status.json",
+      "bytes": 270,
+      "sha256": "728ef9e7520fbb29b74840ebd36a8fa9ced0ee36f973d8d412e27215608be972"
+    },
+    {
+      "name": "summary.csv",
+      "bytes": 1130,
+      "sha256": "960d9eef26efb7b5c5019d822361146d32e6a7d2aac35382afafaa6515ef0d0e"
+    },
+    {
+      "name": "trajectories.csv",
+      "bytes": 19679,
+      "sha256": "a78906cb8a04881194a5ee0d5470095c32baeb0c7ef977030fb03a5f52caa3d2"
+    }
+  ]
+}

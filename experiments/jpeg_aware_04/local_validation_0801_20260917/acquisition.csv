@@ -1,0 +1,3 @@
+source_id,stage,stage_index,observation_sha256,dtype,height,width,channels,minimum,maximum,changed_component_fraction_from_previous,measurement_delta_mse,linear_out_of_range_fraction,jpeg_bytes,jpeg_sha256
+0801,quantized_8bit,2,ee787d943a66d5cd982a213dc12fd2ac65b940fb9a3caec12c534f411de6e1d7,float64,576,576,3,0.0,1.0,0.9999085728523662,1.2812759746328558e-06,9.142714763374486e-05,0,
+0801,jpeg_q75,3,d91651a84e34fc062cadb283b39ef5ce4ec61d60cd3351404f3cc1f16fb21c3f,float64,576,576,3,0.00784313725490196,1.0,0.831298828125,8.761302180952038e-05,9.142714763374486e-05,34805,715ccc923874d6bcb637bc7317421a1f7dd59ed99fe9fb394bb7915700dd3c1f

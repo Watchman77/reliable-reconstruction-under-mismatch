@@ -1,0 +1,21 @@
+{
+  "upstream_repository": "jiaxi-jiang/FBCNN",
+  "upstream_commit": "54d1831927506b3247e2d4d245abb4f4dab1a1cd",
+  "weight_url": "https://github.com/jiaxi-jiang/FBCNN/releases/download/v1.0/fbcnn_color.pth",
+  "weight_bytes": 287755111,
+  "weight_sha256": "8b0e4ef23d59cf7ac934a342cb31a17619e4fa4a0b3374a9d78c5174312387e8",
+  "digest_authority": "observed official-release download; not publisher-signed",
+  "files": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "data/dataset_jpeg.py": "cb0f908f0f243552fcbdfe8eb81332f67c7caf217701c8f713959ac936665de1",
+    "main_test_fbcnn_color.py": "0367416fb68c9ab2c6f2f130d2a6620048e2440a800c803a07bbda8a9ecc1a64",
+    "models/network_fbcnn.py": "e1afc1f6483d57b774365467393216508f29a708b576dc973bad41bae67e8d03",
+    "options/train_fbcnn_color.json": "94f69fd16a4acd3183a8a8ced2ee2d2cfa142319c66dde723fc70c7e9a89d585"
+  },
+  "license": "Apache-2.0",
+  "architecture": "official colour test; in/out 3; nc 64,128,256,512; nb 4; act_mode R",
+  "adaptation": "AST removes verified-unused torchvision.models import only; full tensor, automatic quality, clip [0,1], no output uint8 rounding",
+  "training_overlap": "Paper reports DIV2K and Flickr2K; exact released-checkpoint image manifest unavailable. These four sources are exposed development data.",
+  "quality_normalization": "q=(100-quality)/100, verified in official dataset_jpeg.py; report 100*(1-q).",
+  "codec_limit": "Paper reports MATLAB JPEG training; repository dataset/demo use OpenCV. Our frozen acquisition uses Pillow JPEG quality75/subsampling0; not a paper-benchmark reproduction."
+}
