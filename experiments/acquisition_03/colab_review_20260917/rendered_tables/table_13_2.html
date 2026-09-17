@@ -1,0 +1,249 @@
+
+  <div id="df-a8771ebb-f759-479b-875b-c0dcd9c4c765" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>bad_detail_rate_0.025</th>
+      <th>bad_detail_rate_0.05</th>
+      <th>bad_detail_rate_0.1</th>
+    </tr>
+    <tr>
+      <th>stage_index</th>
+      <th>stage</th>
+      <th>model</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="5" valign="top">0</th>
+      <th rowspan="5" valign="top">linear_float</th>
+      <th>dpir_nominal</th>
+      <td>0.152100</td>
+      <td>0.017090</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>dpir_oracle_blur</th>
+      <td>0.093506</td>
+      <td>0.003662</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>drunet_denoise_only</th>
+      <td>0.175293</td>
+      <td>0.023682</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>gradient_nominal</th>
+      <td>0.162598</td>
+      <td>0.020752</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>observed</th>
+      <td>0.187500</td>
+      <td>0.023926</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th rowspan="5" valign="top">1</th>
+      <th rowspan="5" valign="top">clipped_float</th>
+      <th>dpir_nominal</th>
+      <td>0.152100</td>
+      <td>0.017090</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>dpir_oracle_blur</th>
+      <td>0.093506</td>
+      <td>0.003662</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>drunet_denoise_only</th>
+      <td>0.175293</td>
+      <td>0.023682</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>gradient_nominal</th>
+      <td>0.162598</td>
+      <td>0.020752</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>observed</th>
+      <td>0.187500</td>
+      <td>0.023926</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th rowspan="5" valign="top">2</th>
+      <th rowspan="5" valign="top">quantized_8bit</th>
+      <th>dpir_nominal</th>
+      <td>0.152100</td>
+      <td>0.017578</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>dpir_oracle_blur</th>
+      <td>0.093994</td>
+      <td>0.003662</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>drunet_denoise_only</th>
+      <td>0.175293</td>
+      <td>0.023682</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>gradient_nominal</th>
+      <td>0.162598</td>
+      <td>0.020996</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>observed</th>
+      <td>0.188721</td>
+      <td>0.023926</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th rowspan="5" valign="top">3</th>
+      <th rowspan="5" valign="top">jpeg_q75</th>
+      <th>dpir_nominal</th>
+      <td>0.200928</td>
+      <td>0.046875</td>
+      <td>0.000977</td>
+    </tr>
+    <tr>
+      <th>dpir_oracle_blur</th>
+      <td>0.229980</td>
+      <td>0.037354</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>drunet_denoise_only</th>
+      <td>0.178955</td>
+      <td>0.023438</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>gradient_nominal</th>
+      <td>0.170898</td>
+      <td>0.021240</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>observed</th>
+      <td>0.184570</td>
+      <td>0.024170</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-a8771ebb-f759-479b-875b-c0dcd9c4c765')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-a8771ebb-f759-479b-875b-c0dcd9c4c765 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-a8771ebb-f759-479b-875b-c0dcd9c4c765');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+    </div>
+  </div>

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.25.1 — 2026-09-17
+
+- Reviewed the user's completed Acquisition 03 Colab notebook: ten unchanged code cells, counts 1–10, no saved errors/stderr, all 16 observations, 80 quality rows and 272 experiment denoiser calls. One final Markdown sentence changed; inherited local-validation metadata is explicitly historical.
+- Retrieved nine full-precision Drive CSVs and reconciled six rendered result tables. Rehashed all four source images, regenerated all 16 observation hashes and four codec hashes, and independently reproduced 32 input/classical quality rows. Inspected four embedded figures, with the reconstruction montage correctly limited to source 0801.
+- Confirmed the four-source stage effect: nominal DPIR's pooled gain over classical reconstruction remains about 0.494–0.499 dB through clipping/rounding, then becomes −0.412 dB at JPEG Q75. Its relative detail-MSE gap worsens on all four sources; the JPEG RGB ranking still favours nominal on source 0802. Preserved error-tail, true-blur and input-metric qualifications.
+- Recorded successful ZIP verification as notebook-reported evidence only. Raw manifest transfer returned HTTP 403; fresh readback of the 48 learned model images and all 38 export hashes remains pending. No neural inference, new solver, calibration, independent test, novelty claim or review-protocol change was made.
+
 ## 0.25.0 — 2026-09-17
 
 - Added Notebook 03, a frozen paired diagnosis of linear float, clipping, 8-bit rounding and JPEG Q75 with all five Learned 02 quality comparators and unchanged reconstruction settings. Default scope is four sources × four stages, 16 observations and 272 experiment denoiser calls.

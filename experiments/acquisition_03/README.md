@@ -1,5 +1,9 @@
 # Acquisition 03: clipping, rounding and JPEG diagnosis
 
+**Latest checkpoint:** the [completed Colab run is now reviewed](colab_execution_review_2026-09-17.md). All 16 observations are recorded complete on CUDA/T4 metadata with ten unchanged code cells. Nine retrieved CSVs reconcile six result tables; all 16 regenerated observation hashes, four codec hashes and 32 input/classical quality rows agree. Nominal DPIR's advantage is preserved through clipping/8-bit rounding and reverses overall at the JPEG step; its relative detail error worsens on all four sources. Four embedded figures were inspected. Raw learned-array and all-export hash verification still require the results ZIP.
+
+The local-run sections below are historical. Their full-Colab-pending statements are superseded by the linked review; the original local evidence remains intact.
+
 This notebook follows the verified Learned 02 run: nominal DPIR improved the linear-blur comparator but underperformed the classical inverse with the JPEG chain. It measures the effect of adding each acquisition stage while preserving every reconstruction setting.
 
 [Open/download Notebook 03](../../notebooks/03_DIV2K_Acquisition_Stage_Diagnosis.ipynb). Upload it into Colab, select a GPU and run all cells. Existing samples and the verified checkpoint are reused from the same Drive project. The final cell creates and verifies one ZIP beside the new results folder for review.
