@@ -1,0 +1,24 @@
+{
+  "dense_solver_max_abs_error": {
+    "ridge": 3.1086244689504383e-15,
+    "gradient": 1.2212453270876722e-15
+  },
+  "dc_checks": true,
+  "selection_check": true,
+  "source_count": 4,
+  "observation_count": 48,
+  "grid_rows": 1344,
+  "selected_inverse_rows": 192,
+  "control_rows": 96,
+  "patch_curve_rows": 4608,
+  "input_hashes_unchanged": true,
+  "tuning_excludes_evaluated_source": true,
+  "source_role": "development_only",
+  "elapsed_seconds": 60.573657520999404,
+  "anchor_pooled_psnr": {
+    "blur_noise_nominal": 25.19469081134899,
+    "blur_noise_oracle_blur": 29.10481276708939,
+    "blur_noise_jpeg_nominal": 27.696821849084174,
+    "blur_noise_jpeg_oracle_blur": 28.105475288120687
+  }
+}

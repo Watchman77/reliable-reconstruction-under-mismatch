@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.23.0 — 2026-09-17
+
+- Added and executed Baseline 01 on the same four development sources: three blur widths, two noise levels, linear/JPEG-chain conditions, two classical regularisers and source-excluded strength selection. Preserved input, smoothing and oracle-blur controls.
+- Gradient regularisation improves pooled PSNR over input by 1.141 dB and 0.615 dB in the nominal-operator branch. Ridge remains weaker on average. The original fixed-ridge anchor reproduces Pilot 00's four pooled inverse PSNR values.
+- Saved full tables, four inspected figures and fourteen output hashes. Added patch selection with residual, image-gradient and fixed-amplitude noise-spread controls, plus a reference-defined texture diagnostic. Recorded positive development comparisons without novelty, significance, calibration or independent-test claims.
+- Preserved executed notebook outputs using a documented sequential IPython fallback after kernel socket operations were denied. Native Colab execution and Drive mounting remain unverified in this turn.
+- Recorded separate experimental and scoping-review decisions. Prior-review overlap, a dated scoping protocol amendment, formal searches and human screening remain outstanding; no review decisions or protocol wording were changed.
+
 ## 0.22.0 — 2026-09-17
 
 - Reviewed the user's saved four-source Colab execution: fifteen code cells report success, the numerical/data checks pass, and 24 reconstruction-metric rows are reported.

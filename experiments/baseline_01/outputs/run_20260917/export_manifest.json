@@ -1,0 +1,76 @@
+{
+  "experiment": "pilot_01",
+  "role": "development_only",
+  "files": [
+    {
+      "name": "checks.json",
+      "size_bytes": 703,
+      "sha256": "7e73e72d47ebcc65252b4f924ac655bf4aaf3ceac704b71923f7d074da3cadcd"
+    },
+    {
+      "name": "config.json",
+      "size_bytes": 888,
+      "sha256": "b37a731ed2d34a0bad5e33205e6255ccd9d82ab4e2204243709ee34fbd0a1baf"
+    },
+    {
+      "name": "controls.csv",
+      "size_bytes": 9730,
+      "sha256": "cc28a99c2240eabe477431b7408c448d532c8bdd70707bfbbd3ceedc0004354f"
+    },
+    {
+      "name": "curves.csv",
+      "size_bytes": 542835,
+      "sha256": "1506426cfb8899addde5a8610320b015bf6d8f01fea078ab9c400fb76a646b1c"
+    },
+    {
+      "name": "environment.json",
+      "size_bytes": 168,
+      "sha256": "efab354abfe2bf0251803bc4a636dc3a3d28a063fae0d96f685a2d847060672d"
+    },
+    {
+      "name": "grid.csv",
+      "size_bytes": 168880,
+      "sha256": "2f294e24a81859fe3d821275bb9b103658e517e23ae1238a38cfd109139aaa0c"
+    },
+    {
+      "name": "manifest.csv",
+      "size_bytes": 813,
+      "sha256": "136b53ca7d3ab88a4fb41aa432c52963bf22623a999c73baeb7a3f33de87edbd"
+    },
+    {
+      "name": "patch_risk_coverage.png",
+      "size_bytes": 166892,
+      "sha256": "68d08151fa8c6e6a2bb46c8bb742c7da28fe8af8279d12aa9fe280ce656ce729"
+    },
+    {
+      "name": "reconstruction_examples.png",
+      "size_bytes": 2142697,
+      "sha256": "0e2210ab36d1ccf5977877bcb1ade9bb7f17f2fa1bba91bd288cc3a3a49ebf65"
+    },
+    {
+      "name": "regularisation_sweep.png",
+      "size_bytes": 89831,
+      "sha256": "987ba2bd1279f178e522414e3e590cee2a2d7442d88dac9990bd3da4b697e112"
+    },
+    {
+      "name": "selected.csv",
+      "size_bytes": 27066,
+      "sha256": "ee6f10ac71167a0b3677557ffaa204a3119fceb25a36b5b6ab981c238af6a903"
+    },
+    {
+      "name": "selections.csv",
+      "size_bytes": 1220,
+      "sha256": "ad54c8d6bcdab80970cdaa2c34e0e7d2225e15074f9182aa7798e43198af7177"
+    },
+    {
+      "name": "source_excluded_gains.png",
+      "size_bytes": 67164,
+      "sha256": "b194fc8d49209567833aa3a2021e39bd58b7373099ed4516b1c6e20ef0cea9c5"
+    },
+    {
+      "name": "summary.csv",
+      "size_bytes": 1218,
+      "sha256": "85dcb437d65fc5bf93a3f6bc0e53824e481b0a1e441a36a18f61fa9399d911eb"
+    }
+  ]
+}

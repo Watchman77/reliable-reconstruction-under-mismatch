@@ -14,7 +14,8 @@ Research repository for a journal-first programme on evidence-calibrated image r
 - Phase-0 classical canary implemented and executed.
 - Formal database screening and the 100-image pilot remain outstanding.
 - Experimental work is now the user's priority. An initial dataset/baseline audit is complete; 100 DIV2K sources are acquired for development only, with 24 paired observations generated from 12 sources. Learned reconstruction and independent calibration/test evaluation have not run.
-- A separate [four-source Colab pilot](experiments/colab_pilot_00/README.md) now has saved successful execution checks. Its fixed inverses underperform the degraded-input baseline, and operator spread does not beat the best simple control at 50% retention. A Drive export cell has been added; raw results and figure review remain pending.
+- A separate [four-source Colab pilot](experiments/colab_pilot_00/README.md) has saved successful execution checks. Its fixed inverses underperform the degraded-input baseline on average, and operator spread does not beat the best simple control at 50% pixel retention. The dated Drive export has since been located; the earlier review is retained as a historical checkpoint.
+- [Baseline 01](experiments/baseline_01/README.md) now has a saved, executed development notebook, result tables and four inspected figures. Across 48 simulated combinations of the same four sources, source-excluded tuning gives the nominal gradient-regularised inverse pooled gains of 1.141 dB and 0.615 dB over input for linear and JPEG-chain conditions. Ridge remains weaker on average. Patch-level operator spread improves over the included controls in pooled comparisons; these are development findings, not novelty or independent-test claims. Execution used in-process IPython; a native Colab runtime check remains outstanding.
 
 The 90 studies are a seed evidence map, not a completed PRISMA corpus. The repository must not be cited as a systematic review until database searches, deduplication, two-stage screening, exclusion logging, full-text verification and citation chaining are complete.
 
@@ -25,6 +26,8 @@ The original umbrella topic remains **Physics-Informed Deep Learning for Robust 
 The [research topic and review reference](docs/research_topic_and_review_reference.md), also available as an [editable Word document](docs/research_topic_and_review_reference.docx), explains the retained topic, focused experimental question, evidence limits and recommended scoping-review workflow. The scoping designation is a recommendation pending a dated protocol amendment; protocol v0.4 and screening decisions remain unchanged.
 
 ## Current research decision
+
+The [experimental/scoping decision note](docs/research_routes_decision_2026-09-17.md) keeps the scoping-review route open independently of this candidate method. A rigorous evidence map can remain useful if an experimental mechanism fails or is already known; its added value over prior reviews and its formal methodology still need to be established. The current systematic-review protocol has not been silently renamed or amended.
 
 The [dataset and baseline audit](docs/dataset_and_baseline_audit_01.md) identifies DPIR's reported training overlap with DIV2K and the face/dog domains of the released blind diffusion checkpoints. The [new preparation workflow](experiments/selective_reconstruction/README.md) records source identities and controlled float measurements. Final evaluation data remain to be selected after checkpoint overlap checks; these development images are not held-out evidence.
 
