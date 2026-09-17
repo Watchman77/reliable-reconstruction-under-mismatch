@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.23.1 — 2026-09-17
+
+- Reviewed the user's uploaded Baseline 01 Colab notebook: eleven consecutive execution counts, no saved error outputs, unchanged computational cells, passing numerical checks and a mounted Drive destination.
+- Reconciled all three embedded tables with the seven previously retrieved Drive CSVs and inspected all four embedded figures. Confirmed the positive gradient-baseline development results while retaining the negative ridge comparisons and novelty limits.
+- Documented the non-fatal pandas FutureWarning and stale metadata inherited from the local execution. Preserved the uploaded notebook and original local-run records; added a source-hashed review instead of rewriting execution history.
+- Closed the saved-notebook Colab inspection gap. Did not claim live runtime control or verification of all separately exported PNG/JSON bytes and hashes. Review protocol and screening decisions remain unchanged.
+
 ## 0.23.0 — 2026-09-17
 
 - Added and executed Baseline 01 on the same four development sources: three blur widths, two noise levels, linear/JPEG-chain conditions, two classical regularisers and source-excluded strength selection. Preserved input, smoothing and oracle-blur controls.

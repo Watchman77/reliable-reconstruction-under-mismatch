@@ -2,6 +2,8 @@
 
 17 September 2026. **Development evidence from four sources; novelty is unestablished.**
 
+**Colab status update:** the [user's saved Colab execution has now been reviewed](colab_execution_review_2026-09-17.md): eleven consecutively numbered code cells, no saved error outputs, three reconciled tables and four inspected embedded figures. One non-fatal pandas warning and inherited local-run metadata are documented. This closes the earlier notebook-inspection gap for that run; the original local-execution record below is retained.
+
 The weak Pilot 00 baseline warranted a regularisation diagnostic before further development of the proposed reliability score. The new gradient-regularised inverse improves over the degraded input in all 48 simulated source/condition combinations. The ridge inverse still underperforms on average. This is sufficient to retain a stronger classical comparator for the next experiment; it does not validate a new research contribution.
 
 ## Executed experiment
@@ -48,7 +50,7 @@ These findings differ from Pilot 00's negative pixel-selection comparison. **The
 
 ## Verification and runtime boundary
 
-All nine code cells executed in order in a fresh, in-process IPython session; the notebook contains their text/table outputs and four figures, with no error outputs. The original cell code was executed without replacement. A standard Jupyter kernel could not start because the environment denied its socket operations. **Colab execution and Drive mounting remain unverified in this turn.** The fallback and its scope are recorded in notebook metadata.
+The original local validation executed all nine code cells in order in a fresh, in-process IPython session; its notebook contains text/table outputs and four figures, with no error outputs. The original cell code was executed without replacement. A standard Jupyter kernel could not start because the environment denied its socket operations. Colab execution and Drive mounting were unverified at that initial checkpoint; the subsequent saved Colab review linked above supersedes that pending status. The local fallback and its scope remain recorded in the original notebook metadata.
 
 Independent tiny dense solves agree with the FFT inverses to below 4 × 10⁻¹⁵ maximum absolute error. Constant-image, PSNR, risk-order and endpoint checks pass. Saved output hashes, tuning exclusions, selected rows and summary arithmetic are checked by readback; [validation.json](validation.json) records the final artifact audit. All four figures were inspected. The sweep's logarithmic vertical axis makes the small errors near the optimum visible without dropping the poor settings.
 
