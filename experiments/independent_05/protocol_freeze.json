@@ -1,0 +1,361 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "stage": "05A_protocol_freeze_and_05B_documented_overlap_audit",
+  "frozen_at_utc": "2026-09-21T22:47:41Z",
+  "parent_repository_commit": "dcb9d421f55767215063398a52b8d60d869259a2",
+  "parent_experiment": "jpeg_aware_04",
+  "role": "intermediate_independent_confirmation",
+  "test_results_inspected": false,
+  "independent_test_run_authorized": false,
+  "protocol_amendment_rule": "After this freeze, only outcome-blind engineering corrections are allowed. Each correction requires a versioned amendment that identifies the bug, affected fields, reason, author, UTC time, and whether any independent output existed. No outcome-dependent change is permitted.",
+  "claim_boundary": {
+    "independent_source_evaluation_if_completed": true,
+    "checkpoint_training_overlap_proved_absent": false,
+    "reason_overlap_not_proved": "The pinned publications and repositories name training datasets but do not provide checkpoint-level image manifests.",
+    "calibrated_reliability_if_completed": "Limited to the frozen corruptions, model, score, calibration split, and bad-detail event.",
+    "novelty_established": false,
+    "definitive_100_source_gate_satisfied": false,
+    "reason_100_source_gate_not_satisfied": "The strict primary cohort has 40 natural-image sources. A successful Experiment 05 is an independent confirmation checkpoint, not the repository's final >=100-source gate."
+  },
+  "sealed_primary_dataset": {
+    "name": "TESTIMAGES/SAMPLING",
+    "version": "4.0.000",
+    "publisher": "Nicola Asuni / Tecnick.com",
+    "license": "CC BY-NC-SA 4.0",
+    "archive_name": "SAMPLING_8BIT_RGB_2400x2400.tar.bz2",
+    "archive_url": "https://sourceforge.net/projects/testimages/files/SAMPLING/8BIT/RGB/SAMPLING_8BIT_RGB_2400x2400.tar.bz2/download",
+    "archive_listing_url": "https://sourceforge.net/projects/testimages/files/SAMPLING/8BIT/RGB/",
+    "documentation_url": "https://testimages.org/sampling/",
+    "expected_sources": 40,
+    "expected_format": "PNG",
+    "expected_mode": "RGB",
+    "expected_bit_depth_per_channel": 8,
+    "expected_width": 2400,
+    "expected_height": 2400,
+    "member_selection": "Use every and only PNG member whose decoded image is RGB 2400x2400 8-bit. Abort unless exactly 40 unique source files satisfy the rule.",
+    "crop_rule": "Take one deterministic 576x576 centre crop per source, then evaluate the same central 512x512 region used in Experiment 04.",
+    "archive_sha256": null,
+    "archive_hash_rule": "Compute and store SHA-256 and byte count immediately after download and before extraction. A changed download is a new dataset receipt and requires a protocol amendment before any independent inference.",
+    "source_hash_rule": "Record member path, byte count, SHA-256, decoded dimensions and mode before corruption generation.",
+    "failure_rule": "Do not replace excluded, corrupt, duplicate or unreadable sources after test processing begins. Continue only with at least 36 eligible sources; otherwise abort Experiment 05.",
+    "exposure_conclusion": "No documented training or benchmark exposure was found in the reviewed pinned FBCNN and DPIR sources. This is evidence of no documented exposure, not proof that the checkpoint creators never encountered the images."
+  },
+  "development_partitions": {
+    "dataset": "DIV2K validation",
+    "checkpoint_exposure_status": "documented training-family overlap for both pretrained components; development use only",
+    "excluded_prior_development_sources": [
+      "0801",
+      "0802",
+      "0803",
+      "0804"
+    ],
+    "trained_comparator_fit_sources": "0805-0856 inclusive (52 sources)",
+    "trained_comparator_early_stop_sources": "0857-0868 inclusive (12 sources)",
+    "score_calibration_sources": "0869-0900 inclusive (32 sources)",
+    "engineering_canary_sources": [
+      "0805",
+      "0806"
+    ],
+    "partition_rule": "Source IDs are fixed lexicographically. No source may cross fit, early-stop, calibration, or independent-test partitions.",
+    "near_duplicate_audit": "Before independent inference, compare the 40 primary files with all 96 DIV2K development files using exact SHA-256 plus 64-bit pHash and dHash. Exact matches are excluded. A pair with both pHash and dHash Hamming distance <=4 is manually adjudicated before corruption generation, without viewing model outcomes. Decisions are recorded and no source is replaced."
+  },
+  "component_lock": {
+    "dpir": {
+      "repository": "cszn/DPIR",
+      "commit": "15bca3fcc1f3cc51a1f99ccf027691e278c19354",
+      "checkpoint_url": "https://github.com/cszn/KAIR/releases/download/v1.0/drunet_color.pth",
+      "checkpoint_bytes": 130579305,
+      "checkpoint_sha256": "479abe3c5327dfd10ff54a80ec7d4098ca80752a5c9492cdff31cee430bec4b4",
+      "digest_authority": "Observed official-release download; not a publisher-signed checksum."
+    },
+    "fbcnn": {
+      "repository": "jiaxi-jiang/FBCNN",
+      "commit": "54d1831927506b3247e2d4d245abb4f4dab1a1cd",
+      "checkpoint_url": "https://github.com/jiaxi-jiang/FBCNN/releases/download/v1.0/fbcnn_color.pth",
+      "checkpoint_bytes": 287755111,
+      "checkpoint_sha256": "8b0e4ef23d59cf7ac934a342cb31a17619e4fa4a0b3374a9d78c5174312387e8",
+      "digest_authority": "Observed official-release download; not a publisher-signed checksum."
+    },
+    "parent_design_sha256": "bbeda736bb0893aa7e9ddfa83678e0d00d3004ae02e50f7cf28f3444a90618f4"
+  },
+  "simulation": {
+    "seed": 20260921,
+    "crop_size": 512,
+    "context_border": 32,
+    "clean_input_scale": "decoded 8-bit RGB divided by 255 into float64 [0,1]",
+    "boundary_condition": "periodic",
+    "noise_pairing": "One source-specific standard-normal field is reused across all chains for that source and scaled by the chain noise standard deviation.",
+    "nominal_blur_sigma": 1.0,
+    "nominal_noise_std": 0.00784313725490196,
+    "jpeg_subsampling": 0,
+    "jpeg_optimize": false,
+    "acquisition_chains": [
+      {
+        "id": "q8_b16_n2",
+        "true_blur_sigma": 1.6,
+        "noise_std": 0.00784313725490196,
+        "codec": "quantized_8bit",
+        "jpeg_quality": null,
+        "role": "uncompressed_negative_control"
+      },
+      {
+        "id": "j90_b16_n2",
+        "true_blur_sigma": 1.6,
+        "noise_std": 0.00784313725490196,
+        "codec": "jpeg",
+        "jpeg_quality": 90,
+        "role": "secondary_codec_strength"
+      },
+      {
+        "id": "j75_b16_n2",
+        "true_blur_sigma": 1.6,
+        "noise_std": 0.00784313725490196,
+        "codec": "jpeg",
+        "jpeg_quality": 75,
+        "role": "primary_anchor"
+      },
+      {
+        "id": "j50_b16_n2",
+        "true_blur_sigma": 1.6,
+        "noise_std": 0.00784313725490196,
+        "codec": "jpeg",
+        "jpeg_quality": 50,
+        "role": "secondary_codec_strength"
+      },
+      {
+        "id": "j75_b12_n2",
+        "true_blur_sigma": 1.2,
+        "noise_std": 0.00784313725490196,
+        "codec": "jpeg",
+        "jpeg_quality": 75,
+        "role": "secondary_blur_strength"
+      },
+      {
+        "id": "j75_b20_n2",
+        "true_blur_sigma": 2.0,
+        "noise_std": 0.00784313725490196,
+        "codec": "jpeg",
+        "jpeg_quality": 75,
+        "role": "secondary_blur_strength"
+      },
+      {
+        "id": "j75_b16_n5",
+        "true_blur_sigma": 1.6,
+        "noise_std": 0.0196078431372549,
+        "codec": "jpeg",
+        "jpeg_quality": 75,
+        "role": "secondary_noise_strength"
+      }
+    ]
+  },
+  "reconstruction_methods": [
+    "observed",
+    "gradient_nominal",
+    "dpir_nominal",
+    "fbcnn",
+    "fbcnn_gradient_nominal",
+    "fbcnn_dpir_nominal"
+  ],
+  "fixed_reconstruction_settings": {
+    "gradient_lambda": 0.05,
+    "dpir_iterations": 8,
+    "model_sigma_start_255": 49.0,
+    "model_sigma_end_255": 2.0,
+    "prior_tradeoff": 0.23,
+    "periodic_x8": true,
+    "fbcnn_quality_input": "automatic prediction only",
+    "fbcnn_output": "clip to [0,1] without uint8 rounding before downstream inversion"
+  },
+  "selection_scores": {
+    "operational": [
+      "operator_spread_detail",
+      "operator_spread_rgb",
+      "image_transform_spread_detail",
+      "original_measurement_residual",
+      "reconstruction_gradient",
+      "trained_image_only_patcherrornet_ensemble"
+    ],
+    "evaluation_only": [
+      "expected_random",
+      "oracle_detail_error"
+    ],
+    "operator_sigmas": [
+      0.8,
+      1.0,
+      1.2
+    ],
+    "outer_rotations_quarter_turns": [
+      0,
+      1,
+      2
+    ],
+    "patch_size": 16,
+    "coverages": [
+      0.5,
+      0.75,
+      0.9,
+      1.0
+    ],
+    "detail_operator": "D(x)=x-GaussianBlur_sigma1(x)",
+    "detail_rmse_tolerances": [
+      0.025,
+      0.05,
+      0.1
+    ],
+    "primary_bad_detail_event": "centre 16x16 patch detail RMSE > 0.05"
+  },
+  "trained_image_only_comparator": {
+    "name": "PatchErrorNet deep ensemble",
+    "information": "64x64 context from the supplied observation and FBCNN+DPIR reconstruction only; no operator variants, source ID, clean image, true blur, true noise, codec metadata or reference-derived feature",
+    "input_channels": 6,
+    "backbone": "ResNet-18 from scratch with a 6-channel first convolution and one scalar logit",
+    "target": "Whether the centre 16x16 patch has detail RMSE > 0.05",
+    "ensemble_members": 5,
+    "seeds": [
+      2026092101,
+      2026092102,
+      2026092103,
+      2026092104,
+      2026092105
+    ],
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 128,
+    "maximum_epochs": 50,
+    "early_stopping": "Patience 5 on source-macro Brier score in sources 0857-0868; retain the lowest validation-Brier epoch.",
+    "loss": "Binary cross-entropy with positive weight estimated from fit sources only.",
+    "augmentation": "D4 rotations/reflections applied deterministically from member seed.",
+    "sampling": "At most 256 fixed hash-selected patch centres per source and acquisition chain per epoch, source-balanced.",
+    "primary_score": "Mean predicted bad-detail probability across five members.",
+    "secondary_score": "Variance of predicted bad-detail probability across five members."
+  },
+  "calibration": {
+    "fit_partition": "DIV2K 0869-0900 only",
+    "method": "Isotonic regression fitted separately for each operational score after orienting higher values to mean higher risk.",
+    "weights": "Each calibration source has equal total weight.",
+    "test_metrics": [
+      "source-macro Brier score",
+      "10-bin equal-mass expected calibration error",
+      "calibration-in-the-large",
+      "calibration slope",
+      "reliability diagram"
+    ],
+    "calibration_claim": "A score is called calibrated only for the frozen bad-detail event and acquisition family if its independent-test metrics and source-bootstrap intervals are reported. Calibration is not a posterior-probability claim."
+  },
+  "primary_hypotheses": [
+    {
+      "id": "H1_reconstruction",
+      "condition": "j75_b16_n2",
+      "unit": "source",
+      "contrast": "fbcnn_dpir_nominal minus dpir_nominal",
+      "endpoint": "mean detail MSE over the 512x512 evaluation region",
+      "direction": "negative is favorable",
+      "practical_gate": "At least 5% relative reduction versus dpir_nominal.",
+      "statistical_gate": "Holm-adjusted one-sided paired sign-flip p < 0.05 and the two-sided 95% paired source-bootstrap interval for the mean difference lies entirely below zero."
+    },
+    {
+      "id": "H2_selection",
+      "condition": "j75_b16_n2",
+      "pipeline": "fbcnn_dpir_nominal",
+      "coverage": 0.5,
+      "unit": "source",
+      "contrast": "operator_spread_detail risk minus image_transform_spread_detail risk",
+      "endpoint": "retained-patch detail MSE",
+      "direction": "negative is favorable",
+      "practical_gate": "At least 5% relative risk reduction versus image_transform_spread_detail.",
+      "statistical_gate": "Holm-adjusted one-sided paired sign-flip p < 0.05 and the two-sided 95% paired source-bootstrap interval for the mean difference lies entirely below zero."
+    }
+  ],
+  "statistical_plan": {
+    "independent_unit": "source image",
+    "patches_as_independent_replicates": false,
+    "bootstrap": "10,000 source-level paired percentile resamples using seed 20260921",
+    "randomization_test": "100,000 source-level paired sign flips using seed 20260921; use exact enumeration only if the analyzable source count makes it cheaper",
+    "multiplicity": "Holm correction across H1 and H2 only",
+    "secondary_outcomes": "Report point estimates and 95% source-bootstrap intervals. They cannot rescue a failed primary gate and are labelled exploratory unless explicitly named as key secondary.",
+    "missingness": "Report every exclusion and failed observation. Do not impute or replace sources."
+  },
+  "execution_barriers": [
+    {
+      "stage": "05A-05B",
+      "allowed": "Protocol freeze, documented exposure audit, static validation notebook.",
+      "forbidden": "Download or inspect independent reconstruction outputs, risk curves or performance summaries."
+    },
+    {
+      "stage": "05C",
+      "allowed": "Acquire and hash data; run byte/decode/duplicate checks; run engineering canary on DIV2K 0805-0806 only.",
+      "forbidden": "Run inference on TESTIMAGES or change scientific settings using canary quality outcomes."
+    },
+    {
+      "stage": "05D",
+      "allowed": "Locked full run after every readiness assertion passes; resume failed jobs without inspecting aggregate outcomes.",
+      "forbidden": "Interim test peeking, method tuning, threshold tuning, source replacement, or selective reruns based on performance."
+    },
+    {
+      "stage": "05E-05F",
+      "allowed": "One-time unsealing, calibration application, frozen statistics, reporting and pass/fail decision.",
+      "forbidden": "Changing hypotheses, comparators, exclusions or decision thresholds after unsealing."
+    }
+  ],
+  "readiness_requirements_before_independent_inference": [
+    "Archive SHA-256 and byte count receipt exists.",
+    "Exactly 40 eligible source records exist before duplicate adjudication.",
+    "All decoded sources are RGB 2400x2400 8-bit PNGs.",
+    "Exact and near-duplicate audit against all development sources is complete.",
+    "At least 36 primary sources remain eligible.",
+    "Pinned DPIR and FBCNN source and checkpoint digests match.",
+    "PatchErrorNet training and early stopping are complete without calibration/test data.",
+    "All isotonic mappings are fitted on DIV2K 0869-0900 only and serialized.",
+    "The DIV2K 0805-0806 engineering canary passes schema, determinism, range, hash, resume and independent-readback checks.",
+    "The run code verifies this protocol's SHA-256 and refuses an unknown protocol.",
+    "No independent performance artifact exists before the locked run starts."
+  ],
+  "reviewed_primary_sources": [
+    {
+      "title": "FBCNN official training configuration",
+      "url": "https://github.com/jiaxi-jiang/FBCNN/blob/54d1831927506b3247e2d4d245abb4f4dab1a1cd/options/train_fbcnn_color.json"
+    },
+    {
+      "title": "FBCNN official colour test script",
+      "url": "https://github.com/jiaxi-jiang/FBCNN/blob/54d1831927506b3247e2d4d245abb4f4dab1a1cd/main_test_fbcnn_color.py"
+    },
+    {
+      "title": "Towards Flexible Blind JPEG Artifacts Removal",
+      "url": "https://arxiv.org/abs/2109.14573"
+    },
+    {
+      "title": "Plug-and-Play Image Restoration with Deep Denoiser Prior",
+      "url": "https://arxiv.org/abs/2008.13751"
+    },
+    {
+      "title": "DPIR official repository",
+      "url": "https://github.com/cszn/DPIR/tree/15bca3fcc1f3cc51a1f99ccf027691e278c19354"
+    },
+    {
+      "title": "TESTIMAGES/SAMPLING documentation",
+      "url": "https://testimages.org/sampling/"
+    },
+    {
+      "title": "TESTIMAGES/SAMPLING 8-bit RGB archive listing",
+      "url": "https://sourceforge.net/projects/testimages/files/SAMPLING/8BIT/RGB/"
+    },
+    {
+      "title": "TESTIMAGES: A Large Data Archive For Display and Algorithm Testing",
+      "url": "https://doi.org/10.1080/2165347X.2015.1024298"
+    }
+  ],
+  "current_status": {
+    "protocol_frozen": true,
+    "documented_exposure_audit_complete": true,
+    "checkpoint_training_overlap_proved_absent": false,
+    "independent_dataset_downloaded_and_hashed": false,
+    "near_duplicate_audit_complete": false,
+    "trained_comparator_ready": false,
+    "calibration_mappings_ready": false,
+    "engineering_canary_passed": false,
+    "independent_test_run": false,
+    "next_stage": "05C_data_receipt_implementation_and_development_only_canary"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "notebook": "notebooks/05A_Independent_Validation_Protocol_Audit.ipynb",
+  "sha256": "b85760a78f8b6e6b5e86b383f7cc89bb9adc5f753b1834d33967ca2c8a7e1964",
+  "bytes": 54819,
+  "cells": 19,
+  "code_cells": 9,
+  "executed_code_cells": 9,
+  "error_outputs": 0,
+  "pass_markers_in_stream_outputs": 7,
+  "execution": {
+    "engine": "in-process sequential Python executor",
+    "reason": "ZeroMQ sockets are unavailable in the managed runtime",
+    "status": "completed"
+  },
+  "rendered_html_check": {
+    "title": "05A_Independent_Validation_Protocol_Audit",
+    "h1_count": 1,
+    "h2_count": 9,
+    "table_count": 13,
+    "traceback_markers": 0,
+    "html_is_repository_artifact": false
+  },
+  "scope": "Static protocol and documented-exposure audit only; no independent image bytes or performance results."
+}

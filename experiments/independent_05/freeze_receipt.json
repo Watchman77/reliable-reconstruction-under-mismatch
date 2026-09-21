@@ -1,0 +1,20 @@
+{
+  "acquisition_chains": 7,
+  "audit_rows": 11,
+  "audit_sha256": "47b4bb50257e5e7e1874231bcb359dfa44d3a117c4a495200d206327edaf64af",
+  "document_sha256": "08b09811ed4134ec30a189f9789f193e4dc39f89c089efa361aa32050e5d999b",
+  "eligible_primary_cohort": "TESTIMAGES/SAMPLING",
+  "excluded_audit_rows": 10,
+  "expected_primary_sources": 40,
+  "experiment_id": "independent_05",
+  "independent_performance_artifacts_found": 0,
+  "independent_run_authorized": false,
+  "next_stage": "05C_data_receipt_implementation_and_development_only_canary",
+  "primary_hypotheses": 2,
+  "protocol_sha256": "b92c6cf73e05f60dc1edb3a31d88d91623e9ae0cf63d6265e6398e335928794c",
+  "reconstruction_methods": 6,
+  "status": "pass",
+  "validated_at_utc": "2026-09-21T22:56:07.977036+00:00",
+  "validated_stage": "05A_protocol_freeze_and_05B_documented_overlap_audit",
+  "validator_sha256": "238e935750ac5d56d61ef2811add59e38abec7c06666b48ed4df2ad50a789851"
+}
