@@ -1,0 +1,14 @@
+{
+  "status": "complete_for_configured_subset",
+  "configured_sources": [
+    "0801",
+    "0802",
+    "0803",
+    "0804"
+  ],
+  "completed_observations": 8,
+  "planned_observations": 8,
+  "full_design_observations": 8,
+  "full_design_complete": true,
+  "updated_utc": "2026-09-17T20:15:22.936653+00:00"
+}

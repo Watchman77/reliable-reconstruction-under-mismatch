@@ -1,0 +1,19 @@
+{
+  "scope": "descriptive_development_screen_only",
+  "full_design_assessed": true,
+  "status": "assessed_development_only",
+  "jpeg_detail_mse_deltas_vs_inverse_controls": {
+    "dpir_nominal": -0.0001630721588287765,
+    "fbcnn_gradient": -1.5554392605677813e-05,
+    "gradient_nominal": -2.9497234886622602e-05
+  },
+  "reconstruction_source_wins_vs_raw_dpir": 4,
+  "selection_best_pooled_operational_control": "image_transform_spread_detail",
+  "selection_source_wins": 4,
+  "reconstruction_screen_pass": true,
+  "selection_screen_pass": true,
+  "independent_test": false,
+  "calibrated_reliability": false,
+  "novelty_established": false,
+  "stronger_trained_image_only_uncertainty_comparator_run": false
+}
