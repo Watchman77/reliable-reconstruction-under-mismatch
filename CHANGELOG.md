@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.23.8 — 2026-09-24
+
+- Independently validated development shards 09–11 of 12 for DIV2K `0877`–`0900`: all 372 manifested files, 168 records and compact bundles passed integrity and schema checks.
+- Recalculated 4,704 compact-metric risk rows with maximum absolute error below \(9.4 \times 10^{-12}\); verified 1,008 quality rows, 18,816 risk rows, 13,440 DRUNet calls and 504 FBCNN calls.
+- Verified all three executed notebooks had seven sequentially executed code cells, zero errors and only their intended `SHARD_INDEX` source changes; paired the shard 10 and 11 notebooks by their internal indices.
+- Recorded outer-ZIP mismatches for all three downloaded archives while every internal manifest hash and byte count matched; accepted all scientific payloads with the container findings preserved.
+- Completed the development registry at 12 of 12: DIV2K `0805`–`0900`, 96 sources and 672 observations. The next permitted work is development-only PatchErrorNet ensemble fitting followed by frozen calibration; independent test inference remains unauthorized and unperformed.
+
 ## 0.23.7 — 2026-09-24
 
 - Independently validated development shards 07 and 08 of 12 for DIV2K `0861`–`0876`: all 248 manifested files, 112 records and compact bundles passed integrity and schema checks.
