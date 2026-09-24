@@ -382,10 +382,15 @@ def validate(archive_path: Path, expected_outer_sha256: str | None = None) -> di
         assert manifest["role"] == provenance["role"] == config["role"] == status["role"] == "development_only"
         assert manifest["test_inference_performed"] is False
 
+        findings = []
+        if expected_outer_sha256 is not None and outer_sha256 != expected_outer_sha256:
+            findings.append("received_outer_zip_repackaged_or_rewrapped")
+
         report.update(
             {
-                "status": "pass",
+                "status": "pass_with_recorded_outer_zip_mismatch" if findings else "pass",
                 "scientific_payload_accepted": True,
+                "findings": findings,
                 "audit_scope": "development-payload integrity and compact-metric consistency",
                 "archive_crc_test_passed": True,
                 "archive_root": archive_root,

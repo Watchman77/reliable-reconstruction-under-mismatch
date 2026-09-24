@@ -19,18 +19,17 @@ This index distinguishes reproducible repository assets from large raw archives.
 
 ## Current 05C1 checkpoint
 
-- Verified development shards: **1 of 12**.
-- Shard 00 sources: DIV2K `0805`–`0812`.
-- Shard 00 observations: **56 of 56**.
-- Shard 00 receipt: `experiments/independent_05/development_shard_00_readback_receipt.json`.
-- Shard 00 raw ZIP SHA-256: `4b7a011a4300417104278e673a2e61eb4a301f776a95a96259cafcecb25ea608`.
+- Verified development shards: **2 of 12**.
+- Shard 00: DIV2K `0805`–`0812`, **56 of 56** observations; receipt `experiments/independent_05/development_shard_00_readback_receipt.json`; received ZIP SHA-256 `4b7a011a4300417104278e673a2e61eb4a301f776a95a96259cafcecb25ea608`.
+- Shard 01: DIV2K `0813`–`0820`, **56 of 56** observations; receipt `experiments/independent_05/development_shard_01_readback_receipt.json`; received ZIP SHA-256 `2e26fcd21b96a5a3360708f989f097c92c451360504cd318fe4e5c46ba63dc0d`.
+- Shard 01's notebook-reported outer ZIP SHA-256 was `974aaa068a8d17f3ef554d0e88db4a5fe2a8d29d065a864016bb322e03b65681`. The outer mismatch is recorded; all 124 internal files matched the export manifest.
 - Independent test inference remains **not authorized** and **not performed**.
 
 ## Notebook policy
 
 Clean, self-contained notebooks are committed when a notebook is the canonical execution interface. Stages 01–03 are canonical Python modules rather than missing notebook deliverables. Exact executed notebooks are retained externally when their stored outputs materially increase size or expose environment-specific metadata; committed verification records preserve the execution evidence.
 
-The received executed 05C canary notebook is 390,597 bytes with SHA-256 `2ee9ce03d9de8fc1448a7bf7bd669a33122a27cedcc08bece3f8b838c6c50180`; all seven code cells were executed and no error output was present. The clean canonical notebook remains the committed version. An executed 05C1 notebook was not received with shard 00, but the returned raw shard archive was independently verified.
+The received executed 05C canary notebook is 390,597 bytes with SHA-256 `2ee9ce03d9de8fc1448a7bf7bd669a33122a27cedcc08bece3f8b838c6c50180`; all seven code cells were executed and no error output was present. The clean canonical notebook remains the committed version. An executed 05C1 notebook was not received with shard 00, but the returned raw shard archive was independently verified. The executed shard 01 notebook was received and checked: 387,549 bytes, SHA-256 `f22dd026f06354fe13abc64abfddc37c4e5e412ab93942470f013dfbbdf50d61`, seven of seven code cells executed, and zero error outputs.
 
 ## Raw-artifact policy
 
