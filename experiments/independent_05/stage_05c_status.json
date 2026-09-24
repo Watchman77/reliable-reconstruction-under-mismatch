@@ -17,14 +17,14 @@
   },
   "dataset_downloaded_and_hashed": true,
   "development_generation_notebook_prepared": true,
-  "development_generation_shards_completed": 9,
+  "development_generation_shards_completed": 12,
   "development_generation_shards_expected": 12,
   "development_canary_passed": true,
   "experiment_id": "independent_05",
   "implementation_ready": true,
   "independent_test_run_authorized": false,
   "near_duplicate_audit_complete": true,
-  "next_permitted_action": "Re-upload the raw ZIP for shard index 9 for independent readback; its executed notebook has already passed source and output checks.",
+  "next_permitted_action": "Fit the five-member PatchErrorNet ensemble on the completed development corpus, then fit the frozen source-separated calibration mappings; independent test inference remains unauthorized.",
   "protocol_frozen": true,
   "schema_version": "1.0.0",
   "stage": "05C",
@@ -32,36 +32,17 @@
   "test_inference_performed": false,
   "test_performance_inspected": false,
   "test_source_decode_check_complete": true,
-  "updated_at_utc": "2026-09-24T19:52:53Z",
+  "updated_at_utc": "2026-09-24T20:19:46Z",
   "development_shard_registry": {
     "path": "experiments/independent_05/development_shard_registry.json",
-    "verified_shards": 9
+    "verified_shards": 12
   },
   "latest_development_shard_receipt": {
-    "path": "experiments/independent_05/development_shard_08_readback_receipt.json",
-    "shard_index": 8,
+    "path": "experiments/independent_05/development_shard_11_readback_receipt.json",
+    "shard_index": 11,
     "status": "pass_with_recorded_outer_zip_mismatch"
   },
-  "development_generation_observations_verified": 504,
-  "development_generation_sources_verified": 72,
-  "pending_development_shard_notebook": {
-    "archive_required": true,
-    "code_cells_executed": 7,
-    "error_outputs": 0,
-    "notebook_filename": "05C1_Development_Reconstruction_Shards(2).ipynb",
-    "notebook_reported_archive_sha256": "6ab19021a8c34d339b84c7d58be33c951bfd4977389e696a54a19a3c5777c21d",
-    "notebook_sha256": "2f33d83f97371ac1265aa9843fc99d4e0300c72829bb7924cce4be0cbd68aef0",
-    "shard_index": 9,
-    "source_ids": [
-      "0877",
-      "0878",
-      "0879",
-      "0880",
-      "0881",
-      "0882",
-      "0883",
-      "0884"
-    ],
-    "status": "notebook_verified_archive_pending"
-  }
+  "development_generation_observations_verified": 672,
+  "development_generation_sources_verified": 96,
+  "development_generation_complete": true
 }
