@@ -2,7 +2,7 @@
   "experiment_id": "independent_05",
   "expected_shards": 12,
   "independent_test_run_authorized": false,
-  "next_expected_shard_index": 7,
+  "next_expected_shard_index": 9,
   "role": "development_only",
   "schema_version": "1.0.0",
   "shards": [
@@ -163,11 +163,59 @@
       ],
       "status": "verified_pass_with_recorded_outer_zip_mismatch",
       "verified_at_utc": "2026-09-24T18:53:04Z"
+    },
+    {
+      "archive_byte_count": 231758842,
+      "archive_root": "independent_05c_development_shard_07_of_12",
+      "archive_sha256": "9115cfb0a6c01b24615ea5d1357ed17a5fd6f04eb126966a0d7d5b91d6719a5f",
+      "findings": [
+        "received_outer_zip_repackaged_or_rewrapped"
+      ],
+      "notebook_reported_archive_sha256": "e64fba9846e7a64efe9d01ca24ffa09e74d431fb8941f4502235a2f98cde193c",
+      "outer_sha256_match": false,
+      "receipt": "experiments/independent_05/development_shard_07_readback_receipt.json",
+      "shard_index": 7,
+      "source_ids": [
+        "0861",
+        "0862",
+        "0863",
+        "0864",
+        "0865",
+        "0866",
+        "0867",
+        "0868"
+      ],
+      "status": "verified_pass_with_recorded_outer_zip_mismatch",
+      "verified_at_utc": "2026-09-24T19:52:53Z"
+    },
+    {
+      "archive_byte_count": 241234683,
+      "archive_root": "independent_05c_development_shard_08_of_12",
+      "archive_sha256": "ad5224d814e094377b8c85b657b287ba1a936b5d7034a31197859dd2ccc766ee",
+      "findings": [
+        "received_outer_zip_repackaged_or_rewrapped"
+      ],
+      "notebook_reported_archive_sha256": "bdf7be260717894939ca87bc0f371221bcd503c09f3601bec15e30f534744a5b",
+      "outer_sha256_match": false,
+      "receipt": "experiments/independent_05/development_shard_08_readback_receipt.json",
+      "shard_index": 8,
+      "source_ids": [
+        "0869",
+        "0870",
+        "0871",
+        "0872",
+        "0873",
+        "0874",
+        "0875",
+        "0876"
+      ],
+      "status": "verified_pass_with_recorded_outer_zip_mismatch",
+      "verified_at_utc": "2026-09-24T19:52:53Z"
     }
   ],
   "stage": "05C_development_generation",
   "test_inference_performed": false,
   "test_performance_inspected": false,
-  "updated_at_utc": "2026-09-24T18:53:04Z",
-  "verified_shards": 7
+  "updated_at_utc": "2026-09-24T19:52:53Z",
+  "verified_shards": 9
 }
