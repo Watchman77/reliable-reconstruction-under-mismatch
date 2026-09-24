@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "stage": "05C_development_canary_preparation",
+  "verified_at_utc": "2026-09-24T09:07:48Z",
+  "status": "structurally_verified_not_executed",
+  "notebook": {
+    "path": "notebooks/05C_Independent_Validation_Engineering_Canary.ipynb",
+    "sha256": "d1a55c66ad64599ea008efd1fd7d7f7d7db172e51f19d5bf75bd54fe63dc972a",
+    "cell_count": 15,
+    "code_cells_compile": true,
+    "stored_outputs": 0,
+    "stored_execution_counts": 0
+  },
+  "implementation": {
+    "path": "experiments/independent_05/canary.py",
+    "sha256": "3409fa18678eee2c235021074e62cf036740a6dcc5caeb5d188a44dc6fe5174e",
+    "syntax_check": "pass",
+    "scope_guard": "DIV2K 0805-0806 only",
+    "chain_scope": [
+      "q8_b16_n2",
+      "j75_b16_n2"
+    ]
+  },
+  "static_validator": {
+    "path": "scripts/validate_independent_05c.py",
+    "sha256": "e3f219dc83a48fda37a6a8a11d9fa138cec84097410aa80e9c769ac7f23d8ee0",
+    "status": "pass"
+  },
+  "execution_gap": {
+    "reason": "The workspace has no torch installation or CUDA device. The full canary deliberately hard-fails without CUDA.",
+    "required_next_evidence": "Run the notebook in a CUDA Colab runtime and return the raw canary ZIP for independent readback.",
+    "development_canary_passed": false
+  },
+  "patcherrornet_fit_performed": false,
+  "calibration_fit_performed": false,
+  "test_inference_performed": false,
+  "test_performance_inspected": false,
+  "independent_test_run_authorized": false
+}

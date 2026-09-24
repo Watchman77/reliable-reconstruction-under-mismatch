@@ -1,0 +1,28 @@
+{
+  "blockers": [],
+  "calibration_fitted": false,
+  "canary_inputs_ready": true,
+  "canary_notebook_prepared": true,
+  "canary_notebook_execution": "not_run_requires_cuda",
+  "comparator_fitted": false,
+  "data_receipt": {
+    "byte_count": 54539,
+    "path": "experiments/independent_05/data_receipt.json",
+    "sha256": "ad48eb7a65b043173f1012035b4a4c95d0299420614311bdfc6611ef840169cb"
+  },
+  "dataset_downloaded_and_hashed": true,
+  "development_canary_passed": false,
+  "experiment_id": "independent_05",
+  "implementation_ready": true,
+  "independent_test_run_authorized": false,
+  "near_duplicate_audit_complete": true,
+  "next_permitted_action": "Implement and run the development-only 0805-0806 engineering canary.",
+  "protocol_frozen": true,
+  "schema_version": "1.0.0",
+  "stage": "05C",
+  "test_archive_publisher_digest_match": true,
+  "test_inference_performed": false,
+  "test_performance_inspected": false,
+  "test_source_decode_check_complete": true,
+  "updated_at_utc": "2026-09-24T09:00:41Z"
+}
