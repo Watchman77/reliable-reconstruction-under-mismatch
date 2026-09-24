@@ -17,14 +17,14 @@
   },
   "dataset_downloaded_and_hashed": true,
   "development_generation_notebook_prepared": true,
-  "development_generation_shards_completed": 3,
+  "development_generation_shards_completed": 4,
   "development_generation_shards_expected": 12,
   "development_canary_passed": true,
   "experiment_id": "independent_05",
   "implementation_ready": true,
   "independent_test_run_authorized": false,
   "near_duplicate_audit_complete": true,
-  "next_permitted_action": "Run shard index 3 of notebooks/05C1_Development_Reconstruction_Shards.ipynb in CUDA Colab and return its raw shard ZIP plus executed notebook for independent readback.",
+  "next_permitted_action": "Run shard index 4 of notebooks/05C1_Development_Reconstruction_Shards.ipynb in CUDA Colab and return its raw shard ZIP plus executed notebook for independent readback.",
   "protocol_frozen": true,
   "schema_version": "1.0.0",
   "stage": "05C",
@@ -32,16 +32,16 @@
   "test_inference_performed": false,
   "test_performance_inspected": false,
   "test_source_decode_check_complete": true,
-  "updated_at_utc": "2026-09-24T17:23:47Z",
+  "updated_at_utc": "2026-09-24T18:01:21Z",
   "development_shard_registry": {
     "path": "experiments/independent_05/development_shard_registry.json",
-    "verified_shards": 3
+    "verified_shards": 4
   },
   "latest_development_shard_receipt": {
-    "path": "experiments/independent_05/development_shard_02_readback_receipt.json",
-    "shard_index": 2,
-    "status": "pass_with_recorded_outer_zip_mismatch"
+    "path": "experiments/independent_05/development_shard_03_readback_receipt.json",
+    "shard_index": 3,
+    "status": "pass"
   },
-  "development_generation_observations_verified": 168,
-  "development_generation_sources_verified": 24
+  "development_generation_observations_verified": 224,
+  "development_generation_sources_verified": 32
 }

@@ -1,0 +1,73 @@
+{
+  "archive": {
+    "archive_root": "independent_05c_development_shard_03_of_12",
+    "byte_count": 234302354,
+    "received_filename": "independent_05c_development_shard_03_of_12-20260924T175431Z-1-001.zip",
+    "sha256": "a63d8b69082a3b00e7e485363a73f96e4860919f11bcf30c7f300fd0bb58ef79"
+  },
+  "archive_crc_test_passed": true,
+  "archive_entries": 125,
+  "audit_scope": "development-payload integrity and compact-metric consistency",
+  "chain_ids": [
+    "q8_b16_n2",
+    "j90_b16_n2",
+    "j75_b16_n2",
+    "j50_b16_n2",
+    "j75_b12_n2",
+    "j75_b20_n2",
+    "j75_b16_n5"
+  ],
+  "compact_arrays_per_bundle": 14,
+  "compact_bundles_checked": 56,
+  "development_only": true,
+  "drunet_calls": 4480,
+  "experiment_id": "independent_05",
+  "fbcnn_calls": 168,
+  "independent_test_run_authorized": false,
+  "limitations": [
+    "No executed shard notebook was received, so a notebook-reported outer ZIP SHA-256 was not available for comparison.",
+    "The compact shard does not retain every reconstruction or the reference crops, so the validator does not independently recompute every quality and risk value.",
+    "Acceptance records engineering integrity only; it is not an independent-test result or a final novelty claim."
+  ],
+  "manifest_files_checked": 124,
+  "manifest_mismatches": 0,
+  "maximum_recalculation_errors": {
+    "fbcnn_dpir_all_region_risk_compact_metrics": 8.400177255174501e-12,
+    "fbcnn_dpir_quality_compact_metrics": 7.522292684580822e-12
+  },
+  "notebook_reported_outer_sha256": null,
+  "outer_sha256_comparison_available": false,
+  "recalculated_risk_rows": 1568,
+  "records_checked": 56,
+  "role": "development_only",
+  "row_counts": {
+    "acquisition.csv": 56,
+    "acquisition_repeat_check.csv": 56,
+    "compute.csv": 840,
+    "fbcnn_diagnostics.csv": 168,
+    "quality.csv": 336,
+    "risk.csv": 6272,
+    "source_manifest.csv": 8,
+    "trajectories.csv": 4480
+  },
+  "schema_version": "1.0.0",
+  "scientific_payload_accepted": true,
+  "shard_index": 3,
+  "shards_expected": 12,
+  "source_ids": [
+    "0829",
+    "0830",
+    "0831",
+    "0832",
+    "0833",
+    "0834",
+    "0835",
+    "0836"
+  ],
+  "stage": "05C_development_generation",
+  "status": "pass",
+  "test_inference_performed": false,
+  "test_performance_inspected": false,
+  "validator": "scripts/validate_independent_05c_development_shard.py",
+  "verified_at_utc": "2026-09-24T18:01:21Z"
+}
