@@ -1,0 +1,12 @@
+{
+  "calibration_mapping_count": 11,
+  "development_source_union": 96,
+  "ensemble_members": 5,
+  "independent_test_run_authorized": false,
+  "member_history_files": 5,
+  "member_model_files": 5,
+  "partitions_disjoint": true,
+  "protocol_sha256": "b92c6cf73e05f60dc1edb3a31d88d91623e9ae0cf63d6265e6398e335928794c",
+  "test_inference_performed": false,
+  "test_loader_present": false
+}

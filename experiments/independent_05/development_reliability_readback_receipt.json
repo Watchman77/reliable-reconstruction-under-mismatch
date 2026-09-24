@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "stage": "05C2_development_reliability_training_and_calibration",
+  "role": "development_only",
+  "status": "pass_development_reliability_readback_verified",
+  "validated_at_utc": "2026-09-24T23:06:49Z",
+  "validator": {
+    "path": "scripts/validate_independent_05c2_result.py",
+    "sha256": "e8f48c0dd537acf8c47cf1070a2d9364c5caf770cdbf6c84e54460e1adae8712"
+  },
+  "received_archive": {
+    "filename": "independent_05c2_development_reliability_20260924T225200_366388Z.zip",
+    "byte_count": 218356315,
+    "sha256": "a77f409016070ac799133502c3b24f9603e918b85a3069e539d70fbd8d8cad12",
+    "export_manifest_sha256": "582df9238100b4f7edcb36f6a325f7055495f4d086f64ea3d641d0cde2434c83",
+    "manifested_files": 27,
+    "manifest_mismatches": 0,
+    "zip_crc_check": "pass",
+    "path_safety_check": "pass"
+  },
+  "executed_notebook": {
+    "filename": "05C2_Development_Reliability_Training_and_Calibration (2).ipynb",
+    "byte_count": 692695,
+    "sha256": "77d6134ecccb2c4e1a5d30d08ce27ec119dab3e116c35bcbc1b5dda3d197291b",
+    "cell_count": 14,
+    "code_cell_count": 6,
+    "execution_counts": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "error_outputs": 0,
+    "source_match": "canonical_except_runtime_archive_directory",
+    "reported_archive_sha256_match": true,
+    "embedded_figure_hashes_match": true
+  },
+  "development_inputs": {
+    "shard_archives": 12,
+    "manifest_files_checked": 1488,
+    "manifest_mismatches": 0,
+    "sources": 96,
+    "observations": 672,
+    "fit_sources": 52,
+    "early_stop_sources": 12,
+    "calibration_sources": 32,
+    "partitions_disjoint": true
+  },
+  "ensemble": {
+    "architecture": "ResNet-18 from scratch; six input channels; one scalar logit",
+    "members": 5,
+    "fit_patches_per_member": 372736,
+    "fit_positive_patches": 75426,
+    "fit_negative_patches": 297310,
+    "calibration_sources_used_for_training": false,
+    "runtime": "NVIDIA L4; CUDA 12.8; PyTorch 2.11.0+cu128; deterministic algorithms enabled",
+    "member_summary": [
+      {
+        "member_index": 0,
+        "seed": 2026092101,
+        "epochs_completed": 6,
+        "best_epoch": 1,
+        "best_early_stop_source_macro_brier": 0.13225312715595855,
+        "model_byte_count": 44828363,
+        "model_sha256": "0aca65c4251bd313cec1085f63100dcb8f6b12bd84782992f80961b25f8289a5"
+      },
+      {
+        "member_index": 1,
+        "seed": 2026092102,
+        "epochs_completed": 13,
+        "best_epoch": 8,
+        "best_early_stop_source_macro_brier": 0.10206530690110023,
+        "model_byte_count": 44828363,
+        "model_sha256": "ffdb1884339569a3eab3ff55b002e06a9f9a0d56368762e429b054847d9d13de"
+      },
+      {
+        "member_index": 2,
+        "seed": 2026092103,
+        "epochs_completed": 28,
+        "best_epoch": 23,
+        "best_early_stop_source_macro_brier": 0.0934135878113964,
+        "model_byte_count": 44828363,
+        "model_sha256": "418e48ea270dc624c046ce13114e2b38eb54751d77258326b997bb2afdcd5c62"
+      },
+      {
+        "member_index": 3,
+        "seed": 2026092104,
+        "epochs_completed": 11,
+        "best_epoch": 6,
+        "best_early_stop_source_macro_brier": 0.0962019867576947,
+        "model_byte_count": 44828363,
+        "model_sha256": "219893ff1d5f2edbe46f37ed1f67f7f84db4f4c1f3174639f4aefdd514e2a001"
+      },
+      {
+        "member_index": 4,
+        "seed": 2026092105,
+        "epochs_completed": 14,
+        "best_epoch": 9,
+        "best_early_stop_source_macro_brier": 0.0978978096460369,
+        "model_byte_count": 44828363,
+        "model_sha256": "dc3a6ce2aa0d72f99cd2c201657c56060ccadd91445990209c910e9114ee081c"
+      }
+    ]
+  },
+  "calibration": {
+    "method": "source-equal-weighted isotonic regression",
+    "fit_partition": "DIV2K 0869-0900 only",
+    "source_count": 32,
+    "observations": 224,
+    "patch_rows": 229376,
+    "target_bad_rate": 0.22157505580357142,
+    "mapping_count": 11,
+    "mappings_sha256": "c1ae8757ca6c11762de46a1ac9e38f28637a56609f634ee8c69353df0ac8a788",
+    "diagnostics_sha256": "c5cb218c73c560f56d3f3feb3a22ba2fc692a2e628e3408a4a58e946151f60ac",
+    "maximum_independent_diagnostic_recalculation_error": 1.734723475976807e-17,
+    "lowest_in_sample_brier_score": "fbcnn_dpir_nominal__trained_image_only_patcherrornet_ensemble",
+    "lowest_in_sample_brier": 0.12759732310223598,
+    "lowest_in_sample_ece_score": "fbcnn_dpir_nominal__trained_image_only_patcherrornet_ensemble",
+    "lowest_in_sample_ece": 0.001882965716538307,
+    "diagnostic_scope": "development_fit_only"
+  },
+  "committed_evidence": {
+    "directory": "experiments/independent_05/development_reliability",
+    "includes": [
+      "calibration mappings and fit diagnostics",
+      "ensemble and per-member receipts",
+      "per-member training histories",
+      "development input receipts and compact index",
+      "status, checks and export manifest",
+      "two diagnostic figures"
+    ],
+    "excluded_large_artifacts": [
+      "five model weight files",
+      "calibration_predictions.npz",
+      "received result ZIP",
+      "executed notebook"
+    ]
+  },
+  "claim_boundary": "This verifies development fitting, serialization and audit integrity only. The in-sample calibration-fit diagnostics are not independent calibration evidence, held-out performance, a posterior-probability claim or a final novelty result.",
+  "test_loader_present": false,
+  "test_inference_performed": false,
+  "test_performance_inspected": false,
+  "independent_test_run_authorized": false,
+  "next_permitted_action": "Perform the outcome-blind readiness audit and prepare the locked Stage 05D runner. Do not run independent-test inference until a separate versioned transition explicitly authorizes it."
+}

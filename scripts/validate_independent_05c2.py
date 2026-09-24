@@ -112,8 +112,12 @@ def validate(root: Path) -> dict[str, object]:
     assert registry["independent_test_run_authorized"] is False
     assert status["development_generation_complete"] is True
     assert status["development_reliability_notebook_prepared"] is True
-    assert status["comparator_fitted"] is False
-    assert status["calibration_fitted"] is False
+    assert status["comparator_fitted"] is True
+    assert status["calibration_fitted"] is True
+    assert status["development_reliability_readback_verified"] is True
+    assert status["development_reliability_notebook_execution"] == (
+        "passed_cuda_colab_readback_verified"
+    )
     assert status["independent_test_run_authorized"] is False
     assert status["test_inference_performed"] is False
 
@@ -179,7 +183,12 @@ def validate(root: Path) -> dict[str, object]:
     assert sha256(implementation_path) in notebook_source
     assert PROTOCOL_SHA256 in notebook_source
     assert sha256(registry_path) in notebook_source
-    assert sha256(status_path) in notebook_source
+    # The clean execution notebook embeds the exact pre-run Stage 05C status.
+    # After a successful readback, the live status advances and intentionally
+    # no longer has the same digest as that historical pre-run snapshot.
+    assert "STAGE_STATUS_TEXT" in notebook_source
+    assert '"comparator_fitted": false' in notebook_source
+    assert '"calibration_fitted": false' in notebook_source
     assert "MEMBER_INDICES_TEXT = '0,1,2,3,4'" in notebook_source
     assert "Calibration skipped until all five ensemble members are complete." in notebook_source
     assert "Independent test run authorized: false" in notebook_source

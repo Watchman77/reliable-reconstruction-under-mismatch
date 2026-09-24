@@ -173,8 +173,17 @@ def validate(root: Path) -> dict[str, object]:
     assert status["development_generation_observations_verified"] == 672
     assert status["development_generation_sources_verified"] == 96
     assert status["development_reliability_notebook_prepared"] is True
-    assert status["comparator_fitted"] is False
-    assert status["calibration_fitted"] is False
+    assert status["comparator_fitted"] is True
+    assert status["calibration_fitted"] is True
+    assert status["development_reliability_readback_verified"] is True
+    assert status["development_reliability_notebook_execution"] == (
+        "passed_cuda_colab_readback_verified"
+    )
+    reliability_receipt_path = root / status["development_reliability_result"]["path"]
+    reliability_receipt = load_json(reliability_receipt_path)
+    assert reliability_receipt["status"] == "pass_development_reliability_readback_verified"
+    assert reliability_receipt["test_inference_performed"] is False
+    assert reliability_receipt["independent_test_run_authorized"] is False
     assert status["independent_test_run_authorized"] is False
     assert status["test_inference_performed"] is False
     assert status["test_performance_inspected"] is False
@@ -215,6 +224,9 @@ def validate(root: Path) -> dict[str, object]:
         "development_generation_shards_completed": 12,
         "development_generation_observations_verified": 672,
         "development_reliability_notebook_prepared": True,
+        "development_reliability_readback_verified": True,
+        "comparator_fitted": True,
+        "calibration_fitted": True,
         "development_generation_shards_expected": 12,
         "test_inference_performed": False,
         "independent_test_run_authorized": False,

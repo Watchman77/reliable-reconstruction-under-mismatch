@@ -15,7 +15,7 @@ This index distinguishes reproducible repository assets from large raw archives.
 | 05A protocol/data audit | `notebooks/05A_Independent_Validation_Protocol_Audit.ipynb` | Protocol, freeze receipt, data receipt and duplicate audit in `experiments/independent_05/` | Raw dataset archives excluded |
 | 05C engineering canary | `notebooks/05C_Independent_Validation_Engineering_Canary.ipynb` | `canary_readback_receipt.json` and amendment 0001 | Raw canary ZIP/executed notebook retained externally |
 | 05C1 development generation | `notebooks/05C1_Development_Reconstruction_Shards.ipynb` | Per-shard receipts and `development_shard_registry.json` | Shard ZIPs retained externally |
-| 05C2 reliability fitting | `notebooks/05C2_Development_Reliability_Training_and_Calibration.ipynb` and `experiments/independent_05/reliability_training.py` | `notebook_05c2_verification.json`; trained result pending | Clean notebook committed; CUDA result not yet produced |
+| 05C2 reliability fitting | `notebooks/05C2_Development_Reliability_Training_and_Calibration.ipynb` and `experiments/independent_05/reliability_training.py` | `development_reliability_readback_receipt.json` and compact evidence under `development_reliability/` | Large ZIP, executed notebook, five model weights and prediction NPZ retained externally by hash |
 | Independent held-out evaluation | Frozen by `protocol_freeze.json` | No test result exists | Unauthorized until the explicit transition gate passes |
 
 ## Current 05C1 checkpoint
@@ -39,16 +39,20 @@ This index distinguishes reproducible repository assets from large raw archives.
 
 ## Current 05C2 checkpoint
 
-- The clean 14-cell notebook contains six unexecuted code cells; the embedded implementation is collapsed by default.
-- All 12 actual shard archives were consumed successfully in a local compatibility audit: **1,488 manifest files**, **96 sources** and **672 observations**, with zero manifest mismatches.
-- A synthetic 32-source exercise fitted and serialized all **11** frozen isotonic mappings.
-- The five CUDA ensemble members and real development calibration mappings are **not yet fitted**. No independent-test loader or result is present.
+- The returned 14-cell notebook contains six successfully executed code cells, zero error outputs, and source identical to the canonical notebook except for the runtime shard-archive directory.
+- All 12 shard archives were verified again during the run: **1,488 manifest files**, **96 sources** and **672 observations**, with zero manifest mismatches.
+- All **five** CUDA PatchErrorNet members completed frozen fit/early-stop training; model bytes, member receipts and histories passed independent readback.
+- All **11** source-equal-weighted isotonic mappings were fitted on the 32-source calibration partition and serialized. The 229,376-row diagnostics reproduced with maximum absolute error (1.74 \times 10^{-17}).
+- The trained ensemble has the lowest in-sample development-fit Brier score (0.12760) and ECE (0.00188) among the 11 mapped scores. This is not an independent calibration result or novelty claim.
+- No independent-test loader or result is present. Independent test inference remains unauthorized pending the outcome-blind readiness transition.
 
 ## Notebook policy
 
 Clean, self-contained notebooks are committed when a notebook is the canonical execution interface. Stages 01–03 are canonical Python modules rather than missing notebook deliverables. Exact executed notebooks are retained externally when their stored outputs materially increase size or expose environment-specific metadata; committed verification records preserve the execution evidence.
 
 The received executed 05C canary notebook is 390,597 bytes with SHA-256 `2ee9ce03d9de8fc1448a7bf7bd669a33122a27cedcc08bece3f8b838c6c50180`; all seven code cells were executed and no error output was present. The clean canonical notebook remains the committed version. An executed 05C1 notebook was not received with shard 00, but the returned raw shard archive was independently verified. The executed shard 01 notebook was received and checked: 387,549 bytes, SHA-256 `f22dd026f06354fe13abc64abfddc37c4e5e412ab93942470f013dfbbdf50d61`, seven of seven code cells executed, and zero error outputs. The executed shard 02 notebook was also checked: 387,654 bytes, SHA-256 `e50b1ff27cab8fed9f1c1656b91487e54962c4d3c4e7c6d2744b285e675f8127`, seven of seven code cells executed, and zero error outputs. An executed shard 03 notebook was not received; its raw shard archive nevertheless passed independent payload verification. The executed shard 04 notebook was checked: 387,654 bytes, SHA-256 `47409d04eaf869f3fe4a3c9d5fa6ecb2050773823a44d2fa095b8ba5cec5417d`, seven of seven code cells executed, and zero error outputs. The executed shard 05 notebook was checked: 387,654 bytes, SHA-256 `58dbe2f7b4608ecd1ecf6f723c62ba7ea0e10de4643daa155938733c68458f63`, seven of seven code cells executed, and zero error outputs. The renamed executed shard 06 notebook was checked: 387,549 bytes, SHA-256 `28822b5c5cb75b7b88b76c6b5a42b5475ecbdea8cff1e31f813705cf8741b77a`, seven of seven code cells executed, zero error outputs, and canonical source except for `SHARD_INDEX = 6`. The shard 07 and 08 notebooks were also checked: both had seven sequentially executed code cells, zero errors, and only their intended shard-index changes. The shard 09–11 notebooks passed the same checks. Their received SHA-256 values are `2f33d83f97371ac1265aa9843fc99d4e0300c72829bb7924cce4be0cbd68aef0`, `ea4ca7cf1b46802b1beca1f463ac4b891fb6a71efe147364141cbae3cbfa4852` and `ee62693c40d370abbf5ee02560f3dcda2bf39ec92e608117b8bc6e7305a43509`, respectively.
+
+The executed 05C2 notebook is 692,695 bytes with SHA-256 `77d6134ecccb2c4e1a5d30d08ce27ec119dab3e116c35bcbc1b5dda3d197291b`; all six code cells completed without an error output, its reported archive hash matches the received 218,356,315-byte ZIP (`a77f409016070ac799133502c3b24f9603e918b85a3069e539d70fbd8d8cad12`), and its two embedded figures match the manifest. The clean canonical notebook remains committed; the executed notebook and large trained artifacts remain external and are identified by the readback receipt.
 
 ## Raw-artifact policy
 

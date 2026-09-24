@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.24.0 — 2026-09-24
+
+- Independently validated the returned 05C2 CUDA archive and executed notebook: all 27 manifested files, six executed code cells, two embedded figures and the notebook-reported outer hash passed.
+- Verified all five PatchErrorNet model payloads, receipts and histories, including the frozen 52-source fit partition, 12-source early-stop partition, deterministic L4 runtime and calibration-source exclusion.
+- Verified all 11 source-equal-weighted isotonic mappings on the 32-source calibration partition and independently reproduced the 229,376-row fit diagnostics to a maximum absolute difference of (1.74 \times 10^{-17}).
+- Committed the mappings, diagnostics, receipts, histories, input index, checks, manifest and figures while retaining the large model weights, prediction NPZ, result ZIP and executed notebook externally by hash.
+- Marked development comparator fitting and calibration fitting complete. The development diagnostics remain in-sample; held-out evaluation, independent calibration assessment and the final novelty claim remain pending, and independent test inference is still unauthorized.
+
 ## 0.23.9 — 2026-09-24
 
 - Corrected the 05C2 shard reader to accept both canonical root-level Colab archives and one-folder-wrapped downloaded archives while deriving every shard identity from its frozen internal source IDs.

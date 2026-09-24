@@ -1,0 +1,13 @@
+{
+  "calibration_fitted": true,
+  "calibration_patch_rows": 229376,
+  "calibration_source_count": 32,
+  "diagnostics_sha256": "c5cb218c73c560f56d3f3feb3a22ba2fc692a2e628e3408a4a58e946151f60ac",
+  "experiment_id": "independent_05",
+  "independent_test_run_authorized": false,
+  "mapping_count": 11,
+  "mappings_sha256": "c1ae8757ca6c11762de46a1ac9e38f28637a56609f634ee8c69353df0ac8a788",
+  "role": "development_only",
+  "stage": "05C2_development_reliability_training_and_calibration",
+  "test_inference_performed": false
+}

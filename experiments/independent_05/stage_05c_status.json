@@ -1,6 +1,6 @@
 {
   "blockers": [],
-  "calibration_fitted": false,
+  "calibration_fitted": true,
   "canary_readback_receipt": {
     "path": "experiments/independent_05/canary_readback_receipt.json",
     "status": "pass_with_recorded_outcome_blind_metadata_corrections"
@@ -9,7 +9,7 @@
   "canary_inputs_ready": true,
   "canary_notebook_prepared": true,
   "canary_notebook_execution": "passed_cuda_colab_readback_verified",
-  "comparator_fitted": false,
+  "comparator_fitted": true,
   "data_receipt": {
     "byte_count": 54539,
     "path": "experiments/independent_05/data_receipt.json",
@@ -25,7 +25,7 @@
   "implementation_ready": true,
   "independent_test_run_authorized": false,
   "near_duplicate_audit_complete": true,
-  "next_permitted_action": "Run Notebook 05C2 on the 12 verified development shard ZIPs, return its result ZIP and executed notebook for readback, and keep independent test inference unauthorized.",
+  "next_permitted_action": "Perform the outcome-blind readiness audit and prepare the locked Stage 05D runner. Do not run independent-test inference until a separate versioned transition explicitly authorizes it.",
   "protocol_frozen": true,
   "schema_version": "1.0.0",
   "stage": "05C",
@@ -33,7 +33,7 @@
   "test_inference_performed": false,
   "test_performance_inspected": false,
   "test_source_decode_check_complete": true,
-  "updated_at_utc": "2026-09-24T20:52:41Z",
+  "updated_at_utc": "2026-09-24T23:06:49Z",
   "development_shard_registry": {
     "path": "experiments/independent_05/development_shard_registry.json",
     "verified_shards": 12
@@ -45,5 +45,15 @@
   },
   "development_generation_observations_verified": 672,
   "development_generation_sources_verified": 96,
-  "development_generation_complete": true
+  "development_generation_complete": true,
+  "development_reliability_notebook_execution": "passed_cuda_colab_readback_verified",
+  "development_reliability_readback_verified": true,
+  "development_reliability_result": {
+    "archive_byte_count": 218356315,
+    "archive_sha256": "a77f409016070ac799133502c3b24f9603e918b85a3069e539d70fbd8d8cad12",
+    "calibration_mappings": 11,
+    "ensemble_members": 5,
+    "path": "experiments/independent_05/development_reliability_readback_receipt.json",
+    "status": "pass_development_reliability_readback_verified"
+  }
 }

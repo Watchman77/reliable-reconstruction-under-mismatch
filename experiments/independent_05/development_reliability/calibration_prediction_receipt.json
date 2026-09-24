@@ -1,0 +1,15 @@
+{
+  "byte_count": 9900805,
+  "ensemble_members": 5,
+  "experiment_id": "independent_05",
+  "independent_test_run_authorized": false,
+  "observations": 224,
+  "operational_scores": 11,
+  "patch_rows": 229376,
+  "path": "calibration_predictions.npz",
+  "role": "development_only",
+  "sha256": "2715f12c82a9d8d8fa48f59533d8bcac104ef3c4c717d3675aa0ae2271e5927d",
+  "sources": 32,
+  "stage": "05C2_development_reliability_training_and_calibration",
+  "test_inference_performed": false
+}

@@ -1,0 +1,144 @@
+{
+  "experiment_id": "independent_05",
+  "files": [
+    {
+      "byte_count": 1570,
+      "path": "calibration_fit_diagnostics.csv",
+      "sha256": "c5cb218c73c560f56d3f3feb3a22ba2fc692a2e628e3408a4a58e946151f60ac"
+    },
+    {
+      "byte_count": 138242,
+      "path": "calibration_mappings.json",
+      "sha256": "c1ae8757ca6c11762de46a1ac9e38f28637a56609f634ee8c69353df0ac8a788"
+    },
+    {
+      "byte_count": 482,
+      "path": "calibration_prediction_receipt.json",
+      "sha256": "257e1cf6a682f4e54207180f9856d8e6b43eacd39f2b5de99e6d6cee5f6ae029"
+    },
+    {
+      "byte_count": 9900805,
+      "path": "calibration_predictions.npz",
+      "sha256": "2715f12c82a9d8d8fa48f59533d8bcac104ef3c4c717d3675aa0ae2271e5927d"
+    },
+    {
+      "byte_count": 523,
+      "path": "calibration_receipt.json",
+      "sha256": "255f3fcacc2afd000fa8023c45556590a7e18069045cb334c3c7b678ea7efd9a"
+    },
+    {
+      "byte_count": 386,
+      "path": "checks.json",
+      "sha256": "4b8caae60a879e354d4949703223501bcb2bb92c3d02e3e9733792a4cd490a79"
+    },
+    {
+      "byte_count": 13054,
+      "path": "ensemble_training_receipt.json",
+      "sha256": "351b6cb85e33f05555ea9511bab55e9f48f2275c7239e61fc3d8c093f3de2fdc"
+    },
+    {
+      "byte_count": 236535,
+      "path": "figures/development_calibration_reliability.png",
+      "sha256": "1c6db754239f72546870fe730f62382cc6c20be5da625f7ce7f3155703f6c50d"
+    },
+    {
+      "byte_count": 168172,
+      "path": "figures/patcherrornet_early_stop_history.png",
+      "sha256": "5d11b381a72aab8b3491ae5da2fbdbaebea33fbe70888dbd8f2474f64962609d"
+    },
+    {
+      "byte_count": 9445,
+      "path": "input_receipts/development_cache_receipt.json",
+      "sha256": "0fc23b71f186db6c022b3cd7cd8adadae405a3d0fd19bb5b9e515fc29627cfcb"
+    },
+    {
+      "byte_count": 76982,
+      "path": "input_receipts/development_compact_index.csv",
+      "sha256": "ba0c2c0530371dbb1bea804cd16b9f347e965681c9bf66188197d5000121c750"
+    },
+    {
+      "byte_count": 44828363,
+      "path": "models/member_00_best.pt",
+      "sha256": "0aca65c4251bd313cec1085f63100dcb8f6b12bd84782992f80961b25f8289a5"
+    },
+    {
+      "byte_count": 447,
+      "path": "models/member_00_history.csv",
+      "sha256": "b043d3e420ab942a3a3e178674e361ca6c355f5cb0750406f4814b5830009382"
+    },
+    {
+      "byte_count": 2062,
+      "path": "models/member_00_receipt.json",
+      "sha256": "ba8c573d3a11aa8b2badffa0df3f45ad5dedb7cac2a533d3581e9ccb68544916"
+    },
+    {
+      "byte_count": 44828363,
+      "path": "models/member_01_best.pt",
+      "sha256": "ffdb1884339569a3eab3ff55b002e06a9f9a0d56368762e429b054847d9d13de"
+    },
+    {
+      "byte_count": 859,
+      "path": "models/member_01_history.csv",
+      "sha256": "8b41b25951c1346fda3d8c84cb572036c9a3bd9eb2922b3df5999d2d254820be"
+    },
+    {
+      "byte_count": 2063,
+      "path": "models/member_01_receipt.json",
+      "sha256": "e1c4ffa223ac814ecbe1ba4f16a1d9b41ee4c803af2d93db773407323a14910f"
+    },
+    {
+      "byte_count": 44828363,
+      "path": "models/member_02_best.pt",
+      "sha256": "418e48ea270dc624c046ce13114e2b38eb54751d77258326b997bb2afdcd5c62"
+    },
+    {
+      "byte_count": 1775,
+      "path": "models/member_02_history.csv",
+      "sha256": "5d7707aceabf487f919df5551b0171a2dc658822beb55210c4d3443fc1f9bdf5"
+    },
+    {
+      "byte_count": 2063,
+      "path": "models/member_02_receipt.json",
+      "sha256": "d18a61266e68904563bfddab1d3ce6d61835e996e56490be711441542852985c"
+    },
+    {
+      "byte_count": 44828363,
+      "path": "models/member_03_best.pt",
+      "sha256": "219893ff1d5f2edbe46f37ed1f67f7f84db4f4c1f3174639f4aefdd514e2a001"
+    },
+    {
+      "byte_count": 744,
+      "path": "models/member_03_history.csv",
+      "sha256": "a99451aa30de4bdc2b14a322818a7025c129d0cbbc91c531b9da2231a0a691b8"
+    },
+    {
+      "byte_count": 2062,
+      "path": "models/member_03_receipt.json",
+      "sha256": "01530b9e7993b7555772903046bd62f773fff9b564985732435b5d153abec26c"
+    },
+    {
+      "byte_count": 44828363,
+      "path": "models/member_04_best.pt",
+      "sha256": "dc3a6ce2aa0d72f99cd2c201657c56060ccadd91445990209c910e9114ee081c"
+    },
+    {
+      "byte_count": 927,
+      "path": "models/member_04_history.csv",
+      "sha256": "0a99d50e83ac9c1f045101915a6ca6cb029a4dd2e8a506f78027a4ecb54e2e4a"
+    },
+    {
+      "byte_count": 2062,
+      "path": "models/member_04_receipt.json",
+      "sha256": "5ae15bc4a2bd9cc317a061d673aeb520e8b4eda35372ce863ba376a998285524"
+    },
+    {
+      "byte_count": 556,
+      "path": "status.json",
+      "sha256": "7841f52101bf8fe38d3b0ec63f0907f282fad31bc6824e0efeb4330e9b37c4a4"
+    }
+  ],
+  "independent_test_run_authorized": false,
+  "role": "development_only",
+  "stage": "05C2_development_reliability_training_and_calibration",
+  "test_inference_performed": false
+}

@@ -1,0 +1,17 @@
+{
+  "calibration_fitted": true,
+  "calibration_mappings": 11,
+  "calibration_sources": 32,
+  "comparator_fitted": true,
+  "early_stop_sources": 12,
+  "ensemble_members": 5,
+  "experiment_id": "independent_05",
+  "fit_sources": 52,
+  "independent_test_run_authorized": false,
+  "role": "development_only",
+  "stage": "05C2_development_reliability_training_and_calibration",
+  "status": "passed_development_reliability_fit",
+  "test_inference_performed": false,
+  "test_performance_inspected": false,
+  "updated_at_utc": "2026-09-24T22:51:58.557397+00:00"
+}

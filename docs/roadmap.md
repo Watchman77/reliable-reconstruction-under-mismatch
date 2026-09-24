@@ -4,14 +4,14 @@
 
 Completed: initial triage and all 90 AI full-text assessments (89 include recommendations, one exclude), a provisional synthesis, classical and learned baselines, acquisition-chain diagnosis, the audited JPEG-aware experiment, the Stage 05 protocol/data audit, the CUDA canary, and all 12 development reconstruction shards. Human review adjudication and formal database-search accounting remain outstanding.
 
-Latest: the 05C2 development reliability notebook is prepared and statically validated against the 12 returned shard archives. The next scientific step is the five-member PatchErrorNet fit followed by the frozen source-separated isotonic mappings. The sealed independent run remains unauthorized.
+Latest: the returned 05C2 CUDA run passed independent readback. All five PatchErrorNet members were trained on the frozen fit partition with source-separated early stopping, and all 11 isotonic mappings were fitted on DIV2K `0869`–`0900` only. The next step is an outcome-blind readiness audit and locked Stage 05D runner; the sealed independent run remains unauthorized until a separate versioned transition passes every gate.
 
 The user prioritised the experimental track. Development data are explicitly separated from the 40-source sealed TESTIMAGES cohort; documented checkpoint exposure, exact/near-duplicate checks, source partitions, metrics and statistical gates are frozen. Review work remains deferred apart from evidence directly relevant to the experimental decision.
 
 | Track | Next concrete task | Deliverable / completion evidence |
 |---|---|---|
-| Feasibility — active | Run the five frozen PatchErrorNet members and fit the 11 source-equal-weighted isotonic mappings on development partitions only. | Audited 05C2 result ZIP, executed notebook, five model receipts and serialized mappings. |
-| Feasibility — next | Independently read back 05C2 and evaluate every readiness assertion without viewing sealed outcomes. | Explicit pass/fail transition receipt; test authority remains false unless every gate passes. |
+| Feasibility — completed | Five frozen PatchErrorNet members and 11 source-equal-weighted isotonic mappings fitted on development partitions only. | 05C2 result ZIP and executed notebook passed independent readback; model receipts, mappings and diagnostics are hash-verified. |
+| Feasibility — active | Evaluate every readiness assertion and build the locked Stage 05D runner without viewing sealed outcomes. | Explicit pass/fail transition receipt; test authority remains false unless every gate passes. |
 | Feasibility — evaluate | Run the one-time locked independent evaluation, then apply frozen statistics and calibration diagnostics. | Source-level intervals, H1/H2 decisions, reliability report and bounded novelty decision. |
 | Evidence — completed AI assessment | Preserve P035 and all 90 criterion-level recommendations pending human adjudication. | Human decisions and formal review counts, separate from the experimental claim. |
 | Evidence — deferred | Complete formal search accounting, human adjudication, necessary version checks and lineage grouping. | Auditable final review decisions and search records; no final novelty claim before sufficient evidence. |
