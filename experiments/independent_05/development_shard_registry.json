@@ -2,7 +2,7 @@
   "experiment_id": "independent_05",
   "expected_shards": 12,
   "independent_test_run_authorized": false,
-  "next_expected_shard_index": 6,
+  "next_expected_shard_index": 7,
   "role": "development_only",
   "schema_version": "1.0.0",
   "shards": [
@@ -139,11 +139,35 @@
       ],
       "status": "verified_pass_with_recorded_outer_zip_mismatch",
       "verified_at_utc": "2026-09-24T18:47:36Z"
+    },
+    {
+      "archive_byte_count": 240558332,
+      "archive_root": "independent_05c_development_shard_06_of_12",
+      "archive_sha256": "fa145e5ae4568ade3f23b6aca95fdf0a149ce117d721451b52d97acd8a77bee6",
+      "findings": [
+        "received_outer_zip_repackaged_or_rewrapped"
+      ],
+      "notebook_reported_archive_sha256": "e5f98c2dd138ff21b9d8793ad59d7a56a771bc71ad644c333abb7b5c849bab33",
+      "outer_sha256_match": false,
+      "receipt": "experiments/independent_05/development_shard_06_readback_receipt.json",
+      "shard_index": 6,
+      "source_ids": [
+        "0853",
+        "0854",
+        "0855",
+        "0856",
+        "0857",
+        "0858",
+        "0859",
+        "0860"
+      ],
+      "status": "verified_pass_with_recorded_outer_zip_mismatch",
+      "verified_at_utc": "2026-09-24T18:53:04Z"
     }
   ],
   "stage": "05C_development_generation",
   "test_inference_performed": false,
   "test_performance_inspected": false,
-  "updated_at_utc": "2026-09-24T18:47:36Z",
-  "verified_shards": 6
+  "updated_at_utc": "2026-09-24T18:53:04Z",
+  "verified_shards": 7
 }
