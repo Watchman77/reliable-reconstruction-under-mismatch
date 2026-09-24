@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "stage": "05D_locked_independent_inference",
+  "status": "authorized_ready_to_run",
+  "updated_at_utc": "2026-09-24T23:46:33Z",
+  "readiness_requirements_passed": 11,
+  "readiness_requirements_total": 11,
+  "all_readiness_requirements_passed": true,
+  "outcome_blind_transition": {
+    "path": "experiments/independent_05/stage_05d_transition.json",
+    "sha256": "b32ec998761aa4ba4ebe06503aaca3ebe5bba4ddc1c1ec94be4c7a1f0fa84ae2"
+  },
+  "locked_runner": {
+    "path": "experiments/independent_05/independent_run.py",
+    "sha256": "3fb930119c0e386051765159970234a92a20455d1c3b91615db3c4dddbc87727"
+  },
+  "stage_05d_notebook": {
+    "path": "notebooks/05D_Locked_Independent_Evaluation_Shards.ipynb",
+    "sha256": "67af0ac1ce7173c94c41c59e6baee6699bc0bb9dddbaf4246ea99c47c37d028d",
+    "static_validation": "pass",
+    "shard_count": 5,
+    "sources_per_shard": 8,
+    "observations_per_shard": 56
+  },
+  "stage_05e_analysis": {
+    "implementation_path": "experiments/independent_05/independent_analysis.py",
+    "implementation_sha256": "930ab1dad38ad0c93ba639c32bcf9f626aa9e7d4789d0f206818be06aa7f0154",
+    "lock_path": "experiments/independent_05/stage_05e_analysis_lock.json",
+    "lock_sha256": "cd216802d0a5eaf8d03e9811d6673021e85c042e4e3e57b29be7cc6f69483987",
+    "notebook_path": "notebooks/05E_One_Time_Locked_Independent_Analysis.ipynb",
+    "notebook_sha256": "4affec5f6abf62a05adfb5b4e76a396720ef7165517f4ea57b33c1405ca32c20",
+    "static_validation": "pass",
+    "outcome_blind_locked_before_stage_05d_results": true
+  },
+  "independent_test_run_authorized": true,
+  "test_inference_performed": false,
+  "test_performance_inspected": false,
+  "sealed_shards_completed": 0,
+  "sealed_shards_expected": 5,
+  "unsealed": false,
+  "next_permitted_action": "Run notebook 05D for shard indices 0-4, in parallel if desired. Do not open shard metrics. After all five sealed ZIPs pass integrity checks, run the already locked notebook 05E exactly once."
+}

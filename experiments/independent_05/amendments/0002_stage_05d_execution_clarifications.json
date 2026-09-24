@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "amendment_id": "05A-AMD-002",
+  "amended_at_utc": "2026-09-24T23:29:35Z",
+  "author": "Bamidele Akinwumi research workflow (Codex-assisted)",
+  "trigger": "Outcome-blind implementation review immediately before the Stage-05D readiness transition",
+  "outcome_blind": true,
+  "development_outputs_existed": true,
+  "independent_test_output_existed": false,
+  "independent_test_inference_performed": false,
+  "independent_test_performance_inspected": false,
+  "scientific_design_changed": false,
+  "clarifications": [
+    {
+      "id": "h2_region",
+      "resolution": "Evaluate H2 on region=all.",
+      "reason": "The frozen H2 endpoint says retained-patch detail MSE and contains no texture-subset qualifier. The full 512x512 evaluation region is therefore the literal primary population; textured_quartile remains secondary."
+    },
+    {
+      "id": "score_tie_break",
+      "resolution": "Break equal raw-score values by ascending zero-based patch index.",
+      "reason": "This makes retained masks deterministic without adding information or changing any score value."
+    },
+    {
+      "id": "shard_assignment",
+      "resolution": "Sort the 40 receipt source IDs lexicographically and assign five contiguous shards of eight sources.",
+      "reason": "Sharding is a compute-only partition. All five shards are required and shard membership cannot depend on outcomes."
+    },
+    {
+      "id": "calibration_and_ranking",
+      "resolution": "Use each frozen raw operational score for risk-coverage ranking and its development-fitted isotonic output only for the predeclared calibration metrics.",
+      "reason": "Calibration evaluates probability quality; it does not redefine the frozen operational ordering."
+    },
+    {
+      "id": "random_control",
+      "resolution": "Report expected_random as the exact full-region expected risk at every nominal coverage rather than drawing a random retained mask.",
+      "reason": "This preserves the already-audited canary definition and avoids Monte Carlo noise in the evaluation-only control."
+    }
+  ],
+  "requires_development_rerun": false,
+  "requires_protocol_replacement": false,
+  "independent_test_run_authorized": false,
+  "authorization_rule": "Authorization is issued only by the separate versioned Stage-05D transition after all frozen readiness assertions pass."
+}

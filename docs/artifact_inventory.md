@@ -16,7 +16,8 @@ This index distinguishes reproducible repository assets from large raw archives.
 | 05C engineering canary | `notebooks/05C_Independent_Validation_Engineering_Canary.ipynb` | `canary_readback_receipt.json` and amendment 0001 | Raw canary ZIP/executed notebook retained externally |
 | 05C1 development generation | `notebooks/05C1_Development_Reconstruction_Shards.ipynb` | Per-shard receipts and `development_shard_registry.json` | Shard ZIPs retained externally |
 | 05C2 reliability fitting | `notebooks/05C2_Development_Reliability_Training_and_Calibration.ipynb` and `experiments/independent_05/reliability_training.py` | `development_reliability_readback_receipt.json` and compact evidence under `development_reliability/` | Large ZIP, executed notebook, five model weights and prediction NPZ retained externally by hash |
-| Independent held-out evaluation | Frozen by `protocol_freeze.json` | No test result exists | Unauthorized until the explicit transition gate passes |
+| 05D sealed held-out inference | `notebooks/05D_Locked_Independent_Evaluation_Shards.ipynb` and `experiments/independent_05/independent_run.py` | Readiness transition and current status; no test result exists | Exact runner authorized; five fixed shards unrun |
+| 05E one-time analysis | `notebooks/05E_One_Time_Locked_Independent_Analysis.ipynb` and `experiments/independent_05/independent_analysis.py` | Pre-result analysis lock and validators | Locked before 05D outputs; run only after all five sealed shards verify |
 
 ## Current 05C1 checkpoint
 
@@ -35,7 +36,7 @@ This index distinguishes reproducible repository assets from large raw archives.
 - Shard 11: DIV2K `0893`–`0900`, **56 of 56** observations; receipt `experiments/independent_05/development_shard_11_readback_receipt.json`; received ZIP SHA-256 `6e1cfebfe5a140b8dbfa78d3b2004ac0b8eb21e6732e9f59f95442b021ec655e`.
 - Shards 01, 02 and 04–11 have recorded outer-ZIP mismatches against their notebook-reported SHA-256 values; all 124 internal files in every accepted shard matched its export manifest. Shard 03 also matched all 124 internal files, but no executed notebook was received for an outer-hash comparison.
 - Development generation is complete: DIV2K `0805`–`0900`, 96 sources and 672 observations passed independent readback.
-- Independent test inference remains **not authorized** and **not performed**.
+- The historical 05C1 stage did not authorize test inference. The later outcome-blind Stage-05D transition now authorizes only the exact hashed runner; inference remains **not performed**.
 
 ## Current 05C2 checkpoint
 
@@ -44,7 +45,14 @@ This index distinguishes reproducible repository assets from large raw archives.
 - All **five** CUDA PatchErrorNet members completed frozen fit/early-stop training; model bytes, member receipts and histories passed independent readback.
 - All **11** source-equal-weighted isotonic mappings were fitted on the 32-source calibration partition and serialized. The 229,376-row diagnostics reproduced with maximum absolute error (1.74 \times 10^{-17}).
 - The trained ensemble has the lowest in-sample development-fit Brier score (0.12760) and ECE (0.00188) among the 11 mapped scores. This is not an independent calibration result or novelty claim.
-- No independent-test loader or result is present. Independent test inference remains unauthorized pending the outcome-blind readiness transition.
+- The 05C2 result contains no independent-test loader or result. The subsequent readiness transition now authorizes the separate exact Stage-05D runner; no held-out result exists yet.
+
+## Current 05D/05E checkpoint
+
+- All **11 of 11** frozen pre-inference requirements pass.
+- Stage 05D uses five immutable lexicographic shards of eight sources, 56 observations per shard, exact protocol/data/model/mapping hashes, resumable atomic records and no metric display or aggregate analysis.
+- Stage 05E was locked before any 05D output. It fixes H2 to `region=all`, 10,000 source bootstrap replicates, 100,000 sign flips per primary hypothesis, Holm correction, practical gates, source-equal calibration metrics and secondary source intervals.
+- Independent test inference is authorized but **not performed**; independent performance is **not inspected**; all five sealed shards remain pending.
 
 ## Notebook policy
 

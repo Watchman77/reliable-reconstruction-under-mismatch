@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "stage": "05D_locked_independent_inference",
+  "transitioned_at_utc": "2026-09-24T23:29:35Z",
+  "author": "Bamidele Akinwumi research workflow (Codex-assisted)",
+  "outcome_blind": true,
+  "transition_reason": "Every frozen pre-inference readiness requirement passed after development comparator fitting and calibration serialization. The sealed test cohort has not been processed and no independent performance artifact exists.",
+  "protocol_sha256": "b92c6cf73e05f60dc1edb3a31d88d91623e9ae0cf63d6265e6398e335928794c",
+  "data_receipt_sha256": "ad48eb7a65b043173f1012035b4a4c95d0299420614311bdfc6611ef840169cb",
+  "run_code_path": "experiments/independent_05/independent_run.py",
+  "run_code_sha256": "3fb930119c0e386051765159970234a92a20455d1c3b91615db3c4dddbc87727",
+  "amendment_path": "experiments/independent_05/amendments/0002_stage_05d_execution_clarifications.json",
+  "pre_transition_repository_commit": "524a549aeb5f4293688aaef0d4d096346d373450",
+  "test_archive": {
+    "filename": "SAMPLING_8BIT_RGB_2400x2400.tar.bz2",
+    "byte_count": 198924536,
+    "sha256": "987e6a5208206b51bb556e808ea052aa588f373124bd0f571888a4754c6afa89",
+    "eligible_sources": 40
+  },
+  "reliability_archive": {
+    "filename": "independent_05c2_development_reliability_20260924T225200_366388Z.zip",
+    "byte_count": 218356315,
+    "sha256": "a77f409016070ac799133502c3b24f9603e918b85a3069e539d70fbd8d8cad12",
+    "model_sha256": [
+      "0aca65c4251bd313cec1085f63100dcb8f6b12bd84782992f80961b25f8289a5",
+      "ffdb1884339569a3eab3ff55b002e06a9f9a0d56368762e429b054847d9d13de",
+      "418e48ea270dc624c046ce13114e2b38eb54751d77258326b997bb2afdcd5c62",
+      "219893ff1d5f2edbe46f37ed1f67f7f84db4f4c1f3174639f4aefdd514e2a001",
+      "dc3a6ce2aa0d72f99cd2c201657c56060ccadd91445990209c910e9114ee081c"
+    ],
+    "calibration_mappings_sha256": "c1ae8757ca6c11762de46a1ac9e38f28637a56609f634ee8c69353df0ac8a788"
+  },
+  "readiness_assertions": [
+    {
+      "requirement": "Archive SHA-256 and byte count receipt exists.",
+      "passed": true,
+      "evidence": "data_receipt.json records the 198924536-byte publisher-matching archive with SHA-256 987e6a5208206b51bb556e808ea052aa588f373124bd0f571888a4754c6afa89."
+    },
+    {
+      "requirement": "Exactly 40 eligible source records exist before duplicate adjudication.",
+      "passed": true,
+      "evidence": "data_receipt.json contains 40 unique TESTIMAGES source records and eligible_source_count=40."
+    },
+    {
+      "requirement": "All decoded sources are RGB 2400x2400 8-bit PNGs.",
+      "passed": true,
+      "evidence": "All 40 receipt records have mode RGB and dimensions 2400x2400; the locked loader rechecks format, mode and dimensions."
+    },
+    {
+      "requirement": "Exact and near-duplicate audit against all development sources is complete.",
+      "passed": true,
+      "evidence": "duplicate_audit.csv receipt: 3840 pairs, zero exact matches, zero near-duplicate candidates, complete=true."
+    },
+    {
+      "requirement": "At least 36 primary sources remain eligible.",
+      "passed": true,
+      "evidence": "40 of 40 primary sources remain eligible."
+    },
+    {
+      "requirement": "Pinned DPIR and FBCNN source and checkpoint digests match.",
+      "passed": true,
+      "evidence": "The independently read-back Stage-05C canary passed both strict adapters and pinned checkpoint/source checks; Stage 05D repeats them before inference."
+    },
+    {
+      "requirement": "PatchErrorNet training and early stopping are complete without calibration/test data.",
+      "passed": true,
+      "evidence": "development_reliability_readback_receipt.json verifies five members, source-separated fit/early-stop partitions, and calibration_sources_used_for_training=false."
+    },
+    {
+      "requirement": "All isotonic mappings are fitted on DIV2K 0869-0900 only and serialized.",
+      "passed": true,
+      "evidence": "Eleven mappings were independently read back; calibration_mappings.json SHA-256 is c1ae8757ca6c11762de46a1ac9e38f28637a56609f634ee8c69353df0ac8a788."
+    },
+    {
+      "requirement": "The DIV2K 0805-0806 engineering canary passes schema, determinism, range, hash, resume and independent-readback checks.",
+      "passed": true,
+      "evidence": "canary_readback_receipt.json accepted the complete scientific payload after independent reconstruction, metric, score, hash and compute-accounting checks."
+    },
+    {
+      "requirement": "The run code verifies this protocol's SHA-256 and refuses an unknown protocol.",
+      "passed": true,
+      "evidence": "independent_run.py pins b92c6cf73e05f60dc1edb3a31d88d91623e9ae0cf63d6265e6398e335928794c and validates exact protocol bytes before loading the sealed archive."
+    },
+    {
+      "requirement": "No independent performance artifact exists before the locked run starts.",
+      "passed": true,
+      "evidence": "Outcome-blind repository tree audit at commit 524a549aeb5f4293688aaef0d4d096346d373450 found zero Stage-05D/test-result artifacts; all prior receipts state test_inference_performed=false and test_performance_inspected=false."
+    }
+  ],
+  "all_readiness_requirements_passed": true,
+  "analysis_resolutions": {
+    "h2_region": "all",
+    "score_tie_break": "ascending zero-based patch index",
+    "risk_coverage_ranking": "raw frozen operational score",
+    "calibration_use": "predeclared independent calibration metrics only",
+    "expected_random": "exact expected risk"
+  },
+  "sharding": {
+    "rule": "Lexicographically sorted source IDs; five contiguous shards; every shard required.",
+    "shard_count": 5,
+    "sources_per_shard": 8,
+    "source_ids_by_shard": {
+      "0": [
+        "img_2400x2400_3x8bit_C00C00_RGB_almonds",
+        "img_2400x2400_3x8bit_C00C00_RGB_apples",
+        "img_2400x2400_3x8bit_C00C00_RGB_baloons",
+        "img_2400x2400_3x8bit_C00C00_RGB_bananas",
+        "img_2400x2400_3x8bit_C00C00_RGB_billiard_balls_a",
+        "img_2400x2400_3x8bit_C00C00_RGB_billiard_balls_b",
+        "img_2400x2400_3x8bit_C00C00_RGB_building",
+        "img_2400x2400_3x8bit_C00C00_RGB_cards_a"
+      ],
+      "1": [
+        "img_2400x2400_3x8bit_C00C00_RGB_cards_b",
+        "img_2400x2400_3x8bit_C00C00_RGB_carrots",
+        "img_2400x2400_3x8bit_C00C00_RGB_chairs",
+        "img_2400x2400_3x8bit_C00C00_RGB_clips",
+        "img_2400x2400_3x8bit_C00C00_RGB_coins",
+        "img_2400x2400_3x8bit_C00C00_RGB_cushions",
+        "img_2400x2400_3x8bit_C00C00_RGB_ducks",
+        "img_2400x2400_3x8bit_C00C00_RGB_fence"
+      ],
+      "2": [
+        "img_2400x2400_3x8bit_C00C00_RGB_flowers",
+        "img_2400x2400_3x8bit_C00C00_RGB_garden_table",
+        "img_2400x2400_3x8bit_C00C00_RGB_guitar_bridge",
+        "img_2400x2400_3x8bit_C00C00_RGB_guitar_fret",
+        "img_2400x2400_3x8bit_C00C00_RGB_guitar_head",
+        "img_2400x2400_3x8bit_C00C00_RGB_keyboard_a",
+        "img_2400x2400_3x8bit_C00C00_RGB_keyboard_b",
+        "img_2400x2400_3x8bit_C00C00_RGB_lion"
+      ],
+      "3": [
+        "img_2400x2400_3x8bit_C00C00_RGB_multimeter",
+        "img_2400x2400_3x8bit_C00C00_RGB_pencils_a",
+        "img_2400x2400_3x8bit_C00C00_RGB_pencils_b",
+        "img_2400x2400_3x8bit_C00C00_RGB_pillar",
+        "img_2400x2400_3x8bit_C00C00_RGB_plastic",
+        "img_2400x2400_3x8bit_C00C00_RGB_roof",
+        "img_2400x2400_3x8bit_C00C00_RGB_scarf",
+        "img_2400x2400_3x8bit_C00C00_RGB_screws"
+      ],
+      "4": [
+        "img_2400x2400_3x8bit_C00C00_RGB_snails",
+        "img_2400x2400_3x8bit_C00C00_RGB_socks",
+        "img_2400x2400_3x8bit_C00C00_RGB_sweets",
+        "img_2400x2400_3x8bit_C00C00_RGB_tomatoes_a",
+        "img_2400x2400_3x8bit_C00C00_RGB_tomatoes_b",
+        "img_2400x2400_3x8bit_C00C00_RGB_tools_a",
+        "img_2400x2400_3x8bit_C00C00_RGB_tools_b",
+        "img_2400x2400_3x8bit_C00C00_RGB_wood_game"
+      ]
+    }
+  },
+  "execution_rules": {
+    "all_shards_required": true,
+    "parallel_shards_allowed": true,
+    "resume_only_hash_valid_observations": true,
+    "interim_metric_display_forbidden": true,
+    "interim_performance_inspection_forbidden": true,
+    "selective_reruns_based_on_performance_forbidden": true,
+    "unsealing_stage": "05E_one_time_locked_analysis"
+  },
+  "test_inference_performed_at_transition": false,
+  "test_performance_inspected_at_transition": false,
+  "independent_test_run_authorized": true
+}

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.25.0 — 2026-09-24
+
+- Passed all 11 outcome-blind pre-inference readiness requirements and recorded a versioned Stage-05D transition that authorizes only the exact hashed runner.
+- Recorded a pre-outcome execution amendment fixing H2 to the full evaluation region, deterministic patch-index tie-breaking, five lexicographic eight-source shards, raw-score ranking, and the exact expected-random control.
+- Added the sealed, resumable Stage-05D runner and self-contained CUDA notebook. It verifies the protocol, data receipt, test archive, five PatchErrorNet checkpoints, 11 calibration mappings and pinned reconstruction adapters before inference, while suppressing all performance display and aggregate analysis.
+- Precommitted the complete Stage-05E analysis before any independent output: 10,000 source bootstraps, 100,000 sign flips per primary hypothesis, Holm correction, practical gates, independent calibration metrics and source-level secondary intervals.
+- Added static and synthetic validators for both stages. All five test shards remain unrun, independent performance remains unseen, and the final literature novelty claim remains unestablished.
+
 ## 0.24.0 — 2026-09-24
 
 - Independently validated the returned 05C2 CUDA archive and executed notebook: all 27 manifested files, six executed code cells, two embedded figures and the notebook-reported outer hash passed.

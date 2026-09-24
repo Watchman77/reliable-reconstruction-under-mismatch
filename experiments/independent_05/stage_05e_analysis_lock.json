@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "stage": "05E_one_time_locked_analysis",
+  "locked_at_utc": "2026-09-24T23:29:35Z",
+  "author": "Bamidele Akinwumi research workflow (Codex-assisted)",
+  "outcome_blind": true,
+  "independent_results_existed_when_locked": false,
+  "independent_test_inference_performed_when_locked": false,
+  "independent_test_performance_inspected_when_locked": false,
+  "protocol_sha256": "b92c6cf73e05f60dc1edb3a31d88d91623e9ae0cf63d6265e6398e335928794c",
+  "data_receipt_sha256": "ad48eb7a65b043173f1012035b4a4c95d0299420614311bdfc6611ef840169cb",
+  "stage_05d_run_code_sha256": "3fb930119c0e386051765159970234a92a20455d1c3b91615db3c4dddbc87727",
+  "stage_05d_transition_sha256": "b32ec998761aa4ba4ebe06503aaca3ebe5bba4ddc1c1ec94be4c7a1f0fa84ae2",
+  "analysis_code_path": "experiments/independent_05/independent_analysis.py",
+  "analysis_code_sha256": "930ab1dad38ad0c93ba639c32bcf9f626aa9e7d4789d0f206818be06aa7f0154",
+  "test_archive_sha256": "987e6a5208206b51bb556e808ea052aa588f373124bd0f571888a4754c6afa89",
+  "reliability_archive_sha256": "a77f409016070ac799133502c3b24f9603e918b85a3069e539d70fbd8d8cad12",
+  "required_shards": 5,
+  "required_sources": 40,
+  "required_observations": 280,
+  "h1": {
+    "condition": "j75_b16_n2",
+    "contrast": "fbcnn_dpir_nominal minus dpir_nominal",
+    "endpoint": "source detail MSE over the full 512x512 evaluation region",
+    "direction": "negative is favorable",
+    "relative_reduction_formula": "-(mean paired difference) / mean dpir_nominal detail MSE",
+    "practical_threshold": 0.05
+  },
+  "h2": {
+    "condition": "j75_b16_n2",
+    "pipeline": "fbcnn_dpir_nominal",
+    "coverage": 0.5,
+    "region": "all",
+    "contrast": "operator_spread_detail risk minus image_transform_spread_detail risk",
+    "endpoint": "source retained-patch detail MSE",
+    "direction": "negative is favorable",
+    "relative_reduction_formula": "-(mean paired difference) / mean image_transform_spread_detail risk",
+    "practical_threshold": 0.05
+  },
+  "h2_region": "all",
+  "bootstrap": {
+    "unit": "source",
+    "replicates": 10000,
+    "seed": 20260921,
+    "generator": "numpy.random.default_rng(seed).multinomial(40, equal source probabilities)",
+    "interval": "two-sided 95% percentile interval using numpy linear quantiles",
+    "shared_multiplicities": "One outcome-blind multiplicity matrix is reused across primary, secondary and calibration endpoints."
+  },
+  "sign_flip": {
+    "unit": "source paired difference",
+    "alternative": "negative/favorable",
+    "replicates": 100000,
+    "seed": 20260921,
+    "generator": "numpy.random.default_rng(seed), reset separately for H1 and H2",
+    "p_value": "(number of randomized means <= observed mean + 1) / (100000 + 1)"
+  },
+  "multiplicity": {
+    "family": [
+      "H1_reconstruction",
+      "H2_selection"
+    ],
+    "method": "Holm step-down",
+    "alpha": 0.05
+  },
+  "confirmatory_gate": "Each hypothesis must independently pass its 5% practical threshold, Holm-adjusted one-sided p<0.05, and paired-bootstrap upper confidence limit<0.",
+  "calibration": {
+    "scope": "All seven frozen acquisition chains pooled; each of the 40 sources has equal total weight.",
+    "scores": 11,
+    "target": "centre 16x16 patch detail RMSE > 0.05 for fbcnn_dpir_nominal",
+    "bins": 10,
+    "equal_mass_bin_rule": "Stable sort by mapped probability; assign bins from weighted cumulative midpoints on the full independent cohort.",
+    "bootstrap_bin_rule": "Keep full-cohort bin assignments fixed and source-bootstrap the within-bin weighted probability and event totals.",
+    "metrics": [
+      "source-macro Brier score",
+      "10-bin equal-mass expected calibration error",
+      "calibration-in-the-large as source-equal mean(target - mapped probability)",
+      "calibration slope from source-weighted logistic regression of target on logit(mapped probability), clipping probabilities to [1e-6,1-1e-6]"
+    ],
+    "intervals": "10,000-replicate source-bootstrap 95% percentile intervals for all pooled metrics.",
+    "per_chain_outputs": "Point estimates for Brier, ECE and calibration-in-the-large are exploratory diagnostics."
+  },
+  "secondary_outputs": {
+    "quality": "Source-mean estimates and 95% source-bootstrap intervals by chain and reconstruction method.",
+    "risk_coverage": "Source-mean estimates and 95% source-bootstrap intervals by chain, pipeline, region, score and coverage.",
+    "interpretation": "Secondary outcomes cannot rescue a failed confirmatory gate."
+  },
+  "source_ids_by_shard": {
+    "0": [
+      "img_2400x2400_3x8bit_C00C00_RGB_almonds",
+      "img_2400x2400_3x8bit_C00C00_RGB_apples",
+      "img_2400x2400_3x8bit_C00C00_RGB_baloons",
+      "img_2400x2400_3x8bit_C00C00_RGB_bananas",
+      "img_2400x2400_3x8bit_C00C00_RGB_billiard_balls_a",
+      "img_2400x2400_3x8bit_C00C00_RGB_billiard_balls_b",
+      "img_2400x2400_3x8bit_C00C00_RGB_building",
+      "img_2400x2400_3x8bit_C00C00_RGB_cards_a"
+    ],
+    "1": [
+      "img_2400x2400_3x8bit_C00C00_RGB_cards_b",
+      "img_2400x2400_3x8bit_C00C00_RGB_carrots",
+      "img_2400x2400_3x8bit_C00C00_RGB_chairs",
+      "img_2400x2400_3x8bit_C00C00_RGB_clips",
+      "img_2400x2400_3x8bit_C00C00_RGB_coins",
+      "img_2400x2400_3x8bit_C00C00_RGB_cushions",
+      "img_2400x2400_3x8bit_C00C00_RGB_ducks",
+      "img_2400x2400_3x8bit_C00C00_RGB_fence"
+    ],
+    "2": [
+      "img_2400x2400_3x8bit_C00C00_RGB_flowers",
+      "img_2400x2400_3x8bit_C00C00_RGB_garden_table",
+      "img_2400x2400_3x8bit_C00C00_RGB_guitar_bridge",
+      "img_2400x2400_3x8bit_C00C00_RGB_guitar_fret",
+      "img_2400x2400_3x8bit_C00C00_RGB_guitar_head",
+      "img_2400x2400_3x8bit_C00C00_RGB_keyboard_a",
+      "img_2400x2400_3x8bit_C00C00_RGB_keyboard_b",
+      "img_2400x2400_3x8bit_C00C00_RGB_lion"
+    ],
+    "3": [
+      "img_2400x2400_3x8bit_C00C00_RGB_multimeter",
+      "img_2400x2400_3x8bit_C00C00_RGB_pencils_a",
+      "img_2400x2400_3x8bit_C00C00_RGB_pencils_b",
+      "img_2400x2400_3x8bit_C00C00_RGB_pillar",
+      "img_2400x2400_3x8bit_C00C00_RGB_plastic",
+      "img_2400x2400_3x8bit_C00C00_RGB_roof",
+      "img_2400x2400_3x8bit_C00C00_RGB_scarf",
+      "img_2400x2400_3x8bit_C00C00_RGB_screws"
+    ],
+    "4": [
+      "img_2400x2400_3x8bit_C00C00_RGB_snails",
+      "img_2400x2400_3x8bit_C00C00_RGB_socks",
+      "img_2400x2400_3x8bit_C00C00_RGB_sweets",
+      "img_2400x2400_3x8bit_C00C00_RGB_tomatoes_a",
+      "img_2400x2400_3x8bit_C00C00_RGB_tomatoes_b",
+      "img_2400x2400_3x8bit_C00C00_RGB_tools_a",
+      "img_2400x2400_3x8bit_C00C00_RGB_tools_b",
+      "img_2400x2400_3x8bit_C00C00_RGB_wood_game"
+    ]
+  },
+  "one_time_rule": "The analysis refuses an existing final output directory. It verifies all five sealed shards before creating a temporary unsealing workspace and publishes the final directory atomically.",
+  "claim_boundary": "The Stage-05E output decides the predeclared independent experimental gates. It does not by itself establish the final literature novelty claim, which requires the locked Stage-05F synthesis."
+}
