@@ -16,7 +16,7 @@
   "implementation_ready": true,
   "independent_test_run_authorized": false,
   "near_duplicate_audit_complete": true,
-  "next_permitted_action": "Implement and run the development-only 0805-0806 engineering canary.",
+  "next_permitted_action": "Run the prepared development-only 0805-0806 CUDA canary and return its raw ZIP for independent readback.",
   "protocol_frozen": true,
   "schema_version": "1.0.0",
   "stage": "05C",
