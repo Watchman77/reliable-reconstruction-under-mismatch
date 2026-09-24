@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.23.2 — 2026-09-24
+
+- Independently validated development shard 02 of 12 for DIV2K `0821`–`0828`: all 124 manifested files, 56 records and compact bundles passed integrity and schema checks.
+- Recalculated 1,568 compact-metric risk rows with maximum absolute error below \(3.1 \times 10^{-11}\); verified 336 quality rows, 6,272 risk rows, 4,480 DRUNet calls and 168 FBCNN calls.
+- Recorded that the downloaded outer ZIP SHA-256 differs from the executed notebook's reported SHA-256 while every internal manifest hash and byte count matches; accepted the scientific payload with the container finding preserved.
+- Advanced the development registry to 3 of 12 and the next permitted action to shard index 3. Independent test inference remains unauthorized and unperformed.
+
 ## 0.23.1 — 2026-09-24
 
 - Independently validated development shard 01 of 12 for DIV2K `0813`–`0820`: all 124 manifested files, 56 records and compact bundles passed integrity and schema checks.

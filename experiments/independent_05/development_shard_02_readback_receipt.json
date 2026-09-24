@@ -1,0 +1,85 @@
+{
+  "archive": {
+    "archive_root": "independent_05c_development_shard_02_of_12",
+    "byte_count": 239773580,
+    "notebook_reported_sha256": "e13fd2c6a9d24b0dc75d24b42274a771ba3840da150cde3ecfa1831a26506aee",
+    "outer_sha256_match": false,
+    "received_filename": "independent_05c_development_shard_02_of_12-20260924T172013Z-1-001.zip",
+    "received_sha256": "54da48f2ee8658d5d2c8107aba54dfe6cb638cda62301585f0e929debcabb421"
+  },
+  "archive_crc_test_passed": true,
+  "archive_entries": 125,
+  "audit_scope": "development-payload integrity and compact-metric consistency",
+  "chain_ids": [
+    "q8_b16_n2",
+    "j90_b16_n2",
+    "j75_b16_n2",
+    "j50_b16_n2",
+    "j75_b12_n2",
+    "j75_b20_n2",
+    "j75_b16_n5"
+  ],
+  "compact_arrays_per_bundle": 14,
+  "compact_bundles_checked": 56,
+  "development_only": true,
+  "drunet_calls": 4480,
+  "executed_notebook": {
+    "byte_count": 387654,
+    "code_cells_executed": 7,
+    "error_outputs": 0,
+    "filename": "05C1_Development_Reconstruction_Shards (2).ipynb",
+    "reported_archive_sha256": "e13fd2c6a9d24b0dc75d24b42274a771ba3840da150cde3ecfa1831a26506aee",
+    "sha256": "e50b1ff27cab8fed9f1c1656b91487e54962c4d3c4e7c6d2744b285e675f8127",
+    "source_difference_from_committed_notebook": "SHARD_INDEX = 0 changed to SHARD_INDEX = 2 only"
+  },
+  "experiment_id": "independent_05",
+  "fbcnn_calls": 168,
+  "findings": [
+    "received_outer_zip_repackaged_or_rewrapped"
+  ],
+  "independent_test_run_authorized": false,
+  "limitations": [
+    "The received outer ZIP SHA-256 differs from the notebook-reported SHA-256, but every internal file matches the embedded export manifest by path, byte count and SHA-256.",
+    "The compact shard does not retain every reconstruction or the reference crops, so the validator does not independently recompute every quality and risk value.",
+    "Acceptance records engineering integrity only; it is not an independent-test result or a final novelty claim."
+  ],
+  "manifest_files_checked": 124,
+  "manifest_mismatches": 0,
+  "maximum_recalculation_errors": {
+    "fbcnn_dpir_all_region_risk_compact_metrics": 3.056557004027516e-11,
+    "fbcnn_dpir_quality_compact_metrics": 1.802078278267949e-11
+  },
+  "recalculated_risk_rows": 1568,
+  "records_checked": 56,
+  "role": "development_only",
+  "row_counts": {
+    "acquisition.csv": 56,
+    "acquisition_repeat_check.csv": 56,
+    "compute.csv": 840,
+    "fbcnn_diagnostics.csv": 168,
+    "quality.csv": 336,
+    "risk.csv": 6272,
+    "source_manifest.csv": 8,
+    "trajectories.csv": 4480
+  },
+  "schema_version": "1.0.0",
+  "scientific_payload_accepted": true,
+  "shard_index": 2,
+  "shards_expected": 12,
+  "source_ids": [
+    "0821",
+    "0822",
+    "0823",
+    "0824",
+    "0825",
+    "0826",
+    "0827",
+    "0828"
+  ],
+  "stage": "05C_development_generation",
+  "status": "pass_with_recorded_outer_zip_mismatch",
+  "test_inference_performed": false,
+  "test_performance_inspected": false,
+  "validator": "scripts/validate_independent_05c_development_shard.py",
+  "verified_at_utc": "2026-09-24T17:23:47Z"
+}
