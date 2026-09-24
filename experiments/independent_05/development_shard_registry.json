@@ -2,7 +2,7 @@
   "experiment_id": "independent_05",
   "expected_shards": 12,
   "independent_test_run_authorized": false,
-  "next_expected_shard_index": 4,
+  "next_expected_shard_index": 5,
   "role": "development_only",
   "schema_version": "1.0.0",
   "shards": [
@@ -91,11 +91,35 @@
       ],
       "status": "verified_pass",
       "verified_at_utc": "2026-09-24T18:01:21Z"
+    },
+    {
+      "archive_byte_count": 233760932,
+      "archive_root": "independent_05c_development_shard_04_of_12",
+      "archive_sha256": "50428120c6b755cb246b701d4e7fbd779addf54ab94127c86e1961e735476bd6",
+      "findings": [
+        "received_outer_zip_repackaged_or_rewrapped"
+      ],
+      "notebook_reported_archive_sha256": "77aa6243e100ccafcacb7abfa2a243870d489de9f75b3b40a414936427374fb3",
+      "outer_sha256_match": false,
+      "receipt": "experiments/independent_05/development_shard_04_readback_receipt.json",
+      "shard_index": 4,
+      "source_ids": [
+        "0837",
+        "0838",
+        "0839",
+        "0840",
+        "0841",
+        "0842",
+        "0843",
+        "0844"
+      ],
+      "status": "verified_pass_with_recorded_outer_zip_mismatch",
+      "verified_at_utc": "2026-09-24T18:26:59Z"
     }
   ],
   "stage": "05C_development_generation",
   "test_inference_performed": false,
   "test_performance_inspected": false,
-  "updated_at_utc": "2026-09-24T18:01:21Z",
-  "verified_shards": 4
+  "updated_at_utc": "2026-09-24T18:26:59Z",
+  "verified_shards": 5
 }
