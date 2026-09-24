@@ -2,7 +2,7 @@
   "experiment_id": "independent_05",
   "expected_shards": 12,
   "independent_test_run_authorized": false,
-  "next_expected_shard_index": 9,
+  "next_expected_shard_index": null,
   "role": "development_only",
   "schema_version": "1.0.0",
   "shards": [
@@ -211,11 +211,83 @@
       ],
       "status": "verified_pass_with_recorded_outer_zip_mismatch",
       "verified_at_utc": "2026-09-24T19:52:53Z"
+    },
+    {
+      "archive_byte_count": 235786675,
+      "archive_root": "independent_05c_development_shard_09_of_12",
+      "archive_sha256": "dea528681ac602bdb2485ac0fa96aac0f86d1b08f92c85a0e20a302ac8e221cc",
+      "findings": [
+        "received_outer_zip_repackaged_or_rewrapped"
+      ],
+      "notebook_reported_archive_sha256": "6ab19021a8c34d339b84c7d58be33c951bfd4977389e696a54a19a3c5777c21d",
+      "outer_sha256_match": false,
+      "receipt": "experiments/independent_05/development_shard_09_readback_receipt.json",
+      "shard_index": 9,
+      "source_ids": [
+        "0877",
+        "0878",
+        "0879",
+        "0880",
+        "0881",
+        "0882",
+        "0883",
+        "0884"
+      ],
+      "status": "verified_pass_with_recorded_outer_zip_mismatch",
+      "verified_at_utc": "2026-09-24T20:19:46Z"
+    },
+    {
+      "archive_byte_count": 238455591,
+      "archive_root": "independent_05c_development_shard_10_of_12",
+      "archive_sha256": "44418f8f5b3ca3a8163b2d7f62c5c1a5fe1fa5a8b73d2089b38c29dc97909475",
+      "findings": [
+        "received_outer_zip_repackaged_or_rewrapped"
+      ],
+      "notebook_reported_archive_sha256": "5621d907b0ee72e1c2658c89b68b2579120a67d76a8d588171b41fcb8bdb180b",
+      "outer_sha256_match": false,
+      "receipt": "experiments/independent_05/development_shard_10_readback_receipt.json",
+      "shard_index": 10,
+      "source_ids": [
+        "0885",
+        "0886",
+        "0887",
+        "0888",
+        "0889",
+        "0890",
+        "0891",
+        "0892"
+      ],
+      "status": "verified_pass_with_recorded_outer_zip_mismatch",
+      "verified_at_utc": "2026-09-24T20:19:46Z"
+    },
+    {
+      "archive_byte_count": 235138720,
+      "archive_root": "independent_05c_development_shard_11_of_12",
+      "archive_sha256": "6e1cfebfe5a140b8dbfa78d3b2004ac0b8eb21e6732e9f59f95442b021ec655e",
+      "findings": [
+        "received_outer_zip_repackaged_or_rewrapped"
+      ],
+      "notebook_reported_archive_sha256": "9d6920327287ba37c1d0566b431b9fefc609dbf83ad4c5cf9be73a37ebd151d2",
+      "outer_sha256_match": false,
+      "receipt": "experiments/independent_05/development_shard_11_readback_receipt.json",
+      "shard_index": 11,
+      "source_ids": [
+        "0893",
+        "0894",
+        "0895",
+        "0896",
+        "0897",
+        "0898",
+        "0899",
+        "0900"
+      ],
+      "status": "verified_pass_with_recorded_outer_zip_mismatch",
+      "verified_at_utc": "2026-09-24T20:19:46Z"
     }
   ],
   "stage": "05C_development_generation",
   "test_inference_performed": false,
   "test_performance_inspected": false,
-  "updated_at_utc": "2026-09-24T19:52:53Z",
-  "verified_shards": 9
+  "updated_at_utc": "2026-09-24T20:19:46Z",
+  "verified_shards": 12
 }
