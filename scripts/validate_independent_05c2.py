@@ -126,6 +126,7 @@ def validate(root: Path) -> dict[str, object]:
     }
     required = {
         "prepare_development_cache",
+        "archive_shard_index",
         "persist_input_receipts",
         "PatchErrorNet",
         "fit_positive_weight",

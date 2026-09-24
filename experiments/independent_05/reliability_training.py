@@ -13,7 +13,6 @@ import math
 import os
 import platform
 import random
-import re
 import uuid
 import zipfile
 from collections import defaultdict
@@ -158,17 +157,35 @@ def validate_frozen_protocol(protocol_text: str) -> dict:
     return protocol
 
 
-def _archive_root_and_index(names: list[str]) -> tuple[str, int]:
+def _archive_prefix(names: list[str]) -> str:
     assert names and len(names) == len(set(names))
     assert not any(
         name.startswith("/") or ".." in PurePosixPath(name).parts for name in names
     )
-    roots = {name.split("/", 1)[0] for name in names}
-    assert len(roots) == 1
-    root = roots.pop()
-    match = re.fullmatch(r"independent_05c_development_shard_(\d{2})_of_12", root)
-    assert match, root
-    return root, int(match.group(1))
+    if "export_manifest.json" in names:
+        return ""
+    manifest_names = [name for name in names if name.endswith("/export_manifest.json")]
+    assert len(manifest_names) == 1, "archive must contain exactly one export_manifest.json"
+    prefix = manifest_names[0][: -len("export_manifest.json")]
+    assert prefix.count("/") == 1, "unexpected nested archive wrapper"
+    return prefix
+
+
+def _shard_index_from_sources(source_ids) -> int:
+    matches = [
+        index for index in range(12) if tuple(source_ids) == expected_sources_for_shard(index)
+    ]
+    assert len(matches) == 1, f"source IDs do not identify one frozen shard: {source_ids}"
+    return matches[0]
+
+
+def archive_shard_index(archive_path: Path) -> int:
+    """Read a shard identity from either a rootless or one-folder-wrapped ZIP."""
+
+    with zipfile.ZipFile(archive_path) as archive:
+        prefix = _archive_prefix(archive.namelist())
+        manifest = json.loads(archive.read(f"{prefix}export_manifest.json"))
+    return _shard_index_from_sources(manifest["source_ids"])
 
 
 def inspect_and_extract_shard(archive_path: Path, compact_dir: Path) -> tuple[dict, list[dict]]:
@@ -179,13 +196,14 @@ def inspect_and_extract_shard(archive_path: Path, compact_dir: Path) -> tuple[di
     compact_dir.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(archive_path) as archive:
         names = archive.namelist()
-        root, shard_index = _archive_root_and_index(names)
+        prefix = _archive_prefix(names)
 
         def read(relative: str) -> bytes:
-            return archive.read(f"{root}/{relative}")
+            return archive.read(f"{prefix}{relative}")
 
         manifest_payload = read("export_manifest.json")
         manifest = json.loads(manifest_payload)
+        shard_index = _shard_index_from_sources(manifest["source_ids"])
         config = json.loads(read("config.json"))
         status = json.loads(read("status.json"))
         provenance = json.loads(read("provenance.json"))
@@ -204,9 +222,9 @@ def inspect_and_extract_shard(archive_path: Path, compact_dir: Path) -> tuple[di
 
         listed = {row["path"]: row for row in manifest["files"]}
         actual = {
-            name[len(root) + 1 :]
+            name[len(prefix) :]
             for name in names
-            if name != f"{root}/export_manifest.json" and not name.endswith("/")
+            if name != f"{prefix}export_manifest.json" and not name.endswith("/")
         }
         assert actual == set(listed)
         assert len(listed) == 124
@@ -246,7 +264,7 @@ def inspect_and_extract_shard(archive_path: Path, compact_dir: Path) -> tuple[di
             "archive_filename": archive_path.name,
             "archive_byte_count": archive_path.stat().st_size,
             "archive_sha256": sha256_file(archive_path),
-            "archive_root": root,
+            "archive_root": prefix.rstrip("/") or ".",
             "export_manifest_sha256": sha256_bytes(manifest_payload),
             "manifest_files_checked": len(listed),
             "manifest_mismatches": 0,

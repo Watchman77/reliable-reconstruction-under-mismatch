@@ -201,11 +201,7 @@ assert archive_candidates, f'No Stage 05C1 shard ZIPs found in {SHARD_ARCHIVE_DI
 
 by_index = {}
 for path in archive_candidates:
-    with zipfile.ZipFile(path) as archive:
-        roots = {name.split('/', 1)[0] for name in archive.namelist() if '/' in name}
-        matching = [root for root in roots if root.startswith('independent_05c_development_shard_')]
-        assert len(matching) == 1, f'Unexpected archive root in {path.name}'
-        shard_index = int(matching[0].split('_')[-3])
+    shard_index = RT05.archive_shard_index(path)
     by_index.setdefault(shard_index, []).append(path)
 
 duplicates = {index: paths for index, paths in by_index.items() if len(paths) != 1}

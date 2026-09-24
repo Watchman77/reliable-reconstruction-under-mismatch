@@ -2,6 +2,7 @@
 
 ## 0.23.9 — 2026-09-24
 
+- Corrected the 05C2 shard reader to accept both canonical root-level Colab archives and one-folder-wrapped downloaded archives while deriving every shard identity from its frozen internal source IDs.
 - Added the self-contained `05C2_Development_Reliability_Training_and_Calibration.ipynb` and its auditable builder.
 - Implemented resumable five-member PatchErrorNet fitting with frozen source-separated fit/early-stop partitions, deterministic per-epoch hash sampling, D4 augmentation, fit-only class weighting and source-macro Brier early stopping.
 - Added optional disjoint-member parallel Colab execution, runtime-environment receipts, frozen-ensemble calibration inference, 11 source-equal-weighted isotonic mappings, development-only diagnostics and manifest-based result packaging.

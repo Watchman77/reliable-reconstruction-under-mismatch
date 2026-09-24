@@ -7,8 +7,8 @@
   "validated_at_utc": "2026-09-24T20:52:41Z",
   "notebook": {
     "path": "notebooks/05C2_Development_Reliability_Training_and_Calibration.ipynb",
-    "byte_count": 99089,
-    "sha256": "9e686992d2dfc8a05491fa6c50c7a4c3fbe47e79f80b85199eb433fd73e4cbac",
+    "byte_count": 99651,
+    "sha256": "f5831d564d7498136d59b229c1208f9dc154926f71e366266b5c54c1f996e229",
     "cell_count": 14,
     "code_cell_count": 6,
     "hidden_code_cell_count": 1,
@@ -16,8 +16,8 @@
   },
   "implementation": {
     "path": "experiments/independent_05/reliability_training.py",
-    "byte_count": 50809,
-    "sha256": "a00f119f87c075e6cc9b8297e0a28536ab8c5d27e513690475279980592ee8ef",
+    "byte_count": 51658,
+    "sha256": "c25d78bb46fed606dc9b6ed1ffa2c9f5de9bf99c4990e99ec273a067dbbe20f2",
     "python_compile": "pass",
     "pure_helper_self_check": "pass",
     "synthetic_calibration_mapping_check": "pass",
@@ -29,6 +29,11 @@
       "sources_indexed": 96,
       "observations_indexed": 672,
       "compact_schema_samples_checked": 3
+    },
+    "archive_layout_compatibility": {
+      "canonical_root_level_zip": "pass",
+      "one_folder_wrapped_download": "pass",
+      "shard_identity_source": "frozen internal source IDs"
     }
   },
   "protocol_sha256": "b92c6cf73e05f60dc1edb3a31d88d91623e9ae0cf63d6265e6398e335928794c",
