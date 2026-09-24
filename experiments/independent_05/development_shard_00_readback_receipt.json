@@ -1,0 +1,72 @@
+{
+  "archive": {
+    "archive_root": "independent_05c_development_shard_00_of_12",
+    "byte_count": 235760220,
+    "received_filename": "independent_05c_development_shard_00_of_12-20260924T142638Z-1-001(1).zip",
+    "sha256": "4b7a011a4300417104278e673a2e61eb4a301f776a95a96259cafcecb25ea608"
+  },
+  "archive_crc_test_passed": true,
+  "archive_entries": 125,
+  "audit_scope": "development-payload integrity and compact-metric consistency",
+  "chain_ids": [
+    "q8_b16_n2",
+    "j90_b16_n2",
+    "j75_b16_n2",
+    "j50_b16_n2",
+    "j75_b12_n2",
+    "j75_b20_n2",
+    "j75_b16_n5"
+  ],
+  "compact_arrays_per_bundle": 14,
+  "compact_bundles_checked": 56,
+  "development_only": true,
+  "drunet_calls": 4480,
+  "experiment_id": "independent_05",
+  "fbcnn_calls": 168,
+  "independent_test_run_authorized": false,
+  "limitations": [
+    "The compact shard does not retain every reconstruction or the reference crops, so the validator does not independently recompute every quality and risk value.",
+    "Acceptance records engineering integrity only; it is not an independent-test result or a final novelty claim."
+  ],
+  "manifest_files_checked": 124,
+  "manifest_mismatches": 0,
+  "maximum_recalculation_errors": {
+    "fbcnn_dpir_all_region_risk_compact_metrics": 7.638597653708556e-12,
+    "fbcnn_dpir_quality_compact_metrics": 5.210478749850811e-12
+  },
+  "notebook_reported_outer_sha256": null,
+  "outer_sha256_comparison_available": false,
+  "recalculated_risk_rows": 1568,
+  "records_checked": 56,
+  "role": "development_only",
+  "row_counts": {
+    "acquisition.csv": 56,
+    "acquisition_repeat_check.csv": 56,
+    "compute.csv": 840,
+    "fbcnn_diagnostics.csv": 168,
+    "quality.csv": 336,
+    "risk.csv": 6272,
+    "source_manifest.csv": 8,
+    "trajectories.csv": 4480
+  },
+  "schema_version": "1.0.0",
+  "scientific_payload_accepted": true,
+  "shard_index": 0,
+  "shards_expected": 12,
+  "source_ids": [
+    "0805",
+    "0806",
+    "0807",
+    "0808",
+    "0809",
+    "0810",
+    "0811",
+    "0812"
+  ],
+  "stage": "05C_development_generation",
+  "status": "pass",
+  "test_inference_performed": false,
+  "test_performance_inspected": false,
+  "validator": "scripts/validate_independent_05c_development_shard.py",
+  "verified_at_utc": "2026-09-24T14:59:31Z"
+}

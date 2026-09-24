@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.23.0 — 2026-09-24
+
+- Independently validated development shard 00 of 12: all 124 manifested files matched, 56 records and compact bundles passed schema/finite-value checks, and 1,568 compact-metric risk rows reproduced within numerical precision.
+- Recorded the 235,760,220-byte archive SHA-256 and a machine-readable readback receipt without committing the raw ZIP.
+- Added a reusable outcome-blind development-shard validator, a cumulative shard registry, and a repository-wide artifact inventory.
+- Advanced the next permitted action to development shard 01 while preserving the sealed-test prohibition; no calibration, independent-test inference or final novelty claim is recorded.
+- Added ignore rules for raw ZIP and NumPy array artifacts.
+
 ## 0.22.0 — 2026-09-17
 
 - Reviewed the user's saved four-source Colab execution: fifteen code cells report success, the numerical/data checks pass, and 24 reconstruction-metric rows are reported.

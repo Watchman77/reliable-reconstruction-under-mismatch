@@ -16,3 +16,8 @@ results/*
 *.onnx
 *.mp4
 *.avi
+
+# Large generated or downloaded binary artifacts
+*.zip
+*.npz
+*.npy

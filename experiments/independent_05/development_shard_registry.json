@@ -1,0 +1,34 @@
+{
+  "experiment_id": "independent_05",
+  "expected_shards": 12,
+  "independent_test_run_authorized": false,
+  "next_expected_shard_index": 1,
+  "role": "development_only",
+  "schema_version": "1.0.0",
+  "shards": [
+    {
+      "archive_byte_count": 235760220,
+      "archive_root": "independent_05c_development_shard_00_of_12",
+      "archive_sha256": "4b7a011a4300417104278e673a2e61eb4a301f776a95a96259cafcecb25ea608",
+      "receipt": "experiments/independent_05/development_shard_00_readback_receipt.json",
+      "shard_index": 0,
+      "source_ids": [
+        "0805",
+        "0806",
+        "0807",
+        "0808",
+        "0809",
+        "0810",
+        "0811",
+        "0812"
+      ],
+      "status": "verified_pass",
+      "verified_at_utc": "2026-09-24T14:59:31Z"
+    }
+  ],
+  "stage": "05C_development_generation",
+  "test_inference_performed": false,
+  "test_performance_inspected": false,
+  "updated_at_utc": "2026-09-24T14:59:31Z",
+  "verified_shards": 1
+}

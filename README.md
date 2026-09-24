@@ -13,8 +13,10 @@ Research repository for a journal-first programme on evidence-calibrated image r
 - Provisional synthesis 01 preserves its 88-include checkpoint; a P035 addendum now incorporates the final full text and sharpens the comparison. Current reading totals are 89 include recommendations and one exclude.
 - Phase-0 classical canary implemented and executed.
 - Formal database screening and the 100-image pilot remain outstanding.
-- Experimental work is now the user's priority. An initial dataset/baseline audit is complete; 100 DIV2K sources are acquired for development only, with 24 paired observations generated from 12 sources. Learned reconstruction and independent calibration/test evaluation have not run.
+- Experimental work is now the user's priority. The classical and learned implementations, acquisition-chain diagnosis and audited JPEG-aware checkpoint are present. Stage 05 protocol/data audits and the CUDA canary passed; development shard 00 of 12 (DIV2K `0805`–`0812`, 56 observations) passed independent readback. PatchErrorNet ensemble fitting, calibration and held-out test evaluation have not run.
 - A separate [four-source Colab pilot](experiments/colab_pilot_00/README.md) now has saved successful execution checks. Its fixed inverses underperform the degraded-input baseline, and operator spread does not beat the best simple control at 50% retention. A Drive export cell has been added; raw results and figure review remain pending.
+
+A stage-by-stage record of committed and externally retained artifacts is maintained in the [research artifact inventory](docs/artifact_inventory.md).
 
 The 90 studies are a seed evidence map, not a completed PRISMA corpus. The repository must not be cited as a systematic review until database searches, deduplication, two-stage screening, exclusion logging, full-text verification and citation chaining are complete.
 
