@@ -15,6 +15,7 @@ This index distinguishes reproducible repository assets from large raw archives.
 | 05A protocol/data audit | `notebooks/05A_Independent_Validation_Protocol_Audit.ipynb` | Protocol, freeze receipt, data receipt and duplicate audit in `experiments/independent_05/` | Raw dataset archives excluded |
 | 05C engineering canary | `notebooks/05C_Independent_Validation_Engineering_Canary.ipynb` | `canary_readback_receipt.json` and amendment 0001 | Raw canary ZIP/executed notebook retained externally |
 | 05C1 development generation | `notebooks/05C1_Development_Reconstruction_Shards.ipynb` | Per-shard receipts and `development_shard_registry.json` | Shard ZIPs retained externally |
+| 05C2 reliability fitting | `notebooks/05C2_Development_Reliability_Training_and_Calibration.ipynb` and `experiments/independent_05/reliability_training.py` | `notebook_05c2_verification.json`; trained result pending | Clean notebook committed; CUDA result not yet produced |
 | Independent held-out evaluation | Frozen by `protocol_freeze.json` | No test result exists | Unauthorized until the explicit transition gate passes |
 
 ## Current 05C1 checkpoint
@@ -35,6 +36,13 @@ This index distinguishes reproducible repository assets from large raw archives.
 - Shards 01, 02 and 04–11 have recorded outer-ZIP mismatches against their notebook-reported SHA-256 values; all 124 internal files in every accepted shard matched its export manifest. Shard 03 also matched all 124 internal files, but no executed notebook was received for an outer-hash comparison.
 - Development generation is complete: DIV2K `0805`–`0900`, 96 sources and 672 observations passed independent readback.
 - Independent test inference remains **not authorized** and **not performed**.
+
+## Current 05C2 checkpoint
+
+- The clean 14-cell notebook contains six unexecuted code cells; the embedded implementation is collapsed by default.
+- All 12 actual shard archives were consumed successfully in a local compatibility audit: **1,488 manifest files**, **96 sources** and **672 observations**, with zero manifest mismatches.
+- A synthetic 32-source exercise fitted and serialized all **11** frozen isotonic mappings.
+- The five CUDA ensemble members and real development calibration mappings are **not yet fitted**. No independent-test loader or result is present.
 
 ## Notebook policy
 

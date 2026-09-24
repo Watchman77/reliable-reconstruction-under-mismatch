@@ -167,8 +167,14 @@ def validate(root: Path) -> dict[str, object]:
     assert status["canary_readback_verified"] is True
     assert status["canary_notebook_execution"] == "passed_cuda_colab_readback_verified"
     assert status["development_generation_notebook_prepared"] is True
-    assert status["development_generation_shards_completed"] == 0
+    assert status["development_generation_shards_completed"] == 12
     assert status["development_generation_shards_expected"] == 12
+    assert status["development_generation_complete"] is True
+    assert status["development_generation_observations_verified"] == 672
+    assert status["development_generation_sources_verified"] == 96
+    assert status["development_reliability_notebook_prepared"] is True
+    assert status["comparator_fitted"] is False
+    assert status["calibration_fitted"] is False
     assert status["independent_test_run_authorized"] is False
     assert status["test_inference_performed"] is False
     assert status["test_performance_inspected"] is False
@@ -205,6 +211,10 @@ def validate(root: Path) -> dict[str, object]:
         "canary_readback_status": readback["status"],
         "development_canary_passed": True,
         "development_generation_notebook_prepared": True,
+        "development_generation_complete": True,
+        "development_generation_shards_completed": 12,
+        "development_generation_observations_verified": 672,
+        "development_reliability_notebook_prepared": True,
         "development_generation_shards_expected": 12,
         "test_inference_performed": False,
         "independent_test_run_authorized": False,

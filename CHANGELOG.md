@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.23.9 — 2026-09-24
+
+- Added the self-contained `05C2_Development_Reliability_Training_and_Calibration.ipynb` and its auditable builder.
+- Implemented resumable five-member PatchErrorNet fitting with frozen source-separated fit/early-stop partitions, deterministic per-epoch hash sampling, D4 augmentation, fit-only class weighting and source-macro Brier early stopping.
+- Added optional disjoint-member parallel Colab execution, runtime-environment receipts, frozen-ensemble calibration inference, 11 source-equal-weighted isotonic mappings, development-only diagnostics and manifest-based result packaging.
+- Verified the consumer path against all 12 returned shard archives: 1,488 internal manifest files, 96 sources and 672 compact observations passed, and a synthetic 32-source check fitted all 11 mappings.
+- Kept comparator/calibration completion false until a returned CUDA execution is independently read back; independent test inference remains unauthorized and unperformed.
+
 ## 0.23.8 — 2026-09-24
 
 - Independently validated development shards 09–11 of 12 for DIV2K `0877`–`0900`: all 372 manifested files, 168 records and compact bundles passed integrity and schema checks.

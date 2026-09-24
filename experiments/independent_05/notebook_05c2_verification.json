@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "stage": "05C2_development_reliability_training_and_calibration",
+  "role": "development_only",
+  "status": "pass_static_requires_cuda_execution",
+  "validated_at_utc": "2026-09-24T20:52:41Z",
+  "notebook": {
+    "path": "notebooks/05C2_Development_Reliability_Training_and_Calibration.ipynb",
+    "byte_count": 99089,
+    "sha256": "9e686992d2dfc8a05491fa6c50c7a4c3fbe47e79f80b85199eb433fd73e4cbac",
+    "cell_count": 14,
+    "code_cell_count": 6,
+    "hidden_code_cell_count": 1,
+    "execution_state": "unexecuted_requires_colab_cuda_and_12_verified_shard_archives"
+  },
+  "implementation": {
+    "path": "experiments/independent_05/reliability_training.py",
+    "byte_count": 50809,
+    "sha256": "a00f119f87c075e6cc9b8297e0a28536ab8c5d27e513690475279980592ee8ef",
+    "python_compile": "pass",
+    "pure_helper_self_check": "pass",
+    "synthetic_calibration_mapping_check": "pass",
+    "actual_shard_consumer_check": {
+      "status": "pass",
+      "archives_verified": 12,
+      "manifest_files_checked": 1488,
+      "manifest_mismatches": 0,
+      "sources_indexed": 96,
+      "observations_indexed": 672,
+      "compact_schema_samples_checked": 3
+    }
+  },
+  "protocol_sha256": "b92c6cf73e05f60dc1edb3a31d88d91623e9ae0cf63d6265e6398e335928794c",
+  "development_inputs": {
+    "verified_shards": 12,
+    "verified_sources": 96,
+    "verified_observations": 672,
+    "fit_sources": 52,
+    "early_stop_sources": 12,
+    "calibration_sources": 32
+  },
+  "scientific_design": {
+    "ensemble_members": 5,
+    "architecture": "ResNet-18 from scratch with six input channels and one scalar logit",
+    "target": "centre 16x16 patch detail RMSE > 0.05",
+    "early_stopping": "patience 5 on source-macro Brier score",
+    "calibration_method": "source-equal-weighted isotonic regression",
+    "calibration_mapping_count": 11,
+    "parallel_member_execution_supported": true,
+    "resumable_member_checkpoints": true
+  },
+  "frozen_scope": {
+    "development_only": true,
+    "test_loader_present": false,
+    "test_inference_performed": false,
+    "test_performance_inspected": false,
+    "independent_test_run_authorized": false
+  },
+  "limitations": [
+    "The notebook was not executed locally because this workspace does not provide the required CUDA PyTorch runtime.",
+    "Successful static validation does not imply that the five models or calibration mappings have been fitted.",
+    "Independent calibration and the final novelty claim remain unestablished until the sealed evaluation stages are completed."
+  ]
+}

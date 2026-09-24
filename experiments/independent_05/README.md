@@ -4,7 +4,7 @@
 
 Stages 05A and 05B are complete: the protocol is frozen and the documented dataset/checkpoint exposure audit passes. The outcome-blind data-receipt portion of stage 05C also passes. The official TESTIMAGES archive matches the publisher SHA-256, all 40 sealed sources decode as RGB 2400 × 2400, and the exhaustive 40 × 96 comparison against the locked DIV2K development pool found zero exact or near-duplicate candidates.
 
-No independent reconstruction has been run, no test performance has been inspected, and the independent run remains unauthorized. The development-only `0805`–`0806` CUDA canary passed in Colab and its returned payload passed independent readback: all 19 manifested files matched, all four prediction bundles were finite and shape-valid, and the quality and risk tables reproduced to numerical precision. Three outcome-blind metadata findings were recorded and corrected for future runs: the random-baseline alias, child-stage provenance, and the repackaged outer ZIP receipt. All 12 development shards (`0805`–`0900`) have now passed independent readback, covering 96 sources and 672 observations. Each shard contributed 124 manifested files, 56 records and compact bundles, 336 quality rows, 6,272 risk rows and 1,568 recalculated compact-metric risk rows. Shards 01, 02 and 04–11 arrived in downloaded outer ZIPs that were repackaged or rewrapped, but every internal path, byte count and SHA-256 matched each export manifest; all scientific payloads were accepted with the container findings recorded. Shard 03 passed all internal checks, but no executed notebook was received, so a notebook-reported outer ZIP hash comparison was unavailable. Development generation is complete. Stage 05C remains incomplete until the five-member PatchErrorNet ensemble and frozen source-separated calibration mappings are fitted.
+No independent reconstruction has been run, no test performance has been inspected, and the independent run remains unauthorized. The development-only `0805`–`0806` CUDA canary passed in Colab and its returned payload passed independent readback: all 19 manifested files matched, all four prediction bundles were finite and shape-valid, and the quality and risk tables reproduced to numerical precision. Three outcome-blind metadata findings were recorded and corrected for future runs: the random-baseline alias, child-stage provenance, and the repackaged outer ZIP receipt. All 12 development shards (`0805`–`0900`) have now passed independent readback, covering 96 sources and 672 observations. Each shard contributed 124 manifested files, 56 records and compact bundles, 336 quality rows, 6,272 risk rows and 1,568 recalculated compact-metric risk rows. Shards 01, 02 and 04–11 arrived in downloaded outer ZIPs that were repackaged or rewrapped, but every internal path, byte count and SHA-256 matched each export manifest; all scientific payloads were accepted with the container findings recorded. Shard 03 passed all internal checks, but no executed notebook was received, so a notebook-reported outer ZIP hash comparison was unavailable. Development generation is complete. The self-contained 05C2 reliability notebook is prepared; its source, six code cells, 11-map synthetic calibration exercise, and consumer path across all 12 actual shard archives passed static validation. Stage 05C remains incomplete until that notebook fits the five-member PatchErrorNet ensemble and frozen source-separated calibration mappings on CUDA.
 
 The strict primary cohort is the 40-image TESTIMAGES/SAMPLING 8-bit RGB 2400 × 2400 archive. The audit found no documented exposure in the reviewed pinned FBCNN and DPIR sources. Because checkpoint-level image manifests are unavailable, this is not proof of non-exposure.
 
@@ -34,17 +34,21 @@ The strict primary cohort is the 40-image TESTIMAGES/SAMPLING 8-bit RGB 2400 × 
 - `amendments/0001_canary_schema_and_provenance.json` — outcome-blind schema/provenance correction record.
 - `notebook_05c_verification.json` — static notebook verification and explicit CUDA execution gap.
 - `notebook_05c1_verification.json` — static verification of the 12-shard development generator.
+- `notebook_05c2_verification.json` — static, synthetic-calibration and actual 12-shard consumer verification for reliability fitting.
 - `canary.py` — guarded reconstruction/score canary and frozen PatchErrorNet architecture.
 - `development_generation.py` — resumable compact development-data shard generator.
+- `reliability_training.py` — development-only PatchErrorNet ensemble fitting, calibration and audited packaging implementation.
 - `../../notebooks/05A_Independent_Validation_Protocol_Audit.ipynb` — executed audit notebook.
 - `../../notebooks/05C_Independent_Validation_Engineering_Canary.ipynb` — self-contained CUDA canary for DIV2K `0805`–`0806`.
 - `../../notebooks/05C1_Development_Reconstruction_Shards.ipynb` — self-contained CUDA worker for shard indices `0`–`11`.
+- `../../notebooks/05C2_Development_Reliability_Training_and_Calibration.ipynb` — self-contained CUDA trainer/calibrator with resumable and parallel member support.
 - `../../docs/experiment_05_independent_validation_protocol.md` — human-readable protocol.
 - `../../scripts/validate_independent_05_protocol.py` — deterministic structural validator.
 - `../../scripts/prepare_independent_05_data.py` — deterministic data-receipt and duplicate-audit utility.
 - `../../scripts/validate_independent_05c.py` — data, duplicate-audit, implementation and notebook validator.
 - `../../scripts/validate_independent_05c_result.py` — independent raw canary ZIP readback validator.
 - `../../scripts/validate_independent_05c_development_shard.py` — outcome-blind validator for every returned development shard.
+- `../../scripts/validate_independent_05c2.py` — static notebook, implementation and synthetic calibration validator.
 
 ## Validate
 
@@ -56,12 +60,13 @@ python scripts/validate_independent_05c.py
 python scripts/validate_independent_05c_result.py /path/to/returned_canary.zip \
   --expected-outer-sha256 eee0e3b35184e3718a1a9b0503caf572935fe43d65f78865175345dbe463c414
 python scripts/validate_independent_05c_development_shard.py /path/to/returned_shard.zip
+python scripts/validate_independent_05c2.py
 ```
 
 The command must report `status: pass`, zero independent performance artifacts, and `independent_run_authorized: false`.
 
 ## Next permitted work
 
-Fit the five-member PatchErrorNet ensemble on the completed development corpus, then fit the frozen source-separated calibration mappings. All 12 development shards are verified and must not be rerun unless their source archives change. The verified canary does not need to be rerun because the recorded corrections are schema/provenance-only and every numerical result was independently recomputed.
+Run `05C2_Development_Reliability_Training_and_Calibration.ipynb` on a Colab GPU, using the 12 completed shard ZIPs already in the project `results` folder. Return the result ZIP and executed notebook for independent readback. The notebook may run all five members sequentially or disjoint member indices in parallel Colabs. The verified shards and canary must not be rerun unless their source archives change.
 
 Do not run TESTIMAGES inference until every readiness requirement passes and a versioned, outcome-blind stage transition explicitly authorizes it.

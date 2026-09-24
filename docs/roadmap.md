@@ -1,19 +1,19 @@
 # Roadmap
 
-## Current checkpoint — 17 September 2026
+## Current checkpoint — 24 September 2026
 
-Completed: initial triage of 90 seeds; 89 AI full-text assessments (88 include recommendations, one exclude); a provisional synthesis and source-linked inventory. P035 remains pending after the user sent an author-copy request. The classical single-image canary and a four-source Colab development diagnostic have run; the declared multi-image reliability study has not.
+Completed: initial triage and all 90 AI full-text assessments (89 include recommendations, one exclude), a provisional synthesis, classical and learned baselines, acquisition-chain diagnosis, the audited JPEG-aware experiment, the Stage 05 protocol/data audit, the CUDA canary, and all 12 development reconstruction shards. Human review adjudication and formal database-search accounting remain outstanding.
 
-Latest: the [saved Colab run review](../experiments/colab_pilot_00/README.md) confirms successful saved numerical checks but weak fixed-inverse baselines. Its final Drive export cell awaits execution; raw-result and figure review remain pending. Baseline development is the next scientific step.
+Latest: the 05C2 development reliability notebook is prepared and statically validated against the 12 returned shard archives. The next scientific step is the five-member PatchErrorNet fit followed by the frozen source-separated isotonic mappings. The sealed independent run remains unauthorized.
 
-The user prioritised the experimental track. The first static [dataset/baseline audit](dataset_and_baseline_audit_01.md) is complete: 100 development-only sources acquired, 24 controlled observations generated, no learned reconstruction or independent evaluation run. DPIR training overlap and diffusion-prior domains must be handled before freezing evaluation data. Review work remains deferred apart from evidence directly relevant to the experimental decision.
+The user prioritised the experimental track. Development data are explicitly separated from the 40-source sealed TESTIMAGES cohort; documented checkpoint exposure, exact/near-duplicate checks, source partitions, metrics and statistical gates are frozen. Review work remains deferred apart from evidence directly relevant to the experimental decision.
 
 | Track | Next concrete task | Deliverable / completion evidence |
 |---|---|---|
-| Feasibility — active | Implement consistent classical and DPIR adapters; obtain/check weights and measure per-image inference cost using the initial audit. | Matched forward/adjoint implementation, checkpoint hashes, runtime and memory measurements. |
-| Feasibility — next | Freeze source-separated development/calibration/test manifests and implement the declared acquisition regimes and selection scores. | Runnable multi-image pilot, source-level evaluation and a dated design freeze. |
-| Feasibility — evaluate | Compare selective error at matched coverage, information and compute, including a shared omitted-process stress condition. | All-condition report with uncertainty intervals, failures and a go/redesign/stop decision. |
-| Evidence — pending access | Assess P035 when the author or another legitimate route supplies full text. | One criterion-level recommendation, source/version evidence and an updated cumulative checkpoint. |
+| Feasibility — active | Run the five frozen PatchErrorNet members and fit the 11 source-equal-weighted isotonic mappings on development partitions only. | Audited 05C2 result ZIP, executed notebook, five model receipts and serialized mappings. |
+| Feasibility — next | Independently read back 05C2 and evaluate every readiness assertion without viewing sealed outcomes. | Explicit pass/fail transition receipt; test authority remains false unless every gate passes. |
+| Feasibility — evaluate | Run the one-time locked independent evaluation, then apply frozen statistics and calibration diagnostics. | Source-level intervals, H1/H2 decisions, reliability report and bounded novelty decision. |
+| Evidence — completed AI assessment | Preserve P035 and all 90 criterion-level recommendations pending human adjudication. | Human decisions and formal review counts, separate from the experimental claim. |
 | Evidence — deferred | Complete formal search accounting, human adjudication, necessary version checks and lineage grouping. | Auditable final review decisions and search records; no final novelty claim before sufficient evidence. |
 
 See [provisional synthesis 01](../literature/synthesis/provisional_gap_synthesis_01.md) for the three ranked candidate problems and the explanation of what existing methods already cover. Candidate 1 is operator-sensitive selective reconstruction; constrained residual correction and temporal extension are later alternatives.
