@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "stage": "05C_development_generation",
+  "status": "pass_static_requires_cuda_execution",
+  "notebook": {
+    "path": "notebooks/05C1_Development_Reconstruction_Shards.ipynb",
+    "byte_count": 378671,
+    "sha256": "2b39bd8a7d88e7084ee901646c05d2544400b179c7f2342fc902f916d48c6c7e",
+    "cells": 15,
+    "code_cells": 7,
+    "collapsed_code_cells": 2,
+    "all_code_cells_compile": true,
+    "stored_outputs": 0,
+    "execution": "not_run_requires_cuda"
+  },
+  "implementation": {
+    "path": "experiments/independent_05/development_generation.py",
+    "sha256": "f1af2df5701bc0691a7b799d83595659f6b0b0144b88bce11d55d37eb77d63aa",
+    "canary_dependency_sha256": "5fd8e0fc4cfabc2c5ef046572f4587fd78e4421b997f7f096c7a715c854b37f2",
+    "build_script_path": "build/build_notebook_05c1.py",
+    "build_script_sha256": "714c1efba8cb3fc06625bbaba33c768994af9c3117b50d192a368b7ec6ebc7a7"
+  },
+  "frozen_scope": {
+    "source_range": "0805-0900",
+    "sources": 96,
+    "shard_size": 8,
+    "shards": 12,
+    "chains_per_source": 7,
+    "observations_per_full_shard": 56,
+    "drunet_calls_per_full_shard": 4480,
+    "fbcnn_calls_per_full_shard": 168,
+    "compact_training_and_calibration_outputs": true,
+    "resumable_per_observation": true,
+    "test_inference_performed": false,
+    "independent_test_run_authorized": false
+  },
+  "next_action": "Run shard index 0 in a CUDA Colab runtime and return its raw shard ZIP for independent readback."
+}

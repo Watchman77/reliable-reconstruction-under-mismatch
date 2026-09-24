@@ -34,14 +34,22 @@ def validate(root: Path) -> dict[str, object]:
     receipt_path = root / "experiments/independent_05/data_receipt.json"
     duplicate_path = root / "experiments/independent_05/duplicate_audit.csv"
     status_path = root / "experiments/independent_05/stage_05c_status.json"
+    readback_path = root / "experiments/independent_05/canary_readback_receipt.json"
+    amendment_path = root / "experiments/independent_05/amendments/0001_canary_schema_and_provenance.json"
     canary_path = root / "experiments/independent_05/canary.py"
+    development_path = root / "experiments/independent_05/development_generation.py"
     notebook_path = root / "notebooks/05C_Independent_Validation_Engineering_Canary.ipynb"
+    development_notebook_path = root / "notebooks/05C1_Development_Reconstruction_Shards.ipynb"
+    development_verification_path = root / "experiments/independent_05/notebook_05c1_verification.json"
     test_archive = root / "inputs/SAMPLING_8BIT_RGB_2400x2400.tar.bz2"
     div2k_archive = root / "inputs/DIV2K_valid_HR.zip"
 
     protocol = load_json(protocol_path)
     receipt = load_json(receipt_path)
     status = load_json(status_path)
+    readback = load_json(readback_path)
+    amendment = load_json(amendment_path)
+    development_verification = load_json(development_verification_path)
     assert protocol["independent_test_run_authorized"] is False
     assert protocol["test_results_inspected"] is False
     assert tuple(protocol["development_partitions"]["engineering_canary_sources"]) == CANARY_IDS
@@ -94,6 +102,24 @@ def validate(root: Path) -> dict[str, object]:
     assert "independent_test_run_authorized\"] is False" in canary_source
     assert "device.type == \"cuda\"" in canary_source
 
+    development_source = development_path.read_text(encoding="utf-8")
+    development_tree = ast.parse(development_source)
+    development_top_level = {
+        node.name
+        for node in development_tree.body
+        if isinstance(node, (ast.FunctionDef, ast.ClassDef))
+    }
+    assert {
+        "shard_sources",
+        "derive_config",
+        "validate_scope",
+        "load_sources",
+        "compact_arrays",
+        "run_shard",
+    } <= development_top_level
+    assert "DEVELOPMENT_SOURCE_IDS" in development_source
+    assert "independent_test_run_authorized\"] is False" in development_source
+
     notebook = load_json(notebook_path)
     assert notebook["nbformat"] == 4
     assert len(notebook["cells"]) == 15
@@ -109,17 +135,61 @@ def validate(root: Path) -> dict[str, object]:
     assert "TESTIMAGES inference performed: false" in notebook_source
     assert "Independent test run authorized: false" in notebook_source
 
+    development_notebook = load_json(development_notebook_path)
+    assert development_notebook["nbformat"] == 4
+    assert len(development_notebook["cells"]) == 15
+    development_code_cells = [
+        cell for cell in development_notebook["cells"] if cell["cell_type"] == "code"
+    ]
+    for cell in development_code_cells:
+        assert cell.get("execution_count") is None
+        assert cell.get("outputs") == []
+        compile(
+            "".join(cell["source"]),
+            f"{development_notebook_path.name}:cell",
+            "exec",
+        )
+    development_notebook_source = "\n".join(
+        "".join(cell["source"]) for cell in development_notebook["cells"]
+    )
+    assert sha256(development_path) in development_notebook_source
+    assert "SHARD_SIZE = 8" in development_notebook_source
+    assert "SHARD_COUNT_05C1 = 12" in development_notebook_source
+    assert "Independent test run authorized: false" in development_notebook_source
+
     assert status["protocol_frozen"] is True
     assert status["dataset_downloaded_and_hashed"] is True
     assert status["test_archive_publisher_digest_match"] is True
     assert status["test_source_decode_check_complete"] is True
     assert status["near_duplicate_audit_complete"] is True
     assert status["canary_inputs_ready"] is True
-    assert status["development_canary_passed"] is False
+    assert status["development_canary_passed"] is True
+    assert status["canary_readback_verified"] is True
+    assert status["canary_notebook_execution"] == "passed_cuda_colab_readback_verified"
+    assert status["development_generation_notebook_prepared"] is True
+    assert status["development_generation_shards_completed"] == 0
+    assert status["development_generation_shards_expected"] == 12
     assert status["independent_test_run_authorized"] is False
     assert status["test_inference_performed"] is False
     assert status["test_performance_inspected"] is False
     assert status["data_receipt"]["sha256"] == sha256(receipt_path)
+    assert readback["scientific_payload_accepted"] is True
+    assert readback["requires_canary_rerun"] is False
+    assert readback["scope"]["test_inference_performed"] is False
+    assert readback["scope"]["independent_test_run_authorized"] is False
+    assert readback["archive_integrity"]["manifest_hash_or_size_mismatches"] == 0
+    assert amendment["outcome_blind"] is True
+    assert amendment["scientific_design_changed"] is False
+    assert amendment["independent_test_output_existed"] is False
+    assert amendment["independent_test_run_authorized"] is False
+    assert development_verification["status"] == "pass_static_requires_cuda_execution"
+    assert development_verification["notebook"]["sha256"] == sha256(
+        development_notebook_path
+    )
+    assert development_verification["implementation"]["sha256"] == sha256(
+        development_path
+    )
+    assert development_verification["frozen_scope"]["test_inference_performed"] is False
 
     return {
         "status": "pass",
@@ -131,7 +201,11 @@ def validate(root: Path) -> dict[str, object]:
         "canary_source_ids": list(CANARY_IDS),
         "canary_chain_ids": list(CANARY_CHAINS),
         "canary_notebook_cells": len(notebook["cells"]),
-        "canary_notebook_execution": "not_run_requires_cuda",
+        "canary_notebook_execution": "passed_cuda_colab_readback_verified",
+        "canary_readback_status": readback["status"],
+        "development_canary_passed": True,
+        "development_generation_notebook_prepared": True,
+        "development_generation_shards_expected": 12,
         "test_inference_performed": False,
         "independent_test_run_authorized": False,
     }

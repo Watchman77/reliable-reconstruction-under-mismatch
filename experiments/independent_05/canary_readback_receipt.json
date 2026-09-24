@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "stage": "05C_development_canary_readback",
+  "audited_at_utc": "2026-09-24T11:40:41Z",
+  "status": "pass_with_recorded_outcome_blind_metadata_corrections",
+  "scientific_payload_accepted": true,
+  "archive": {
+    "received_filename": "independent_05c_canary_20260924T101439_673128Z-20260924T112835Z-1-001.zip",
+    "received_byte_count": 243112859,
+    "received_sha256": "f92ccab2e045fb8f75377ab4a0429991cd2aef0c42a782517527613c08167b51",
+    "notebook_reported_filename": "independent_05c_canary_20260924T101439_673128Z.zip",
+    "notebook_reported_sha256": "eee0e3b35184e3718a1a9b0503caf572935fe43d65f78865175345dbe463c414",
+    "outer_sha256_match": false,
+    "repackaging_conclusion": "Outer container bytes changed after notebook packaging. Payload acceptance is based on the complete internal export manifest, not the received outer ZIP identity."
+  },
+  "archive_integrity": {
+    "crc_test_passed": true,
+    "entries": 20,
+    "duplicate_entries": 0,
+    "unsafe_paths": 0,
+    "manifest_files_checked": 19,
+    "manifest_file_set_exact": true,
+    "manifest_hash_or_size_mismatches": 0
+  },
+  "scope": {
+    "role": "development_only",
+    "source_ids": [
+      "0805",
+      "0806"
+    ],
+    "chain_ids": [
+      "q8_b16_n2",
+      "j75_b16_n2"
+    ],
+    "observations": 4,
+    "test_inference_performed": false,
+    "test_performance_inspected": false,
+    "independent_test_run_authorized": false
+  },
+  "row_counts": {
+    "source_manifest": 2,
+    "acquisition_repeat_check": 4,
+    "acquisition": 4,
+    "quality": 24,
+    "risk": 448,
+    "compute": 60,
+    "trajectories": 320,
+    "fbcnn_diagnostics": 12
+  },
+  "compute_accounting": {
+    "drunet_calls": 320,
+    "fbcnn_calls": 12,
+    "trajectory_rows": 320
+  },
+  "independent_recalculation": {
+    "source_bytes_and_decoded_rgb_match": true,
+    "reference_crops_match": true,
+    "prediction_bundles_checked": 4,
+    "prediction_arrays_per_bundle": 44,
+    "all_arrays_finite_and_shape_valid": true,
+    "observations_and_jpeg_receipts_match": true,
+    "quality_max_abs_error": 1.0658141036401503e-14,
+    "patch_array_max_abs_error": 0.0,
+    "risk_max_abs_error": 1.1102230246251565e-16,
+    "score_array_max_abs_error": 0.0
+  },
+  "component_checks": {
+    "dpir_adapter_checks_passed": true,
+    "fbcnn_adapter_checks_passed": true,
+    "patcherrornet_architecture_smoke_passed": true,
+    "patcherrornet_fit_performed": false,
+    "calibration_fit_performed": false
+  },
+  "recorded_amendment": "experiments/independent_05/amendments/0001_canary_schema_and_provenance.json",
+  "validator": {
+    "path": "scripts/validate_independent_05c_result.py",
+    "sha256": "6fb0001f8da6da4f8d19cd0b6907003c4db0e253e4dc691396c15e80b9fe0462"
+  },
+  "requires_canary_rerun": false,
+  "next_permitted_action": "Generate the full development-only reconstruction shards, then fit the five-member PatchErrorNet ensemble and the frozen source-separated calibration mappings.",
+  "independent_test_run_authorized": false
+}

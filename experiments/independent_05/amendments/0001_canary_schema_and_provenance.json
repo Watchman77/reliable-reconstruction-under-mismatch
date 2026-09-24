@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "independent_05",
+  "amendment_id": "05A-AMD-001",
+  "amended_at_utc": "2026-09-24T11:40:41Z",
+  "author": "Bamidele Akinwumi research workflow (Codex-assisted)",
+  "trigger": "Independent readback of the returned development-only stage-05C CUDA canary",
+  "outcome_blind": true,
+  "development_canary_output_existed": true,
+  "independent_test_output_existed": false,
+  "independent_test_inference_performed": false,
+  "independent_test_performance_inspected": false,
+  "scientific_design_changed": false,
+  "findings": [
+    {
+      "id": "evaluation_score_alias",
+      "observed": "The canary emitted random_expected while the frozen protocol specifies expected_random.",
+      "affected_fields": [
+        "risk.csv:score",
+        "embedded canary SCORE_RENAMES"
+      ],
+      "impact": "Schema-only. The selected patches and every numerical risk value independently recomputed exactly after alias normalization."
+    },
+    {
+      "id": "inherited_parent_provenance",
+      "observed": "The canary provenance payload retained experiment=jpeg_aware_04 and four-source development wording from its parent checkpoint.",
+      "affected_fields": [
+        "provenance.json:experiment",
+        "provenance.json:training_overlap"
+      ],
+      "impact": "Metadata-only. Component commits, checkpoint hashes, embedded-source hashes, predictions and calculations were unaffected."
+    },
+    {
+      "id": "received_zip_repackaged",
+      "observed": "The returned outer ZIP SHA-256 differs from the notebook-reported ZIP SHA-256, while all 19 internal export-manifest files match their recorded byte counts and SHA-256 digests.",
+      "affected_fields": [
+        "outer ZIP container metadata and compression"
+      ],
+      "impact": "The exact original ZIP byte stream is unavailable, but scientific payload identity is established by the complete internal manifest."
+    }
+  ],
+  "corrections": [
+    {
+      "id": "normalize_expected_random",
+      "action": "Map random_expected to the frozen expected_random label and assert the complete expected score set."
+    },
+    {
+      "id": "child_stage_provenance",
+      "action": "Export experiment=independent_05, stage=05C_development_canary and role=development_only while retaining the parent experiment and parent-provenance digest."
+    },
+    {
+      "id": "record_repackaged_container",
+      "action": "Preserve both outer ZIP digests and accept the payload only because every internal manifest hash and all consequential calculations passed independent readback."
+    }
+  ],
+  "requires_canary_rerun": false,
+  "rerun_reason": "No numerical algorithm, input, reconstruction, score ordering, selected patch or metric changed. The full payload was independently recomputed and the corrected code adds stricter schema/provenance assertions for all future runs.",
+  "independent_test_run_authorized": false
+}

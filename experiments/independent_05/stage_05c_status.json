@@ -1,9 +1,14 @@
 {
   "blockers": [],
   "calibration_fitted": false,
+  "canary_readback_receipt": {
+    "path": "experiments/independent_05/canary_readback_receipt.json",
+    "status": "pass_with_recorded_outcome_blind_metadata_corrections"
+  },
+  "canary_readback_verified": true,
   "canary_inputs_ready": true,
   "canary_notebook_prepared": true,
-  "canary_notebook_execution": "not_run_requires_cuda",
+  "canary_notebook_execution": "passed_cuda_colab_readback_verified",
   "comparator_fitted": false,
   "data_receipt": {
     "byte_count": 54539,
@@ -11,12 +16,15 @@
     "sha256": "ad48eb7a65b043173f1012035b4a4c95d0299420614311bdfc6611ef840169cb"
   },
   "dataset_downloaded_and_hashed": true,
-  "development_canary_passed": false,
+  "development_generation_notebook_prepared": true,
+  "development_generation_shards_completed": 0,
+  "development_generation_shards_expected": 12,
+  "development_canary_passed": true,
   "experiment_id": "independent_05",
   "implementation_ready": true,
   "independent_test_run_authorized": false,
   "near_duplicate_audit_complete": true,
-  "next_permitted_action": "Run the prepared development-only 0805-0806 CUDA canary and return its raw ZIP for independent readback.",
+  "next_permitted_action": "Run shard index 0 of notebooks/05C1_Development_Reconstruction_Shards.ipynb in CUDA Colab and return its raw shard ZIP for independent readback.",
   "protocol_frozen": true,
   "schema_version": "1.0.0",
   "stage": "05C",
@@ -24,5 +32,5 @@
   "test_inference_performed": false,
   "test_performance_inspected": false,
   "test_source_decode_check_complete": true,
-  "updated_at_utc": "2026-09-24T09:00:41Z"
+  "updated_at_utc": "2026-09-24T11:47:00Z"
 }

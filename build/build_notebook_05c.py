@@ -9,6 +9,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REFERENCE_NOTEBOOK = ROOT / "notebooks" / "04_DIV2K_JPEG_Aware_Baseline.ipynb"
+if not REFERENCE_NOTEBOOK.is_file():
+    REFERENCE_NOTEBOOK = ROOT / "build" / "notebook04_reference.ipynb"
 CANARY_SOURCE = ROOT / "experiments" / "independent_05" / "canary.py"
 PROTOCOL = ROOT / "experiments" / "independent_05" / "protocol_freeze.json"
 RECEIPT = ROOT / "experiments" / "independent_05" / "data_receipt.json"
@@ -105,6 +107,24 @@ assert PROTOCOL_05['independent_test_run_authorized'] is False
 assert DATA_RECEIPT_05['test_inference_performed'] is False
 assert DATA_RECEIPT_05['receipt_status'] == 'pass'
 
+PARENT_PROVENANCE_04 = json.loads(json.dumps(PROVENANCE))
+PROVENANCE_05C = json.loads(json.dumps(PROVENANCE))
+PROVENANCE_05C['parent_experiment'] = PROVENANCE_05C.pop('experiment')
+PROVENANCE_05C['experiment'] = 'independent_05'
+PROVENANCE_05C['stage'] = '05C_development_canary'
+PROVENANCE_05C['role'] = 'development_only'
+PROVENANCE_05C['parent_provenance_sha256'] = hashlib.sha256(
+    json.dumps(PARENT_PROVENANCE_04, sort_keys=True, separators=(',', ':')).encode()
+).hexdigest()
+PROVENANCE_05C['dpir']['training_overlap'] = (
+    'The DPIR paper reports DIV2K training. Sources 0805-0806 are exposed development '
+    'canary data and cannot support independent claims.'
+)
+PROVENANCE_05C['fbcnn']['training_overlap'] = (
+    'The FBCNN paper reports DIV2K and Flickr2K training. Sources 0805-0806 are exposed '
+    'development canary data and cannot support independent claims.'
+)
+
 C05 = types.ModuleType('independent_05_canary_embedded')
 exec(compile(CANARY_SOURCE, '<independent_05_canary_embedded>', 'exec'), C05.__dict__)
 C05.B01, C05.L02, C05.J04 = B01, L02, J04
@@ -199,7 +219,7 @@ MODEL_CACHE = PROJECT_DIR / 'model_cache'
 DPIR_WEIGHTS = Path(os.environ.get('IMAGING05_DPIR_WEIGHTS', str(MODEL_CACHE / 'drunet_color.pth')))
 FBCNN_WEIGHTS = Path(os.environ.get('IMAGING05_FBCNN_WEIGHTS', str(MODEL_CACHE / 'fbcnn_color.pth')))
 VENDOR_DIRS_05 = {
-    key: MODEL_CACHE / f"{key}_{PROVENANCE[key]['upstream_commit'][:7]}"
+    key: MODEL_CACHE / f"{key}_{PROVENANCE_05C[key]['upstream_commit'][:7]}"
     for key in VENDORS
 }
 for key, files in VENDORS.items():
@@ -207,7 +227,7 @@ for key, files in VENDORS.items():
         path = VENDOR_DIRS_05[key] / relative
         path.parent.mkdir(parents=True, exist_ok=True)
         if path.exists():
-            assert J04.sha256(path) == PROVENANCE[key]['files'][relative], f'Changed vendor file: {path}'
+            assert J04.sha256(path) == PROVENANCE_05C[key]['files'][relative], f'Changed vendor file: {path}'
         else:
             path.write_bytes(source.encode())
 
@@ -242,7 +262,7 @@ RESULT_05C = C05.run_canary(
     OUTPUT_DIR_05C,
     PROTOCOL_05,
     DATA_RECEIPT_05,
-    PROVENANCE,
+    PROVENANCE_05C,
     VENDOR_DIRS_05,
     DPIR_WEIGHTS,
     FBCNN_WEIGHTS,

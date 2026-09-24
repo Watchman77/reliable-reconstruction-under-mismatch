@@ -42,6 +42,7 @@ PRIMARY_METHODS = (
 SCORE_RENAMES = {
     "measurement_residual": "original_measurement_residual",
     "image_gradient": "reconstruction_gradient",
+    "random_expected": "expected_random",
 }
 EXPECTED_OPERATIONAL_SCORES = (
     "operator_spread_detail",
@@ -50,6 +51,10 @@ EXPECTED_OPERATIONAL_SCORES = (
     "original_measurement_residual",
     "reconstruction_gradient",
     "trained_image_only_patcherrornet_ensemble",
+)
+EXPECTED_EVALUATION_ONLY_SCORES = (
+    "expected_random",
+    "oracle_detail_error",
 )
 
 
@@ -411,6 +416,9 @@ def run_canary(data_dir, output_dir, protocol, receipt, provenance, vendor_dirs,
 
     config = derive_config(protocol)
     chains = validate_canary_scope(protocol, config)
+    assert provenance["experiment"] == "independent_05"
+    assert provenance["stage"] == "05C_development_canary"
+    assert provenance["role"] == "development_only"
     frames = {}
     payloads = {"config": config, "provenance": provenance}
     _snapshot(output_dir, frames, payloads, "initializing")
@@ -489,8 +497,8 @@ def run_canary(data_dir, output_dir, protocol, receipt, provenance, vendor_dirs,
             ["source_id", "chain_id", "pipeline", "region", "score", "coverage"]
         ).any()
         expected_untrained = set(EXPECTED_OPERATIONAL_SCORES) - {"trained_image_only_patcherrornet_ensemble"}
-        observed_operational = set(frames["risk"].score) & set(EXPECTED_OPERATIONAL_SCORES)
-        assert observed_operational == expected_untrained
+        expected_scores = expected_untrained | set(EXPECTED_EVALUATION_ONLY_SCORES)
+        assert set(frames["risk"].score) == expected_scores
         assert int(frames["compute"].denoiser_calls.sum()) == observations * 80
         assert int(frames["compute"].fbcnn_calls.sum()) == observations * 3
         payloads["checks"].update(
