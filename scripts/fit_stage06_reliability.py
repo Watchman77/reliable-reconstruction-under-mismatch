@@ -30,6 +30,7 @@ ROLE_ORDER = (
     "external_pilot",
     "independent_test",
 )
+RAISE_ELIGIBLE_MANIFEST_SHA256 = "a989e066ab5c66bec753719b3a3006c15a0635504f63977750a9192aa2995426"
 
 
 def sha256_file(path: Path) -> str:
@@ -61,6 +62,24 @@ def validate_source_roles(frame: pd.DataFrame) -> None:
     unknown = sorted(set(frame["role"].astype(str)) - set(ROLE_ORDER))
     if unknown:
         raise ValueError(f"Unknown roles: {unknown}")
+
+
+def validate_eligible_sources(frame: pd.DataFrame, manifest_path: Path) -> str:
+    """Reject excluded/unknown sources and role changes before using target values."""
+    digest = sha256_file(manifest_path)
+    if digest != RAISE_ELIGIBLE_MANIFEST_SHA256:
+        raise ValueError("Stage 06B eligible manifest differs from the reviewed v1 receipt")
+    allowed = pd.read_csv(manifest_path, dtype=str, keep_default_na=False)
+    if not {"source_id", "role"} <= set(allowed.columns) or allowed.source_id.duplicated().any():
+        raise ValueError("Malformed Stage 06B eligible manifest")
+    roles = allowed.set_index("source_id")["role"]
+    unknown = sorted(set(frame.source_id) - set(roles.index))
+    if unknown:
+        raise ValueError(f"Feature table contains excluded or unknown sources: {unknown[:20]}")
+    mismatched = frame.loc[frame.role != frame.source_id.map(roles), "source_id"].unique().tolist()
+    if mismatched:
+        raise ValueError(f"Feature table changes frozen source roles: {mismatched[:20]}")
+    return digest
 
 
 def ridge_candidates(seed: int) -> list[tuple[dict[str, Any], Any]]:
@@ -168,6 +187,7 @@ def clustered_bootstrap_difference(
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--table", type=Path, required=True)
+    parser.add_argument("--eligible-source-manifest", type=Path, required=True)
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--chain-aware-features", required=True)
     parser.add_argument("--image-only-features", required=True)
@@ -185,6 +205,9 @@ def main() -> None:
     frame["source_id"] = frame["source_id"].astype(str)
     frame["role"] = frame["role"].astype(str)
     validate_source_roles(frame)
+    eligible_manifest_sha256 = validate_eligible_sources(frame, args.eligible_source_manifest)
+    if args.evaluation_role == "external_pilot" and (frame.role == "independent_test").any():
+        raise ValueError("Pilot input must contain no independent-test rows or outcomes")
     chain_features = parse_csv_list(args.chain_aware_features)
     image_features = parse_csv_list(args.image_only_features)
     thresholds = [float(value) for value in parse_csv_list(args.thresholds)]
@@ -324,6 +347,7 @@ def main() -> None:
         "bootstrap_repetitions": args.bootstrap_repetitions,
         "seed": args.seed,
         "independent_evaluation_permitted": bool(args.permit_independent_evaluation),
+        "eligible_source_manifest_sha256": eligible_manifest_sha256,
     }
     receipt_path.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
     exported = []
@@ -338,4 +362,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
