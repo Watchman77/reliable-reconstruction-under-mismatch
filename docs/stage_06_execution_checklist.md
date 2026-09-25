@@ -14,11 +14,14 @@ This checklist is operational. A checked box must be backed by a named artifact 
 
 ## 06B — External source
 
-- [ ] Choose and document a genuinely external dataset.
-- [ ] Pin archive URL/version/licence and SHA-256.
-- [ ] Produce exact-hash and perceptual-overlap audit.
-- [ ] Freeze source-level fit/calibration/pilot/test roles.
-- [ ] Document pretrained-model training-overlap risk.
+- [x] Select RAISE-1k and pin its official CSV ZIP SHA-256 and original source allocation.
+- [x] Download and independently rehash 1,000 NEFs against their receipts; decode every RAW.
+- [x] Compare against all 140 Stage 05 originals and screen within RAISE.
+- [x] Record six exact-duplicate exclusions and two visually reviewed dHash false positives in eligibility v1 (994 sources).
+- [ ] Enforce the committed 994-source allowlist in every Stage 06 loader before modeling.
+- [ ] Complete publisher access/licence/retrieval and model-training provenance records.
+- [ ] Resolve pretrained-model training-overlap risk for each actual checkpoint.
+- [ ] Freeze final source IDs, exclusions, and renderer with the Stage 06E bundle.
 
 ## 06C — Generalisation axes
 
@@ -62,4 +65,3 @@ This checklist is operational. A checked box must be backed by a named artifact 
 - [ ] Include all negative, failed, and non-estimable findings.
 - [ ] Add external-data, solver-transfer, alternate-chain, and reliability tables.
 - [ ] Archive the exact paper-to-result provenance map.
-

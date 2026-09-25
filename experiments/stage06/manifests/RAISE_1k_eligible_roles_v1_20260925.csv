@@ -1,0 +1,995 @@
+source_id,relative_path,role,device,image_size,keywords,expected_mb,download_shard
+r000da54ft,r000da54ft.NEF,independent_test,Nikon D90,L (4288 x 2848),nature; outdoor,9.79,15
+r001d260dt,r001d260dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.0,11
+r002fc3e2t,r002fc3e2t.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor; people,21.5,14
+r00444b95t,r00444b95t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.8,13
+r005f3e70t,r005f3e70t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.6,5
+r00617aa1t,r00617aa1t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.7,12
+r00679daet,r00679daet.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,18.3,16
+r006b0e4bt,r006b0e4bt.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor,10.1,19
+r006fcc20t,r006fcc20t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.8,12
+r007f5116t,r007f5116t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.5,15
+r00816405t,r00816405t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.9,9
+r00869422t,r00869422t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,10.9,7
+r00879054t,r00879054t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,19.8,11
+r008a2095t,r008a2095t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,23.4,3
+r008ed083t,r008ed083t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.3,2
+r00a940e1t,r00a940e1t.NEF,development_calibration,Nikon D90,L (4288 x 2848),landscape; outdoor,9.53,19
+r00b3931bt,r00b3931bt.NEF,independent_test,Nikon D90,L (4288 x 2848),landscape; outdoor,11.1,12
+r00b8d4a2t,r00b8d4a2t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,10.7,0
+r00c0995ft,r00c0995ft.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; buildings,10.7,19
+r00c4a543t,r00c4a543t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,19.2,17
+r00d161b7t,r00d161b7t.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor; objects,19.7,6
+r00de2590t,r00de2590t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.3,9
+r01058910t,r01058910t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; objects,9.78,16
+r0108c383t,r0108c383t.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor; buildings,10.6,5
+r010cb248t,r010cb248t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,11.3,3
+r01170470t,r01170470t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,19.6,9
+r01291f20t,r01291f20t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,17.5,10
+r01292fd8t,r01292fd8t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.6,7
+r012b0f30t,r012b0f30t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.2,4
+r012d1dbet,r012d1dbet.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.5,19
+r0141f0c9t,r0141f0c9t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; people,19.8,11
+r01474187t,r01474187t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,22.8,18
+r0149a21ct,r0149a21ct.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,21.1,7
+r0150031ft,r0150031ft.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,11.2,3
+r01511e3et,r01511e3et.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,18.4,9
+r01559391t,r01559391t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,19.1,18
+r015b453ft,r015b453ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.9,0
+r0176fbcat,r0176fbcat.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.4,13
+r017904f0t,r017904f0t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,19.0,13
+r018ba134t,r018ba134t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.1,0
+r018e74fet,r018e74fet.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.7,2
+r0191aaf4t,r0191aaf4t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.4,17
+r019eb1cbt,r019eb1cbt.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.3,6
+r01a31693t,r01a31693t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,19.0,9
+r01a5f38at,r01a5f38at.NEF,external_pilot,Nikon D90,L (4288 x 2848),objects; outdoor,9.83,10
+r01b3f004t,r01b3f004t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,21.5,6
+r01b6aed6t,r01b6aed6t.NEF,independent_test,Nikon D90,L (4288 x 2848),objects; outdoor,11.7,6
+r01c95f68t,r01c95f68t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.8,0
+r01cbb7fdt,r01cbb7fdt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,17.7,18
+r01cf60c7t,r01cf60c7t.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor,10.3,4
+r01d0b83bt,r01d0b83bt.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor; people,20.6,7
+r01d9da09t,r01d9da09t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),nature; outdoor,17.6,12
+r01ef1b4at,r01ef1b4at.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.9,10
+r0200a7a6t,r0200a7a6t.NEF,external_pilot,Nikon D90,L (4288 x 2848),landscape; outdoor,12.0,2
+r02059ab4t,r02059ab4t.NEF,independent_test,Nikon D90,L (4288 x 2848),Indoor; objects,9.39,11
+r0207a52ct,r0207a52ct.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.5,13
+r021429abt,r021429abt.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,6
+r02189767t,r02189767t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,20.1,5
+r02210c2at,r02210c2at.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.4,17
+r0225b88bt,r0225b88bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; people,17.3,15
+r022af74ct,r022af74ct.NEF,development_calibration,Nikon D90,L (4288 x 2848),buildings; landscape; outdoor,10.2,12
+r02354285t,r02354285t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.7,6
+r0249f733t,r0249f733t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,8
+r02508493t,r02508493t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.7,19
+r0250eb80t,r0250eb80t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; objects,19.5,6
+r02513d19t,r02513d19t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,23.1,1
+r026b5360t,r026b5360t.NEF,independent_test,Nikon D90,L (4288 x 2848),landscape; outdoor,9.97,7
+r026cedb7t,r026cedb7t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor; people,19.7,12
+r0279b17bt,r0279b17bt.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,11.0,6
+r027a692ft,r027a692ft.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,23.3,3
+r0281b52at,r0281b52at.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.7,18
+r0282ca06t,r0282ca06t.NEF,independent_test,Nikon D90,L (4288 x 2848),landscape; outdoor,9.55,8
+r0284aa1at,r0284aa1at.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.2,19
+r0287344at,r0287344at.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,21.4,15
+r028896d3t,r028896d3t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),Indoor; objects,17.6,18
+r0288b58ct,r0288b58ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.7,0
+r02897203t,r02897203t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.2,11
+r029afdb0t,r029afdb0t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.6,5
+r02a0839et,r02a0839et.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; buildings,18.0,13
+r02a21f6ct,r02a21f6ct.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; objects; outdoor,19.0,1
+r02b3a1ddt,r02b3a1ddt.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,19.5,13
+r02b7536at,r02b7536at.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,23.0,7
+r02d732f8t,r02d732f8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor; people,19.6,12
+r02e1abe2t,r02e1abe2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; buildings,19.4,0
+r02f1ba48t,r02f1ba48t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; objects,20.9,4
+r02f5c155t,r02f5c155t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,18.5,3
+r02f9f53et,r02f9f53et.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.6,8
+r0314c3f9t,r0314c3f9t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),objects; outdoor,11.1,10
+r031917act,r031917act.NEF,development_early_stop,Nikon D90,L (4288 x 2848),outdoor,10.7,13
+r03193652t,r03193652t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,18.4,14
+r03389e9bt,r03389e9bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor,17.9,8
+r033bb79dt,r033bb79dt.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,9.45,7
+r033daaa0t,r033daaa0t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.1,18
+r0341853dt,r0341853dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.0,18
+r0342f22ct,r0342f22ct.NEF,independent_test,Nikon D90,L (4288 x 2848),Indoor,10.1,1
+r0355b2d5t,r0355b2d5t.NEF,development_calibration,Nikon D40,L (3008 x 2000),Indoor,5.38,0
+r0356ea60t,r0356ea60t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,21.9,8
+r035ef2c2t,r035ef2c2t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; landscape; outdoor,10.4,10
+r03640e97t,r03640e97t.NEF,development_calibration,Nikon D90,L (4288 x 2848),outdoor,11.3,11
+r036e2a9at,r036e2a9at.NEF,independent_test,Nikon D90,L (4288 x 2848),landscape; outdoor,10.5,14
+r0372042dt,r0372042dt.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; objects,9.65,19
+r037a250ft,r037a250ft.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,18.5,16
+r0383e9c3t,r0383e9c3t.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor; buildings; people,18.8,15
+r038422cft,r038422cft.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.6,8
+r038922cbt,r038922cbt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),objects; outdoor,17.8,14
+r03995a8ct,r03995a8ct.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor; people,19.0,12
+r039a5ef5t,r039a5ef5t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.4,17
+r039a851bt,r039a851bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.0,0
+r03aa5df1t,r03aa5df1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.1,9
+r03b0c944t,r03b0c944t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,22.2,11
+r03bf5648t,r03bf5648t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,5
+r03c8ddcft,r03c8ddcft.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,19.4,9
+r03cef811t,r03cef811t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor; objects,18.6,15
+r03d2a758t,r03d2a758t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor,19.4,5
+r03ed2669t,r03ed2669t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.7,4
+r03f41fdct,r03f41fdct.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.1,18
+r03f70ccdt,r03f70ccdt.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,9.12,10
+r0408fe9ft,r0408fe9ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.9,13
+r040b3002t,r040b3002t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.1,19
+r040bf4a5t,r040bf4a5t.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor; objects,10.8,18
+r04108c64t,r04108c64t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,11.6,17
+r04160d64t,r04160d64t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.4,1
+r04172edct,r04172edct.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.9,8
+r0417f5e3t,r0417f5e3t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.4,14
+r041c02cat,r041c02cat.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.4,5
+r0428df0ct,r0428df0ct.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; people,10.4,5
+r042d5308t,r042d5308t.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,21.0,14
+r042d7b17t,r042d7b17t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor; people,19.2,19
+r04317453t,r04317453t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,10.1,3
+r0438eb97t,r0438eb97t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,18.1,16
+r043951a3t,r043951a3t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor; buildings; people,20.7,13
+r04395e54t,r04395e54t.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor,11.8,13
+r0450c4c0t,r0450c4c0t.NEF,development_calibration,Nikon D90,L (4288 x 2848),outdoor; people,10.2,14
+r045be2act,r045be2act.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.3,6
+r0465565ct,r0465565ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.6,13
+r046852c1t,r046852c1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.7,7
+r047aa954t,r047aa954t.NEF,independent_test,Nikon D7000,L (4928 x 3264),objects; outdoor; people,19.9,0
+r04851bf9t,r04851bf9t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor,19.2,1
+r0487f5cet,r0487f5cet.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.8,9
+r048c50d0t,r048c50d0t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.4,6
+r04989a70t,r04989a70t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,21.0,6
+r049f471dt,r049f471dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.4,4
+r04a210b3t,r04a210b3t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),outdoor; people,10.7,2
+r04aceb4et,r04aceb4et.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,11.5,12
+r04b4d5aft,r04b4d5aft.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,22.4,4
+r04b8473dt,r04b8473dt.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,10.5,8
+r04c11390t,r04c11390t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.2,0
+r04c566a0t,r04c566a0t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,20.8,0
+r04cfa379t,r04cfa379t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,17.9,3
+r04e19833t,r04e19833t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.1,15
+r04e7644dt,r04e7644dt.NEF,development_fit,Nikon D90,L (4288 x 2848),objects; outdoor,10.3,10
+r04e818bat,r04e818bat.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.7,0
+r04eb0d0ft,r04eb0d0ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.4,14
+r04eda41ct,r04eda41ct.NEF,external_pilot,Nikon D7000,L (4928 x 3264),outdoor,22.2,10
+r050e1024t,r050e1024t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),buildings; outdoor,10.5,19
+r0515a051t,r0515a051t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.5,12
+r0518cf5dt,r0518cf5dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor,17.7,8
+r05243256t,r05243256t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,11.1,18
+r0527f7e6t,r0527f7e6t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,19.8,10
+r052df821t,r052df821t.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,20.5,10
+r052e9174t,r052e9174t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,20.5,11
+r053d2196t,r053d2196t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,10.3,4
+r05647b9at,r05647b9at.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,19.2,19
+r056c0ee6t,r056c0ee6t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.4,15
+r056d6bebt,r056d6bebt.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.6,12
+r056daad2t,r056daad2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.5,18
+r056f233bt,r056f233bt.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; landscape; outdoor,9.36,3
+r05718fd6t,r05718fd6t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,20.0,16
+r057282fet,r057282fet.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,19.7,3
+r05772356t,r05772356t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,11.9,11
+r05839451t,r05839451t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.2,13
+r0589558at,r0589558at.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; buildings,18.8,3
+r059cae86t,r059cae86t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,9.67,18
+r059ce7d0t,r059ce7d0t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor; objects,19.5,18
+r05a7750et,r05a7750et.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.5,0
+r05ac4560t,r05ac4560t.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor,10.9,0
+r05bf2f53t,r05bf2f53t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor,11.0,8
+r05d35656t,r05d35656t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.5,9
+r05d59d7ct,r05d59d7ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.2,2
+r05d9d749t,r05d9d749t.NEF,development_fit,Nikon D40,L (3008 x 2000),Indoor; people,5.53,18
+r05db7e7ft,r05db7e7ft.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.6,16
+r05f3bc6ct,r05f3bc6ct.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; buildings; people,10.4,10
+r05f3f6a5t,r05f3f6a5t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),outdoor,10.2,12
+r05f66e6dt,r05f66e6dt.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.0,15
+r0603031et,r0603031et.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,19.9,14
+r061433aft,r061433aft.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.9,8
+r061db45ft,r061db45ft.NEF,external_pilot,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.1,13
+r061e2ecft,r061e2ecft.NEF,independent_test,Nikon D90,L (4288 x 2848),outdoor; people,10.3,13
+r062b9259t,r062b9259t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.6,17
+r062cab38t,r062cab38t.NEF,development_fit,Nikon D90,L (4288 x 2848),nature; outdoor,9.67,13
+r063d8a61t,r063d8a61t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,20.0,17
+r0648cff8t,r0648cff8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.5,13
+r065472d8t,r065472d8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,19.7,3
+r065a0da9t,r065a0da9t.NEF,development_calibration,Nikon D90,L (4288 x 2848),landscape; outdoor,12.0,15
+r066358d3t,r066358d3t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.3,19
+r0667a51ft,r0667a51ft.NEF,independent_test,Nikon D90,L (4288 x 2848),Indoor; objects,10.8,14
+r06691aa5t,r06691aa5t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,18.0,7
+r066b256at,r066b256at.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,10.1,16
+r066ef803t,r066ef803t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,18.0,9
+r0670f47ft,r0670f47ft.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,10.6,12
+r06743f8ft,r06743f8ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,17.4,13
+r0676c50at,r0676c50at.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.3,14
+r06836fdat,r06836fdat.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.5,15
+r068812d7t,r068812d7t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.9,4
+r06888d38t,r06888d38t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.0,4
+r069e346et,r069e346et.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,18.9,19
+r06a52b7bt,r06a52b7bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,18.6,15
+r06aa7dabt,r06aa7dabt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.7,17
+r06b161adt,r06b161adt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,22.3,11
+r06b7849at,r06b7849at.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.7,13
+r06bfc92at,r06bfc92at.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.7,18
+r06c4bcb9t,r06c4bcb9t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,21.9,16
+r06cad2d6t,r06cad2d6t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.9,12
+r06d3ac60t,r06d3ac60t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,19.9,6
+r06e1a520t,r06e1a520t.NEF,independent_test,Nikon D90,L (4288 x 2848),outdoor,11.1,11
+r0701ca45t,r0701ca45t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.6,10
+r0703243bt,r0703243bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,22.3,4
+r0708431at,r0708431at.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor; buildings,19.9,1
+r070a874ct,r070a874ct.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,11.1,3
+r072421a1t,r072421a1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,17.5,9
+r072649fdt,r072649fdt.NEF,development_early_stop,Nikon D90,L (4288 x 2848),outdoor; people,10.9,18
+r072d955bt,r072d955bt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,18.7,10
+r0744a10et,r0744a10et.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,19.1,3
+r07598392t,r07598392t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,19.7,9
+r075baf3ct,r075baf3ct.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.0,0
+r0773471dt,r0773471dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; objects; outdoor,20.4,1
+r077507cat,r077507cat.NEF,development_calibration,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.6,10
+r0777fea4t,r0777fea4t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,22.5,1
+r079d086et,r079d086et.NEF,development_calibration,Nikon D90,L (4288 x 2848),landscape; outdoor,11.3,19
+r07b99141t,r07b99141t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,17.6,3
+r07c47354t,r07c47354t.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,19.5,18
+r07c51648t,r07c51648t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.4,9
+r07cf907dt,r07cf907dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.8,2
+r07cfb432t,r07cfb432t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,17.9,13
+r07d13149t,r07d13149t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,14
+r07d5eb94t,r07d5eb94t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.6,9
+r07db8a54t,r07db8a54t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,18.7,3
+r07dba73ft,r07dba73ft.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,9.77,17
+r07df029bt,r07df029bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,18.6,1
+r07e1e8cbt,r07e1e8cbt.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; outdoor,17.8,1
+r07e242b7t,r07e242b7t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; buildings,20.3,16
+r07e35007t,r07e35007t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,20.1,6
+r07e594d6t,r07e594d6t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor; objects,11.0,13
+r07ece355t,r07ece355t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,1
+r07f22efdt,r07f22efdt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.4,1
+r07f99a1at,r07f99a1at.NEF,development_fit,Nikon D90,L (4288 x 2848),objects; outdoor,10.6,3
+r07ffdc87t,r07ffdc87t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,19.6,5
+r08079988t,r08079988t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.0,10
+r0809811bt,r0809811bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.2,0
+r081ad6a3t,r081ad6a3t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.9,14
+r082626aft,r082626aft.NEF,development_calibration,Nikon D90,L (4288 x 2848),objects; outdoor,10.5,7
+r08276bf9t,r08276bf9t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,18.5,7
+r08307e1at,r08307e1at.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,19.6,17
+r0833f646t,r0833f646t.NEF,independent_test,Nikon D90,L (4288 x 2848),Indoor; objects,10.2,13
+r083b7636t,r083b7636t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor; people,22.2,15
+r083ca67ct,r083ca67ct.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor; people,20.5,10
+r08414c5at,r08414c5at.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.9,3
+r084889d5t,r084889d5t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,11
+r084a4ccet,r084a4ccet.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor; objects,10.5,0
+r085a5f53t,r085a5f53t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.5,6
+r085bdbe2t,r085bdbe2t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor; objects; people,10.4,10
+r08788547t,r08788547t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor,19.6,2
+r087a13a6t,r087a13a6t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.2,9
+r08873591t,r08873591t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,17.2,7
+r088dcebft,r088dcebft.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.2,15
+r0897d8aat,r0897d8aat.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,19.2,19
+r08996953t,r08996953t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.3,11
+r089cae91t,r089cae91t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.5,2
+r08abaa78t,r08abaa78t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.6,17
+r08ac875ct,r08ac875ct.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.1,19
+r08b04f65t,r08b04f65t.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,19.9,14
+r08b05c94t,r08b05c94t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.5,1
+r08b12799t,r08b12799t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.9,16
+r08b41f18t,r08b41f18t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,19.7,8
+r08c76321t,r08c76321t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,9.97,3
+r08cbbab9t,r08cbbab9t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,22.0,18
+r08d2b4dat,r08d2b4dat.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.7,11
+r08d9a0cet,r08d9a0cet.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.4,0
+r08df6903t,r08df6903t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.1,11
+r08f2d4c6t,r08f2d4c6t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; objects; outdoor; people,20.8,8
+r0905697bt,r0905697bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.1,15
+r09245347t,r09245347t.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor; buildings,10.7,8
+r092b4511t,r092b4511t.NEF,independent_test,Nikon D90,L (4288 x 2848),outdoor,10.6,15
+r0941aa38t,r0941aa38t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,10.8,8
+r09445479t,r09445479t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,22.6,16
+r09488b39t,r09488b39t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.5,4
+r094ced7bt,r094ced7bt.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,21.9,8
+r094cf3c6t,r094cf3c6t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,22.0,2
+r09579ff2t,r09579ff2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,20.1,8
+r0965e155t,r0965e155t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.7,7
+r09670876t,r09670876t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,22.1,15
+r09696ba3t,r09696ba3t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.6,3
+r096982ddt,r096982ddt.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.0,8
+r097088c1t,r097088c1t.NEF,development_calibration,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.6,13
+r097555c4t,r097555c4t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.9,14
+r097d3563t,r097d3563t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,21.2,18
+r09851aa4t,r09851aa4t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.5,3
+r098a8a22t,r098a8a22t.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor,10.8,18
+r098cf7aet,r098cf7aet.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.4,0
+r09a60f63t,r09a60f63t.NEF,development_fit,Nikon D90,L (4288 x 2848),objects; outdoor,10.5,12
+r09a79474t,r09a79474t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,22.3,3
+r09a992e9t,r09a992e9t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,16.9,10
+r09b86185t,r09b86185t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,11.0,11
+r09c15af7t,r09c15af7t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,0
+r09c8e042t,r09c8e042t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.1,10
+r09d50960t,r09d50960t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.2,10
+r09d5cb41t,r09d5cb41t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.0,15
+r09d7cd4et,r09d7cd4et.NEF,development_calibration,Nikon D7000,L (4928 x 3264),objects; outdoor,22.4,16
+r09dc6407t,r09dc6407t.NEF,external_pilot,Nikon D90,L (4288 x 2848),Indoor; objects,10.0,17
+r09efa609t,r09efa609t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.2,8
+r09f764ect,r09f764ect.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.2,15
+r09ff1dcet,r09ff1dcet.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,18.6,13
+r0a0852c6t,r0a0852c6t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.2,13
+r0a10fe29t,r0a10fe29t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor,20.0,15
+r0a18e454t,r0a18e454t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.9,8
+r0a19cb85t,r0a19cb85t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor; people,19.5,18
+r0a2e85f0t,r0a2e85f0t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.2,12
+r0a2ff882t,r0a2ff882t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),objects; outdoor,21.6,5
+r0a31a2cct,r0a31a2cct.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.9,4
+r0a3c52a0t,r0a3c52a0t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor,20.0,19
+r0a42c0f6t,r0a42c0f6t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,18.9,14
+r0a4ce555t,r0a4ce555t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,10.9,1
+r0a54ed98t,r0a54ed98t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; objects,20.3,1
+r0a5d7cb6t,r0a5d7cb6t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.6,9
+r0a64ce0bt,r0a64ce0bt.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,11.4,12
+r0a71c689t,r0a71c689t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,5
+r0a72568ct,r0a72568ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,20.2,5
+r0a776764t,r0a776764t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,20.8,3
+r0a779af2t,r0a779af2t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.2,5
+r0a808003t,r0a808003t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,10.3,14
+r0a8b59bbt,r0a8b59bbt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,20.3,4
+r0a8e5f8at,r0a8e5f8at.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,20.4,2
+r0a9384b1t,r0a9384b1t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,19.6,13
+r0a94587ft,r0a94587ft.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.8,15
+r0a966704t,r0a966704t.NEF,development_calibration,Nikon D90,L (4288 x 2848),buildings; outdoor,11.3,10
+r0aaa70c3t,r0aaa70c3t.NEF,external_pilot,Nikon D40,L (3008 x 2000),buildings; landscape; outdoor,5.58,17
+r0ab0a205t,r0ab0a205t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.7,13
+r0ab7202ft,r0ab7202ft.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,21.7,19
+r0ab86ea2t,r0ab86ea2t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.6,15
+r0ac70243t,r0ac70243t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.7,15
+r0adac68bt,r0adac68bt.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor; nature,19.9,6
+r0ae68527t,r0ae68527t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; objects,9.76,16
+r0af5a8cct,r0af5a8cct.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,19.6,11
+r0b03e77at,r0b03e77at.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,20.7,5
+r0b07b945t,r0b07b945t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.6,9
+r0b0cd69et,r0b0cd69et.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; objects,18.5,16
+r0b0e2ba5t,r0b0e2ba5t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.5,13
+r0b13d2a2t,r0b13d2a2t.NEF,external_pilot,Nikon D90,L (4288 x 2848),outdoor,10.8,14
+r0b17fd57t,r0b17fd57t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.2,7
+r0b1f92a9t,r0b1f92a9t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),landscape; outdoor,10.9,15
+r0b3220e1t,r0b3220e1t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),buildings; outdoor; people,11.0,1
+r0b3979d0t,r0b3979d0t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,21.3,6
+r0b42926ct,r0b42926ct.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.8,4
+r0b4d8af5t,r0b4d8af5t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.3,16
+r0b50b69ct,r0b50b69ct.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.4,7
+r0b591bc3t,r0b591bc3t.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.7,19
+r0b59fc2bt,r0b59fc2bt.NEF,external_pilot,Nikon D90,L (4288 x 2848),objects; outdoor,11.0,6
+r0b5a3035t,r0b5a3035t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,22.8,17
+r0b5b85d0t,r0b5b85d0t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,18.4,2
+r0b61ed37t,r0b61ed37t.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,19.9,14
+r0b665b37t,r0b665b37t.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor,10.4,10
+r0b6e4254t,r0b6e4254t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),objects; outdoor,18.7,5
+r0b735401t,r0b735401t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.8,16
+r0b755540t,r0b755540t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,21.1,10
+r0b76b82ft,r0b76b82ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,19.1,14
+r0b7b1156t,r0b7b1156t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,17.6,4
+r0b82ae9bt,r0b82ae9bt.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,10.4,2
+r0b841e5at,r0b841e5at.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,19.0,19
+r0b985828t,r0b985828t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,11.0,18
+r0b99ac3ct,r0b99ac3ct.NEF,independent_test,Nikon D90,L (4288 x 2848),Indoor; objects,10.6,4
+r0ba4c4c0t,r0ba4c4c0t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,21.6,7
+r0bbbb097t,r0bbbb097t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; landscape; outdoor,10.0,1
+r0bbd0b0et,r0bbd0b0et.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,24.5,7
+r0bc0e549t,r0bc0e549t.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor,20.6,10
+r0bc1a779t,r0bc1a779t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor; buildings,18.4,9
+r0bc7d0eet,r0bc7d0eet.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor; buildings; people,11.2,7
+r0bc87c20t,r0bc87c20t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.8,2
+r0bdc7894t,r0bdc7894t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,17.6,14
+r0bf1bbect,r0bf1bbect.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; buildings,17.9,8
+r0bf7f938t,r0bf7f938t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.3,18
+r0c03e364t,r0c03e364t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.4,0
+r0c0d0adct,r0c0d0adct.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.3,11
+r0c1de5e1t,r0c1de5e1t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.1,18
+r0c1f588dt,r0c1f588dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.5,17
+r0c2fb2a1t,r0c2fb2a1t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,9.99,8
+r0c32591dt,r0c32591dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,20.9,18
+r0c3a8ea0t,r0c3a8ea0t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.6,1
+r0c486c0at,r0c486c0at.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,20.8,2
+r0c5e9567t,r0c5e9567t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,18.5,5
+r0c6cf00bt,r0c6cf00bt.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor,19.8,3
+r0c764979t,r0c764979t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor,21.9,6
+r0c795771t,r0c795771t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; objects,10.4,3
+r0c7fcc38t,r0c7fcc38t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.2,4
+r0c8f3ce5t,r0c8f3ce5t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.6,9
+r0c925d34t,r0c925d34t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,22.1,14
+r0c9910e4t,r0c9910e4t.NEF,development_fit,Nikon D90,L (4288 x 2848),objects; outdoor,8.68,12
+r0c9e4ff8t,r0c9e4ff8t.NEF,development_calibration,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.2,13
+r0cbdc6f8t,r0cbdc6f8t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.0,4
+r0cc5a33ct,r0cc5a33ct.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,11.0,14
+r0cd4ffb0t,r0cd4ffb0t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),outdoor,19.5,13
+r0cde6159t,r0cde6159t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.6,3
+r0ce35df8t,r0ce35df8t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,19.4,6
+r0cea5432t,r0cea5432t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,17.8,12
+r0cfedd72t,r0cfedd72t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor,20.6,8
+r0d0ff43at,r0d0ff43at.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,17.1,3
+r0d0ff4c2t,r0d0ff4c2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.4,10
+r0d1dd61ft,r0d1dd61ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.6,11
+r0d203f37t,r0d203f37t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.5,19
+r0d280006t,r0d280006t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.2,19
+r0d56c1d7t,r0d56c1d7t.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor,12.3,18
+r0d61db4ct,r0d61db4ct.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.4,19
+r0d796d4ft,r0d796d4ft.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor,10.7,9
+r0d89edd8t,r0d89edd8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,17.9,5
+r0d8d62edt,r0d8d62edt.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,17.7,8
+r0db011b4t,r0db011b4t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.3,1
+r0db31c3ft,r0db31c3ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.9,2
+r0db6cc31t,r0db6cc31t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,21.2,15
+r0dd60980t,r0dd60980t.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor; objects,10.5,15
+r0dd6e8f4t,r0dd6e8f4t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.9,6
+r0dd7b354t,r0dd7b354t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,11.3,4
+r0de97473t,r0de97473t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor,19.9,2
+r0deb6dadt,r0deb6dadt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.4,14
+r0dff226et,r0dff226et.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; outdoor,23.8,14
+r0e04cc91t,r0e04cc91t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,19.8,4
+r0e1a6e2ft,r0e1a6e2ft.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.7,0
+r0e35d1fct,r0e35d1fct.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.0,15
+r0e593c46t,r0e593c46t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor; people,20.0,16
+r0e5b5159t,r0e5b5159t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,19.3,2
+r0e5dfc8et,r0e5dfc8et.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor,23.0,5
+r0e63ca9ft,r0e63ca9ft.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor; objects,18.8,7
+r0e63dd12t,r0e63dd12t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.5,4
+r0e661e0dt,r0e661e0dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,19.5,2
+r0e7b407bt,r0e7b407bt.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,10.6,7
+r0e965ba7t,r0e965ba7t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; objects,20.6,1
+r0e9b0485t,r0e9b0485t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.5,15
+r0ea0825ft,r0ea0825ft.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,9.94,11
+r0eab8214t,r0eab8214t.NEF,development_fit,Nikon D90,L (4288 x 2848),objects; outdoor,10.0,0
+r0eb07be3t,r0eb07be3t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,17.9,13
+r0eb7ee5ct,r0eb7ee5ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.7,12
+r0eb8dfb5t,r0eb8dfb5t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.9,1
+r0eb9e900t,r0eb9e900t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.7,12
+r0eba1984t,r0eba1984t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.6,17
+r0ebb0bb4t,r0ebb0bb4t.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor; objects,20.6,4
+r0ebb5ca2t,r0ebb5ca2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,18.5,8
+r0ebdd2d2t,r0ebdd2d2t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),buildings; outdoor,10.9,3
+r0ed019a4t,r0ed019a4t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor; people,19.8,6
+r0ed16e26t,r0ed16e26t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,17.2,6
+r0ed844b5t,r0ed844b5t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.3,6
+r0edb165ft,r0edb165ft.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.7,16
+r0eea5a7et,r0eea5a7et.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.4,8
+r0eedd456t,r0eedd456t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,11.0,13
+r0f137652t,r0f137652t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.1,2
+r0f1a3f00t,r0f1a3f00t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),outdoor; people,10.4,16
+r0f1aef1ft,r0f1aef1ft.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,11.1,16
+r0f22c43ct,r0f22c43ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,17.7,12
+r0f24ca4dt,r0f24ca4dt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor; people,21.5,10
+r0f25b326t,r0f25b326t.NEF,independent_test,Nikon D90,L (4288 x 2848),landscape; outdoor,11.5,11
+r0f2c63d2t,r0f2c63d2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.0,5
+r0f2e6baft,r0f2e6baft.NEF,development_calibration,Nikon D90,L (4288 x 2848),objects; outdoor; people,10.0,2
+r0f3569c0t,r0f3569c0t.NEF,independent_test,Nikon D90,L (4288 x 2848),Indoor,10.4,7
+r0f36ba1bt,r0f36ba1bt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; objects; outdoor,20.5,5
+r0f38373ct,r0f38373ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.0,13
+r0f3f14cbt,r0f3f14cbt.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor,18.7,9
+r0f4ece9bt,r0f4ece9bt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,20.9,9
+r0f5475b5t,r0f5475b5t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),objects; outdoor,20.5,12
+r0f5beb66t,r0f5beb66t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,18.7,10
+r0f6250d2t,r0f6250d2t.NEF,independent_test,Nikon D7000,L (4928 x 3264),objects; outdoor,19.9,5
+r0f6d3b31t,r0f6d3b31t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.0,11
+r0f71782et,r0f71782et.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,10.3,9
+r0f86049ct,r0f86049ct.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,21.0,9
+r0f8a1531t,r0f8a1531t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),Indoor,19.1,15
+r0f8e5907t,r0f8e5907t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,10.5,6
+r0f91360ct,r0f91360ct.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; objects,10.1,15
+r0f91c753t,r0f91c753t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.5,0
+r0f979863t,r0f979863t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,9.24,5
+r0f98115dt,r0f98115dt.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,10.5,3
+r0fa077bet,r0fa077bet.NEF,development_calibration,Nikon D90,L (4288 x 2848),outdoor,9.8,0
+r0fa22d02t,r0fa22d02t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,19.5,0
+r0fae3dbdt,r0fae3dbdt.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.1,9
+r0faffef3t,r0faffef3t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,17.3,2
+r0fb0a690t,r0fb0a690t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),outdoor; people,21.2,17
+r0fbb5bc1t,r0fbb5bc1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.1,4
+r0fbd0c71t,r0fbd0c71t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor,19.4,7
+r0fbe1b0ft,r0fbe1b0ft.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor; people,19.9,5
+r0fbf62f8t,r0fbf62f8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.9,14
+r0fc39b66t,r0fc39b66t.NEF,independent_test,Nikon D90,L (4288 x 2848),outdoor; people,10.0,8
+r0fd69c12t,r0fd69c12t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),landscape; outdoor,10.7,9
+r0fdfc4f0t,r0fdfc4f0t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,20.0,15
+r0fe270aet,r0fe270aet.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,18.1,0
+r0fe7b1c6t,r0fe7b1c6t.NEF,external_pilot,Nikon D90,L (4288 x 2848),Indoor,8.85,18
+r0fef53bft,r0fef53bft.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,23.5,6
+r0ff7a848t,r0ff7a848t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,9.19,2
+r1011a436t,r1011a436t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,19.9,2
+r10134c59t,r10134c59t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.9,3
+r101af5b4t,r101af5b4t.NEF,development_calibration,Nikon D90,L (4288 x 2848),buildings; landscape; outdoor,9.7,5
+r101d6690t,r101d6690t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.6,9
+r101e18b6t,r101e18b6t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,18.4,19
+r101eab0dt,r101eab0dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,23.4,18
+r1023c21et,r1023c21et.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,17.7,5
+r102b4aa4t,r102b4aa4t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,20.5,3
+r103a4f26t,r103a4f26t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.6,1
+r104153eat,r104153eat.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,17.8,10
+r1069cdabt,r1069cdabt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.6,0
+r1070b804t,r1070b804t.NEF,independent_test,Nikon D90,L (4288 x 2848),Indoor; objects,9.9,1
+r107730b5t,r107730b5t.NEF,development_calibration,Nikon D90,L (4288 x 2848),outdoor; people,10.7,16
+r1077d1f2t,r1077d1f2t.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor; objects,17.3,1
+r108301e3t,r108301e3t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),buildings; outdoor,11.1,4
+r10893508t,r10893508t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,21.5,10
+r108ae9b6t,r108ae9b6t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.7,1
+r108ba35et,r108ba35et.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,22.7,15
+r10940798t,r10940798t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.6,3
+r10944b31t,r10944b31t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor; people,20.3,9
+r10a207det,r10a207det.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.9,15
+r10a9ca2at,r10a9ca2at.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.4,17
+r10ab8058t,r10ab8058t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,17.4,15
+r10c5fc29t,r10c5fc29t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.5,4
+r10cf67d1t,r10cf67d1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.5,1
+r10e36316t,r10e36316t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.7,6
+r10f888c2t,r10f888c2t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),landscape; outdoor,10.1,7
+r1104e9e6t,r1104e9e6t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,9.96,1
+r110b4219t,r110b4219t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,22.0,3
+r110cc74ct,r110cc74ct.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,17.3,5
+r110f894ft,r110f894ft.NEF,external_pilot,Nikon D90,L (4288 x 2848),landscape; outdoor,10.0,10
+r1126b615t,r1126b615t.NEF,independent_test,Nikon D90,L (4288 x 2848),outdoor; people,10.6,6
+r113402d4t,r113402d4t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.4,18
+r1138e1aft,r1138e1aft.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,19.6,2
+r113b7fb4t,r113b7fb4t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor; people,21.0,9
+r113ee9edt,r113ee9edt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.3,3
+r1148801et,r1148801et.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.0,14
+r115c449dt,r115c449dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,20.2,16
+r115e2464t,r115e2464t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.0,18
+r116825e2t,r116825e2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.7,14
+r116ce066t,r116ce066t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.7,0
+r116fa8b7t,r116fa8b7t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor,19.3,10
+r11850456t,r11850456t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.7,2
+r11865f77t,r11865f77t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,21.8,16
+r11a4e1cbt,r11a4e1cbt.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; objects,9.78,7
+r11a5b93dt,r11a5b93dt.NEF,development_early_stop,Nikon D90,L (4288 x 2848),outdoor,11.1,13
+r11a7deb7t,r11a7deb7t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.8,9
+r11aa1ee3t,r11aa1ee3t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.4,8
+r11b292cbt,r11b292cbt.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.0,11
+r11bf0779t,r11bf0779t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.1,13
+r11c4de0et,r11c4de0et.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor,12.0,14
+r11d981d2t,r11d981d2t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,17.6,19
+r11e134c7t,r11e134c7t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; nature; outdoor,20.6,1
+r11e26097t,r11e26097t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,20.2,8
+r12133015t,r12133015t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,22.1,15
+r1218b33at,r1218b33at.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.6,17
+r121f7893t,r121f7893t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.2,13
+r1234de87t,r1234de87t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,20.7,9
+r123c6433t,r123c6433t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.6,14
+r123ca9b3t,r123ca9b3t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.5,16
+r125034a9t,r125034a9t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),outdoor; people,10.8,9
+r125442fat,r125442fat.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.0,13
+r125f6e84t,r125f6e84t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,23.3,2
+r12638c95t,r12638c95t.NEF,external_pilot,Nikon D90,L (4288 x 2848),buildings; outdoor; people,9.78,16
+r1267fa5bt,r1267fa5bt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,19.1,1
+r126a22b8t,r126a22b8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.4,13
+r127608abt,r127608abt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor,19.1,12
+r127d47e0t,r127d47e0t.NEF,independent_test,Nikon D90,L (4288 x 2848),objects; outdoor,10.6,14
+r128cc6fbt,r128cc6fbt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.6,7
+r128dfb38t,r128dfb38t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,20.9,17
+r1293f8ect,r1293f8ect.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.8,9
+r12946364t,r12946364t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; buildings,10.1,18
+r1297fd0bt,r1297fd0bt.NEF,independent_test,Nikon D90,L (4288 x 2848),nature; outdoor,11.0,14
+r129f09b4t,r129f09b4t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),outdoor,18.7,15
+r129f24bet,r129f24bet.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.3,18
+r12a7e9b5t,r12a7e9b5t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.3,7
+r12a97b08t,r12a97b08t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.5,8
+r12c1798bt,r12c1798bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.7,2
+r12c5f70bt,r12c5f70bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.3,6
+r12c64de9t,r12c64de9t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.6,1
+r12cbfb1et,r12cbfb1et.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,21.2,17
+r12cebbd2t,r12cebbd2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,19.3,7
+r12cf98bet,r12cf98bet.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; landscape; outdoor,9.47,17
+r12d4cabat,r12d4cabat.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,11.1,6
+r12daa983t,r12daa983t.NEF,development_fit,Nikon D40,L (3008 x 2000),buildings; landscape; outdoor,5.16,11
+r12e170d4t,r12e170d4t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),outdoor,22.9,4
+r12ed2816t,r12ed2816t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,21.1,17
+r12f02af5t,r12f02af5t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.7,2
+r12f3bbfat,r12f3bbfat.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.1,19
+r1301676dt,r1301676dt.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,18.4,3
+r13073518t,r13073518t.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor,11.1,7
+r131a8f7et,r131a8f7et.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,20.4,11
+r1322c4d6t,r1322c4d6t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,19.0,4
+r1328ee94t,r1328ee94t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.7,19
+r132d538et,r132d538et.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.3,12
+r133bb357t,r133bb357t.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor; objects; people,18.4,17
+r133c5a52t,r133c5a52t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,20.6,8
+r1344c943t,r1344c943t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.8,4
+r13493fa3t,r13493fa3t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.4,14
+r134ba6abt,r134ba6abt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.0,15
+r135df877t,r135df877t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),outdoor,11.6,18
+r1372056ct,r1372056ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.5,5
+r1378de81t,r1378de81t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.7,8
+r137bcd7at,r137bcd7at.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor,18.2,2
+r137f062ft,r137f062ft.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor,21.6,8
+r13837601t,r13837601t.NEF,external_pilot,Nikon D90,L (4288 x 2848),outdoor,9.84,10
+r138ad247t,r138ad247t.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor,19.7,19
+r138ceafbt,r138ceafbt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.6,13
+r13907965t,r13907965t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,20.4,3
+r13928401t,r13928401t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,19.5,13
+r13934dc7t,r13934dc7t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.6,17
+r13a16a0at,r13a16a0at.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,17.7,14
+r13a9002bt,r13a9002bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.5,8
+r13ae7d1et,r13ae7d1et.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.7,11
+r13b45303t,r13b45303t.NEF,development_calibration,Nikon D90,L (4288 x 2848),objects; outdoor,9.99,12
+r13b5b161t,r13b5b161t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,20.0,2
+r13bb381ct,r13bb381ct.NEF,independent_test,Nikon D90,L (4288 x 2848),outdoor; people,10.6,8
+r13c19caft,r13c19caft.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,21.0,6
+r13c7e92dt,r13c7e92dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.2,4
+r13c85634t,r13c85634t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.9,14
+r13dab3c7t,r13dab3c7t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,17.7,0
+r13de1e12t,r13de1e12t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,20.6,5
+r13e56300t,r13e56300t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,18.5,16
+r140f3432t,r140f3432t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.6,5
+r141665bdt,r141665bdt.NEF,development_calibration,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.7,2
+r141669e5t,r141669e5t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,18.9,11
+r1419078bt,r1419078bt.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,20.7,16
+r141e4467t,r141e4467t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.7,4
+r142335f0t,r142335f0t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor; people,19.6,0
+r1426cde6t,r1426cde6t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.3,19
+r142787e2t,r142787e2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; people,18.0,1
+r14289905t,r14289905t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; buildings; people,10.5,17
+r142b504bt,r142b504bt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.0,5
+r144e095dt,r144e095dt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor; people,18.6,2
+r144f25eet,r144f25eet.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,23.2,18
+r145215fft,r145215fft.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,22.1,19
+r145221d9t,r145221d9t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),buildings; outdoor,11.3,14
+r14556dabt,r14556dabt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.7,5
+r14586c63t,r14586c63t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),Indoor; buildings,18.5,17
+r1461e2d7t,r1461e2d7t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.2,9
+r146771d7t,r146771d7t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; objects,19.0,6
+r1468a9e1t,r1468a9e1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.1,19
+r14902ba4t,r14902ba4t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,22.0,0
+r14a51689t,r14a51689t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.3,5
+r14a595b6t,r14a595b6t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,10.9,11
+r14a9a843t,r14a9a843t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.5,19
+r14bfe6f4t,r14bfe6f4t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.8,11
+r14c2d3fct,r14c2d3fct.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.7,4
+r14c67ed2t,r14c67ed2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.5,9
+r14ca1259t,r14ca1259t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),Indoor; buildings,19.3,15
+r14dd8f91t,r14dd8f91t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,10.2,10
+r14df59fet,r14df59fet.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor; objects,18.9,11
+r14f241e4t,r14f241e4t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,22.0,7
+r150058a4t,r150058a4t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,22.2,0
+r15028ceft,r15028ceft.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor; objects,18.0,12
+r150b1b51t,r150b1b51t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,21.7,1
+r15199ae3t,r15199ae3t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.4,7
+r152d9ff5t,r152d9ff5t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.6,15
+r15499cd8t,r15499cd8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.7,18
+r154d7294t,r154d7294t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,23.5,5
+r1554cfadt,r1554cfadt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.2,8
+r155fe1fat,r155fe1fat.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.5,2
+r1565a7e7t,r1565a7e7t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.0,3
+r1567e512t,r1567e512t.NEF,development_calibration,Nikon D90,L (4288 x 2848),landscape; outdoor,10.7,18
+r1570dd6at,r1570dd6at.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,17.3,12
+r1580c37ft,r1580c37ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,22.4,18
+r15885978t,r15885978t.NEF,independent_test,Nikon D90,L (4288 x 2848),landscape; outdoor,10.1,1
+r15919202t,r15919202t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.3,8
+r1594b4b3t,r1594b4b3t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),buildings; outdoor; people,9.38,4
+r159d3942t,r159d3942t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.2,4
+r15a0b476t,r15a0b476t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,19.7,1
+r15ab6ac6t,r15ab6ac6t.NEF,development_calibration,Nikon D90,L (4288 x 2848),outdoor; people,10.8,9
+r15c91802t,r15c91802t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.2,2
+r15d1c836t,r15d1c836t.NEF,independent_test,Nikon D40,L (3008 x 2000),objects; outdoor,5.17,2
+r15dcfacct,r15dcfacct.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor,19.8,12
+r15dfc1b8t,r15dfc1b8t.NEF,development_calibration,Nikon D90,L (4288 x 2848),landscape; outdoor,10.4,13
+r15eef8b9t,r15eef8b9t.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor,20.9,10
+r15efd876t,r15efd876t.NEF,independent_test,Nikon D7000,L (4928 x 3264),objects; outdoor,19.3,6
+r15f07f9dt,r15f07f9dt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.1,17
+r15f16465t,r15f16465t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,9.93,5
+r1602555bt,r1602555bt.NEF,external_pilot,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.4,6
+r16113cc8t,r16113cc8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,21.3,14
+r16144fa2t,r16144fa2t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.1,16
+r1618da9dt,r1618da9dt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,22.1,9
+r16192cf0t,r16192cf0t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.4,4
+r162b2209t,r162b2209t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),nature; outdoor,21.8,14
+r163317d6t,r163317d6t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,11.8,14
+r163967d4t,r163967d4t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.6,6
+r1639a65ct,r1639a65ct.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,10.9,18
+r16422663t,r16422663t.NEF,independent_test,Nikon D7000,L (4928 x 3264),objects; outdoor,20.0,5
+r1644d874t,r1644d874t.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor,19.2,14
+r1645a09ct,r1645a09ct.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.4,1
+r164c1e13t,r164c1e13t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,17.8,8
+r16509308t,r16509308t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,17.8,1
+r165355c0t,r165355c0t.NEF,development_fit,Nikon D40,L (3008 x 2000),buildings; outdoor,5.11,12
+r1655a008t,r1655a008t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.7,16
+r165fbf4ft,r165fbf4ft.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.1,12
+r1661f358t,r1661f358t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.3,3
+r16654024t,r16654024t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,17.7,2
+r16698b6et,r16698b6et.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,21.5,1
+r1683028at,r1683028at.NEF,external_pilot,Nikon D7000,L (4928 x 3264),outdoor; people,18.5,17
+r1694427et,r1694427et.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor,9.69,8
+r169a9b07t,r169a9b07t.NEF,development_fit,Nikon D40,L (3008 x 2000),Indoor; objects,5.31,17
+r169c7350t,r169c7350t.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor,20.6,16
+r169f694ft,r169f694ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.0,12
+r16a02a12t,r16a02a12t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,9.48,1
+r16d46fa3t,r16d46fa3t.NEF,independent_test,Nikon D90,L (4288 x 2848),Indoor; objects,10.4,0
+r16d6c35dt,r16d6c35dt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.5,1
+r16da5576t,r16da5576t.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor; objects,17.0,10
+r16dca6f2t,r16dca6f2t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,19.4,7
+r16ea6386t,r16ea6386t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor,19.6,15
+r170632f5t,r170632f5t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor; people,21.8,11
+r170b020bt,r170b020bt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.1,17
+r170df29ct,r170df29ct.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,19.0,0
+r1717ae55t,r1717ae55t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor; objects,10.4,10
+r171d73aat,r171d73aat.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.2,18
+r171eeaf8t,r171eeaf8t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.1,5
+r17217693t,r17217693t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.6,11
+r17228bbdt,r17228bbdt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,18.7,13
+r173ee7e8t,r173ee7e8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.6,6
+r1743fb6bt,r1743fb6bt.NEF,development_early_stop,Nikon D90,L (4288 x 2848),landscape; outdoor,12.1,3
+r17492cd5t,r17492cd5t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.8,16
+r175da907t,r175da907t.NEF,development_calibration,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.1,9
+r17754c77t,r17754c77t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,10.4,1
+r177dd68et,r177dd68et.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.8,19
+r177fb9f1t,r177fb9f1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; buildings,19.9,16
+r179bb406t,r179bb406t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.6,9
+r179ec4e8t,r179ec4e8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,19.8,16
+r179ed8d7t,r179ed8d7t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,10.4,6
+r17ad56act,r17ad56act.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.3,16
+r17afaaa1t,r17afaaa1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,24.1,14
+r17b2f789t,r17b2f789t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; objects,10.5,18
+r17b873bct,r17b873bct.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,20.3,2
+r17c76042t,r17c76042t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.1,10
+r17d11b3at,r17d11b3at.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,19.6,9
+r17f60607t,r17f60607t.NEF,independent_test,Nikon D90,L (4288 x 2848),outdoor,10.6,10
+r17fe8532t,r17fe8532t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,20.0,7
+r1800ab47t,r1800ab47t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.8,13
+r180a7062t,r180a7062t.NEF,independent_test,Nikon D90,L (4288 x 2848),Indoor; objects,9.87,17
+r180bcbd7t,r180bcbd7t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.6,4
+r1810ba7at,r1810ba7at.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,20.7,7
+r181768b7t,r181768b7t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor,10.7,2
+r181d64eat,r181d64eat.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.6,12
+r181dd93dt,r181dd93dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor,18.4,3
+r1824034et,r1824034et.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.8,0
+r1828d94at,r1828d94at.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; objects,10.0,2
+r182ed662t,r182ed662t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,11.2,9
+r18302db2t,r18302db2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.2,4
+r18393aeet,r18393aeet.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,23.1,11
+r184f08dat,r184f08dat.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.9,10
+r185929e9t,r185929e9t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,21.7,4
+r1866b73at,r1866b73at.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,21.5,6
+r186c09e4t,r186c09e4t.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor,20.6,19
+r18791531t,r18791531t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.7,1
+r18798194t,r18798194t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.2,8
+r187df69ft,r187df69ft.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,11.2,0
+r1882b6e6t,r1882b6e6t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor; objects,20.0,11
+r1889220ft,r1889220ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,18.3,13
+r188eb234t,r188eb234t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,22.1,19
+r18990432t,r18990432t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,18.3,11
+r189be0d8t,r189be0d8t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.0,3
+r18ce12dct,r18ce12dct.NEF,development_early_stop,Nikon D90,L (4288 x 2848),buildings; outdoor,10.4,16
+r18d1abact,r18d1abact.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.1,6
+r18d72ab2t,r18d72ab2t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.8,9
+r18d866e1t,r18d866e1t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,20.3,8
+r18d9feeat,r18d9feeat.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.8,7
+r18e0516bt,r18e0516bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,20.4,0
+r18ea00c8t,r18ea00c8t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.7,12
+r18fafe10t,r18fafe10t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; objects,18.4,17
+r1900f7c7t,r1900f7c7t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.4,1
+r1904147dt,r1904147dt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.9,10
+r191488c6t,r191488c6t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.0,16
+r1915909et,r1915909et.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor; people,12.0,16
+r19183258t,r19183258t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.3,12
+r191f3cdet,r191f3cdet.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.8,19
+r192ae577t,r192ae577t.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor,10.5,15
+r1934e29ft,r1934e29ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,19.8,11
+r193b12aet,r193b12aet.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.3,7
+r194c49f5t,r194c49f5t.NEF,independent_test,Nikon D7000,L (4928 x 3264),objects; outdoor,17.7,10
+r195a5f44t,r195a5f44t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,19.1,0
+r195f12adt,r195f12adt.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.7,3
+r197770adt,r197770adt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,20.3,15
+r19835fbft,r19835fbft.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,17.7,5
+r1986e42bt,r1986e42bt.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.5,8
+r198ae140t,r198ae140t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.7,4
+r198ea6a5t,r198ea6a5t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,21.4,15
+r19924edft,r19924edft.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.1,17
+r19b49f2ct,r19b49f2ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,18.4,12
+r19ba7288t,r19ba7288t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,20.4,0
+r19be5c05t,r19be5c05t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,17.6,10
+r19c9183at,r19c9183at.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.0,7
+r19d47beft,r19d47beft.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.7,7
+r19d72b0ct,r19d72b0ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,20.2,1
+r19d92967t,r19d92967t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.5,9
+r19fe3107t,r19fe3107t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,19.6,17
+r1a020c3ft,r1a020c3ft.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.0,1
+r1a07dd25t,r1a07dd25t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.3,6
+r1a0968bft,r1a0968bft.NEF,external_pilot,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.4,17
+r1a0f5585t,r1a0f5585t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.4,1
+r1a11b3c0t,r1a11b3c0t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.9,9
+r1a170ddbt,r1a170ddbt.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,20.5,11
+r1a1d24b2t,r1a1d24b2t.NEF,development_calibration,Nikon D90,L (4288 x 2848),landscape; outdoor,9.54,0
+r1a1d7e72t,r1a1d7e72t.NEF,external_pilot,Nikon D90,L (4288 x 2848),Indoor; buildings,10.6,8
+r1a2095b2t,r1a2095b2t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.0,12
+r1a28d44bt,r1a28d44bt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,22.1,8
+r1a2d8b02t,r1a2d8b02t.NEF,external_pilot,Nikon D90,L (4288 x 2848),landscape; outdoor,9.68,14
+r1a343192t,r1a343192t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor; buildings,10.6,6
+r1a4651edt,r1a4651edt.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.0,2
+r1a485a99t,r1a485a99t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,20.8,15
+r1a499b96t,r1a499b96t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),landscape; outdoor,10.8,6
+r1a57cb29t,r1a57cb29t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.2,13
+r1a5903fct,r1a5903fct.NEF,development_early_stop,Nikon D90,L (4288 x 2848),landscape; outdoor,9.1,1
+r1a60a2bdt,r1a60a2bdt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.3,19
+r1a711e27t,r1a711e27t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.4,13
+r1a7346d0t,r1a7346d0t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.3,18
+r1a7b8c42t,r1a7b8c42t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),outdoor,10.6,16
+r1a7bb1d6t,r1a7bb1d6t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.5,5
+r1a7e4791t,r1a7e4791t.NEF,development_early_stop,Nikon D40,L (3008 x 2000),buildings; landscape; outdoor,5.28,3
+r1a7feb2bt,r1a7feb2bt.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor,22.3,11
+r1a845144t,r1a845144t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.1,4
+r1a877849t,r1a877849t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,20.1,4
+r1a8d7a86t,r1a8d7a86t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,19.3,11
+r1a8ee526t,r1a8ee526t.NEF,development_calibration,Nikon D90,L (4288 x 2848),buildings; landscape; outdoor,9.94,5
+r1a8fe570t,r1a8fe570t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,19.3,16
+r1a91c337t,r1a91c337t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.1,7
+r1a9783cdt,r1a9783cdt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.1,4
+r1a9de6e9t,r1a9de6e9t.NEF,independent_test,Nikon D90,L (4288 x 2848),nature; objects; outdoor,10.7,13
+r1aa43470t,r1aa43470t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.8,14
+r1aa4cc99t,r1aa4cc99t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,19.8,12
+r1aa4db16t,r1aa4db16t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,22.9,6
+r1aa53167t,r1aa53167t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.1,3
+r1aa63558t,r1aa63558t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.6,16
+r1aa7459at,r1aa7459at.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.7,4
+r1ab0bb20t,r1ab0bb20t.NEF,development_fit,Nikon D90,L (4288 x 2848),nature; outdoor,11.5,18
+r1ab1679et,r1ab1679et.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.0,8
+r1ad2de34t,r1ad2de34t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.3,11
+r1ad3fa6dt,r1ad3fa6dt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor,19.6,7
+r1ad9cd64t,r1ad9cd64t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),outdoor,11.8,11
+r1ae12b3ft,r1ae12b3ft.NEF,independent_test,Nikon D90,L (4288 x 2848),outdoor,10.5,17
+r1aef663et,r1aef663et.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.2,11
+r1af60295t,r1af60295t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.3,13
+r1b09da9ct,r1b09da9ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.2,7
+r1b106abdt,r1b106abdt.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.2,5
+r1b165d45t,r1b165d45t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,11.2,2
+r1b177fe1t,r1b177fe1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.3,17
+r1b17f0f0t,r1b17f0f0t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,17.9,19
+r1b1c1019t,r1b1c1019t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,19.2,14
+r1b262b72t,r1b262b72t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor; objects,9.88,12
+r1b2765ebt,r1b2765ebt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,19.7,2
+r1b32a6bct,r1b32a6bct.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,17.3,16
+r1b4e82c4t,r1b4e82c4t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,17.7,14
+r1b547547t,r1b547547t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.8,16
+r1b57dbb2t,r1b57dbb2t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor,20.5,17
+r1b61c7b1t,r1b61c7b1t.NEF,development_calibration,Nikon D90,L (4288 x 2848),outdoor,9.49,16
+r1b6c1adbt,r1b6c1adbt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.5,12
+r1b790721t,r1b790721t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.3,8
+r1b8b1b14t,r1b8b1b14t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,17.9,13
+r1b9e9917t,r1b9e9917t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.3,0
+r1baf2ce0t,r1baf2ce0t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,10.5,11
+r1bc23d6et,r1bc23d6et.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.8,9
+r1bc355f2t,r1bc355f2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.4,14
+r1bc3a653t,r1bc3a653t.NEF,external_pilot,Nikon D90,L (4288 x 2848),landscape; outdoor,10.5,5
+r1bc3dd23t,r1bc3dd23t.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor,20.9,2
+r1bc4e4act,r1bc4e4act.NEF,development_early_stop,Nikon D90,L (4288 x 2848),objects; outdoor,10.1,7
+r1bc92a89t,r1bc92a89t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,20.2,15
+r1bca2388t,r1bca2388t.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor; objects,10.6,19
+r1bcfab73t,r1bcfab73t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.6,2
+r1bd70210t,r1bd70210t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.8,13
+r1bdb6385t,r1bdb6385t.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor; buildings; objects,10.7,3
+r1bddecd6t,r1bddecd6t.NEF,independent_test,Nikon D7000,L (4928 x 3264),objects; outdoor,18.3,18
+r1be2a3d5t,r1be2a3d5t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.1,12
+r1be4943bt,r1be4943bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects; people,20.3,19
+r1bf00696t,r1bf00696t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.1,15
+r1bf4e594t,r1bf4e594t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.6,5
+r1bf7ff83t,r1bf7ff83t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.5,18
+r1bfbaab3t,r1bfbaab3t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,17.8,0
+r1c028de8t,r1c028de8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.2,12
+r1c070921t,r1c070921t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.2,12
+r1c09b002t,r1c09b002t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.8,9
+r1c146589t,r1c146589t.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,20.6,2
+r1c1e3ec9t,r1c1e3ec9t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.6,3
+r1c1fef8ft,r1c1fef8ft.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.5,17
+r1c23e440t,r1c23e440t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.5,14
+r1c243af7t,r1c243af7t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.3,8
+r1c24a571t,r1c24a571t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),objects; outdoor,17.4,16
+r1c2ac865t,r1c2ac865t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.9,16
+r1c31a90bt,r1c31a90bt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.7,8
+r1c402787t,r1c402787t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,10
+r1c4ae120t,r1c4ae120t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,21.6,18
+r1c4d4720t,r1c4d4720t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,19.1,10
+r1c4deb71t,r1c4deb71t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.4,18
+r1c4e6a62t,r1c4e6a62t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.1,12
+r1c56a2bct,r1c56a2bct.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.6,17
+r1c5a4928t,r1c5a4928t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,18.3,9
+r1c5ec853t,r1c5ec853t.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor; people,22.3,6
+r1c6377bat,r1c6377bat.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,19.8,17
+r1c6b4a23t,r1c6b4a23t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,9.18,14
+r1c717a46t,r1c717a46t.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor,10.0,19
+r1c83ec1dt,r1c83ec1dt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor,19.9,5
+r1c874ac4t,r1c874ac4t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.1,15
+r1c99500bt,r1c99500bt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.0,11
+r1c9fc42at,r1c9fc42at.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.3,7
+r1c9fdcf4t,r1c9fdcf4t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.1,0
+r1ca0784dt,r1ca0784dt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),Indoor; objects,18.5,17
+r1ca254b2t,r1ca254b2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.4,19
+r1ca2ef38t,r1ca2ef38t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,22.0,19
+r1ca5a385t,r1ca5a385t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; objects,20.1,4
+r1ca6cc12t,r1ca6cc12t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor; objects,10.8,7
+r1cad9823t,r1cad9823t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.9,16
+r1cb7084et,r1cb7084et.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,22.5,8
+r1cc04f4ft,r1cc04f4ft.NEF,external_pilot,Nikon D90,L (4288 x 2848),landscape; outdoor,10.4,2
+r1cc0e4e1t,r1cc0e4e1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.9,17
+r1cd8d9a4t,r1cd8d9a4t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,19.6,16
+r1cde4afbt,r1cde4afbt.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.6,19
+r1ceba29dt,r1ceba29dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,22.5,3
+r1ced1907t,r1ced1907t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,19.0,5
+r1cfc8ddat,r1cfc8ddat.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,21.4,17
+r1cfe520bt,r1cfe520bt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.2,1
+r1d00d8ect,r1d00d8ect.NEF,independent_test,Nikon D7000,L (4928 x 3264),nature; outdoor,17.8,15
+r1d1445b6t,r1d1445b6t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.4,4
+r1d16ad1et,r1d16ad1et.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,18.1,6
+r1d1cf607t,r1d1cf607t.NEF,development_fit,Nikon D90,L (4288 x 2848),Indoor,10.5,13
+r1d1d501et,r1d1d501et.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,18.9,11
+r1d2bb70at,r1d2bb70at.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),outdoor,18.7,18
+r1d3bc675t,r1d3bc675t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.5,5
+r1d431afft,r1d431afft.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.8,11
+r1d4377f7t,r1d4377f7t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.4,5
+r1d47bfc2t,r1d47bfc2t.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.9,7
+r1d527f65t,r1d527f65t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,9.86,17
+r1d53fccat,r1d53fccat.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.1,12
+r1d679eaet,r1d679eaet.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.0,7
+r1d6e15d3t,r1d6e15d3t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor; objects,10.6,6
+r1d79b6e7t,r1d79b6e7t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,19.4,7
+r1d93553ct,r1d93553ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,18.8,4
+r1d99d1f3t,r1d99d1f3t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.9,12
+r1d9a31fct,r1d9a31fct.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor,11.3,12
+r1d9eaf70t,r1d9eaf70t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,9.9,0
+r1da851e4t,r1da851e4t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.8,19
+r1db1c478t,r1db1c478t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,10.0,9
+r1db2847et,r1db2847et.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.1,19
+r1db351a2t,r1db351a2t.NEF,external_pilot,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.9,7
+r1db5be20t,r1db5be20t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor; people,12.0,18
+r1db61cf8t,r1db61cf8t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; buildings,18.9,9
+r1dbe1b11t,r1dbe1b11t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,20.3,6
+r1dbef145t,r1dbef145t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.4,6
+r1dc4077at,r1dc4077at.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,22.1,11
+r1dd998dft,r1dd998dft.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; objects; outdoor; people,11.0,1
+r1dd9d6bft,r1dd9d6bft.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,21.4,17
+r1ddc0c98t,r1ddc0c98t.NEF,development_calibration,Nikon D90,L (4288 x 2848),Indoor,10.7,10
+r1de108dft,r1de108dft.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor,22.1,9
+r1de76a54t,r1de76a54t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; outdoor,22.4,6
+r1dea56e5t,r1dea56e5t.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; buildings,18.9,11
+r1df374c1t,r1df374c1t.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor,19.8,12
+r1e14f45ct,r1e14f45ct.NEF,development_fit,Nikon D7000,L (4928 x 3264),Indoor; objects,20.6,19
+r1e251abet,r1e251abet.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.1,5
+r1e3303ebt,r1e3303ebt.NEF,independent_test,Nikon D7000,L (4928 x 3264),Indoor,19.7,16
+r1e367d35t,r1e367d35t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; buildings,18.7,11
+r1e3b4cdft,r1e3b4cdft.NEF,external_pilot,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.1,6
+r1e504ebbt,r1e504ebbt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,4
+r1e52a39dt,r1e52a39dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,19.9,6
+r1e56884ft,r1e56884ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.0,7
+r1e5c27c1t,r1e5c27c1t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,18.0,19
+r1e698e5dt,r1e698e5dt.NEF,development_calibration,Nikon D90,L (4288 x 2848),outdoor,10.6,19
+r1e69b067t,r1e69b067t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor; people,21.1,10
+r1e7987b3t,r1e7987b3t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),Indoor; objects,19.7,18
+r1e79c6f9t,r1e79c6f9t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),nature; objects; outdoor,19.2,19
+r1e8acc5ct,r1e8acc5ct.NEF,independent_test,Nikon D90,L (4288 x 2848),buildings; outdoor; people,10.5,4
+r1e8e493ct,r1e8e493ct.NEF,external_pilot,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.6,4
+r1e9082f9t,r1e9082f9t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; landscape; outdoor,20.8,1
+r1e9ae164t,r1e9ae164t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.5,15
+r1e9c8a5dt,r1e9c8a5dt.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,21.6,0
+r1ea13eb4t,r1ea13eb4t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.8,10
+r1ea8ccbbt,r1ea8ccbbt.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,18.7,1
+r1eaa5d42t,r1eaa5d42t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.1,2
+r1ead3024t,r1ead3024t.NEF,development_fit,Nikon D90,L (4288 x 2848),buildings; outdoor,10.9,0
+r1ebee709t,r1ebee709t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.1,12
+r1ec70fd3t,r1ec70fd3t.NEF,development_fit,Nikon D90,L (4288 x 2848),landscape; outdoor,10.9,17
+r1ee65904t,r1ee65904t.NEF,development_fit,Nikon D7000,L (4928 x 3264),nature; outdoor,20.7,17
+r1ee6f90et,r1ee6f90et.NEF,external_pilot,Nikon D7000,L (4928 x 3264),buildings; outdoor,19.6,2
+r1ef15cb3t,r1ef15cb3t.NEF,development_calibration,Nikon D7000,L (4928 x 3264),outdoor,20.3,5
+r1ef16e0dt,r1ef16e0dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),buildings; outdoor; people,20.0,12
+r1ef8b85ft,r1ef8b85ft.NEF,development_fit,Nikon D7000,L (4928 x 3264),outdoor; people,20.5,10
+r1efcf847t,r1efcf847t.NEF,independent_test,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.2,3
+r1eff17eft,r1eff17eft.NEF,external_pilot,Nikon D7000,L (4928 x 3264),nature; outdoor,17.8,7
+r1f06581bt,r1f06581bt.NEF,development_calibration,Nikon D90,L (4288 x 2848),objects; outdoor,11.1,16
+r1f1178cet,r1f1178cet.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,20.4,11
+r1f11809bt,r1f11809bt.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,21.2,10
+r1f16e2abt,r1f16e2abt.NEF,development_calibration,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.3,4
+r1f1a3258t,r1f1a3258t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.7,14
+r1f1a9df4t,r1f1a9df4t.NEF,independent_test,Nikon D90,L (4288 x 2848),landscape; outdoor,10.7,3
+r1f20d8b5t,r1f20d8b5t.NEF,development_fit,Nikon D90,L (4288 x 2848),outdoor; people,9.95,16
+r1f23f4ddt,r1f23f4ddt.NEF,development_early_stop,Nikon D90,L (4288 x 2848),landscape; outdoor,10.7,3
+r1f2c2acft,r1f2c2acft.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,19.8,15
+r1f2f31e2t,r1f2f31e2t.NEF,independent_test,Nikon D7000,L (4928 x 3264),outdoor; people,20.5,14
+r1f3e6681t,r1f3e6681t.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.4,17
+r1f40decct,r1f40decct.NEF,development_fit,Nikon D7000,L (4928 x 3264),landscape; outdoor,21.5,2
+r1f446078t,r1f446078t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),nature; outdoor,22.6,5
+r1f48d12dt,r1f48d12dt.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,20.6,3
+r1f4a44a7t,r1f4a44a7t.NEF,development_early_stop,Nikon D7000,L (4928 x 3264),buildings; outdoor,20.9,0
+r1f4f8a51t,r1f4f8a51t.NEF,independent_test,Nikon D7000,L (4928 x 3264),landscape; outdoor,18.8,7
+r1f5ad4e0t,r1f5ad4e0t.NEF,development_early_stop,Nikon D90,L (4288 x 2848),Indoor; objects,10.3,0
+r1f5c8451t,r1f5c8451t.NEF,development_fit,Nikon D7000,L (4928 x 3264),objects; outdoor,19.8,2

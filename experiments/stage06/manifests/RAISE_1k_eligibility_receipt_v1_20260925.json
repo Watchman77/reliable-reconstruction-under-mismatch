@@ -1,0 +1,30 @@
+{
+  "decision_ledger_sha256": "6ae8580bfc58fc4cbec361f1669b455f8c541a9bcd9b26709ef93547f004d047",
+  "decision_status": "source_identity_resolved_provenance_gate_pending",
+  "eligible_role_counts": {
+    "development_calibration": 149,
+    "development_early_stop": 150,
+    "development_fit": 495,
+    "external_pilot": 50,
+    "independent_test": 150
+  },
+  "eligible_roles_sha256": "a989e066ab5c66bec753719b3a3006c15a0635504f63977750a9192aa2995426",
+  "eligible_source_count": 994,
+  "excluded_exact_duplicate_source_ids": [
+    "r0985dc6ct",
+    "r10f2ac48t",
+    "r13a5bb6bt",
+    "r13f26c35t",
+    "r13fccd2ft",
+    "r1a9acd94t"
+  ],
+  "false_positive_perceptual_pair_count": 2,
+  "independent_reconstruction_outcomes_inspected": false,
+  "original_roles_sha256": "fa4fe1272edae7f18e6d831d4e5878433413e26afe38997c15b4a7cd7ff77bf7",
+  "original_source_count": 1000,
+  "overlap_pairs_sha256": "7a54f41c976e686b1c206175b477fa0593af4917ad310fd14bb0bb3dfded2416",
+  "pretrained_model_training_overlap_review": "pending",
+  "schema_version": "stage06b-raise-eligibility-v1",
+  "source_audit_sha256": "b33e76252c40c14416e8dfbe944404413cdd76e8d5696df566596ffa80335dec",
+  "stage06b_provenance_gate_passed": false
+}
