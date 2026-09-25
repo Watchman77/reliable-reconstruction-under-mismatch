@@ -31,7 +31,7 @@ Compare the regenerated outputs' SHA-256 values with the committed eligibility r
 ## Provenance still required
 
 - RAISE's [official download page](https://loki.disi.unitn.it/RAISE/download.html) and [guide](https://loki.disi.unitn.it/RAISE/guide.html) describe RAISE-1k, limit use to non-commercial research/education, and require citation of Dang-Nguyen et al., *RAISE — A Raw Images Dataset for Digital Image Forensics*, ACM MMSys 2015. Record retrieval date/access conditions and avoid redistributing NEFs. The official CSV manifest ZIP SHA-256 is `2bf21449ed458502c09407cd9260b5d91fe27e7bc9e98f33bd108bbd8e40f8dc`.
-- Identify the actual checkpoints and training datasets for each proposed pretrained solver and assess whether RAISE images could be present. This cannot be inferred from the Stage 05 overlap screen.
+- The [pretrained checkpoint provenance review](stage_06b_pretrained_checkpoint_provenance_2026-09-25.md) documents the DPIR/DRUNet and FBCNN training-source families and identifies DiffPIR's candidate priors. Image-level RAISE overlap for the actual checkpoints remains unresolved; this cannot be inferred from the Stage 05 overlap screen.
 - Keep the RAW renderer and colour settings in the Stage 06E freeze. Perform the source-level sample-size calculation before deciding that 150 independent sources suffice.
 
 **Do not declare 06B clear or open independent outcomes** until model-training provenance and all remaining source/licence documentation are resolved. Do not silently use the 1,000-row original role file for modeling.
