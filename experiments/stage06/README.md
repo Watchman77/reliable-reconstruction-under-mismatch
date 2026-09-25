@@ -39,6 +39,10 @@ If a later chat resumes this project, follow this order and the latest execution
 
 The [real RAISE acquisition-chain smoke test](../../docs/stage_06c_raise_acquisition_smoke_2026-09-25.md) ran on three verified `development_early_stop` NEFs. Its [source metrics](../../results/stage06c_raise_acquisition_smoke/source_chain_smoke.csv) and [hash receipt](../../results/stage06c_raise_acquisition_smoke/summary.json) confirm that the alternate chain runs on real external RAW images. This was acquisition engineering only; DiffPIR and the paired reconstruction comparison have not run. The next step remains checkpoint pinning and permitted development solver runs, followed by 06D–06F and finally the manuscript.
 
+## Paired solver development code
+
+The [06C Colab notebook](../../notebooks/06C_RAISE_Paired_DPIR_DiffPIR_Development.ipynb) and [guarded reconstruction runner](../../scripts/run_stage06c_paired_development.py) are prepared for a one-source RAISE development GPU canary. Read the [handoff and validation limits](../../docs/stage_06c_paired_solver_runner_handoff.md) before extending it to permitted development sources. The local preflight passed on three real audited NEFs, including the notebook's default source; **DiffPIR GPU inference has not yet run**, its downloaded checkpoint hash is not yet recorded, and no solver-transfer claim is established. Once Colab has run, inspect the run status and source rows before freezing solver settings or proceeding to Stage 06D.
+
 ## External-source audit
 
 Start with `notebooks/06B_RAISE_1k_Manifest_and_Resumable_Download.ipynb`. Place the official `RAISE_1k.csv.zip` manifest in `inputs/RAISE-1k/`, select one `SHARD_INDEX` from 0 through 19, and run the notebook. It downloads only NEF originals, resumes partial files, verifies server-reported byte counts, and writes one receipt per 50-source shard. Different Colab sessions may run different shard indices concurrently.
