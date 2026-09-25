@@ -7,8 +7,8 @@ Stage 06 is a new study. It does not reopen Stage 05.
 | Component | Purpose | Status |
 | --- | --- | --- |
 | 06A | Development-only event-threshold sensitivity | Executed |
-| 06B | External-source provenance and overlap audit | 1,000 NEFs checked; 994-source eligibility v1 recorded; provenance pending |
-| 06C | Second solver and alternate acquisition-chain development | Protocol ready; configurations not yet frozen |
+| 06B | External-source provenance and overlap audit | 1,000 NEFs checked; 994-source eligibility v1 recorded; source-identity audit complete, final access/lineage decision pending |
+| 06C | Second solver and alternate acquisition-chain development | Development work may proceed on eligible fit/early-stop sources; configurations not yet frozen |
 | 06D | Continuous/severity calibration and chain-aware reliability score | Interface specified; training not yet run |
 | 06E | Preregistration and cryptographic freeze | Template ready; blocked on 06B–06D |
 | 06F | One-time sealed independent evaluation | Not run |
@@ -23,7 +23,7 @@ Stage 06 is a new study. It does not reopen Stage 05.
 
 ## Current entry point
 
-Stage 06A is executed. The current task is to finish Stage 06B provenance and enforce the versioned eligible-source allowlist described below. Stage 06C development starts after the remaining 06B gate is resolved.
+Stage 06A is executed and the RAISE-1k source-identity audit is complete. Proceed with Stage 06C engineering and smoke tests on eligible development fit/early-stop sources using the versioned allowlist. Record any required publisher access details and actual checkpoint provenance before the Stage 06E freeze. Unresolved image-level checkpoint training overlap is a documented limitation to adjudicate before confirmatory claims, not a reason to stop development-only work or to reopen Stage 05.
 
 ## External-source audit
 
@@ -43,7 +43,7 @@ python scripts/audit_stage06_external_dataset.py \
 
 The audit fails closed on exact or perceptual-overlap candidates. Perceptual candidates still require manual paired-image review. Camera RAW inputs require `rawpy`; its version and rendering settings must be frozen.
 
-The executed RAISE-1k audit verified 1,000 NEF SHA-256 digests and RAW decodes. Its 14 overlap rows represent six byte-identical source pairs counted twice (file and decoded RGB) and two visually reviewed false-positive dHash candidates. No RAISE-versus-Stage 05 match was reported by the hash screen. See `docs/stage_06b_raise_integrity_and_overlap_review_2026-09-25.md` and the eight-pair decision ledger. The original 1,000-row role file remains untouched; `experiments/stage06/manifests/RAISE_1k_eligible_roles_v1_20260925.csv` is the source allowlist for later development, pilot, and eventual sealed test loaders. It has 994 rows: fit 495, early-stop 150, calibration 149, pilot 50, independent test 150. The companion receipt pins evidence/manifest hashes; `scripts/build_stage06b_eligibility.py` reproduces and validates it from the stored audit CSVs. Loaders must fail on any source outside the allowlist. Licence/access documentation and each proposed pretrained checkpoint's training-data-overlap review are still pending; the 06B provenance gate has **not** passed.
+The executed RAISE-1k audit verified 1,000 NEF SHA-256 digests and RAW decodes. Its 14 overlap rows represent six byte-identical source pairs counted twice (file and decoded RGB) and two visually reviewed false-positive dHash candidates. No RAISE-versus-Stage 05 match was reported by the hash screen. See `docs/stage_06b_raise_integrity_and_overlap_review_2026-09-25.md` and the eight-pair decision ledger. The original 1,000-row role file remains untouched; `experiments/stage06/manifests/RAISE_1k_eligible_roles_v1_20260925.csv` is the source allowlist for later development, pilot, and eventual sealed test loaders. It has 994 rows: fit 495, early-stop 150, calibration 149, pilot 50, independent test 150. The companion receipt pins evidence/manifest hashes; `scripts/build_stage06b_eligibility.py` reproduces and validates it from the stored audit CSVs. Loaders must fail on any source outside the allowlist. The source-integrity audit is complete. Publisher access/retrieval documentation and the actual second checkpoint's provenance still require a recorded decision before the Stage 06E freeze; image-level absence from all pretrained training sets cannot be assumed. Development-only 06C work may proceed while these records are completed. The independent test remains sealed.
 
 ## Reliability development and external pilot
 
