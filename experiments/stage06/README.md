@@ -29,6 +29,10 @@ Expected outputs are in `results/stage06a_development_threshold_sensitivity/`.
 
 ## External-source audit
 
+Start with `notebooks/06B_RAISE_1k_Manifest_and_Resumable_Download.ipynb`. Place the official `RAISE_1k.csv.zip` manifest in `inputs/RAISE-1k/`, select one `SHARD_INDEX` from 0 through 19, and run the notebook. It downloads only NEF originals, resumes partial files, verifies server-reported byte counts, and writes one receipt per 50-source shard. Different Colab sessions may run different shard indices concurrently.
+
+The frozen metadata-only allocation is stored at `experiments/stage06/manifests/RAISE_1k_source_roles_seed_20260925.csv`. It contains 500 development-fit, 150 development-early-stop, 150 development-calibration, 50 external-pilot, and 150 independent-test sources. Do not change these roles after reconstruction outcomes are generated.
+
 Create a CSV with `source_id`, `relative_path`, and `role`, with every role represented, then run:
 
 ```bash
