@@ -1,0 +1,100 @@
+{
+  "schema_version": "stage06c-real-raise-acquisition-smoke-v1",
+  "scope": "engineering smoke test only; no solver or reliability result",
+  "eligible_manifest_sha256": "a989e066ab5c66bec753719b3a3006c15a0635504f63977750a9192aa2995426",
+  "audit_csv_sha256": "b33e76252c40c14416e8dfbe944404413cdd76e8d5696df566596ffa80335dec",
+  "renderer": {
+    "use_camera_wb": false,
+    "use_auto_wb": false,
+    "no_auto_bright": true,
+    "output_bps": 8,
+    "gamma": [
+      2.222,
+      4.5
+    ]
+  },
+  "working_rgb_interpretation": "06B rendered RGB treated as sRGB",
+  "crop_size": 512,
+  "seed_base": 20260925,
+  "chain_configs": {
+    "srgb_j75_b16_n2": {
+      "chain_id": "srgb_j75_b16_n2",
+      "operator_domain": "srgb",
+      "blur_sigma": 1.6,
+      "noise_std": 0.00784313725490196,
+      "jpeg_quality": 75,
+      "jpeg_subsampling": 0
+    },
+    "linear_j75_b16_n2": {
+      "chain_id": "linear_j75_b16_n2",
+      "operator_domain": "linear_rgb",
+      "blur_sigma": 1.6,
+      "noise_std": 0.00784313725490196,
+      "jpeg_quality": 75,
+      "jpeg_subsampling": 0
+    }
+  },
+  "versions": {
+    "rawpy": "0.27.1",
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "scipy": "1.17.0"
+  },
+  "sources": [
+    {
+      "source_id": "r03d2a758t",
+      "role": "development_early_stop",
+      "raw_sha256": "b8782676f5a61b92c474ea0baacae2f741348a50e216f47b1565f18e756835e3",
+      "decoded_rgb_sha256": "3eb135417fd2534c6a7ed87cb12381c6d1e2f4284ba9e92abc7c68e1f2504e39",
+      "rendered_shape": [
+        3280,
+        4948,
+        3
+      ],
+      "crop_xywh": [
+        2218,
+        1384,
+        512,
+        512
+      ],
+      "between_chain_mse": 1.555444154466822e-05
+    },
+    {
+      "source_id": "r137bcd7at",
+      "role": "development_early_stop",
+      "raw_sha256": "f3dd4ca87705fc5f8f152569c33e0bdb3ec18f03458cdddfcc34eeaa2a1cc4e6",
+      "decoded_rgb_sha256": "2b124a0144f1b60788c0fda708954b633241e1d9455c2c619434a309eb812288",
+      "rendered_shape": [
+        3280,
+        4948,
+        3
+      ],
+      "crop_xywh": [
+        2218,
+        1384,
+        512,
+        512
+      ],
+      "between_chain_mse": 0.000367658674510705
+    },
+    {
+      "source_id": "r1a5903fct",
+      "role": "development_early_stop",
+      "raw_sha256": "1e9750cd03e297a5eb182b3d4276303019f073e2ad41b11fe080e4079f741b56",
+      "decoded_rgb_sha256": "4676ab016a760ba176e5fe9a7b38014c11059b392a23680ff80dca94696cfa87",
+      "rendered_shape": [
+        2868,
+        4310,
+        3
+      ],
+      "crop_xywh": [
+        1899,
+        1178,
+        512,
+        512
+      ],
+      "between_chain_mse": 0.0002815664472999167
+    }
+  ],
+  "metric_csv_sha256": "9e036efc72fa01004a2c293c80cc0b0547214af58d3d583c028c3923bbac478d"
+}
