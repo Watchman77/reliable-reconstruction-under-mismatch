@@ -1,277 +1,229 @@
-# Acquisition-Chain-Aware Reconstruction Under Forward-Model Mismatch: A Locked Independent Evaluation of JPEG Deblocking, Selective Risk, and Reliability
+# Acquisition-Chain-Aware Reconstruction Under Forward-Model Mismatch: Locked Independent Evidence for JPEG Deblocking and Reliability Limits
 
-**Working manuscript draft — 25 September 2026**
-
-Author order, affiliations, target venue, and citation style remain to be
-finalised. Numerical statements in this draft are locked to the Stage 05E/05F
-evidence package.
+**Journal-neutral manuscript, evidence-locked version — 25 September 2026**
 
 ## Abstract
 
-Image reconstruction systems can fail when the deployed acquisition chain
-differs from the forward model assumed during inversion. This study evaluates
-whether JPEG-aware preprocessing and operator-sensitive uncertainty improve
-reconstruction fidelity and selective release under such mismatch. We froze an
-independent protocol before inspecting test performance, sealed 40 natural-image
-sources across seven acquisition chains, fitted reliability components using
-development data only, and evaluated two confirmatory hypotheses using paired
-source-level inference. On the primary JPEG chain, FBCNN preprocessing followed
-by nominal DPIR reduced source-level detail mean-squared error by 90.13% relative
-to nominal DPIR alone (paired 95% bootstrap interval for the absolute difference
--1.67013e-04 to -7.43841e-05; Holm-adjusted one-sided p = 1.99998e-05), passing
-the predeclared reconstruction gate. Improvements occurred on all six JPEG
-chains, whereas the uncompressed control changed by -2.53%, indicating an
-acquisition-chain-specific effect. At 50% coverage, operator-spread selection
-reduced retained-patch detail risk by 4.46% relative to image-transform spread
-(paired 95% bootstrap interval -5.13609e-07 to -8.98451e-08;
-Holm-adjusted one-sided p = 1.99998e-05). This effect was statistically
-detectable but did not reach the predeclared 5% practical threshold. Across
-286,720 calibration patch rows, the locked bad-detail event had zero observed
-positives, preventing validation of positive-event calibration. The results
-support a bounded acquisition-chain and reliability-assessment contribution,
-not the original unified novelty claim. They show the value of preserving
-negative gates and calibration failures when assessing reconstruction systems
-under deployment mismatch.
+Image reconstruction systems are commonly evaluated under the forward model assumed by the solver, although deployed acquisition chains may also contain compression, quantisation, resampling, and parameter drift. This mismatch can make a reconstruction appear plausible while its fine detail is weakly supported by the observation. We evaluated two bounded questions under a protocol frozen before independent test performance was inspected: whether JPEG-aware preprocessing improves reconstruction when JPEG compression is omitted from the inverse model, and whether operator-sensitive uncertainty improves selective retention beyond image-transform uncertainty. Forty sealed TESTIMAGES sources were centre-cropped and evaluated across seven acquisition chains comprising one uncompressed control and six JPEG conditions. Development data alone were used for method selection and reliability fitting. The primary reconstruction contrast compared nominal DPIR with FBCNN followed by nominal DPIR on the `j75_b16_n2` chain. The primary selection contrast compared operator-spread and image-transform-spread scores at 50% retained coverage. Source-paired bootstrap intervals used 10,000 replicates; one-sided paired sign-flip tests used 100,000 randomisations, with Holm correction across the two hypotheses. FBCNN plus DPIR reduced source-level detail mean-squared error by 90.13% relative to DPIR alone (absolute difference, -1.1674e-04; 95% bootstrap interval, -1.6701e-04 to -7.4384e-05; Holm-adjusted *p* = 1.99998e-05), passing the predeclared statistical and 5% practical gates. Reductions occurred on all six JPEG chains (17.81%–98.01%), whereas the uncompressed control changed by -2.53%. At 50% coverage, operator spread reduced retained-patch detail risk by 4.46% (absolute difference, -2.5957e-07; 95% interval, -5.1361e-07 to -8.9845e-08; Holm-adjusted *p* = 1.99998e-05). This effect was statistically detectable but failed the locked 5% practical gate. Across 286,720 calibration patch rows, the predeclared event—centre-patch detail RMSE greater than 0.05—had zero positives, so positive-event calibration was not estimable. The evidence supports an acquisition-chain-specific reconstruction contribution and a transparent reliability assessment, not the original unified selective-reconstruction claim.
 
-**Keywords:** inverse problems; forward-model mismatch; image reconstruction;
-JPEG artifacts; uncertainty quantification; selective prediction; reliability;
-reproducibility
+**Keywords:** inverse problems; forward-model mismatch; image reconstruction; JPEG artifact removal; selective prediction; uncertainty quantification; calibration; reproducibility
 
 ## 1. Introduction
 
-Modern image reconstruction methods often combine an explicit data-consistency
-model with learned priors. Their performance can degrade when the true capture
-pipeline includes unmodelled operations such as compression, resampling,
-quantisation, noise, or parameter drift. In these settings, visually plausible
-output is not sufficient evidence that observation-supported detail has been
-recovered. A deployment-oriented evaluation must therefore ask both how much
-fidelity is recovered and whether a reliability mechanism correctly identifies
-where error remains.
+Computational image reconstruction estimates an unknown image from measurements produced by a forward process. Modern approaches often combine an explicit observation model with a learned prior or denoiser, as in plug-and-play reconstruction and DPIR [1]. Their flexibility does not remove a fundamental dependency: data-consistency updates are only as appropriate as the model supplied to them. If the deployed chain includes an unmodelled stage, the solver may enforce consistency with the wrong process.
 
-The broad problem is well established. The evidence map locked for this study
-contains work on physics-informed mismatch handling, blind or joint
-image/operator inference, all-in-one restoration, diffusion priors, uncertainty
-estimation, selective prediction, and calibration. The unresolved question is
-narrower: under a fixed compound acquisition protocol, does explicit treatment
-of a missing compression stage materially improve reconstruction, and does an
-operator-sensitive score improve selective retention beyond an image-transform
-score?
+Forward-model mismatch is not an edge case. Optical parameters can be estimated inaccurately, acquisition geometry can drift, and a digital processing stage can intervene between the physical measurement and the stored image. Learned reconstruction can also be unstable under small perturbations or structural changes [4–6]. In this setting, perceptual plausibility is not equivalent to observation-supported recovery, and a low residual under the assumed operator need not establish fidelity to the latent reference [6,7].
 
-We answer this using a deliberately staged design. Development data were used
-to choose one setting per method family and fit reliability components. Five
-test shards remained sealed through inference. The analysis code, endpoints,
-practical thresholds, resampling procedures, and multiplicity correction were
-locked before test performance was inspected. This design separates model
-development from evidence generation and makes failed gates part of the primary
-record.
+JPEG compression is a concrete example of a missing acquisition stage. Its blockwise transform, quantisation, and decoding artifacts do not reduce to the additive Gaussian noise and blur commonly represented by a nominal inverse model. FBCNN was designed for flexible blind JPEG artifact removal and estimates an adjustable quality factor before reconstruction [2]. This suggests a simple serial intervention: explicitly repair the missing digital stage before applying an inverse solver. The intervention is not proposed as a new deblocking architecture. The research question is whether this composition produces an acquisition-chain-specific benefit under an independently locked comparison.
 
-The study makes three bounded contributions:
+A second deployment question concerns selective release. When only a fraction of patches can be retained, a score should rank high-error regions ahead of lower-error regions. Joint image/operator inference and blind diffusion methods demonstrate that operator uncertainty can be represented [11,12,18], while distribution-free and conformal methods show how predictive uncertainty can be calibrated under stated conditions [13,14,17]. Those precedents do not imply that an operator-sensitive score will deliver a practically important advantage after model selection or under an omitted acquisition process. That advantage requires direct, held-out testing.
 
-1. a locked independent test of JPEG-aware deblocking before mismatch-aware
-   DPIR across compressed and uncompressed acquisition chains;
-2. a confirmatory comparison of operator-spread and image-transform-spread
-   selective-risk scores under a predeclared practical threshold; and
-3. an auditable demonstration that a reliability target can be too rare in the
-   independent sample to support positive-event calibration claims.
+This study therefore separates reconstruction, selection, and calibration claims. We make four contributions:
 
-## 2. Literature and novelty boundary
+1. a one-time, locked independent comparison of JPEG-aware preprocessing followed by nominal DPIR against nominal DPIR alone;
+2. a seven-chain analysis that distinguishes compressed conditions from an uncompressed control;
+3. a confirmatory comparison of operator-spread and image-transform-spread selection using both statistical and practical gates; and
+4. an auditable account of a failed calibration target, where the locked positive event did not occur in the independent sample.
 
-The literature boundary was frozen to 15 September 2026. It contains 90 studies,
-including 81 peer-reviewed works and 62 coded closest competitors. It is a
-locked rapid evidence map used to constrain claims; it is not presented as a
-completed registered systematic review.
+The intended contribution is methodological and evaluative. It is not a claim that FBCNN, DPIR, blind operator inference, uncertainty estimation, or conformal calibration is individually novel.
 
-The evidence establishes that none of the following is individually novel:
-physics-informed reconstruction under operator error, blind degradation
-estimation, joint image/operator recovery, all-in-one restoration, learned
-diffusion priors, uncertainty scoring, or calibration. Accordingly, this study
-does not claim the first method in any of those categories. Its contribution is
-the independently locked acquisition-chain comparison and the transparent
-joint interpretation of a strong reconstruction effect, a subthreshold
-selective-risk effect, and a non-estimable positive-event calibration target.
+## 2. Related work and novelty boundary
 
-**Citation-completion note:** replace this paragraph with grouped, verified
-citations from `literature_snapshot.csv` and `nearest_competitors.csv`. Retain
-the boundary above when the prose is expanded.
+### 2.1 Reconstruction under operator mismatch
 
-## 3. Methods
+Model error has been addressed through robust unrolling, learned correction, joint optimisation, and posterior sampling. Nan and Ji explicitly model kernel uncertainty in deconvolution [4], while Zeng and Lam study learned robustness to model mismatch in lensless imaging [5]. Diffusion-based approaches extend the design space: DDRM and diffusion posterior sampling solve inverse problems with pretrained generative priors [9,10], and parallel operator/image diffusion and GibbsDDRM perform blind joint inference within specified operator families [11,12]. Learned residual models can also compensate for discrepancies between an approximate differentiable operator and the true process [16]. These studies establish that mismatch handling and joint image/operator inference are occupied areas. They also motivate a distinction between uncertainty within a specified operator family and an omitted operation outside the solver’s nominal model.
 
-### 3.1 Design and separation of roles
+### 2.2 Blind and compound image restoration
 
-The experiment used development-only selection followed by one-time locked
-independent evaluation. Development reconstruction shards supported method and
-hyperparameter selection. Development reliability data supported fitting the
-PatchErrorNet ensemble and calibration mappings. Independent sources were not
-used for those choices. Test inference was completed while performance remained
-uninspected, after which Stage 05E performed the single locked analysis and
-Stage 05F combined the result with the frozen literature boundary.
+Blind and all-in-one restoration systems learn to respond to multiple unknown corruptions without explicitly recovering a physical operator [8]. Such systems can deliver strong perceptual restoration, but their outputs and information budgets differ from a reconstruction pipeline that retains an explicit data-consistency model. JPEG artifact removal is likewise well developed. FBCNN predicts a quality factor and uses it to control the artifact-removal/detail-preservation trade-off [2]. The present work uses that pretrained capability as a component, not as a claimed algorithmic contribution. The novelty question is narrower: whether explicit repair of the missing codec stage changes the outcome of a nominal inverse solver in a controlled acquisition-chain experiment.
 
-### 3.2 Independent sample and acquisition chains
+### 2.3 Reliability, selective prediction, and calibration
 
-The independent sample contained 40 sealed natural-image sources evaluated over
-seven chains: one uncompressed control (`q8_b16_n2`) and six JPEG chains
-(`j90_b16_n2`, `j75_b12_n2`, `j75_b16_n2`, `j75_b20_n2`, `j75_b16_n5`, and
-`j50_b16_n2`). The suffixes encode the locked JPEG quality, blur setting, and
-noise setting used by the experimental generator. In total, the audit recorded
-280 source-chain observations, 1,680 quality rows, and 33,600 selective-risk
-rows.
+Imaging uncertainty can be represented through posterior samples, intervals, conformal sets, or task-specific risk controls [13,14,17]. Distribution-free guarantees are tied to their target, exchangeability conditions, and calibration design. They do not automatically transfer to a different acquisition distribution, to post-selection risk, or to a rare failure event. Similarly, a ranking score can improve a risk–coverage curve without being a calibrated probability. We therefore evaluate selection and calibration separately: H2 concerns retained-patch risk at a fixed coverage, whereas calibration concerns a predeclared binary bad-detail event.
 
-### 3.3 Reconstruction conditions
+### 2.4 Locked novelty boundary
 
-The primary reconstruction contrast compared nominal DPIR with a serial pipeline
-that applied FBCNN JPEG deblocking before nominal DPIR. The confirmatory endpoint
-was source-level detail MSE on the `j75_b16_n2` chain. Secondary chain results
-were descriptive and were not allowed to replace the primary endpoint.
+The literature boundary was frozen to 15 September 2026 and contains 90 assessed records, including 81 peer-reviewed works and 62 coded closest competitors. It is a rapid evidence map used to constrain claims, not a completed registered systematic review. The map rules out broad “first method” claims for physics-informed mismatch handling, blind image/operator inference, all-in-one restoration, diffusion priors, or uncertainty estimation. The supportable contribution must therefore arise from the locked acquisition-chain evidence and from transparent reporting of the reliability gates that did not pass.
 
-### 3.4 Reliability scores and selection
+## 3. Materials and methods
 
-The primary selection contrast compared operator-spread detail risk with
-image-transform-spread detail risk at 50% coverage on `j75_b16_n2`. The endpoint
-was source-level retained-patch detail MSE over the full region. Oracle,
-PatchErrorNet ensemble, and random-retention comparisons were descriptive.
+### 3.1 Study design
 
-### 3.5 Confirmatory gates and inference
+The programme used development-only selection followed by a one-time independent evaluation. Reconstruction configurations were selected on development sources. The learned image-only PatchErrorNet ensemble and score-to-probability mappings were fitted using development data only. Five independent inference shards remained sealed during method development and were analysed once, after all shards had completed inference and passed manifest checks.
 
-H1 required a statistically significant improvement and at least 5% relative
-reduction in the reconstruction endpoint. H2 used the same statistical and 5%
-practical requirements for selective risk. Paired source-bootstrap intervals
-used 10,000 replicates. One-sided paired sign-flip tests used 100,000
-randomisations per hypothesis with the continuity correction
-`(extreme + 1) / (randomisations + 1)`. Holm adjustment controlled multiplicity
-across H1 and H2. Both requirements had to pass for a confirmatory hypothesis to
-pass; both hypotheses had to pass for the combined experimental novelty gate.
+The confirmatory analysis contained two hypotheses. H1 tested reconstruction fidelity; H2 tested selective risk. The endpoints, primary chain, coverage, practical thresholds, bootstrap procedure, randomisation test, and multiplicity correction were fixed before independent performance was inspected. Secondary chains and additional comparators were explicitly descriptive.
 
-### 3.6 Calibration assessment
+### 3.2 Independent images and evaluation region
 
-The locked event was centre 16 x 16 patch detail RMSE greater than 0.05.
-Reliability diagrams and Brier point estimates were calculated over 286,720
-patch rows and 11 score definitions. No pairwise calibration-superiority test
-was predeclared, so score rankings are descriptive.
+The independent sample comprised 40 eight-bit RGB natural images from the 2400 x 2400 TESTIMAGES sampling archive [3]. Each decoded source was verified by filename, byte count, file SHA-256, and decoded-RGB SHA-256. A centred 576 x 576 crop was extracted from each source. A 32-pixel context border was retained for reconstruction, leaving a 512 x 512 interior for primary evaluation. The interior was divided into non-overlapping 16 x 16 patches, yielding 1,024 patches per image and chain.
 
-### 3.7 Integrity and reproducibility
+This produced 280 source–chain observations across seven chains, 1,680 source–chain–method quality rows, 33,600 risk rows, and 286,720 patch rows for the calibration analysis. The source, not the patch, was the independent inferential unit.
 
-All five test shards, the Stage 05E analysis package, and the Stage 05F synthesis
-package were checked against embedded byte counts and SHA-256 manifests. The
-repository contains compact results, figures, clean runnable notebooks, and
-validation code. Large immutable archives and executed notebooks are retained
-externally with their canonical hashes recorded in
-`docs/stage_05_final_checkpoint.md`.
+### 3.3 Acquisition chains
+
+The seven locked chains are listed in Table 1. Chain identifiers encode the digital stage (`q8` for the uncompressed eight-bit control and `jXX` for JPEG quality), Gaussian blur standard deviation (`b12`, `b16`, or `b20` denoting 1.2, 1.6, or 2.0 pixels), and additive-noise standard deviation (`n2` or `n5` denoting 2/255 or 5/255). The primary chain was `j75_b16_n2`. The design varied JPEG quality, blur, and noise around that chain while retaining an uncompressed control at the same nominal blur and noise.
+
+**Table 1. Locked independent acquisition chains.**
+
+| Chain | Digital stage | Blur sigma | Noise SD | Role |
+| --- | --- | ---: | ---: | --- |
+| `q8_b16_n2` | Eight-bit, no JPEG | 1.6 | 2/255 | Uncompressed control |
+| `j90_b16_n2` | JPEG quality 90 | 1.6 | 2/255 | Mild compression |
+| `j75_b12_n2` | JPEG quality 75 | 1.2 | 2/255 | Blur variation |
+| `j75_b16_n2` | JPEG quality 75 | 1.6 | 2/255 | Confirmatory primary chain |
+| `j75_b20_n2` | JPEG quality 75 | 2.0 | 2/255 | Blur variation |
+| `j75_b16_n5` | JPEG quality 75 | 1.6 | 5/255 | Noise variation |
+| `j50_b16_n2` | JPEG quality 50 | 1.6 | 2/255 | Strong compression |
+
+### 3.4 Reconstruction conditions
+
+Nominal DPIR used a deep denoiser prior within a model-based iterative reconstruction framework [1]. Its supplied forward model represented the nominal blur/noise process but not the JPEG codec. The serial condition first applied pretrained FBCNN deblocking [2] and then applied the same nominal DPIR configuration. Thus, H1 isolated the effect of treating the missing compression stage before inversion while holding the downstream solver fixed.
+
+The confirmatory endpoint was mean detail MSE on the 512 x 512 interior. Detail error was computed from the locked high-frequency representation used throughout development and independent analysis. Source-level values were formed before inference; patch-level observations were not treated as independent replicates.
+
+### 3.5 Reliability scores and selective retention
+
+Selection ranked 16 x 16 patches from lower to higher predicted risk and retained the lowest-risk fraction. The primary operational scores were:
+
+- **operator-spread detail:** variation in reconstructed detail across the predefined plausible operator perturbations;
+- **image-transform-spread detail:** variation in reconstructed detail under the predefined image-transform perturbations; and
+- **trained image-only PatchErrorNet ensemble:** a development-fitted learned comparator that used reconstructed-image information without operator spread.
+
+Expected random retention and the true patch-detail error were evaluation-only lower-information and oracle references, respectively. They were not deployable competitors. The primary H2 endpoint was source-level retained-patch detail MSE on `j75_b16_n2` at 50% coverage, comparing operator spread with image-transform spread. Risk–coverage curves at 50%, 75%, 90%, and 100% coverage were descriptive beyond that locked contrast.
+
+### 3.6 Calibration target
+
+Development-fitted mappings converted each score to a predicted probability of a locked bad-detail event: centre 16 x 16 patch detail RMSE greater than 0.05. Independent reliability diagrams, source-macro Brier scores, equal-mass expected calibration error, calibration-in-the-large, and calibration slopes were computed where estimable. No confirmatory pairwise calibration-superiority test was predeclared. Brier and expected-calibration-error rankings were therefore descriptive.
+
+### 3.7 Statistical analysis
+
+For each hypothesis, the source-level paired difference was defined so that a negative value favoured the proposed condition. Two requirements had to pass:
+
+1. a one-sided paired sign-flip test after Holm correction across H1 and H2; and
+2. at least 5% relative reduction against the locked comparator.
+
+Paired source-bootstrap intervals used 10,000 replicates. Sign-flip tests used 100,000 randomisations and the continuity correction `(extreme + 1)/(randomisations + 1)`. With zero more-extreme randomisations, the minimum attainable unadjusted value was 9.99990e-06. The combined experimental gate required both H1 and H2 to pass; a significant result alone could not replace the practical threshold.
+
+### 3.8 Integrity and reproducibility
+
+All five independent inference shards, the Stage 05E analysis package, and the Stage 05F synthesis package were verified against embedded byte counts and SHA-256 manifests. The analysis consumed sealed outputs and produced immutable claim decisions. The repository contains clean notebooks, compact result tables, figures, manifests, and validation code; large sealed archives and executed notebooks are linked by canonical hashes rather than committed as mutable research files.
 
 ## 4. Results
 
-### 4.1 JPEG-aware preprocessing passed the reconstruction gate
+### 4.1 Independent data and audit completion
 
-On `j75_b16_n2`, the comparator mean detail MSE was 1.2952713644e-04. FBCNN
-preprocessing followed by DPIR reduced this endpoint by 90.13%. The paired mean
-difference was -1.1674353138e-04, with a 95% source-bootstrap interval from
--1.6701316322e-04 to -7.4384088950e-05. The one-sided p-value was
-9.99990e-06 and the Holm-adjusted value was 1.99998e-05. Both statistical and
-practical requirements passed.
+All 40 sources and seven acquisition chains were present. All five inference shards passed archive, manifest, and file-hash checks before analysis. The one-time analysis therefore included the complete intended independent sample; no source or chain was removed after performance inspection.
 
-The secondary pattern was consistent across compressed chains. Relative detail
-MSE reductions were 17.81% (`j90_b16_n2`), 95.27% (`j75_b12_n2`), 90.13%
-(`j75_b16_n2`), 81.96% (`j75_b20_n2`), 90.05% (`j75_b16_n5`), and 98.01%
-(`j50_b16_n2`). The uncompressed control changed by -2.53%. The contrast between
-compressed chains and the control supports an acquisition-chain-specific
-interpretation.
+### 4.2 H1: JPEG-aware preprocessing passed the reconstruction gate
 
-![Relative detail-MSE reduction across locked acquisition chains](../results/independent_05f_locked_synthesis/figures/independent_chain_reconstruction_effect.png)
+On the primary `j75_b16_n2` chain, nominal DPIR had mean source-level detail MSE 1.2952713644e-04. FBCNN followed by nominal DPIR reduced the mean to 1.2783605060e-05, a relative reduction of 90.1306%. The paired absolute difference was -1.1674353138e-04, with a 95% source-bootstrap interval from -1.6701316322e-04 to -7.4384088950e-05. The one-sided sign-flip value was 9.99990e-06 and the Holm-adjusted value was 1.99998e-05. H1 passed both its statistical requirement and the locked 5% practical threshold (Table 2).
 
-### 4.2 Operator-spread selection was significant but practically subthreshold
+**Table 2. Confirmatory independent results. Negative differences favour the proposed condition.**
 
-At 50% coverage on `j75_b16_n2`, image-transform spread produced mean retained
-detail risk of 5.8147345352e-06. Operator spread reduced this risk by 4.4640%,
-with a paired absolute difference of -2.5957220687e-07 and a 95% bootstrap
-interval from -5.1360919150e-07 to -8.9845112734e-08. The one-sided p-value was
-9.99990e-06 and the Holm-adjusted value was 1.99998e-05. The statistical
-requirement passed; the locked 5% practical requirement did not. H2 and the
-combined experimental novelty gate therefore failed.
+| Hypothesis | Comparator mean | Proposed mean | Mean difference (95% bootstrap interval) | Relative reduction | Holm-adjusted *p* | Locked decision |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| H1: FBCNN + DPIR vs DPIR detail MSE | 1.29527e-04 | 1.27836e-05 | -1.16744e-04 (-1.67013e-04, -7.43841e-05) | 90.13% | 1.99998e-05 | Passed |
+| H2: operator vs image-transform spread risk | 5.81473e-06 | 5.55516e-06 | -2.59572e-07 (-5.13609e-07, -8.98451e-08) | 4.46% | 1.99998e-05 | Statistical gate passed; 5% practical gate failed |
 
-Descriptively, 50%-coverage detail risks were 4.91009752e-06 for the oracle,
-5.55516233e-06 for operator spread, 5.81473454e-06 for image-transform spread,
-7.52514134e-06 for the PatchErrorNet ensemble, and 1.27836051e-05 for random
-retention. These comparisons do not override the confirmatory gate.
+The secondary chain pattern supported an acquisition-chain-specific interpretation (Table 3; Figure 1). FBCNN plus DPIR reduced detail MSE on every JPEG chain, with reductions from 17.81% to 98.01%. On the uncompressed control, the serial pipeline increased detail MSE by 2.53%. The largest gains occurred under quality-75 and quality-50 compression; the mild quality-90 chain showed a smaller but positive benefit.
 
-### 4.3 Positive-event calibration could not be validated
+**Table 3. Descriptive reconstruction effect across acquisition chains.**
 
-Across 286,720 patch rows, no observed event exceeded the locked detail-RMSE
-threshold. Positive-event calibration and discrimination were therefore not
-estimable. Non-zero predicted probabilities show that the score mappings
-overpredicted the event in this independent sample. Brier point estimates are
-reported only as descriptive summaries under this zero-event boundary.
+| Chain | DPIR mean detail MSE | FBCNN + DPIR mean detail MSE | Relative reduction |
+| --- | ---: | ---: | ---: |
+| `q8_b16_n2` | 1.10712e-05 | 1.13508e-05 | -2.53% |
+| `j90_b16_n2` | 1.42294e-05 | 1.16954e-05 | 17.81% |
+| `j75_b12_n2` | 1.76194e-04 | 8.33292e-06 | 95.27% |
+| `j75_b16_n2` | 1.29527e-04 | 1.27836e-05 | 90.13% |
+| `j75_b20_n2` | 1.01176e-04 | 1.82527e-05 | 81.96% |
+| `j75_b16_n5` | 6.05437e-04 | 6.02582e-05 | 90.05% |
+| `j50_b16_n2` | 7.28797e-04 | 1.44945e-05 | 98.01% |
+
+![Figure 1. Relative detail-MSE reduction for FBCNN plus nominal DPIR versus nominal DPIR across the seven locked acquisition chains. The grey bar is the uncompressed control; blue bars are JPEG chains. These cross-chain comparisons are descriptive.](../results/independent_05f_locked_synthesis/figures/independent_chain_reconstruction_effect.png)
+
+### 4.3 H2: operator-spread selection was statistically detectable but practically subthreshold
+
+At 50% coverage on `j75_b16_n2`, image-transform spread produced mean retained-patch detail MSE 5.8147345352e-06. Operator spread reduced this to 5.5551623283e-06. The 4.4640% reduction corresponded to an absolute difference of -2.5957220687e-07, with a 95% source-bootstrap interval from -5.1360919150e-07 to -8.9845112734e-08. The statistical requirement passed, but the effect was 0.53596 percentage points below the predeclared 5% practical threshold. H2 therefore failed, and the combined experimental gate did not pass.
+
+At the same coverage, the oracle risk was 4.91010e-06, the learned image-only PatchErrorNet ensemble risk was 7.52514e-06, and expected random retention risk was 1.27836e-05 (Table 4). Operator spread ranked between the oracle and image-transform spread, whereas the trained image-only comparator underperformed both hand-constructed operational scores. These are descriptive comparisons and do not change the H2 decision.
+
+**Table 4. Detail risk at 50% coverage on the primary chain.**
+
+| Ranking score | Role | Mean retained-patch detail MSE | Interpretation |
+| --- | --- | ---: | --- |
+| Oracle true detail error | Evaluation only | 4.91010e-06 | Unavailable upper benchmark for ranking |
+| Operator-spread detail | Operational | 5.55516e-06 | H2 proposed score |
+| Image-transform-spread detail | Operational | 5.81473e-06 | H2 comparator |
+| PatchErrorNet ensemble | Operational, development-fitted | 7.52514e-06 | Learned image-only comparator |
+| Expected random retention | Evaluation only | 1.27836e-05 | No-information reference |
+
+![Figure 2. Independent primary-chain risk–coverage curves. H2 used only the locked comparison between operator spread and image-transform spread at 50% coverage. Oracle and random curves are evaluation-only references.](../results/independent_05e_locked_analysis/figures/primary_risk_coverage.png)
+
+### 4.4 Positive-event calibration was not estimable
+
+None of the 286,720 independent patch rows exceeded the locked event threshold of centre-patch detail RMSE greater than 0.05. Consequently, sensitivity, discrimination, positive-event calibration, and a meaningful calibration slope for that event could not be established. The score mappings assigned non-zero probabilities, so they overpredicted the event in this sample. Brier scores remained numerically computable but mainly reflected the magnitude of predicted probabilities against an all-zero outcome and cannot establish superiority for detecting positives that were absent.
+
+![Figure 3. Independent reliability diagrams for the 11 locked score definitions. All observed event rates are zero because the predeclared bad-detail event did not occur. The figure demonstrates a calibration boundary, not perfect reliability.](../results/independent_05e_locked_analysis/figures/independent_calibration_reliability.png)
 
 ## 5. Discussion
 
-The strongest finding is not a universal method advantage but an interaction
-with the acquisition chain. Deblocking before inversion yielded large gains
-when JPEG compression was present and no gain on the uncompressed control. This
-is consistent with the serial method repairing a specific missing stage before
-the inverse solver is applied. It also cautions against evaluating mismatch
-robustness with a single degradation or averaging across chains that have
-different physical and digital failure mechanisms.
+### 5.1 Principal finding: the missing acquisition stage mattered
 
-The selection result illustrates why statistical and practical gates should be
-separated. The operator-spread effect was precisely estimated and unlikely to
-be a random sign pattern under the locked test, but its 4.46% relative reduction
-did not reach the predeclared 5% threshold. Describing it as promising or
-statistically detectable is justified; describing the confirmatory selection
-claim as passed is not.
+The clearest result is an interaction between preprocessing and the acquisition chain. The serial pipeline produced large improvements when JPEG compression was present but no improvement on the uncompressed control. This pattern is more informative than an average across all chains: it supports the mechanism that deblocking repairs a specific omitted digital stage before the nominal inverse solver is applied. It does not imply that deblocking is universally beneficial, that the serial composition is a new architecture, or that DPIR is generally robust to arbitrary model error.
 
-The calibration result is equally informative. A reliability model cannot be
-validated for positive events that do not occur in the independent sample. The
-absence may reflect a threshold poorly matched to the achieved error range, the
-difficulty of the selected sample, or both. It does not demonstrate perfect
-reliability. Future work should select a clinically or operationally meaningful
-event threshold using development data and ensure adequate event support before
-a new preregistered test.
+The magnitude varied substantially, from 17.81% at JPEG quality 90 to more than 90% in several harsher chains. This variation is consistent with a stage whose relevance depends on compression severity and its interaction with blur and noise. The -2.53% control result is particularly important because it rules against interpreting FBCNN as a generic improvement applied indiscriminately to every observation.
 
-Together, the findings motivate a paper centred on acquisition-chain diagnosis,
-locked evaluation, and reliability boundaries. This is a narrower contribution
-than the original unified claim, but it is more defensible and more informative
-for deployment.
+### 5.2 Why H2 remains a negative confirmatory result
+
+Operator spread improved selective ranking relative to image-transform spread, and the paired interval excluded zero. Nevertheless, the protocol required both statistical evidence and a minimum 5% relative reduction. The observed 4.4640% did not meet that requirement. Rounding it to 5%, lowering the threshold after seeing the result, or elevating descriptive comparisons would invalidate the locked design.
+
+The result is still scientifically useful. Operator spread was closer to the oracle than image-transform spread and outperformed the trained image-only ensemble at 50% coverage. This supports further development of operator-sensitive ranking, but only as a new hypothesis. Any future test should be preregistered with a clinically or operationally justified effect size, a new independent sample, and a clear distinction between exploratory tuning and confirmatory evidence.
+
+### 5.3 Calibration must be supported by events
+
+The all-zero calibration outcome exposes a common failure in reliability studies: a threshold can be mathematically well defined but empirically unsupported. With no positives, a low Brier score may simply reward predictions near zero; it cannot show that high-risk patches would be identified when they occur. Similarly, a reliability diagram lying on the horizontal axis is not evidence of perfect calibration when predictions are non-zero and outcomes have no variation.
+
+Future calibration work should select the target on development data using an operationally meaningful definition and should plan the independent sample around event support. Alternatives include a lower error threshold fixed before testing, a severity-stratified endpoint, or continuous-risk calibration. Those choices would constitute a new experiment and must not be used to rewrite the present result.
+
+### 5.4 Relationship to prior work
+
+Our result complements, rather than supersedes, robust unrolling and blind posterior methods [4,5,11,12]. Those methods address uncertain parameters or learn discrepancy within their own assumptions. Here, the strongest evidence came from explicitly treating a known class of missing digital operation before applying a nominal solver. The work also differs from all-in-one restoration [8]: the central evidence is a controlled acquisition-chain contrast with an uncompressed control and a locked inferential decision, not perceptual performance across a broad restoration suite.
+
+The reliability result likewise narrows the contribution. Operator-conditioned variability is motivated by blind image/operator inference, but its selective advantage did not cross the practical gate. Conformal and distribution-free imaging methods [13,14,17] remain the appropriate reference point for formal coverage claims; this study does not claim such a guarantee under shift. Instead, it demonstrates why ranking, calibration, and practical utility must be assessed as separate questions.
+
+### 5.5 Publication claim
+
+The original unified claim—an evidence-calibrated operator-sensitive selective-reconstruction method—was not established. The publishable contribution is narrower: an independently locked demonstration that acquisition-chain diagnosis can reveal a large, chain-specific reconstruction benefit, accompanied by a reproducible reliability assessment that preserves a subthreshold selection result and a non-estimable calibration target. This combination is valuable because it reports where the method worked, where the evidence was insufficient, and how the protocol prevented post hoc reinterpretation.
 
 ## 6. Limitations
 
-1. The independent sample contains 40 sources and seven simulated chains; it
-   does not establish transfer to new sensors or real acquisition devices.
-2. The primary conclusions concern detail MSE and retained-patch detail risk;
-   perceptual quality and task utility require separate validation.
-3. The calibration event produced zero positives, preventing positive-event
-   calibration or discrimination assessment.
-4. Secondary chain and comparator analyses are descriptive because they were
-   not part of the confirmatory family.
-5. The locked 90-study literature snapshot constrains novelty wording but is not
-   a completed registered systematic review.
-6. The results do not support forensic recovery, hallucination-free output, or
-   guaranteed abstention claims.
+First, the independent sample contained 40 natural-image sources from one public archive and seven simulated chains. It does not establish transfer to new sensors, real camera pipelines, or other modalities. Second, the analysis used centre crops and a detail-MSE endpoint; perceptual quality and downstream task utility may rank methods differently. Third, the serial intervention was evaluated with FBCNN and one nominal DPIR configuration, so the result does not isolate every architectural or hyperparameter interaction. Fourth, the operator-spread score was evaluated at one confirmatory chain and coverage; other coverages are descriptive. Fifth, zero positive calibration events prevented validation of failure probabilities or discrimination. Sixth, the 90-record literature map constrains novelty wording but is not a registered systematic review. Finally, the study does not support forensic recovery, hallucination-free reconstruction, or guaranteed abstention.
 
 ## 7. Conclusion
 
-Under the locked independent protocol, JPEG-aware deblocking before
-mismatch-aware DPIR substantially improved detail fidelity across compressed
-acquisition chains and offered no benefit on the uncompressed control.
-Operator-spread selection achieved a statistically detectable 4.46% risk
-reduction but did not pass the predeclared 5% practical gate. Positive-event
-calibration could not be established because the locked event never occurred.
-The defensible contribution is therefore an acquisition-chain and
-reliability-assessment study that reports both its strong reconstruction result
-and the reliability claims that did not survive independent testing.
+Under a locked independent protocol, JPEG-aware FBCNN preprocessing before nominal DPIR substantially reduced detail error across compressed acquisition chains and provided no benefit on the uncompressed control. This supports a specific acquisition-chain interpretation: explicitly treating an omitted codec stage can matter more than asking the inverse solver to absorb that mismatch. Operator-spread selection produced a statistically detectable 4.46% reduction in retained-patch detail risk, but it did not meet the predeclared 5% practical threshold. Positive-event calibration could not be established because the locked bad-detail event never occurred. The defensible conclusion is therefore bounded: the reconstruction result is independently supported within the seven-chain experiment, while the stronger selective-reliability claim remains unproven.
 
-## Data and code availability
+## Reproducibility and data availability
 
-Clean notebooks, validation scripts, compact result tables, figures, manifests,
-and the claim-decision record are provided in this repository. Large sealed
-shards, original result ZIPs, and executed notebook copies are retained in
-controlled external storage; their SHA-256 identifiers are recorded in the
-Stage 05 final checkpoint. Source DIV2K images remain governed by their original
-distribution terms and are not redistributed here.
+The public repository provides clean analysis notebooks, validation scripts, compact result tables, figures, archive receipts, the claim-decision record, and the evidence-locked manuscript source. Large sealed inference shards, original Stage 05E/05F archives, and executed notebook copies are retained as immutable external research records; their canonical SHA-256 identifiers are recorded in the Stage 05 final checkpoint. TESTIMAGES source files remain governed by their original distribution terms and are not redistributed by the project.
 
-## Statements to complete before submission
+## References
 
-- author contributions;
-- funding and acknowledgements;
-- conflicts of interest;
-- data-licence statement;
-- ethics statement or confirmation that no human participants were involved;
-- target-journal reference style and verified citations;
-- figure numbering and cross-references.
+1. Zhang K, Li Y, Zuo W, Zhang L, Van Gool L, Timofte R. Plug-and-play image restoration with deep denoiser prior. *IEEE Transactions on Pattern Analysis and Machine Intelligence*. 2022;44(10):6360–6376. doi:10.1109/TPAMI.2021.3088914.
+2. Jiang J, Zhang K, Timofte R. Towards flexible blind JPEG artifacts removal. In: *Proceedings of the IEEE/CVF International Conference on Computer Vision*. 2021:4997–5006. doi:10.1109/ICCV48922.2021.00495.
+3. Asuni N, Giachetti A. TESTIMAGES: a large data archive for display and algorithm testing. *Journal of Graphics Tools*. 2015;17(4):113–125. doi:10.1080/2165347X.2015.1024298.
+4. Nan Y, Ji H. Deep learning for handling kernel/model uncertainty in image deconvolution. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2020. doi:10.1109/CVPR42600.2020.00246.
+5. Zeng T, Lam EY. Robust reconstruction with deep learning to handle model mismatch in lensless imaging. *IEEE Transactions on Computational Imaging*. 2021;7. doi:10.1109/TCI.2021.3114542.
+6. Antun V, Renna F, Poon C, Adcock B, Hansen AC. On instabilities of deep learning in image reconstruction and the potential costs of AI. *Proceedings of the National Academy of Sciences*. 2020;117(48):30088–30095. doi:10.1073/pnas.1907377117.
+7. Bhadra S, Kelkar VA, Brooks FJ, Anastasio MA. On hallucinations in tomographic image reconstruction. *IEEE Transactions on Medical Imaging*. 2021;40(11):3249–3260. doi:10.1109/TMI.2021.3077857.
+8. Li B, Liu X, Hu P, Wu Z, Lv J, Peng X. All-in-one image restoration for unknown corruption. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2022.
+9. Kawar B, Elad M, Ermon S, Song J. Denoising diffusion restoration models. In: *Advances in Neural Information Processing Systems*. 2022;35.
+10. Chung H, Kim J, McCann MT, Klasky ML, Ye JC. Diffusion posterior sampling for general noisy inverse problems. In: *International Conference on Learning Representations*. 2023.
+11. Chung H, Kim J, McCann MT, Klasky ML, Ye JC. Parallel diffusion models of operator and image for blind inverse problems. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2023.
+12. Murata N, Saito K, Lai CJ, Takida Y, Uesaka T, Mitsufuji Y, Ermon S. GibbsDDRM: a partially collapsed Gibbs sampler for solving blind inverse problems with denoising diffusion restoration. In: *Proceedings of the 40th International Conference on Machine Learning*. 2023.
+13. Angelopoulos AN, Kohli AP, Bates S, Jordan MI, Malik J, Alshaabi T, Upadhyayula S, Romano Y. Image-to-image regression with distribution-free uncertainty quantification and applications in imaging. In: *Proceedings of the 39th International Conference on Machine Learning*. 2022.
+14. Teneggi J, Tivnan M, Stayman JW, Sulam J. How to trust your diffusion model: a convex optimization approach to conformal risk control. In: *Proceedings of the 40th International Conference on Machine Learning*. 2023.
+15. Renaud M, Prost J, Leclaire A, Papadakis N. Plug-and-play posterior sampling under mismatched measurement and prior models. In: *International Conference on Learning Representations*. 2024.
+16. Lee C, Jang M. Mitigating forward model mismatch in inverse problems via learned residuals and diffusion priors. In: *Proceedings of SPIE*. 2026;14016:140160D. doi:10.1117/12.3098133.
+17. Everink JM, Dong Y, Andersen MS. Self-supervised conformal prediction for uncertainty quantification in imaging problems. In: *Scale Space and Variational Methods in Computer Vision*. 2025. doi:10.1007/978-3-031-92366-1_9.
+18. Laroche C, Almansa A, Coupete E. Fast Diffusion EM: a diffusion model for blind inverse problems with application to deconvolution. In: *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision*. 2024.
