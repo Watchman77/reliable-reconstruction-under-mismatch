@@ -1,0 +1,32 @@
+{
+  "schema_version": "stage06-raise-manifest-v1",
+  "official_manifest_zip": "RAISE_1k.csv.zip",
+  "official_manifest_zip_byte_count": 49557,
+  "official_manifest_zip_sha256": "2bf21449ed458502c09407cd9260b5d91fe27e7bc9e98f33bd108bbd8e40f8dc",
+  "embedded_csv": "RAISE_1k.csv",
+  "embedded_csv_byte_count": 528151,
+  "embedded_csv_sha256": "b388d84a73b17f3c1790a55e28777c6b9bed2806b2a86b9fc05ed28b863cc8c7",
+  "source_count": 1000,
+  "unique_nef_urls": 1000,
+  "unique_tiff_urls": 1000,
+  "missing_nef_urls": 0,
+  "missing_tiff_urls": 0,
+  "estimated_nef_gib_from_manifest": 16.996923828125,
+  "source_roles_file": "RAISE_1k_source_roles_seed_20260925.csv",
+  "source_roles_byte_count": 97068,
+  "source_roles_sha256": "fa4fe1272edae7f18e6d831d4e5878433413e26afe38997c15b4a7cd7ff77bf7",
+  "download_urls_redacted_from_repository_manifest": true,
+  "assignment_seed": 20260925,
+  "role_counts": {
+    "development_fit": 500,
+    "development_early_stop": 150,
+    "development_calibration": 150,
+    "external_pilot": 50,
+    "independent_test": 150
+  },
+  "download_shards": 20,
+  "sources_per_download_shard": 50,
+  "format_selected": "NEF",
+  "tiff_downloaded": false,
+  "stage05_evidence_modified": false
+}
