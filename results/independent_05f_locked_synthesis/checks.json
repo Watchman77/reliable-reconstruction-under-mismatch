@@ -1,0 +1,14 @@
+{
+  "stage_05e_archive_crc_passed": true,
+  "stage_05e_manifest_files_checked": 13,
+  "stage_05e_sources": 40,
+  "stage_05e_chains": 7,
+  "literature_rows": 90,
+  "literature_closest_competitors": 62,
+  "claims": 5,
+  "h1_gate_passed": true,
+  "h2_statistical_gate_passed": true,
+  "h2_practical_gate_passed": false,
+  "zero_positive_calibration_events": true,
+  "final_unified_claim_established": false
+}

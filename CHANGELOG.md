@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.26.0 — 2026-09-25
+
+- Completed and independently audited all five sealed Stage-05D shards, the one-time Stage-05E analysis, and the Stage-05F locked literature/experimental synthesis.
+- Confirmed H1: FBCNN + nominal DPIR reduced primary-chain source detail MSE by 90.13% and passed its statistical and practical requirements.
+- Preserved the negative H2 decision: operator-spread selection reduced 50%-coverage retained-patch detail risk by 4.46%, which was statistically detectable but below the predeclared 5% practical threshold.
+- Recorded that the locked calibration event had zero positives across 286,720 patch rows; positive-event calibration and discrimination are not estimable.
+- Added the clean Stage-05F notebook and builder, compact Stage-05E/05F results, figures, manifests, a standalone validator, the final checkpoint, and a manuscript-ready draft.
+- Closed the original unified novelty claim and adopted the supported acquisition-chain and reliability-assessment paper direction.
+
 ## 0.25.0 — 2026-09-24
 
 - Passed all 11 outcome-blind pre-inference readiness requirements and recorded a versioned Stage-05D transition that authorizes only the exact hashed runner.

@@ -2,6 +2,17 @@
 
 This index distinguishes reproducible repository assets from large raw archives. The repository is the authoritative location for code, clean notebooks, small result tables, figures, manifests, checksums, and verification receipts. Raw datasets, model weights, executed notebooks, and large ZIP/NPZ bundles are retained outside ordinary Git history and are identified by hashes in committed receipts.
 
+## Final Stage 05 checkpoint
+
+- All five Stage-05D test shards completed and passed independent manifest readback.
+- Stage 05E unsealed and analysed 40 sources across seven chains exactly once.
+- H1 passed with a 90.13% primary-chain detail-MSE reduction.
+- H2 achieved a 4.46% reduction: statistically detectable, but below the locked 5% practical threshold.
+- The calibration event had zero positives across 286,720 patch rows; positive-event calibration is not estimable.
+- Stage 05F completed the literature/experimental synthesis. The original unified novelty claim is not established; the supported pivot is acquisition-chain and reliability assessment.
+- Compact 05E and 05F results are committed under `results/independent_05e_locked_analysis/` and `results/independent_05f_locked_synthesis/`.
+- Canonical and wrapper archive hashes, executed-notebook hashes and permitted/prohibited claims are recorded in `docs/stage_05_final_checkpoint.md`.
+
 ## Experimental stages
 
 | Stage | Canonical implementation | Committed evidence | Raw-artifact status |
@@ -16,8 +27,9 @@ This index distinguishes reproducible repository assets from large raw archives.
 | 05C engineering canary | `notebooks/05C_Independent_Validation_Engineering_Canary.ipynb` | `canary_readback_receipt.json` and amendment 0001 | Raw canary ZIP/executed notebook retained externally |
 | 05C1 development generation | `notebooks/05C1_Development_Reconstruction_Shards.ipynb` | Per-shard receipts and `development_shard_registry.json` | Shard ZIPs retained externally |
 | 05C2 reliability fitting | `notebooks/05C2_Development_Reliability_Training_and_Calibration.ipynb` and `experiments/independent_05/reliability_training.py` | `development_reliability_readback_receipt.json` and compact evidence under `development_reliability/` | Large ZIP, executed notebook, five model weights and prediction NPZ retained externally by hash |
-| 05D sealed held-out inference | `notebooks/05D_Locked_Independent_Evaluation_Shards.ipynb` and `experiments/independent_05/independent_run.py` | Readiness transition and current status; no test result exists | Exact runner authorized; five fixed shards unrun |
-| 05E one-time analysis | `notebooks/05E_One_Time_Locked_Independent_Analysis.ipynb` and `experiments/independent_05/independent_analysis.py` | Pre-result analysis lock and validators | Locked before 05D outputs; run only after all five sealed shards verify |
+| 05D sealed held-out inference | `notebooks/05D_Locked_Independent_Evaluation_Shards.ipynb` and `experiments/independent_05/independent_run.py` | Five returned shard archives passed independent manifest readback | Completed; raw shard ZIPs retained externally by hash |
+| 05E one-time analysis | `notebooks/05E_One_Time_Locked_Independent_Analysis.ipynb` and `experiments/independent_05/independent_analysis.py` | `results/independent_05e_locked_analysis/` and final checkpoint | Completed once; original ZIP and executed notebook retained externally by hash |
+| 05F locked synthesis | `notebooks/05F_Locked_Literature_and_Experimental_Synthesis.ipynb` | `results/independent_05f_locked_synthesis/`, final checkpoint and manuscript draft | Completed; original ZIP and executed notebook retained externally by hash |
 
 ## Current 05C1 checkpoint
 
@@ -47,12 +59,15 @@ This index distinguishes reproducible repository assets from large raw archives.
 - The trained ensemble has the lowest in-sample development-fit Brier score (0.12760) and ECE (0.00188) among the 11 mapped scores. This is not an independent calibration result or novelty claim.
 - The 05C2 result contains no independent-test loader or result. The subsequent readiness transition now authorizes the separate exact Stage-05D runner; no held-out result exists yet.
 
-## Current 05D/05E checkpoint
+## Current 05D/05E/05F checkpoint
 
-- All **11 of 11** frozen pre-inference requirements pass.
-- Stage 05D uses five immutable lexicographic shards of eight sources, 56 observations per shard, exact protocol/data/model/mapping hashes, resumable atomic records and no metric display or aggregate analysis.
-- Stage 05E was locked before any 05D output. It fixes H2 to `region=all`, 10,000 source bootstrap replicates, 100,000 sign flips per primary hypothesis, Holm correction, practical gates, source-equal calibration metrics and secondary source intervals.
-- Independent test inference is authorized but **not performed**; independent performance is **not inspected**; all five sealed shards remain pending.
+- Stage 05D completed all five immutable eight-source shards without intermediate performance inspection.
+- Stage 05E verified 625 manifested inputs, unsealed the complete test exactly once, and produced 280 source-chain observations, 1,680 quality rows and 33,600 risk rows.
+- H1 passed: 90.13% relative reduction in source detail MSE on `j75_b16_n2`.
+- H2 did not pass its combined gate: 4.46% relative selective-risk reduction is below the predeclared 5% threshold despite statistical significance.
+- No positive calibration events occurred at detail RMSE greater than 0.05 across 286,720 patch rows.
+- Stage 05F locked the 90-study literature boundary and rejected the original unified novelty claim while supporting the narrower acquisition-chain/reliability-assessment pivot.
+- The final archive, wrapper and executed-notebook hashes are recorded in `docs/stage_05_final_checkpoint.md`.
 
 ## Notebook policy
 

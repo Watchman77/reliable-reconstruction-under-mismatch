@@ -1,0 +1,73 @@
+{
+  "experiment_id": "independent_05",
+  "files": [
+    {
+      "byte_count": 11595,
+      "path": "calibration_bins.csv",
+      "sha256": "8d5eec62c6594e15273ed9d69c550866919d9c76a83c7d333fd507c745b2f77e"
+    },
+    {
+      "byte_count": 33395,
+      "path": "calibration_metrics.csv",
+      "sha256": "386cc54550e9bfb9d9d51bacdc817d9dc4a0af4cab2f9fdc90b0b72968047393"
+    },
+    {
+      "byte_count": 501,
+      "path": "checks.json",
+      "sha256": "a061c31e5e2529f4ebc207c583fa0216f5b9d667a0c85826c248882ccaa71c18"
+    },
+    {
+      "byte_count": 208778,
+      "path": "figures/independent_calibration_reliability.png",
+      "sha256": "32d04fa922d8a4396ef902969ab11fbfa6f8c619043fcc3e7ba1eb8b96f190f2"
+    },
+    {
+      "byte_count": 43154,
+      "path": "figures/primary_contrasts.png",
+      "sha256": "b37356eeb483b806399db95177db9884eb1cb78989ed670abacbda8fbb052502"
+    },
+    {
+      "byte_count": 126866,
+      "path": "figures/primary_risk_coverage.png",
+      "sha256": "479dd93eda605b15cec98d54a3e118e5fdb10cc62e0bfcf61f586df09670518c"
+    },
+    {
+      "byte_count": 2378,
+      "path": "primary_hypotheses.json",
+      "sha256": "29175da39176cb55187ea39671a4c4e2e849f3683bcff192a0a5f3ca06fa973f"
+    },
+    {
+      "byte_count": 7142,
+      "path": "primary_source_contrasts.csv",
+      "sha256": "f370433c2538b79d706e4326fa591daf57e246f1e414e4514562996721beb344"
+    },
+    {
+      "byte_count": 12030,
+      "path": "quality_summary.csv",
+      "sha256": "6a76de6954b13e8fdc2c9926884b8309312a59045673a877f74c3c1bc22acecb"
+    },
+    {
+      "byte_count": 280227,
+      "path": "risk_summary.csv",
+      "sha256": "53e0ec309a037b98bb6887ebe386538d61719eee9a3adb594d415978fd57acf8"
+    },
+    {
+      "byte_count": 14115,
+      "path": "source_manifest.csv",
+      "sha256": "5fb93c110867038330351d85e2b55a93b3140c7db12ff9b38986eed9650978c7"
+    },
+    {
+      "byte_count": 508,
+      "path": "status.json",
+      "sha256": "be4dd10e428d2790d217bd14451cf5328993ccebf73e1d34e40e04b382d1c00c"
+    },
+    {
+      "byte_count": 5784,
+      "path": "unsealing_receipt.json",
+      "sha256": "8b3aa7d30dc463ccdf86510309cd99544353030e90b8d088878470754c91cb19"
+    }
+  ],
+  "stage": "05E_one_time_locked_analysis",
+  "status": "passed_one_time_locked_analysis",
+  "unsealed": true
+}

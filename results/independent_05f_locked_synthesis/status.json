@@ -1,0 +1,11 @@
+{
+  "stage": "05F_locked_literature_and_experimental_synthesis",
+  "status": "completed_locked_synthesis",
+  "experiment_id": "independent_05",
+  "final_literature_novelty_claim_established": false,
+  "original_unified_claim_retained": false,
+  "narrow_acquisition_chain_contribution_supported": true,
+  "recommended_pivot": "acquisition_chain_and_reliability_assessment",
+  "next_stage": "manuscript_and_repository_checkpoint",
+  "updated_at_utc": "2026-09-25T02:40:52.566397+00:00"
+}

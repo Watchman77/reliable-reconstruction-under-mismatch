@@ -1,5 +1,15 @@
 # Research Decisions
 
+## 25 September 2026 — Final Stage 05 claim decision
+
+**Evidence:** all five sealed Stage-05D shards passed manifest readback; Stage 05E completed the one-time analysis of 40 sources across seven chains; and Stage 05F combined that result with the 90-study evidence boundary locked to 15 September 2026.
+
+**Decision:** reject the original unified evidence-calibrated selective-reconstruction novelty claim. H1 passed with a 90.13% source detail-MSE reduction on the primary JPEG chain. H2 produced a statistically detectable 4.46% selective-risk reduction but failed the predeclared 5% practical gate. The locked calibration event had zero positives across 286,720 patch rows, so positive-event calibration was not validated.
+
+**Supported direction:** an acquisition-chain and reliability-assessment paper that reports the strong compressed-chain reconstruction result, the uncompressed control, the negative H2 practical-gate decision, and the calibration boundary. Do not claim first-in-field status, universal superiority, fully calibrated uncertainty, hallucination-free recovery, guaranteed abstention, or forensic recovery.
+
+**Reproducibility:** the exact claims, hashes, compact results and manuscript wording are frozen in `docs/stage_05_final_checkpoint.md`, `results/independent_05e_locked_analysis/`, and `results/independent_05f_locked_synthesis/`.
+
 ## 16 September 2026 — Scope decision
 
 **Decision:** retain 2020–2026 as the primary evidence window. Use older work only for conceptual and mathematical background.

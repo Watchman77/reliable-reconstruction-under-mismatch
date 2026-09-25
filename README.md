@@ -13,7 +13,7 @@ Research repository for a journal-first programme on evidence-calibrated image r
 - Provisional synthesis 01 preserves its 88-include checkpoint; a P035 addendum now incorporates the final full text and sharpens the comparison. Current reading totals are 89 include recommendations and one exclude.
 - Phase-0 classical canary implemented and executed.
 - Formal database screening and the 100-image pilot remain outstanding.
-- Experimental work is now the user's priority. The classical and learned implementations, acquisition-chain diagnosis and audited JPEG-aware checkpoint are present. Stage 05 protocol/data audits, the CUDA canary, all 12 development shards and the returned 05C2 reliability fit passed independent readback. All 11 outcome-blind readiness requirements now pass; the exact five-shard Stage-05D runner is version-authorized, and the one-time Stage-05E analysis is locked before results. Held-out inference has not yet run, performance remains unseen, and the development calibration-fit diagnostics are not independent results.
+- Stage 05 independent evaluation is complete. All five sealed shards passed manifest verification; the one-time Stage 05E analysis inspected 40 sources across seven chains; and Stage 05F completed the locked literature/experimental synthesis. H1 passed with a 90.13% detail-MSE reduction. H2 was statistically detectable at 4.46% but failed the predeclared 5% practical gate. Positive-event calibration was not estimable because the locked event had zero positives across 286,720 patch rows. The original unified novelty claim is not established; the supported pivot is an acquisition-chain and reliability-assessment contribution.
 - A separate [four-source Colab pilot](experiments/colab_pilot_00/README.md) now has saved successful execution checks. Its fixed inverses underperform the degraded-input baseline, and operator spread does not beat the best simple control at 50% retention. A Drive export cell has been added; raw results and figure review remain pending.
 
 A stage-by-stage record of committed and externally retained artifacts is maintained in the [research artifact inventory](docs/artifact_inventory.md).
@@ -28,6 +28,12 @@ The [research topic and review reference](docs/research_topic_and_review_referen
 
 ## Current research decision
 
+## Stage 05 final result
+
+The independent experimental programme is closed. The [final checkpoint](docs/stage_05_final_checkpoint.md) and [manuscript draft](manuscript/manuscript_draft.md) preserve the locked decision. JPEG-aware FBCNN preprocessing before nominal DPIR reduced primary-chain source detail MSE by **90.13%** and passed H1. Operator-spread selection reduced 50%-coverage retained-patch detail risk by **4.46%** relative to image-transform spread; its statistical requirement passed but the predeclared **5%** practical requirement did not. The locked calibration event had zero positives, so positive-event calibration could not be validated.
+
+The defensible contribution is therefore a bounded acquisition-chain and reliability assessment. It is not a first-method, universally superior, fully calibrated, hallucination-free, or forensic-recovery claim.
+
 The [dataset and baseline audit](docs/dataset_and_baseline_audit_01.md) identifies DPIR's reported training overlap with DIV2K and the face/dog domains of the released blind diffusion checkpoints. The [new preparation workflow](experiments/selective_reconstruction/README.md) records source identities and controlled float measurements. Final evaluation data remain to be selected after checkpoint overlap checks; these development images are not held-out evidence.
 
 The [provisional gap synthesis](literature/synthesis/provisional_gap_synthesis_01.md) recommends a bounded first experiment: test whether operator-sensitive information improves the fidelity of selectively retained image detail beyond image-only uncertainty and residual scores, especially when an acquisition stage is absent from the assumed model. The [pilot specification](docs/selective_reconstruction_pilot_spec.md) defines the information budget, source-separated splits, comparison conditions, error target, compute controls and stop criteria. It is a design brief, not a completed experiment or registered guarantee.
@@ -40,7 +46,7 @@ The broad claim that physics-informed learning can improve reconstruction under 
 
 > Can accounting for uncertainty in an estimated forward operator improve the reliability of selectively released image detail when the true acquisition process leaves the assumed model family?
 
-Novelty is unestablished. This requires a specific contribution against the nearest methods, not a checklist of combined features. See the linked screening report for primary sources, demonstrated overlaps and a bounded feasibility comparison.
+The broad unified novelty claim was not established by the locked independent experiment. The supported contribution is the acquisition-chain-specific reconstruction result and the transparent reliability boundary documented in the [Stage 05 final checkpoint](docs/stage_05_final_checkpoint.md).
 
 ## Repository structure
 
@@ -83,18 +89,17 @@ python experiments/phase0_canary/pilot.py \
   --output-dir results/natural_images
 ```
 
-## Immediate research gate
+## Immediate manuscript gate
 
-Feasibility work can proceed while the deferred review tasks are completed. Before a custom journal architecture and definitive claims:
+The independent experiment is complete. Before journal submission:
 
-1. register and execute the review protocol;
-2. full-text verify the nearest competitors;
-3. run the frozen mismatch ladder on at least 100 held-out natural images;
-4. compare classical, operator-oblivious, operator-conditioned and blind-generative baselines;
-5. calibrate reliability scores on validation data only;
-6. evaluate risk–coverage, unsupported-detail detection and cross-device transfer.
+1. complete human review adjudication and formal search accounting without relabelling the current evidence map as a completed systematic review;
+2. insert verified citations for the nearest competitors in the manuscript draft;
+3. preserve the failed H2 practical gate and the zero-event calibration boundary;
+4. select a target journal and adapt length, structure, figures and reference style;
+5. complete co-author review, author-contribution, funding, conflict, licence and ethics statements.
 
-Reproduce the checkpoint-11 synthesis inventory with `python scripts/build_synthesis_snapshot.py --check`. The descriptive counts cover extracted evidence in the 88 include-recommended records; they are not field-wide prevalence or independent-study estimates.
+Run `python scripts/validate_independent_05f.py /path/to/stage_05f.zip` to verify the final synthesis archive. Reproduce the checkpoint-11 synthesis inventory with `python scripts/build_synthesis_snapshot.py --check` when reviewing the earlier evidence snapshot.
 
 ## Research integrity
 

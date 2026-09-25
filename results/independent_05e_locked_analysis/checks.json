@@ -1,0 +1,20 @@
+{
+  "bootstrap_replicates": 10000,
+  "calibration_patch_rows": 286720,
+  "calibration_scores": 11,
+  "chains": 7,
+  "figures": [
+    "figures/primary_contrasts.png",
+    "figures/primary_risk_coverage.png",
+    "figures/independent_calibration_reliability.png"
+  ],
+  "holm_hypotheses": 2,
+  "manifest_files_checked": 625,
+  "observations": 280,
+  "quality_rows": 1680,
+  "risk_rows": 33600,
+  "sealed_shards": 5,
+  "sign_flip_replicates_per_hypothesis": 100000,
+  "sources": 40,
+  "unsealed": true
+}

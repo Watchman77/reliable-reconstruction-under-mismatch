@@ -1,0 +1,13 @@
+{
+  "both_confirmatory_gates_passed": false,
+  "experiment_id": "independent_05",
+  "experimental_novelty_gate_passed": false,
+  "final_literature_novelty_claim_established": false,
+  "independent_test_performance_inspected": true,
+  "independent_test_run_complete": true,
+  "next_stage": "05F_locked_literature_and_experimental_synthesis",
+  "stage": "05E_one_time_locked_analysis",
+  "status": "passed_one_time_locked_analysis",
+  "unsealed": true,
+  "updated_at_utc": "2026-09-25T01:53:11.704680+00:00"
+}
