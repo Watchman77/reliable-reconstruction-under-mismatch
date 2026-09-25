@@ -1,0 +1,47 @@
+{
+  "stage": "06A_development_event_threshold_sensitivity",
+  "development_only": true,
+  "stage05_evidence_modified": false,
+  "files": [
+    {
+      "path": "threshold_summary.csv",
+      "byte_count": 1191,
+      "sha256": "651c0981f3444574db3fc1bc635903ddba0e8ba49b0f551fcdf31f1d1257a5a0"
+    },
+    {
+      "path": "chain_threshold_summary.csv",
+      "byte_count": 2776,
+      "sha256": "caee84d9b329e12e7c61cc557d83b2f835750410699f0803fcde0d7ed8439c44"
+    },
+    {
+      "path": "source_threshold_summary.csv",
+      "byte_count": 9563,
+      "sha256": "46acc428780f9d49077b6c76dd46e7f29ca3d7fdca2d1f6a01c4a1b69460dd6f"
+    },
+    {
+      "path": "input_archive_verification.csv",
+      "byte_count": 740,
+      "sha256": "1788f7ac8e6af63addda82a8428847d20109f6337cfb45af01581a5b68ce78ea"
+    },
+    {
+      "path": "summary.json",
+      "byte_count": 707,
+      "sha256": "0189cb37fa14e91d15e616a5dd479a4ffd83c95864c697b311c783464894f584"
+    },
+    {
+      "path": "development_event_prevalence_curve.png",
+      "byte_count": 146092,
+      "sha256": "dd8bf3d0ed8b8d5deb13eb227dbd86fc0717b2b14de5106dff54c0b155a19c3d"
+    },
+    {
+      "path": "development_chain_threshold_heatmap.png",
+      "byte_count": 166368,
+      "sha256": "a6c7e42b128215d550c3ee6a9b05d932190a2211e0ac558c8a650265ff439245"
+    },
+    {
+      "path": "development_source_prevalence_distribution.png",
+      "byte_count": 50152,
+      "sha256": "19751aa76957fc41dc276c8b73f8750c741cf9c32c10973686f22c28c42698cb"
+    }
+  ]
+}
