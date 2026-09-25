@@ -27,6 +27,36 @@ Run `notebooks/06A_Development_Event_Threshold_Sensitivity.ipynb`. In Colab, mou
 
 Expected outputs are in `results/stage06a_development_threshold_sensitivity/`.
 
+## External-source audit
+
+Create a CSV with `source_id`, `relative_path`, and `role`, with every role represented, then run:
+
+```bash
+python scripts/audit_stage06_external_dataset.py \
+  --candidate-dir /path/to/images \
+  --roles-csv /path/to/source_roles.csv \
+  --reference-manifest /path/to/stage05_source_manifest.csv \
+  --output-dir results/stage06b_external_audit
+```
+
+The audit fails closed on exact or perceptual-overlap candidates. Perceptual candidates still require manual paired-image review. Camera RAW inputs require `rawpy`; its version and rendering settings must be frozen.
+
+## Reliability development and external pilot
+
+Prepare one row per patch with source role, observed detail RMSE, chain-aware features, and image-only comparator features. For example:
+
+```bash
+python scripts/fit_stage06_reliability.py \
+  --table results/stage06d_features.csv \
+  --chain-aware-features forward_consistency_residual,cross_chain_disagreement,solver_uncertainty \
+  --image-only-features image_texture,image_contrast,solver_uncertainty \
+  --forward-residual-feature forward_consistency_residual \
+  --evaluation-role external_pilot \
+  --output-dir results/stage06d_reliability
+```
+
+The runner selects hyperparameters on source-disjoint early-stop data, fits on development fit plus early-stop data, calibrates only on development calibration data, and evaluates on the external pilot. Independent evaluation is blocked unless the explicit post-freeze flag is supplied.
+
 ## Before Stage 06F
 
 Complete `docs/stage_06_execution_checklist.md`, fill `freeze_spec.template.json`, and run:
@@ -36,4 +66,3 @@ python scripts/validate_stage06_freeze.py path/to/freeze_spec.json
 ```
 
 The validator checks required declarations, source-role disjointness, artifact sizes, and SHA-256 hashes. Passing validation is necessary but does not itself authorise unsealing; the timestamped freeze receipt must also be archived.
-
