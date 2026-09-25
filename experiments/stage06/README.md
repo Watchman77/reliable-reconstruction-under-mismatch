@@ -8,7 +8,7 @@ Stage 06 is a new study. It does not reopen Stage 05.
 | --- | --- | --- |
 | 06A | Development-only event-threshold sensitivity | Executed |
 | 06B | External-source provenance and overlap audit | 1,000 NEFs checked; 994-source eligibility v1 recorded; source-identity audit complete, final access/lineage decision pending |
-| 06C | Second solver and alternate acquisition-chain development | Development work may proceed on eligible fit/early-stop sources; configurations not yet frozen |
+| 06C | Second solver and alternate acquisition-chain development | Alternate chain smoke-tested on three verified early-stop RAISE NEFs; second solver not yet run or frozen |
 | 06D | Continuous/severity calibration and chain-aware reliability score | Interface specified; training not yet run |
 | 06E | Preregistration and cryptographic freeze | Template ready; blocked on 06B–06D |
 | 06F | One-time sealed independent evaluation | Not run |
@@ -34,6 +34,10 @@ Stage 06A is executed and the RAISE-1k source-identity audit is complete. Procee
 5. **06G — Manuscript synthesis:** revise the unified manuscript against those locked results. The current Stage 05 manuscript is a baseline draft, not a place to prewrite Stage 06 claims. Keep development diagnostics in their research records until this stage.
 
 If a later chat resumes this project, follow this order and the latest execution receipts. Do not return to a checkpoint-provenance discussion as a stand-alone project or advance manuscript claims before the novelty experiments are complete.
+
+## Latest 06C execution receipt
+
+The [real RAISE acquisition-chain smoke test](../../docs/stage_06c_raise_acquisition_smoke_2026-09-25.md) ran on three verified `development_early_stop` NEFs. Its [source metrics](../../results/stage06c_raise_acquisition_smoke/source_chain_smoke.csv) and [hash receipt](../../results/stage06c_raise_acquisition_smoke/summary.json) confirm that the alternate chain runs on real external RAW images. This was acquisition engineering only; DiffPIR and the paired reconstruction comparison have not run. The next step remains checkpoint pinning and permitted development solver runs, followed by 06D–06F and finally the manuscript.
 
 ## External-source audit
 
