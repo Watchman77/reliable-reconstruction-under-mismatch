@@ -1,0 +1,77 @@
+{
+  "stage": "05F_locked_literature_and_experimental_synthesis",
+  "status": "completed_locked_synthesis",
+  "experiment_id": "independent_05",
+  "completed_at_utc": "2026-09-25T02:40:52.565230+00:00",
+  "independent_evaluation_complete": true,
+  "literature_synthesis_complete": true,
+  "experimental_novelty_gate_passed": false,
+  "final_literature_novelty_claim_established": false,
+  "original_unified_claim_retained": false,
+  "narrow_acquisition_chain_contribution_supported": true,
+  "recommended_pivot": "acquisition_chain_and_reliability_assessment",
+  "h1_reconstruction": {
+    "comparator_mean": 0.00012952713644371567,
+    "confirmatory_gate_passed": true,
+    "continuity_correction": "(extreme + 1) / (randomizations + 1)",
+    "contrast": "fbcnn_dpir_nominal minus dpir_nominal",
+    "endpoint": "source detail MSE at j75_b16_n2",
+    "extreme_randomizations": 0,
+    "holm_adjusted_p_value": 1.999980000199998e-05,
+    "mean_difference": -0.00011674353138402897,
+    "observed_mean_difference": -0.00011674353138402897,
+    "p_value_one_sided": 9.99990000099999e-06,
+    "paired_source_bootstrap_95_ci": [
+      -0.00016701316321528922,
+      -7.438408895036553e-05
+    ],
+    "practical_gate_passed": true,
+    "practical_gate_threshold": 0.05,
+    "randomizations": 100000,
+    "relative_reduction": 0.901305584214458,
+    "sources": 40,
+    "statistical_gate_passed": true,
+    "unit": "source"
+  },
+  "h2_selection": {
+    "comparator_mean": 5.814734535170369e-06,
+    "confirmatory_gate_passed": false,
+    "continuity_correction": "(extreme + 1) / (randomizations + 1)",
+    "contrast": "operator_spread_detail risk minus image_transform_spread_detail risk",
+    "endpoint": "source retained-patch detail MSE at j75_b16_n2, coverage 0.5, region all",
+    "extreme_randomizations": 0,
+    "holm_adjusted_p_value": 1.999980000199998e-05,
+    "mean_difference": -2.5957220686594475e-07,
+    "observed_mean_difference": -2.5957220686594475e-07,
+    "p_value_one_sided": 9.99990000099999e-06,
+    "paired_source_bootstrap_95_ci": [
+      -5.136091915017309e-07,
+      -8.984511273363696e-08
+    ],
+    "practical_gate_passed": false,
+    "practical_gate_threshold": 0.05,
+    "randomizations": 100000,
+    "relative_reduction": 0.044640422584371585,
+    "sources": 40,
+    "statistical_gate_passed": true,
+    "unit": "source"
+  },
+  "calibration_boundary": {
+    "locked_event": "centre 16x16 patch detail RMSE > 0.05",
+    "patch_rows": 286720,
+    "observed_positive_events_in_reliability_bins": 0,
+    "positive_event_calibration_estimable": false,
+    "interpretation": "The maps overpredicted this event; positive-event calibration was not validated."
+  },
+  "literature_boundary": {
+    "cutoff_date": "2026-09-15",
+    "studies": 90,
+    "peer_reviewed": 81,
+    "closest_competitors": 62,
+    "source_gap_map_sha256": "873701f82aed5cb244d222dbb9544fa3d6da5801c9e87ce350479106a9d6a5fb",
+    "source_review_matrix_sha256": "3291b46520bcca12f0c1caf971fe9b0852ecf8e7662df453e7ed2b4a5bc4c5fd",
+    "embedded_canonical_snapshot_sha256": "3596bc71e6ff585b749edafb0845dbd88a324e3c9c811b1ca395ca9ffe073387",
+    "boundary_statement": "The broad ideas of physics-informed mismatch handling, blind image/operator inference, all-in-one restoration, diffusion priors, and uncertainty alone are already occupied. The original unified evidence-calibrated selective-reconstruction claim is not established by Experiment 05 because its combined gate did not pass."
+  },
+  "next_stage": "manuscript_and_repository_checkpoint"
+}

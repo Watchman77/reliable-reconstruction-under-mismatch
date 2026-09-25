@@ -1,22 +1,20 @@
 # Roadmap
 
-## Current checkpoint — 24 September 2026
+## Current checkpoint — 25 September 2026
 
-Completed: initial triage and all 90 AI full-text assessments (89 include recommendations, one exclude), a provisional synthesis, classical and learned baselines, acquisition-chain diagnosis, the audited JPEG-aware experiment, the Stage 05 protocol/data audit, the CUDA canary, and all 12 development reconstruction shards. Human review adjudication and formal database-search accounting remain outstanding.
+Stage 05 is complete. All five sealed independent-evaluation shards passed readback, Stage 05E performed the one-time locked analysis, and Stage 05F completed the literature/experimental synthesis.
 
-Latest: the returned 05C2 CUDA run passed independent readback. The outcome-blind readiness audit subsequently passed all 11 frozen requirements, and the exact Stage-05D runner is now authorized by a versioned transition. Five fixed sealed shards of eight TESTIMAGES sources are ready to run. The complete one-time Stage-05E analysis was also locked before any independent output existed. Test inference is authorized but not yet performed; performance remains unseen.
+| Component | Final status | Locked evidence |
+| --- | --- | --- |
+| Independent held-out evaluation | Completed | 40 sources, seven chains, 280 source-chain observations |
+| Reconstruction hypothesis H1 | Passed | 90.13% primary-chain detail-MSE reduction |
+| Selection hypothesis H2 | Did not pass combined gate | 4.46% reduction; statistical gate passed, 5% practical gate failed |
+| Calibration assessment | Boundary established | zero positive events across 286,720 patch rows; positive-event calibration not estimable |
+| Unified novelty claim | Not established | combined experimental gate failed |
+| Supported contribution | Proceed | acquisition-chain and reliability-assessment paper |
+| Repository checkpoint | Prepared | clean notebooks, compact results, figures, hashes, validator and manuscript draft |
 
-The user prioritised the experimental track. Development data are explicitly separated from the 40-source sealed TESTIMAGES cohort; documented checkpoint exposure, exact/near-duplicate checks, source partitions, metrics and statistical gates are frozen. Review work remains deferred apart from evidence directly relevant to the experimental decision.
-
-| Track | Next concrete task | Deliverable / completion evidence |
-|---|---|---|
-| Feasibility — completed | Five frozen PatchErrorNet members and 11 source-equal-weighted isotonic mappings fitted on development partitions only. | 05C2 result ZIP and executed notebook passed independent readback; model receipts, mappings and diagnostics are hash-verified. |
-| Feasibility — ready | Run fixed Stage-05D shard indices 0–4 without opening intermediate metrics. | Five sealed 56-observation ZIPs with exact manifests and locks. |
-| Feasibility — evaluate | After all five shards verify, run the already locked Stage-05E analysis exactly once. | Source-level intervals, H1/H2 decisions, independent calibration report and bounded experimental novelty decision. |
-| Evidence — completed AI assessment | Preserve P035 and all 90 criterion-level recommendations pending human adjudication. | Human decisions and formal review counts, separate from the experimental claim. |
-| Evidence — deferred | Complete formal search accounting, human adjudication, necessary version checks and lineage grouping. | Auditable final review decisions and search records; no final novelty claim before sufficient evidence. |
-
-See [provisional synthesis 01](../literature/synthesis/provisional_gap_synthesis_01.md) for the three ranked candidate problems and the explanation of what existing methods already cover. Candidate 1 is operator-sensitive selective reconstruction; constrained residual correction and temporal extension are later alternatives.
+The next task is manuscript completion rather than another unplanned experiment. Verified citations must be inserted from the locked evidence files, a target journal selected, and co-author review completed. A future calibration-threshold or real-device study must be declared as a new experiment and must not retroactively change Stage 05.
 
 ## Phase 1 — Formal evidence review
 

@@ -1,0 +1,57 @@
+{
+  "both_confirmatory_gates_passed": false,
+  "claim_boundary": "Passing both gates establishes the predeclared independent experimental gate only. The final novelty claim still requires Stage-05F synthesis against the locked literature boundary.",
+  "experiment_id": "independent_05",
+  "experimental_novelty_gate_passed": false,
+  "final_literature_novelty_claim_established": false,
+  "hypotheses": {
+    "H1_reconstruction": {
+      "comparator_mean": 0.00012952713644371567,
+      "confirmatory_gate_passed": true,
+      "continuity_correction": "(extreme + 1) / (randomizations + 1)",
+      "contrast": "fbcnn_dpir_nominal minus dpir_nominal",
+      "endpoint": "source detail MSE at j75_b16_n2",
+      "extreme_randomizations": 0,
+      "holm_adjusted_p_value": 1.999980000199998e-05,
+      "mean_difference": -0.00011674353138402897,
+      "observed_mean_difference": -0.00011674353138402897,
+      "p_value_one_sided": 9.99990000099999e-06,
+      "paired_source_bootstrap_95_ci": [
+        -0.00016701316321528922,
+        -7.438408895036553e-05
+      ],
+      "practical_gate_passed": true,
+      "practical_gate_threshold": 0.05,
+      "randomizations": 100000,
+      "relative_reduction": 0.901305584214458,
+      "sources": 40,
+      "statistical_gate_passed": true,
+      "unit": "source"
+    },
+    "H2_selection": {
+      "comparator_mean": 5.814734535170369e-06,
+      "confirmatory_gate_passed": false,
+      "continuity_correction": "(extreme + 1) / (randomizations + 1)",
+      "contrast": "operator_spread_detail risk minus image_transform_spread_detail risk",
+      "endpoint": "source retained-patch detail MSE at j75_b16_n2, coverage 0.5, region all",
+      "extreme_randomizations": 0,
+      "holm_adjusted_p_value": 1.999980000199998e-05,
+      "mean_difference": -2.5957220686594475e-07,
+      "observed_mean_difference": -2.5957220686594475e-07,
+      "p_value_one_sided": 9.99990000099999e-06,
+      "paired_source_bootstrap_95_ci": [
+        -5.136091915017309e-07,
+        -8.984511273363696e-08
+      ],
+      "practical_gate_passed": false,
+      "practical_gate_threshold": 0.05,
+      "randomizations": 100000,
+      "relative_reduction": 0.044640422584371585,
+      "sources": 40,
+      "statistical_gate_passed": true,
+      "unit": "source"
+    }
+  },
+  "multiplicity": "Holm across H1 and H2",
+  "stage": "05E_one_time_locked_analysis"
+}

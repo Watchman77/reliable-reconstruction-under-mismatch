@@ -1,0 +1,20 @@
+{
+  "stage_05e_archive_path": "/workspace/scratch/af6f5594d86c/upload/independent_05e_locked_analysis-20260925T015705Z-1-001.zip",
+  "stage_05e_outer_sha256": "dbb638d70dcca913393bb5ceb2df339d3eb2e06850a9cf1f3964e18ac1e742ca",
+  "stage_05e_expected_original_outer_sha256": "6566319869d7b2c86902aa4f29d071c8a7bdbbce2bbe1b5a9649f4aaab690fa3",
+  "stage_05e_is_original_notebook_zip": false,
+  "stage_05e_internal_manifest_sha256": "430f800be0aed807d5a9720221418696619c484c4452c64b00101e4bb3cef7dd",
+  "stage_05e_manifest_files_checked": 13,
+  "stage_05e_sources": 40,
+  "stage_05e_sealed_shards": 5,
+  "literature_boundary": {
+    "cutoff_date": "2026-09-15",
+    "studies": 90,
+    "peer_reviewed": 81,
+    "closest_competitors": 62,
+    "source_gap_map_sha256": "873701f82aed5cb244d222dbb9544fa3d6da5801c9e87ce350479106a9d6a5fb",
+    "source_review_matrix_sha256": "3291b46520bcca12f0c1caf971fe9b0852ecf8e7662df453e7ed2b4a5bc4c5fd",
+    "embedded_canonical_snapshot_sha256": "3596bc71e6ff585b749edafb0845dbd88a324e3c9c811b1ca395ca9ffe073387",
+    "boundary_statement": "The broad ideas of physics-informed mismatch handling, blind image/operator inference, all-in-one restoration, diffusion priors, and uncertainty alone are already occupied. The original unified evidence-calibrated selective-reconstruction claim is not established by Experiment 05 because its combined gate did not pass."
+  }
+}

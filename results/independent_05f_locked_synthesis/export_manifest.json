@@ -1,0 +1,67 @@
+{
+  "stage": "05F_locked_literature_and_experimental_synthesis",
+  "status": "completed_locked_synthesis",
+  "experiment_id": "independent_05",
+  "files": [
+    {
+      "path": "calibration_brier_point_estimates.csv",
+      "byte_count": 1703,
+      "sha256": "86e9bb6e6dad4d00c87c54f1ec02e26ce22e42b04ea18fd987a717dd80fa3932"
+    },
+    {
+      "path": "checks.json",
+      "byte_count": 405,
+      "sha256": "9e6fc249e9c7e562aa6d02cc1d1acae709994829ba3b36624ca389a0b5d44df0"
+    },
+    {
+      "path": "claim_decisions.csv",
+      "byte_count": 2084,
+      "sha256": "a5987e17355dd0e4620b36cbb29595ca0a295d2c249b20294649257c307efdb9"
+    },
+    {
+      "path": "figures/independent_chain_reconstruction_effect.png",
+      "byte_count": 92594,
+      "sha256": "736c48fe42be44bbed0d2258f20e07c75bb36216aeae64bf62976851e4c2264f"
+    },
+    {
+      "path": "input_receipt.json",
+      "byte_count": 1396,
+      "sha256": "462bef2aed6849f6e1fe7edbf133ccda0a16e9181403892cd497a756b5a59d30"
+    },
+    {
+      "path": "literature_snapshot.csv",
+      "byte_count": 46672,
+      "sha256": "3596bc71e6ff585b749edafb0845dbd88a324e3c9c811b1ca395ca9ffe073387"
+    },
+    {
+      "path": "manuscript_results.md",
+      "byte_count": 4377,
+      "sha256": "d4d737631f558e1e29554a7ea0a3ae73cabc59273744dfd51311b3f1063c0638"
+    },
+    {
+      "path": "nearest_competitors.csv",
+      "byte_count": 32987,
+      "sha256": "b2d8161af5c33755a3430045b7e11174e1f8e6a784e0e0b82e9311d5943e944c"
+    },
+    {
+      "path": "primary_risk_coverage.csv",
+      "byte_count": 6429,
+      "sha256": "93a063f9925599749c5ad5cd60c9a5f01ef4e6831832a4e8562d392ec2cd5f0e"
+    },
+    {
+      "path": "secondary_chain_effects.csv",
+      "byte_count": 781,
+      "sha256": "16e3108d98a319e22a63818eec9eea4cb4471f8f946432b76229e38d96b711ed"
+    },
+    {
+      "path": "status.json",
+      "byte_count": 485,
+      "sha256": "031d7df6212924305ad6b492d72d0b05ec7356cad0490a0cc2e99fb254f9aaf3"
+    },
+    {
+      "path": "synthesis_decision.json",
+      "byte_count": 3536,
+      "sha256": "92820ffa54a2fe4bd76decd351284527e100a164d84e4544784da46a97d06d89"
+    }
+  ]
+}

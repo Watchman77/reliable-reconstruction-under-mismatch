@@ -2,15 +2,13 @@
 
 ## Current state
 
-Stages 05A–05C are complete: the protocol is frozen, the documented dataset/checkpoint exposure audit passes, the data receipt is complete, and the development comparator/calibration result passed independent readback. The official TESTIMAGES archive matches the publisher SHA-256, all 40 sealed sources decode as RGB 2400 × 2400, and the exhaustive 40 × 96 comparison against the locked DIV2K development pool found zero exact or near-duplicate candidates.
+Stages 05A–05F are complete. The protocol, development/test separation, duplicate audit, CUDA canary, 12 development shards, PatchErrorNet ensemble, 11 calibration mappings, five sealed test shards, one-time analysis and final literature/experimental synthesis all passed their recorded integrity checks.
 
-No independent reconstruction has yet been run and no test performance has been inspected. The development-only `0805`–`0806` CUDA canary and all 12 development shards (`0805`–`0900`) passed independent readback, covering 96 sources and 672 observations. Container-repackaging findings remain recorded, while every scientific payload was accepted only after complete internal-manifest verification.
+The independent test contains 40 sealed TESTIMAGES sources across seven acquisition chains. Stage 05E recorded 280 source-chain observations, 1,680 quality rows, 33,600 risk rows, 10,000 paired source-bootstrap replicates and 100,000 sign-flip randomisations per confirmatory hypothesis.
 
-The returned 05C2 CUDA result has 27 exactly matching manifested files, five internally consistent PatchErrorNet members, disjoint 52/12/32 source partitions, and 11 source-equal-weighted isotonic mappings fitted only on DIV2K `0869`–`0900`. The 229,376-row calibration diagnostics reproduce to a maximum absolute difference of \(1.74 \times 10^{-17}\). These remain development-fit diagnostics, not independent calibration evidence.
+H1 passed: FBCNN preprocessing followed by nominal DPIR reduced source detail MSE by 90.13% on the primary `j75_b16_n2` chain. H2 did not pass its combined confirmatory gate: operator-spread selection reduced 50%-coverage retained-patch detail risk by 4.46% relative to image-transform spread, which was statistically detectable but below the predeclared 5% practical threshold. No positive calibration event occurred at centre-patch detail RMSE greater than 0.05 across 286,720 rows, so positive-event calibration is not estimable.
 
-The outcome-blind Stage-05D readiness audit now passes all 11 frozen requirements. Amendment 0002 resolves only pre-outcome execution details: H2 uses the full evaluation region, score ties use ascending patch index, and the 40 sources are split lexicographically into five fixed shards of eight. The versioned transition explicitly authorizes the exact hashed runner. The self-contained 05D notebook writes sealed, resumable shard evidence and never displays performance. The one-time 05E analysis—including H1/H2 formulas, bootstrap, sign-flip tests, Holm correction and calibration conventions—was also hash-locked before any Stage-05D output existed. Test inference is authorized, but remains unperformed; test performance remains unseen.
-
-The strict primary cohort is the 40-image TESTIMAGES/SAMPLING 8-bit RGB 2400 × 2400 archive. The audit found no documented exposure in the reviewed pinned FBCNN and DPIR sources. Because checkpoint-level image manifests are unavailable, this is not proof of non-exposure.
+Stage 05F therefore rejects the original unified novelty claim and supports a narrower acquisition-chain and reliability-assessment contribution. The exact decision, archive hashes, permitted wording and prohibited claims are in `../../docs/stage_05_final_checkpoint.md`. Compact 05E and 05F evidence is committed under `../../results/`; large sealed shards, original ZIPs and executed notebooks remain external immutable records linked by SHA-256.
 
 ## Files
 
@@ -56,6 +54,11 @@ The strict primary cohort is the 40-image TESTIMAGES/SAMPLING 8-bit RGB 2400 × 
 - `../../notebooks/05C2_Development_Reliability_Training_and_Calibration.ipynb` — self-contained CUDA trainer/calibrator with resumable and parallel member support.
 - `../../notebooks/05D_Locked_Independent_Evaluation_Shards.ipynb` — self-contained sealed CUDA worker for fixed shard indices `0`–`4`.
 - `../../notebooks/05E_One_Time_Locked_Independent_Analysis.ipynb` — precommitted all-shard verification and one-time unsealing notebook.
+- `../../notebooks/05F_Locked_Literature_and_Experimental_Synthesis.ipynb` — locked literature/experimental synthesis and final claim-decision notebook.
+- `../../results/independent_05e_locked_analysis/` — compact one-time analysis evidence and figures.
+- `../../results/independent_05f_locked_synthesis/` — compact final synthesis, claim decisions, literature snapshot and figure.
+- `../../docs/stage_05_final_checkpoint.md` — final claim boundary, archive receipts and repository disposition.
+- `../../manuscript/manuscript_draft.md` — manuscript-ready evidence-locked draft.
 - `../../docs/experiment_05_independent_validation_protocol.md` — human-readable protocol.
 - `../../scripts/validate_independent_05_protocol.py` — deterministic structural validator.
 - `../../scripts/prepare_independent_05_data.py` — deterministic data-receipt and duplicate-audit utility.
@@ -66,6 +69,7 @@ The strict primary cohort is the 40-image TESTIMAGES/SAMPLING 8-bit RGB 2400 × 
 - `../../scripts/validate_independent_05c2_result.py` — independent returned-result and executed-notebook readback validator.
 - `../../scripts/validate_independent_05d.py` — transition, runner, shard-map and sealed-notebook validator.
 - `../../scripts/validate_independent_05e.py` — pre-result analysis-lock, statistical and unsealing-notebook validator.
+- `../../scripts/validate_independent_05f.py` — final directory/ZIP manifest and claim-decision validator.
 
 ## Validate
 
