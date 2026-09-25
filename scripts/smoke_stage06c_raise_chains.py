@@ -25,6 +25,7 @@ from experiments.stage06.acquisition_chains import (  # noqa: E402
 )
 
 ELIGIBLE_SHA256 = "a989e066ab5c66bec753719b3a3006c15a0635504f63977750a9192aa2995426"
+AUDIT_SHA256 = "b33e76252c40c14416e8dfbe944404413cdd76e8d5696df566596ffa80335dec"
 ALLOWED_ROLES = {"development_fit", "development_early_stop"}
 RENDERER = {
     "use_camera_wb": False,
@@ -63,6 +64,8 @@ def authorize_inputs(
 ) -> tuple[list[dict[str, str]], str]:
     if sha256_file(manifest) != ELIGIBLE_SHA256:
         raise ValueError("The eligible-source manifest does not match the reviewed 06B v1 receipt")
+    if sha256_file(audit) != AUDIT_SHA256:
+        raise ValueError("The source audit CSV does not match the reviewed 06B v1 receipt")
     eligible = load_unique_rows(manifest)
     if len(eligible) != 994:
         raise ValueError("Expected exactly 994 eligible source identities")
@@ -91,7 +94,7 @@ def authorize_inputs(
         selected.append({"source_id": source_id, "role": role["role"],
                          "nef": str(nef.resolve()), "raw_sha256": digest,
                          "decoded_rgb_sha256": check["decoded_rgb_sha256"]})
-    return sorted(selected, key=lambda row: row["source_id"]), sha256_file(audit)
+    return sorted(selected, key=lambda row: row["source_id"]), AUDIT_SHA256
 
 
 def decode_verified(nef: Path, expected_hash: str) -> np.ndarray:
