@@ -1,0 +1,81 @@
+{
+  "schema_version": "stage06-freeze-v1",
+  "study_id": "stage06_external_transport_chain_reliability",
+  "frozen_at_utc": "REPLACE_AT_FREEZE",
+  "stage05_immutable": true,
+  "source_unit": "image_source",
+  "primary_questions": [
+    "external acquisition-aware reconstruction effect",
+    "second-solver replication",
+    "chain-aware continuous calibration improvement"
+  ],
+  "primary_continuous_target": "centre_patch_detail_rmse",
+  "event_thresholds_rmse": [0.03, 0.05, 0.075],
+  "primary_operational_threshold_rmse": "REPLACE_AFTER_DEVELOPMENT_DECISION_ANALYSIS",
+  "multiplicity_rule": "REPLACE_BEFORE_FREEZE",
+  "unsupported_event_rule": "Report binary calibration as non-estimable; do not change the endpoint; retain continuous and severity results.",
+  "external_dataset": {
+    "name": "REPLACE",
+    "version": "REPLACE",
+    "license": "REPLACE",
+    "source_url": "REPLACE",
+    "archive_sha256": "REPLACE",
+    "training_overlap_risk": "REPLACE_WITH_DOCUMENTED_AUDIT"
+  },
+  "solvers": [
+    {
+      "role": "primary",
+      "name": "DPIR",
+      "checkpoint_id": "REPLACE_WITH_FROZEN_IDENTIFIER"
+    },
+    {
+      "role": "replication",
+      "name": "REPLACE_WITH_SECOND_SOLVER",
+      "checkpoint_id": "REPLACE_WITH_FROZEN_IDENTIFIER"
+    }
+  ],
+  "acquisition_chains": [
+    "REPLACE_WITH_FROZEN_STAGE05_COMPATIBLE_CHAINS",
+    "REPLACE_WITH_ALTERNATE_STAGE_CHAIN"
+  ],
+  "reliability_score": {
+    "name": "chain_aware_forward_disagreement_score",
+    "features": [
+      "forward_consistency_residual",
+      "cross_chain_reconstruction_disagreement",
+      "solver_uncertainty"
+    ],
+    "fit_partition": "development_fit",
+    "calibration_partition": "development_calibration"
+  },
+  "comparators": [
+    "constant_base_rate",
+    "image_only_proxy",
+    "solver_residual_only",
+    "strong_trained_chain_agnostic_uncertainty"
+  ],
+  "source_roles": {
+    "development_fit": [],
+    "development_early_stop": [],
+    "development_calibration": [],
+    "external_pilot": [],
+    "independent_test": []
+  },
+  "sample_size": {
+    "independent_source_count": "REPLACE",
+    "design_basis": "REPLACE_WITH_SOURCE_LEVEL_PRECISION_AND_EVENT_SUPPORT_CALCULATION"
+  },
+  "random_seeds": {
+    "data": "REPLACE",
+    "model": "REPLACE",
+    "bootstrap": "REPLACE"
+  },
+  "artifacts": [
+    {
+      "path": "REPLACE_WITH_PATH_RELATIVE_TO_FREEZE_ROOT",
+      "byte_count": "REPLACE",
+      "sha256": "REPLACE"
+    }
+  ]
+}
+

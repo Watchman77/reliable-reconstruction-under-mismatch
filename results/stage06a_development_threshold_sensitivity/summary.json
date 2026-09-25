@@ -1,0 +1,22 @@
+{
+  "stage": "06A_development_event_threshold_sensitivity",
+  "role": "development_only_post_stage05_diagnostic",
+  "stage05_evidence_modified": false,
+  "development_sources": 32,
+  "development_patch_rows": 229376,
+  "locked_stage05_threshold_rmse": 0.05,
+  "locked_threshold_positive_patches": 50824,
+  "locked_threshold_prevalence": 0.22157505580357142,
+  "locked_threshold_sources_with_positive_event": 32,
+  "interpretation": "The 0.05 event had substantial development support; its absence in the Stage 05 independent cohort represents event-support shift, not permission to relabel Stage 05.",
+  "thresholds": [
+    0.015,
+    0.02,
+    0.025,
+    0.03,
+    0.04,
+    0.05,
+    0.075,
+    0.1
+  ]
+}
