@@ -1,0 +1,8 @@
+# Install the repository root requirements first.
+joblib>=1.3,<2
+rawpy>=0.21,<1
+
+# DiffPIR is kept in its own pinned environment because its official repository
+# controls compatible torch/CUDA and guided-diffusion dependencies. Record the
+# selected repository commit, environment export and checkpoint hashes in the
+# Stage 06 freeze bundle rather than adding floating torch versions here.
