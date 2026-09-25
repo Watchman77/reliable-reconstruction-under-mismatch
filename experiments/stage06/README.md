@@ -25,6 +25,16 @@ Stage 06 is a new study. It does not reopen Stage 05.
 
 Stage 06A is executed and the RAISE-1k source-identity audit is complete. Proceed with Stage 06C engineering and smoke tests on eligible development fit/early-stop sources using the versioned allowlist. Record any required publisher access details and actual checkpoint provenance before the Stage 06E freeze. Unresolved image-level checkpoint training overlap is a documented limitation to adjudicate before confirmatory claims, not a reason to stop development-only work or to reopen Stage 05.
 
+## Active research order
+
+1. **06C — Generalisation axes:** pin and smoke-test DiffPIR on eligible development fit/early-stop sources; implement and smoke-test the alternate linear-light camera-response chain. Record the actual renderer, source IDs, checkpoint and settings.
+2. **06D — New reliability method:** generate development features; fit the chain-aware continuous-detail score and strong chain-agnostic controls; use source-disjoint early-stop and calibration roles.
+3. **06E — Freeze:** calculate independent source count and event support, decide the operational threshold and remaining provenance risk, then hash all models, code, roles and analysis rules.
+4. **06F — Independent run:** open the sealed sources once under the frozen bundle; report all supported and non-estimable outcomes.
+5. **06G — Manuscript synthesis:** revise the unified manuscript against those locked results. The current Stage 05 manuscript is a baseline draft, not a place to prewrite Stage 06 claims. Keep development diagnostics in their research records until this stage.
+
+If a later chat resumes this project, follow this order and the latest execution receipts. Do not return to a checkpoint-provenance discussion as a stand-alone project or advance manuscript claims before the novelty experiments are complete.
+
 ## External-source audit
 
 Start with `notebooks/06B_RAISE_1k_Manifest_and_Resumable_Download.ipynb`. Place the official `RAISE_1k.csv.zip` manifest in `inputs/RAISE-1k/`, select one `SHARD_INDEX` from 0 through 19, and run the notebook. It downloads only NEF originals, resumes partial files, verifies server-reported byte counts, and writes one receipt per 50-source shard. Different Colab sessions may run different shard indices concurrently.
