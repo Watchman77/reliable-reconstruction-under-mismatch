@@ -19,13 +19,13 @@ This checklist is operational. A checked box must be backed by a named artifact 
 - [x] Compare against all 140 Stage 05 originals and screen within RAISE.
 - [x] Record six exact-duplicate exclusions and two visually reviewed dHash false positives in eligibility v1 (994 sources).
 - [ ] Enforce the committed 994-source allowlist in every Stage 06 loader before modeling.
-- [ ] Complete publisher access/licence/retrieval and model-training provenance records.
-- [ ] Resolve pretrained-model training-overlap risk for each actual checkpoint.
+- [ ] Complete publisher access/licence/retrieval records before the final freeze.
 - [ ] Freeze final source IDs, exclusions, and renderer with the Stage 06E bundle.
 
 ## 06C — Generalisation axes
 
 - [ ] Select and pin a second solver/checkpoint.
+- [ ] Record actual checkpoint training sources, accessible overlap screens, and residual uncertainty before confirmatory claims.
 - [ ] Implement one alternate acquisition stage.
 - [ ] Run development smoke tests across both solver families.
 - [ ] Tune only on permitted development sources.
@@ -46,6 +46,7 @@ This checklist is operational. A checked box must be backed by a named artifact 
 - [ ] State primary/secondary hypotheses and multiplicity rule.
 - [ ] Select operational threshold from decision meaning, not favourable significance.
 - [ ] Perform source-level sample-size calculation.
+- [ ] Record a go/no-go decision on any residual checkpoint-training overlap before opening independent outcomes.
 - [ ] Define the event-support non-estimability rule.
 - [ ] Freeze environment, seeds, source IDs, checkpoints, scripts, and output schema.
 - [ ] Generate timestamped SHA-256 freeze receipt.
