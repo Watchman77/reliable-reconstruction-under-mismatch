@@ -80,3 +80,31 @@ The checked training receipt has SHA-256
    the scientific provenance and protocol gates above.
 
 This document is a preparation record, **not** the freeze specification.
+
+## Subsequent development transfer check (27 September 2026)
+
+The guarded leave-one-chain-out diagnostic trained on 495 development-fit
+sources from one chain, calibrated on 149 development-calibration sources from
+that chain, and tested the other chain on 150 early-stop sources. The user
+reported these results from the saved `stage06e_development_gates_v1` receipt:
+
+| Fit/calibration chain | Evaluated chain | Source-mean MAE gain over residual-only | Sources improved | Source bootstrap 95% interval |
+| --- | --- | ---: | ---: | --- |
+| Linear-light JPEG | sRGB JPEG | -0.000121 | 78/150 | [-0.000504, 0.000196] |
+| sRGB JPEG | Linear-light JPEG | -0.007535 | 23/150 | [-0.008671, -0.006414] |
+
+Positive values would favour the chain-aware score; both observed point
+estimates are negative. The severe sRGB-to-linear loss **rules out a claim of
+transport to an unseen acquisition chain** for this score. The pooled model's
+50-source pilot gain remains an exploratory result for the two *represented*
+chains. The proposed confirmatory question must be restricted to those
+represented chains, with this adverse transfer result disclosed. This is a
+claim-scope decision based on development diagnostics; it is not a licence to
+change the frozen source roles or inspect the independent cohort.
+
+From the uploaded 50-source pilot predictions, the independently recomputed
+source-level paired-difference SD was 0.0007290. An illustrative normal 95%
+interval half-width at 150 sources is 0.0001167 if that SD transports. The
+pilot was inspected adaptively, so this is *precision planning*, not a
+prospective power claim. The transfer receipt itself has not been uploaded for
+independent byte/hash verification.
