@@ -134,7 +134,6 @@ def select_and_fit(
         scored.append((source_macro_mae(trial, "observed_detail_rmse", "prediction"), settings, model))
     scored.sort(key=lambda item: (item[0], json.dumps(item[1], sort_keys=True)))
     best_mae, best_settings, best_model = scored[0]
-    combined = pd.concat([fit, early], ignore_index=True)
     if family == "ridge":
         final = make_pipeline(StandardScaler(), Ridge(alpha=float(best_settings["alpha"])))
     else:
@@ -145,7 +144,8 @@ def select_and_fit(
             loss="huber",
             random_state=seed,
         )
-    final.fit(combined[features], combined["observed_detail_rmse"])
+    # Early-stop sources choose settings only; final coefficients see fit sources only.
+    final.fit(fit[features], fit["observed_detail_rmse"])
     return final, {"selected": best_settings, "early_stop_source_macro_mae": best_mae}
 
 
@@ -244,8 +244,7 @@ def main() -> None:
     selection_receipts: dict[str, Any] = {}
     raw_calibration: dict[str, np.ndarray] = {}
     raw_evaluation: dict[str, np.ndarray] = {}
-    combined_fit = pd.concat([fit, early], ignore_index=True)
-    constant = float(combined_fit["observed_detail_rmse"].median())
+    constant = float(fit["observed_detail_rmse"].median())
     raw_calibration["constant"] = np.full(len(calibration), constant)
     raw_evaluation["constant"] = np.full(len(evaluation), constant)
     selection_receipts["constant"] = {"family": "development_median", "value": constant}
@@ -342,6 +341,9 @@ def main() -> None:
     receipt = {
         "schema_version": "stage06-reliability-v1",
         "evaluation_role": args.evaluation_role,
+        "training_partition": "development_fit",
+        "selection_partition": "development_early_stop",
+        "calibration_partition": "development_calibration",
         "source_counts": {role: int(partitions[role]["source_id"].nunique()) for role in ROLE_ORDER},
         "row_counts": {role: int(len(partitions[role])) for role in ROLE_ORDER},
         "thresholds_rmse": thresholds,
