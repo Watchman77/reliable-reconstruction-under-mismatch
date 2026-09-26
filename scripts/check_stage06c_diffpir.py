@@ -44,7 +44,7 @@ def main():
                 x, noise_level=float(reduced[step]) * 255,
                 model_out_type='pred_xstart', model_diffusion=network,
                 diffusion=diffusion, ddim_sample=False,
-                alphas_cumprod=alpha_bar)
+                alphas_cumprod=alpha_bar.cpu())
             direct = diffusion.p_sample(network, x,
                 torch.full((1,), step, device='cuda', dtype=torch.long),
                 clip_denoised=True, denoised_fn=None, cond_fn=None,
