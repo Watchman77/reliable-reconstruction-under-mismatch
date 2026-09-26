@@ -190,6 +190,8 @@ def main() -> None:
     parser.add_argument("--eligible-source-manifest", type=Path, required=True)
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--chain-aware-features", required=True)
+    parser.add_argument("--chain-aware-family", choices=("ridge", "boosting"), default="ridge",
+                        help="Development-selected proposed-model family; record before a fresh pilot")
     parser.add_argument("--image-only-features", required=True)
     parser.add_argument("--forward-residual-feature", default="forward_consistency_residual")
     parser.add_argument("--evaluation-role", choices=("external_pilot", "independent_test"), default="external_pilot")
@@ -231,12 +233,12 @@ def main() -> None:
     model_specs: dict[str, tuple[str, list[str]]] = {
         "residual_only": ("ridge", [args.forward_residual_feature]),
         "strong_chain_agnostic": ("boosting", image_features),
-        "proposed_chain_aware": ("ridge", chain_features),
+        "proposed_chain_aware": (args.chain_aware_family, chain_features),
     }
     for feature in chain_features:
         retained = [value for value in chain_features if value != feature]
         if retained:
-            model_specs[f"ablation_without_{feature}"] = ("ridge", retained)
+            model_specs[f"ablation_without_{feature}"] = (args.chain_aware_family, retained)
 
     fitted: dict[str, Any] = {}
     selection_receipts: dict[str, Any] = {}
@@ -343,6 +345,7 @@ def main() -> None:
         "source_counts": {role: int(partitions[role]["source_id"].nunique()) for role in ROLE_ORDER},
         "row_counts": {role: int(len(partitions[role])) for role in ROLE_ORDER},
         "thresholds_rmse": thresholds,
+        "proposed_chain_aware_family": args.chain_aware_family,
         "selection": selection_receipts,
         "bootstrap_repetitions": args.bootstrap_repetitions,
         "seed": args.seed,
