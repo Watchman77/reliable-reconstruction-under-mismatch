@@ -12,10 +12,46 @@ from pathlib import Path
 import numpy as np
 
 from run_stage06c_paired_development import (
-    ROOT, STAGE05_NOTEBOOK, acquire, check_inputs, load_stage05_components,
+    ROOT, STAGE05_NOTEBOOK, acquire, load_stage05_components,
     quality, store_json,
 )
-from smoke_stage06c_raise_chains import decode_verified, sha256_file
+from smoke_stage06c_raise_chains import (
+    AUDIT_SHA256, ELIGIBLE_SHA256, decode_verified, load_unique_rows,
+    sha256_file,
+)
+
+PERMITTED_ROLES = {'development_fit', 'development_early_stop',
+                   'development_calibration', 'external_pilot'}
+
+
+def authorize_stage06d(args):
+    """Validate pinned 06B identities without importing 06C's narrower role set."""
+    if sha256_file(args.eligible_manifest) != ELIGIBLE_SHA256:
+        raise ValueError('Eligibility manifest differs from reviewed 06B v1')
+    if sha256_file(args.audit_csv) != AUDIT_SHA256:
+        raise ValueError('RAW audit differs from reviewed 06B v1')
+    eligible = load_unique_rows(args.eligible_manifest)
+    audited = load_unique_rows(args.audit_csv)
+    if len(eligible) != 994 or not args.source_ids or len(set(args.source_ids)) != len(args.source_ids):
+        raise ValueError('Expected distinct source IDs against 994-source allowlist')
+    selected = []
+    for source_id in args.source_ids:
+        row = eligible.get(source_id)
+        if row is None or row['role'] not in PERMITTED_ROLES:
+            raise ValueError(f'Sealed, excluded or unknown source: {source_id}')
+        checked = audited.get(source_id)
+        path = args.nef_dir / f'{source_id}.NEF'
+        if (checked is None or row['relative_path'] != path.name or
+                checked['relative_path'] != path.name or
+                checked['role'] != row['role']):
+            raise ValueError(f'Audited source identity/role mismatch: {source_id}')
+        if not path.is_file() or path.stat().st_size != int(checked['byte_count']):
+            raise ValueError(f'Missing or truncated audited RAW: {source_id}')
+        if sha256_file(path) != checked['file_sha256']:
+            raise ValueError(f'RAW hash changed: {source_id}')
+        selected.append({'source_id': source_id, 'role': row['role'],
+                         'nef': str(path), 'decoded_rgb_sha256': checked['decoded_rgb_sha256']})
+    return sorted(selected, key=lambda r: r['source_id']), AUDIT_SHA256
 
 
 def patch_means(image, margin=32, patch=16):
@@ -71,7 +107,7 @@ def main():
     ap.add_argument('--model-cache', type=Path, required=True)
     ap.add_argument('--output-dir', type=Path, required=True)
     args = ap.parse_args()
-    selected, audit_hash = check_inputs(args)  # fit/early-stop only, pinned hashes
+    selected, audit_hash = authorize_stage06d(args)  # four development/pilot roles only
     if args.output_dir.exists():
         raise FileExistsError(args.output_dir)
     import torch
@@ -82,7 +118,7 @@ def main():
         args.model_cache, torch.device('cuda'))
     receipt = {
         'schema': 'stage06d-feature-canary-v1', 'status': 'running',
-        'claim_scope': 'development engineering; no model fit, calibration, pilot or test',
+        'claim_scope': 'development feature extraction; no independent inference',
         'independent_test_inference': False,
         'source_ids': [x['source_id'] for x in selected],
         'roles': [x['role'] for x in selected],
