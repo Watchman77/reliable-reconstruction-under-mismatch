@@ -9,6 +9,8 @@ import csv
 import hashlib
 import json
 import os
+import re
+from datetime import date
 import sys
 from pathlib import Path
 
@@ -43,10 +45,18 @@ def boundary(args):
         or not receipt.get('signed_by') or not receipt.get('signed_at_utc')):
         raise ValueError('No signed, hash-bound Stage 06E freeze receipt')
     decision = spec.get('provenance_decision', {})
+    retrieval_date=spec.get('external_dataset', {}).get('retrieval_date', '')
+    try:
+        if not re.fullmatch(r'\d{4}-\d{2}-\d{2}',str(retrieval_date)):
+            raise ValueError('Date must be YYYY-MM-DD')
+        date.fromisoformat(retrieval_date)
+    except ValueError as exc:
+        raise ValueError('Documented publisher retrieval date is missing or invalid') from exc
     if (decision.get('checkpoint_overlap_decision') != 'proceed_with_documented_residual_risk'
-        or not decision.get('documentation_sha256')
-        or not spec.get('external_dataset', {}).get('retrieval_date')):
+        or not re.fullmatch(r'[0-9a-f]{64}',str(decision.get('documentation_sha256','')))):
         raise ValueError('Dataset provenance and checkpoint-overlap decision remain open')
+    if not any(x.get('sha256')==decision['documentation_sha256'] for x in spec['artifacts']):
+        raise ValueError('Overlap decision record is absent from validated freeze artifacts')
     roles = spec.get('source_roles', {})
     if {k:len(roles.get(k,[])) for k in EXPECTED_ROLES} != EXPECTED_ROLES:
         raise ValueError('Frozen source allocation is incomplete')

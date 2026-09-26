@@ -153,7 +153,11 @@ def main():
     target=output/'freeze_spec.DRAFT.json'
     target.write_text(json.dumps(spec,indent=2)+'\n')
     errors=validate(target)
-    expected={'Unfrozen field: frozen_at_utc','Unfrozen field: external_dataset.retrieval_date',
+    # The repository's generic validator does not inspect retrieval_date.
+    # Keep that field explicitly blocked in the draft and checked again by 06F.
+    if spec['external_dataset']['retrieval_date'] != 'REPLACE_WITH_DOCUMENTED_DATE':
+        raise ValueError('Draft retrieval date was changed unexpectedly')
+    expected={'Unfrozen field: frozen_at_utc',
               'Unfrozen field: external_dataset.training_overlap_risk'}
     if set(errors)!=expected:
         raise ValueError('Unexpected freeze validation errors: '+repr(errors))
