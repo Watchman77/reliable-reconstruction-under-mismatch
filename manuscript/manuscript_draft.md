@@ -174,7 +174,7 @@ None of the 286,720 independent patch rows exceeded the locked event threshold o
 
 The development positive-event support reported in Section 3.6 rules out a simple assertion that this threshold had no development positives. The all-zero Stage 05 independent cohort instead shows a development-to-test event-support shift for that locked target; its cause was not identified by the experiment.
 
-![Figure 3. Two representative Stage 05 reliability mappings for operator-spread detail across all seven chains. The observed event rate was zero in every bin; the dashed diagonal represents perfect calibration. The full 11-score grid is available in the repository as a supplementary diagnostic.](../results/independent_05e_locked_analysis/figures/independent_calibration_representative.svg)
+![Figure 3. Two representative Stage 05 reliability mappings for operator-spread detail across all seven chains. The observed event rate was zero in every bin; the dashed diagonal represents perfect calibration. The full 11-score grid appears as Supplementary Figure S1.](../results/independent_05e_locked_analysis/figures/independent_calibration_representative.svg)
 
 ### 4.5 Stage 06F: chain-aware reliability passed its separate primary rule
 
@@ -243,19 +243,23 @@ The public repository is [https://github.com/Watchman77/reliable-reconstruction-
 1. Zhang K, Li Y, Zuo W, Zhang L, Van Gool L, Timofte R. Plug-and-play image restoration with deep denoiser prior. *IEEE Transactions on Pattern Analysis and Machine Intelligence*. 2022;44(10):6360–6376. doi:10.1109/TPAMI.2021.3088914.
 2. Jiang J, Zhang K, Timofte R. Towards flexible blind JPEG artifacts removal. In: *Proceedings of the IEEE/CVF International Conference on Computer Vision*. 2021:4997–5006. doi:10.1109/ICCV48922.2021.00495.
 3. Asuni N, Giachetti A. TESTIMAGES: a large data archive for display and algorithm testing. *Journal of Graphics Tools*. 2015;17(4):113–125. doi:10.1080/2165347X.2015.1024298.
-4. Nan Y, Ji H. Deep learning for handling kernel/model uncertainty in image deconvolution. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2020. doi:10.1109/CVPR42600.2020.00246.
-5. Zeng T, Lam EY. Robust reconstruction with deep learning to handle model mismatch in lensless imaging. *IEEE Transactions on Computational Imaging*. 2021;7. doi:10.1109/TCI.2021.3114542.
+4. Nan Y, Ji H. Deep learning for handling kernel/model uncertainty in image deconvolution. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2020:2388–2397. doi:10.1109/CVPR42600.2020.00246.
+5. Zeng T, Lam EY. Robust reconstruction with deep learning to handle model mismatch in lensless imaging. *IEEE Transactions on Computational Imaging*. 2021;7:1080–1092. doi:10.1109/TCI.2021.3114542.
 6. Antun V, Renna F, Poon C, Adcock B, Hansen AC. On instabilities of deep learning in image reconstruction and the potential costs of AI. *Proceedings of the National Academy of Sciences*. 2020;117(48):30088–30095. doi:10.1073/pnas.1907377117.
 7. Bhadra S, Kelkar VA, Brooks FJ, Anastasio MA. On hallucinations in tomographic image reconstruction. *IEEE Transactions on Medical Imaging*. 2021;40(11):3249–3260. doi:10.1109/TMI.2021.3077857.
-8. Li B, Liu X, Hu P, Wu Z, Lv J, Peng X. All-in-one image restoration for unknown corruption. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2022.
+8. Li B, Liu X, Hu P, Wu Z, Lv J, Peng X. All-in-one image restoration for unknown corruption. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2022:17452–17462.
 9. Kawar B, Elad M, Ermon S, Song J. Denoising diffusion restoration models. In: *Advances in Neural Information Processing Systems*. 2022;35.
 10. Chung H, Kim J, McCann MT, Klasky ML, Ye JC. Diffusion posterior sampling for general noisy inverse problems. In: *International Conference on Learning Representations*. 2023.
 11. Chung H, Kim J, Kim S, Ye JC. Parallel diffusion models of operator and image for blind inverse problems. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2023:6059–6069.
-12. Murata N, Saito K, Lai CJ, Takida Y, Uesaka T, Mitsufuji Y, Ermon S. GibbsDDRM: a partially collapsed Gibbs sampler for solving blind inverse problems with denoising diffusion restoration. In: *Proceedings of the 40th International Conference on Machine Learning*. 2023.
-13. Angelopoulos AN, Kohli AP, Bates S, Jordan MI, Malik J, Alshaabi T, Upadhyayula S, Romano Y. Image-to-image regression with distribution-free uncertainty quantification and applications in imaging. In: *Proceedings of the 39th International Conference on Machine Learning*. 2022.
-14. Teneggi J, Tivnan M, Stayman JW, Sulam J. How to trust your diffusion model: a convex optimization approach to conformal risk control. In: *Proceedings of the 40th International Conference on Machine Learning*. 2023.
+12. Murata N, Saito K, Lai CJ, Takida Y, Uesaka T, Mitsufuji Y, Ermon S. GibbsDDRM: a partially collapsed Gibbs sampler for solving blind inverse problems with denoising diffusion restoration. In: *Proceedings of the 40th International Conference on Machine Learning*. 2023:25501–25522.
+13. Angelopoulos AN, Kohli AP, Bates S, Jordan MI, Malik J, Alshaabi T, Upadhyayula S, Romano Y. Image-to-image regression with distribution-free uncertainty quantification and applications in imaging. In: *Proceedings of the 39th International Conference on Machine Learning*. 2022:717–730.
+14. Teneggi J, Tivnan M, Stayman JW, Sulam J. How to trust your diffusion model: a convex optimization approach to conformal risk control. In: *Proceedings of the 40th International Conference on Machine Learning*. 2023:33940–33960.
 15. Renaud M, Liu J, de Bortoli V, Almansa A, Kamilov US. Plug-and-play posterior sampling under mismatched measurement and prior models. In: *International Conference on Learning Representations*. 2024.
 16. Lee C, Jang M. Mitigating forward model mismatch in inverse problems via learned residuals and diffusion priors. In: *Proceedings of SPIE*. 2026;14016:140160D. doi:10.1117/12.3098133.
 17. Everink JM, Tamo Amougou B, Pereyra M. Self-supervised conformal prediction for uncertainty quantification in imaging problems. In: *Scale Space and Variational Methods in Computer Vision*. 2025:108–118. doi:10.1007/978-3-031-92366-1_9.
-18. Laroche C, Almansa A, Coupete E. Fast Diffusion EM: a diffusion model for blind inverse problems with application to deconvolution. In: *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision*. 2024.
+18. Laroche C, Almansa A, Coupete E. Fast Diffusion EM: a diffusion model for blind inverse problems with application to deconvolution. In: *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision*. 2024:5271–5281.
 19. Dang-Nguyen D-T, Pasquini C, Conotter V, Boato G. RAISE: a raw images dataset for digital image forensics. In: *Proceedings of the 6th ACM Multimedia Systems Conference*. 2015:219–224. doi:10.1145/2713168.2713194.
+
+## Supplementary figure
+
+![Figure S1. Complete Stage 05 independent reliability diagrams for all 11 locked score definitions across the seven acquisition chains. All observed bad-detail event rates were zero; the grid is presented for auditability and does not establish positive-event calibration.](../results/independent_05e_locked_analysis/figures/independent_calibration_reliability.png)
