@@ -32,7 +32,7 @@ The intended contribution is methodological and evaluative. It is not a claim th
 
 ### 2.1 Reconstruction under operator mismatch
 
-Model error has been addressed through robust unrolling, learned correction, joint optimisation, and posterior sampling. Nan and Ji explicitly model kernel uncertainty in deconvolution [4], while Zeng and Lam study learned robustness to model mismatch in lensless imaging [5]. Diffusion-based approaches extend the design space: DDRM and diffusion posterior sampling solve inverse problems with pretrained generative priors [9,10], and parallel operator/image diffusion and GibbsDDRM perform blind joint inference within specified operator families [11,12]. Learned residual models can also compensate for discrepancies between an approximate differentiable operator and the true process [16]. These studies establish that mismatch handling and joint image/operator inference are occupied areas. They also motivate a distinction between uncertainty within a specified operator family and an omitted operation outside the solver’s nominal model.
+Model error has been addressed through robust unrolling, learned correction, joint optimisation, and posterior sampling. Nan and Ji explicitly model kernel uncertainty in deconvolution [4], while Zeng and Lam study learned robustness to model mismatch in lensless imaging [5]. Diffusion-based approaches extend the design space: DDRM and diffusion posterior sampling solve inverse problems with pretrained generative priors [9,10], and parallel operator/image diffusion and GibbsDDRM perform blind joint inference within specified operator families [11,12]. Plug-and-play posterior-sampling analysis has also examined mismatched measurement and prior models [15]. Learned residual models can compensate for discrepancies between an approximate differentiable operator and the true process [16]. These studies establish that mismatch handling and joint image/operator inference are occupied areas. They also motivate a distinction between uncertainty within a specified operator family and an omitted operation outside the solver’s nominal model.
 
 ### 2.2 Blind and compound image restoration
 
@@ -188,6 +188,8 @@ The sealed output contained all 150 allocated RAISE sources and 43,200 held-out 
 | Linear-light JPEG | 150 | 0.00314493 | 0.00248487 | 0.00066006 (0.00040627, 0.00096588) | 110 |
 | sRGB JPEG | 150 | 0.00255671 | 0.00238566 | 0.00017105 (0.00009163, 0.00025298) | 93 |
 
+![Figure 4. Mean paired source-level prediction-MAE gain for the 150 independent RAISE sources. Horizontal intervals resample whole sources 20,000 times. Only the pooled, two-chain interval determines the frozen primary decision; chain-specific intervals are descriptive.](../results/stage06f_independent_summary/figures/source_macro_mae_gain.png)
+
 Patch-level prediction RMSE fell from 0.00619969 to 0.00519016, descriptively. At the frozen severity threshold > 0.0075, 17,922 of 43,200 patches were positive, across 126 linear-light and 123 sRGB sources; pooled Brier scores were 0.160231 for residual-only and 0.133006 for chain-aware. At > 0.01, 10,332 patches were positive, across 103 linear-light and 95 sRGB sources; pooled Brier scores were 0.116365 and 0.099173, respectively. Both event classes were present. These descriptive probability scores do not constitute an additional confirmatory calibration-superiority claim.
 
 ## 5. Discussion
@@ -248,12 +250,12 @@ The public repository provides clean analysis notebooks, validation scripts, com
 8. Li B, Liu X, Hu P, Wu Z, Lv J, Peng X. All-in-one image restoration for unknown corruption. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2022.
 9. Kawar B, Elad M, Ermon S, Song J. Denoising diffusion restoration models. In: *Advances in Neural Information Processing Systems*. 2022;35.
 10. Chung H, Kim J, McCann MT, Klasky ML, Ye JC. Diffusion posterior sampling for general noisy inverse problems. In: *International Conference on Learning Representations*. 2023.
-11. Chung H, Kim J, McCann MT, Klasky ML, Ye JC. Parallel diffusion models of operator and image for blind inverse problems. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2023.
+11. Chung H, Kim J, Kim S, Ye JC. Parallel diffusion models of operator and image for blind inverse problems. In: *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. 2023:6059–6069.
 12. Murata N, Saito K, Lai CJ, Takida Y, Uesaka T, Mitsufuji Y, Ermon S. GibbsDDRM: a partially collapsed Gibbs sampler for solving blind inverse problems with denoising diffusion restoration. In: *Proceedings of the 40th International Conference on Machine Learning*. 2023.
 13. Angelopoulos AN, Kohli AP, Bates S, Jordan MI, Malik J, Alshaabi T, Upadhyayula S, Romano Y. Image-to-image regression with distribution-free uncertainty quantification and applications in imaging. In: *Proceedings of the 39th International Conference on Machine Learning*. 2022.
 14. Teneggi J, Tivnan M, Stayman JW, Sulam J. How to trust your diffusion model: a convex optimization approach to conformal risk control. In: *Proceedings of the 40th International Conference on Machine Learning*. 2023.
-15. Renaud M, Prost J, Leclaire A, Papadakis N. Plug-and-play posterior sampling under mismatched measurement and prior models. In: *International Conference on Learning Representations*. 2024.
+15. Renaud M, Liu J, de Bortoli V, Almansa A, Kamilov US. Plug-and-play posterior sampling under mismatched measurement and prior models. In: *International Conference on Learning Representations*. 2024.
 16. Lee C, Jang M. Mitigating forward model mismatch in inverse problems via learned residuals and diffusion priors. In: *Proceedings of SPIE*. 2026;14016:140160D. doi:10.1117/12.3098133.
-17. Everink JM, Dong Y, Andersen MS. Self-supervised conformal prediction for uncertainty quantification in imaging problems. In: *Scale Space and Variational Methods in Computer Vision*. 2025. doi:10.1007/978-3-031-92366-1_9.
+17. Everink JM, Tamo Amougou B, Pereyra M. Self-supervised conformal prediction for uncertainty quantification in imaging problems. In: *Scale Space and Variational Methods in Computer Vision*. 2025:108–118. doi:10.1007/978-3-031-92366-1_9.
 18. Laroche C, Almansa A, Coupete E. Fast Diffusion EM: a diffusion model for blind inverse problems with application to deconvolution. In: *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision*. 2024.
 19. Dang-Nguyen D-T, Pasquini C, Conotter V, Boato G. RAISE: a raw images dataset for digital image forensics. In: *Proceedings of the 6th ACM Multimedia Systems Conference*. 2015:219–224. doi:10.1145/2713168.2713194.
