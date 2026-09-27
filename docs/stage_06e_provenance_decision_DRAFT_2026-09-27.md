@@ -14,8 +14,11 @@ It does not assert that model training and RAISE images are disjoint.
   of Dang-Nguyen et al., *RAISE — A Raw Images Dataset for Digital Image
   Forensics*, ACM MMSys 2015; do not redistribute original NEFs.
 - Access form completion and acceptance record: **protocol owner to verify**.
-- Earliest and latest original download-receipt UTC dates: **verify against
-  the 20 receipt pairs; do not infer from the later audit date**.
+- Observed local file times supplied by the protocol owner: all 1,000 NEFs
+  span 2026-09-25 12:44:04–16:05:09 UTC; all 20 shard JSON receipts span
+  2026-09-25 12:44:37–16:05:10 UTC. These establish a plausible **download
+  window**, but file modification times do not independently prove the date
+  of official access-form submission or acceptance of publisher terms.
 - On-disk audit: 1,000 originals rehashed and decoded; six duplicate-source
   identities excluded, two dHash candidates reviewed as distinct scenes;
   994 eligible, including 150 allocated independent. The pinned audit CSV
