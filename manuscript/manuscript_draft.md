@@ -127,12 +127,12 @@ All 40 sources and seven acquisition chains were present. All five inference sha
 
 On the primary `j75_b16_n2` chain, nominal DPIR had mean source-level detail MSE 1.2952713644e-04. FBCNN followed by nominal DPIR reduced the mean to 1.2783605060e-05, a relative reduction of 90.1306%. The paired absolute difference was -1.1674353138e-04, with a 95% source-bootstrap interval from -1.6701316322e-04 to -7.4384088950e-05. The one-sided sign-flip value was 9.99990e-06 and the Holm-adjusted value was 1.99998e-05. H1 passed both its statistical requirement and the locked 5% practical threshold (Table 2).
 
-**Table 2. Confirmatory independent results. Negative differences favour the proposed condition.**
+**Table 2. Stage 05 confirmatory decisions. Source-bootstrap intervals and Holm-adjusted values appear in Sections 4.2 and 4.3.**
 
-| Hypothesis | Comparator mean | Proposed mean | Mean difference (95% bootstrap interval) | Relative reduction | Holm-adjusted *p* | Locked decision |
-| --- | ---: | ---: | ---: | ---: | ---: | --- |
-| H1: FBCNN + DPIR vs DPIR detail MSE | 1.29527e-04 | 1.27836e-05 | -1.16744e-04 (-1.67013e-04, -7.43841e-05) | 90.13% | 1.99998e-05 | Passed |
-| H2: operator vs image-transform spread risk | 5.81473e-06 | 5.55516e-06 | -2.59572e-07 (-5.13609e-07, -8.98451e-08) | 4.46% | 1.99998e-05 | Statistical gate passed; 5% practical gate failed |
+| Hypothesis | Comparator mean | Proposed mean | Relative reduction | Locked decision |
+| --- | ---: | ---: | ---: | --- |
+| H1: reconstruction detail MSE | 1.29527e-04 | 1.27836e-05 | 90.13% | Passed |
+| H2: selection detail risk | 5.81473e-06 | 5.55516e-06 | 4.46% | Statistical gate passed; 5% practical gate failed |
 
 The secondary chain pattern supported an acquisition-chain-specific interpretation (Table 3; Figure 1). FBCNN plus DPIR reduced detail MSE on every JPEG chain, with reductions from 17.81% to 98.01%. On the uncompressed control, the serial pipeline increased detail MSE by 2.53%. The largest gains occurred under quality-75 and quality-50 compression; the mild quality-90 chain showed a smaller but positive benefit.
 
@@ -152,7 +152,7 @@ The secondary chain pattern supported an acquisition-chain-specific interpretati
 
 ### 4.3 H2: operator-spread selection was statistically detectable but practically subthreshold
 
-At 50% coverage on `j75_b16_n2`, image-transform spread produced mean retained-patch detail MSE 5.8147345352e-06. Operator spread reduced this to 5.5551623283e-06. The 4.4640% reduction corresponded to an absolute difference of -2.5957220687e-07, with a 95% source-bootstrap interval from -5.1360919150e-07 to -8.9845112734e-08. The statistical requirement passed, but the effect was 0.53596 percentage points below the predeclared 5% practical threshold. H2 therefore failed, and the combined experimental gate did not pass.
+At 50% coverage on `j75_b16_n2`, image-transform spread produced mean retained-patch detail MSE 5.8147345352e-06. Operator spread reduced this to 5.5551623283e-06. The 4.4640% reduction corresponded to an absolute difference of -2.5957220687e-07, with a 95% source-bootstrap interval from -5.1360919150e-07 to -8.9845112734e-08 and Holm-adjusted one-sided *p* = 1.99998e-05. The statistical requirement passed, but the effect was 0.53596 percentage points below the predeclared 5% practical threshold. H2 therefore failed, and the combined experimental gate did not pass.
 
 At the same coverage, the oracle risk was 4.91010e-06, the learned image-only PatchErrorNet ensemble risk was 7.52514e-06, and expected random retention risk was 1.27836e-05 (Table 4). Operator spread ranked between the oracle and image-transform spread, whereas the trained image-only comparator underperformed both hand-constructed operational scores. These are descriptive comparisons and do not change the H2 decision.
 
@@ -180,13 +180,13 @@ The development positive-event support reported in Section 3.6 rules out a simpl
 
 The sealed output contained all 150 allocated RAISE sources and 43,200 held-out patch rows without execution failures. Byte hashes and source IDs matched the signed freeze and execution receipts. Source-macro absolute detail-RMSE prediction error was 0.00285082 for residual-only and 0.00243527 for the chain-aware score. The mean paired gain was 0.00041555 (14.58% of residual-only MAE); its prespecified 95% source-bootstrap interval was 0.00027477 to 0.00058044. The lower bound exceeded zero, so the Stage 06F primary criterion passed. Gain was positive for 115 of 150 sources. This result addresses reliability prediction error, not Stage 05 selective retention or its 5% practical gate.
 
-**Table 5. Stage 06F independent reliability results. The pooled contrast is confirmatory; chain contrasts are descriptive.**
+**Table 5. Stage 06F independent reliability results. The pooled contrast is confirmatory; chain contrasts are descriptive. Source-bootstrap intervals appear in Figure 4.**
 
-| Population | Sources | Residual-only source MAE | Chain-aware source MAE | Paired gain (95% source interval) | Improved sources |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Both represented chains | 150 | 0.00285082 | 0.00243527 | **0.00041555 (0.00027477, 0.00058044)** | 115 |
-| Linear-light JPEG | 150 | 0.00314493 | 0.00248487 | 0.00066006 (0.00040627, 0.00096588) | 110 |
-| sRGB JPEG | 150 | 0.00255671 | 0.00238566 | 0.00017105 (0.00009163, 0.00025298) | 93 |
+| Population (150 sources each) | Residual-only MAE | Chain-aware MAE | Paired gain | Sources improved |
+| --- | ---: | ---: | ---: | ---: |
+| Both represented chains | 0.00285082 | 0.00243527 | **0.00041555** | 115 |
+| Linear-light JPEG | 0.00314493 | 0.00248487 | 0.00066006 | 110 |
+| sRGB JPEG | 0.00255671 | 0.00238566 | 0.00017105 | 93 |
 
 ![Figure 4. Mean paired source-level prediction-MAE gain for the 150 independent RAISE sources. Horizontal intervals resample whole sources 20,000 times. Only the pooled, two-chain interval determines the frozen primary decision; chain-specific intervals are descriptive.](../results/stage06f_independent_summary/figures/source_macro_mae_gain.png)
 
